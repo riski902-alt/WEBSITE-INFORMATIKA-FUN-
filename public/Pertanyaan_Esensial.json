@@ -1,0 +1,488 @@
+{
+  "kelas7-sem1-bab1-pertemuan1": {
+    "pertanyaan": "Saat kamu melihat tumpukan struk belanja, foto, dan catatan acak di mejamu, bagaimana cara paling mudah untuk merapikannya agar gampang dicari saat dibutuhkan?",
+    "topik": "Konsep Dasar Data: Data Terstruktur vs. Tidak Terstruktur",
+    "tujuan_pembelajaran": "Murid mampu membedakan karakteristik data terstruktur dan tidak terstruktur serta memberikan contoh penerapannya dalam kehidupan sehari-hari.",
+    "pengantar_materi": "Coba bayangkan betapa cepatnya komputer menemukan satu informasi di antara jutaan data! Cara merapikan catatan acak yang baru saja kamu pikirkan adalah kunci utama pengolahan data modern. Melalui pembahasan \"Konsep Dasar Data: Data Terstruktur vs. Tidak Terstruktur\" pada materi inti berikutnya, kamu akan diajak membedakan karakteristik data terstruktur dan tidak terstruktur serta memberikan contoh penerapannya dalam kehidupan sehari-hari. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab1-pertemuan2": {
+    "pertanyaan": "Bayangkan kamu punya cerita panjang tentang nama, hobi, dan makanan kesukaan teman-teman sekelasmu; kira-kira bentuk catatan seperti apa yang paling rapi agar kamu cepat menemukan informasinya tanpa membaca ulang?",
+    "topik": "Pengidentifikasian dan Pemodelan Data Terstruktur di Kehidupan Sehari-hari",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi serta memodelkan kumpulan data mentah menjadi bentuk tabel yang terdiri atas baris, kolom, dan atribut data secara sistematis.",
+    "pengantar_materi": "Coba bayangkan betapa cepatnya komputer menemukan satu informasi di antara jutaan data! Cara merapikan catatan acak yang baru saja kamu pikirkan adalah kunci utama pengolahan data modern. Melalui pembahasan \"Pengidentifikasian dan Pemodelan Data Terstruktur di Kehidupan Sehari-hari\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi serta memodelkan kumpulan data mentah menjadi bentuk tabel yang terdiri atas baris, kolom, dan atribut data secara sistematis. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab1-pertemuan3": {
+    "pertanyaan": "Jika kamu ditugaskan membuat jadwal pelajaran atau daftar piket kelas di komputer, aplikasi apa yang menurutmu paling cocok dan bagaimana cara kerjanya?",
+    "topik": "Antarmuka dan Elemen Dasar Lembar Kerja Pengolah Data (Spreadsheet)",
+    "tujuan_pembelajaran": "Murid mampu mengenali dan mengoperasikan elemen antarmuka spreadsheet seperti cell, range, row, column, serta melakukan entri data dasar.",
+    "pengantar_materi": "Coba bayangkan betapa cepatnya komputer menemukan satu informasi di antara jutaan data! Cara merapikan catatan acak yang baru saja kamu pikirkan adalah kunci utama pengolahan data modern. Melalui pembahasan \"Antarmuka dan Elemen Dasar Lembar Kerja Pengolah Data (Spreadsheet)\" pada materi inti berikutnya, kamu akan diajak mengenali dan mengoperasikan elemen antarmuka spreadsheet seperti cell, range, row, column, serta melakukan entri data dasar. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab1-pertemuan4": {
+    "pertanyaan": "Bagaimana cara instan mencari teman yang mendapat nilai tertinggi di kelas tanpa harus mengecek daftar nilainya satu per satu dari atas ke bawah?",
+    "topik": "Pengolahan dan Pengorganisasian Data (Sorting, Filtering, dan Formula Dasar)",
+    "tujuan_pembelajaran": "Murid mampu melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data.",
+    "pengantar_materi": "Coba bayangkan betapa cepatnya komputer menemukan satu informasi di antara jutaan data! Cara merapikan catatan acak yang baru saja kamu pikirkan adalah kunci utama pengolahan data modern. Melalui pembahasan \"Pengolahan dan Pengorganisasian Data (Sorting, Filtering, dan Formula Dasar)\" pada materi inti berikutnya, kamu akan diajak melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab1-pertemuan5": {
+    "pertanyaan": "Jika kamu menjadi bendahara kelas, bagaimana caramu mencatat semua uang kas yang masuk dan keluar agar tidak ada yang terlewat dan saldonya selalu akurat?",
+    "topik": "Praktik Analisis dan Pengolahan Data Sederhana",
+    "tujuan_pembelajaran": "Murid mampu melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data.",
+    "pengantar_materi": "Coba bayangkan betapa cepatnya komputer menemukan satu informasi di antara jutaan data! Cara merapikan catatan acak yang baru saja kamu pikirkan adalah kunci utama pengolahan data modern. Melalui pembahasan \"Praktik Analisis dan Pengolahan Data Sederhana\" pada materi inti berikutnya, kamu akan diajak melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab2-pertemuan1": {
+    "pertanyaan": "Pernahkah kamu mengetik sesuatu di Google dan dalam hitungan detik langsung muncul ribuan hasil; kira-kira bagaimana cara komputer mencari dan mengurutkan jawaban itu secepat kilat?",
+    "topik": "Cara Kerja Mesin Pencari (Crawling, Indexing, dan Ranking)",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan alur kerja mesin pencari dalam menemukan informasi melalui proses crawling, indexing, dan ranking.",
+    "pengantar_materi": "Menarik sekali idemu! Di balik layar mesin pencari internet, terdapat logika pengindeksan dan penyaringan cerdas yang bekerja sepersekian detik untuk memilah informasi. Melalui pembahasan \"Cara Kerja Mesin Pencari (Crawling, Indexing, dan Ranking)\" pada materi inti berikutnya, kamu akan diajak menjelaskan alur kerja mesin pencari dalam menemukan informasi melalui proses crawling, indexing, dan ranking. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab2-pertemuan2": {
+    "pertanyaan": "Saat kamu mencari bahan tugas di internet tapi hasil yang muncul justru tidak nyambung, trik rahasia apa yang bisa kamu pakai agar mesin pencari hanya menampilkan jawaban yang presisi?",
+    "topik": "Teknik Pencarian Efektif (Search Operators dan Advanced Search)",
+    "tujuan_pembelajaran": "Murid mampu membedakan... [Data belum lengkap]",
+    "pengantar_materi": "Menarik sekali idemu! Di balik layar mesin pencari internet, terdapat logika pengindeksan dan penyaringan cerdas yang bekerja sepersekian detik untuk memilah informasi. Melalui pembahasan \"Teknik Pencarian Efektif (Search Operators dan Advanced Search)\" pada materi inti berikutnya, kamu akan diajak membedakan... [Data belum lengkap]. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab2-pertemuan3": {
+    "pertanyaan": "Jika kamu menemukan dua artikel berita dengan judul yang mirip tapi isinya berbeda, apa saja yang harus kamu periksa untuk menentukan mana artikel yang jujur dan mana yang keliru?",
+    "topik": "Indikator Kualitas Informasi Digital (Akurasi, Relevansi, dan Aktual)",
+    "tujuan_pembelajaran": "Murid mampu menerapkan teknik pencarian tingkat lanjut menggunakan kata kunci spesifik dan kata kunci penjelas (search operators) untuk memperoleh hasil presisi.",
+    "pengantar_materi": "Menarik sekali idemu! Di balik layar mesin pencari internet, terdapat logika pengindeksan dan penyaringan cerdas yang bekerja sepersekian detik untuk memilah informasi. Melalui pembahasan \"Indikator Kualitas Informasi Digital (Akurasi, Relevansi, dan Aktual)\" pada materi inti berikutnya, kamu akan diajak menerapkan teknik pencarian tingkat lanjut menggunakan kata kunci spesifik dan kata kunci penjelas (search operators) untuk memperoleh hasil presisi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab2-pertemuan4": {
+    "pertanyaan": "Apakah semua informasi yang dibagikan oleh akun terkenal di media sosial atau website dengan tampilan menarik pasti benar dan bisa langsung kita percaya?",
+    "topik": "Evaluasi Kredibilitas Sumber dan Verifikasi Domain Web",
+    "tujuan_pembelajaran": "Murid mampu mengevaluasi kredibilitas situs web melalui pemeriksaan domain, rekam jejak penulis, dan verifikasi silang sumber informasi.",
+    "pengantar_materi": "Menarik sekali idemu! Di balik layar mesin pencari internet, terdapat logika pengindeksan dan penyaringan cerdas yang bekerja sepersekian detik untuk memilah informasi. Melalui pembahasan \"Evaluasi Kredibilitas Sumber dan Verifikasi Domain Web\" pada materi inti berikutnya, kamu akan diajak mengevaluasi kredibilitas situs web melalui pemeriksaan domain, rekam jejak penulis, dan verifikasi silang sumber informasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab2-pertemuan5": {
+    "pertanyaan": "Saat melihat gambar tangkapan layar (screenshot) berisi kabar mengejutkan yang sedang viral di grup chat, langkah pertama apa yang akan kamu lakukan sebelum ikut menyebarkannya ke orang lain?",
+    "topik": "Studi Kasus Pencarian dan Penilaian Kredibilitas Informasi",
+    "tujuan_pembelajaran": "Murid mampu melakukan investigasi informasi digital dan menyusun laporan evaluasi kredibilitas sumber informasi dari kasus yang diberikan.",
+    "pengantar_materi": "Menarik sekali idemu! Di balik layar mesin pencari internet, terdapat logika pengindeksan dan penyaringan cerdas yang bekerja sepersekian detik untuk memilah informasi. Melalui pembahasan \"Studi Kasus Pencarian dan Penilaian Kredibilitas Informasi\" pada materi inti berikutnya, kamu akan diajak melakukan investigasi informasi digital dan menyusun laporan evaluasi kredibilitas sumber informasi dari kasus yang diberikan. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab3-pertemuan1": {
+    "pertanyaan": "Ketika seseorang menulis \"Makanan di kantin ini sangat enak\" dan orang lain menulis \"Kantin ini menjual tiga jenis makanan\", manakah dari kedua kalimat itu yang merupakan kejadian nyata dan mana yang hanya sekadar perasaan subjektif?",
+    "topik": "Perbedaan Fakta dan Opini dalam Informasi Digital",
+    "tujuan_pembelajaran": "Murid mampu membedakan pernyataan bersifat fakta objektif dan opini subjektif dalam berbagai artikel atau unggahan media digital.",
+    "pengantar_materi": "Pendapat yang kritis! Di era arus informasi yang begitu deras, kemampuan memilah kebenaran dan menjaga etika komunikasi digital adalah perisai utama seorang pengguna cerdas. Melalui pembahasan \"Perbedaan Fakta dan Opini dalam Informasi Digital\" pada materi inti berikutnya, kamu akan diajak membedakan pernyataan bersifat fakta objektif dan opini subjektif dalam berbagai artikel atau unggahan media digital. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab3-pertemuan2": {
+    "pertanyaan": "Mengapa berita bohong (hoaks) sering kali menyebar lebih cepat daripada berita asli, dan bagaimana caramu membuktikan bahwa sebuah pesan berantai itu palsu?",
+    "topik": "Anatomi Hoaks dan Teknik Fact-Checking",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi ciri-ciri hoaks dan menguji kebenaran berita menggunakan tools atau teknik fact-checking sederhana.",
+    "pengantar_materi": "Pendapat yang kritis! Di era arus informasi yang begitu deras, kemampuan memilah kebenaran dan menjaga etika komunikasi digital adalah perisai utama seorang pengguna cerdas. Melalui pembahasan \"Anatomi Hoaks dan Teknik Fact-Checking\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi ciri-ciri hoaks dan menguji kebenaran berita menggunakan tools atau teknik fact-checking sederhana. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab3-pertemuan3": {
+    "pertanyaan": "Menurutmu, apakah berita yang diunggah oleh wartawan profesional di website resmi memiliki proses pembuatan dan pertanggungjawaban yang sama dengan status yang ditulis oleh akun anonim di media sosial?",
+    "topik": "Pengenalan Ekosistem Media Pers Digital dan Standar Jurnalistik Dasar",
+    "tujuan_pembelajaran": "Murid mampu memahami peran dan standar kerja media pers resmi dibandingkan dengan media informasi non-resmi di platform digital.",
+    "pengantar_materi": "Pendapat yang kritis! Di era arus informasi yang begitu deras, kemampuan memilah kebenaran dan menjaga etika komunikasi digital adalah perisai utama seorang pengguna cerdas. Melalui pembahasan \"Pengenalan Ekosistem Media Pers Digital dan Standar Jurnalistik Dasar\" pada materi inti berikutnya, kamu akan diajak memahami peran dan standar kerja media pers resmi dibandingkan dengan media informasi non-resmi di platform digital. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab3-pertemuan4": {
+    "pertanyaan": "Jika di dunia nyata kita harus sopan saat berbicara dengan orang lain, apakah aturan kesopanan yang sama juga berlaku saat kita sedang mengetik komentar marah-marah di media sosial?",
+    "topik": "Peran Media Pers vs. Media Sosial serta Etika Berwarganet (Digital Citizenship)",
+    "tujuan_pembelajaran": "Murid mampu menganalisis batasan etika berinteraksi di media sosial serta menerapkan prinsip-prinsip kewargaan digital yang bertanggung jawab.",
+    "pengantar_materi": "Pendapat yang kritis! Di era arus informasi yang begitu deras, kemampuan memilah kebenaran dan menjaga etika komunikasi digital adalah perisai utama seorang pengguna cerdas. Melalui pembahasan \"Peran Media Pers vs. Media Sosial serta Etika Berwarganet (Digital Citizenship)\" pada materi inti berikutnya, kamu akan diajak menganalisis batasan etika berinteraksi di media sosial serta menerapkan prinsip-prinsip kewargaan digital yang bertanggung jawab. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem1-bab3-pertemuan5": {
+    "pertanyaan": "Apa cara paling kreatif yang bisa kamu lakukan untuk mencegah teman atau keluargamu agar tidak mudah tertipu dan ikut-ikutan menyebarkan berita bohong di internet?",
+    "topik": "Proyek Analisis Kasus / Kampanye Anti-Hoaks",
+    "tujuan_pembelajaran": "Murid mampu merancang dan menyajikan konten kampanye anti-hoaks atau analisis kasus edukatif berbasis etika digital.",
+    "pengantar_materi": "Pendapat yang kritis! Di era arus informasi yang begitu deras, kemampuan memilah kebenaran dan menjaga etika komunikasi digital adalah perisai utama seorang pengguna cerdas. Melalui pembahasan \"Proyek Analisis Kasus / Kampanye Anti-Hoaks\" pada materi inti berikutnya, kamu akan diajak merancang dan menyajikan konten kampanye anti-hoaks atau analisis kasus edukatif berbasis etika digital. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan1": {
+    "pertanyaan": "Jika kamu diminta menulis surat resmi untuk kepala sekolah, mengapa pengaturan jenis huruf, ukuran, dan ketebalan teks sangat memengaruhi kesan dari surat yang kamu buat?",
+    "topik": "Pengenalan Aplikasi Pengolah Dokumen, Antarmuka, dan Pemformatan Teks Dasar",
+    "tujuan_pembelajaran": "Murid mampu mengoperasikan fungsi dasar pengolah kata, memilih font, ukuran, serta gaya penulisan teks secara tepat.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Pengenalan Aplikasi Pengolah Dokumen, Antarmuka, dan Pemformatan Teks Dasar\" pada materi inti berikutnya, kamu akan diajak mengoperasikan fungsi dasar pengolah kata, memilih font, ukuran, serta gaya penulisan teks secara tepat. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan2": {
+    "pertanyaan": "Pernahkah kamu membaca buku atau majalah yang teksnya terlalu rapat sehingga membuat mata cepat lelah; pengaturan apa saja yang diperlukan agar sebuah dokumen nyaman dibaca?",
+    "topik": "Pemformatan Paragraf, Tata Letak Halaman (Page Layout), Header/Footer, dan Penomoran",
+    "tujuan_pembelajaran": "Murid mampu mengatur perataan paragraf, jarak spasi, margin halaman, serta menambahkan header, footer, dan nomor halaman.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Pemformatan Paragraf, Tata Letak Halaman (Page Layout), Header/Footer, dan Penomoran\" pada materi inti berikutnya, kamu akan diajak mengatur perataan paragraf, jarak spasi, margin halaman, serta menambahkan header, footer, dan nomor halaman. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan3": {
+    "pertanyaan": "Bagaimana caranya memasukkan foto kegiatan kelas ke dalam laporan tertulis agar posisi fotonya menyatu dengan rapi di tengah teks tanpa merusak susunan kalimat di sekitarnya?",
+    "topik": "Sisipan Objek (Tabel, Gambar, Shape) dan Pengaturan Layout Gambar dalam Dokumen",
+    "tujuan_pembelajaran": "Murid mampu menyisipkan dan mengatur tata letak objek visual seperti tabel, gambar, dan shape agar dokumen terlihat rapi.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Sisipan Objek (Tabel, Gambar, Shape) dan Pengaturan Layout Gambar dalam Dokumen\" pada materi inti berikutnya, kamu akan diajak menyisipkan dan mengatur tata letak objek visual seperti tabel, gambar, dan shape agar dokumen terlihat rapi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan4": {
+    "pertanyaan": "Jika kamu harus mencetak 100 surat undangan untuk teman-temanmu, adakah cara otomatis untuk mengganti nama penerimanya di dokumen tanpa harus mengetiknya satu per satu?",
+    "topik": "Fitur Lanjutan Dokumen: Pembuatan Daftar Isi Otomatis, Mail Merge, dan Referensi",
+    "tujuan_pembelajaran": "Murid mampu membuat daftar isi otomatis berbasis heading style serta memanfaatkan fitur persuratan massal (mail merge).",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Fitur Lanjutan Dokumen: Pembuatan Daftar Isi Otomatis, Mail Merge, dan Referensi\" pada materi inti berikutnya, kamu akan diajak membuat daftar isi otomatis berbasis heading style serta memanfaatkan fitur persuratan massal (mail merge). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan5": {
+    "pertanyaan": "Hal-hal penting apa saja yang harus ada di dalam sebuah proposal kegiatan OSIS agar terlihat rapi, berstruktur profesional, dan mudah dipahami oleh guru pembina?",
+    "topik": "Praktik Mandiri Pembuatan Dokumen Laporan / Proposal Terstruktur dan Rapi",
+    "tujuan_pembelajaran": "Murid mampu menyusun dokumen laporan formal yang rapi dan terstruktur lengkap dengan elemen pemformatan baku secara mandiri.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Praktik Mandiri Pembuatan Dokumen Laporan / Proposal Terstruktur dan Rapi\" pada materi inti berikutnya, kamu akan diajak menyusun dokumen laporan formal yang rapi dan terstruktur lengkap dengan elemen pemformatan baku secara mandiri. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan6": {
+    "pertanyaan": "Saat mendaftar akun media sosial, kamu diminta memasukkan nama, tanggal lahir, dan nomor HP; mengapa sistem perlu membedakan mana kolom untuk angka, teks, dan tanggal?",
+    "topik": "Pengenalan Lembar Kerja Pengolah Data: Antarmuka, Cell, Row, Column, dan Tipe Data",
+    "tujuan_pembelajaran": "Murid mampu mengenali struktur lembar kerja spreadsheet dan menentukan tipe data yang sesuai (teks, angka, tanggal).",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Pengenalan Lembar Kerja Pengolah Data: Antarmuka, Cell, Row, Column, dan Tipe Data\" pada materi inti berikutnya, kamu akan diajak mengenali struktur lembar kerja spreadsheet dan menentukan tipe data yang sesuai (teks, angka, tanggal). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan7": {
+    "pertanyaan": "Bayangkan kamu punya daftar nilai ujian dari 30 siswa; bagaimana cara menghitung rata-rata seluruh kelas hanya dengan satu kali klik tanpa menggunakan kalkulator biasa?",
+    "topik": "Penggunaan Formula Dasar dan Fungsi Aritmatika (SUM, AVERAGE, MIN, MAX, COUNT)",
+    "tujuan_pembelajaran": "Murid mampu mengaplikasikan fungsi statistik dasar (SUM, AVERAGE, MIN, MAX, COUNT) untuk mengolah sekumpulan data numerik.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Penggunaan Formula Dasar dan Fungsi Aritmatika (SUM, AVERAGE, MIN, MAX, COUNT)\" pada materi inti berikutnya, kamu akan diajak mengaplikasikan fungsi statistik dasar (SUM, AVERAGE, MIN, MAX, COUNT) untuk mengolah sekumpulan data numerik. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan8": {
+    "pertanyaan": "Bisakah komputer secara otomatis memberi warna merah muda pada nilai temanmu yang harus ikut remedial dan warna hijau untuk yang lulus, tanpa kita harus mewarnainya secara manual?",
+    "topik": "Penerapan Fungsi Logika (IF) dan Pemformatan Bersyarat (Conditional Formatting)",
+    "tujuan_pembelajaran": "Murid mampu membuat keputusan otomatis menggunakan fungsi IF serta menonjolkan data tertentu dengan conditional formatting.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Penerapan Fungsi Logika (IF) dan Pemformatan Bersyarat (Conditional Formatting)\" pada materi inti berikutnya, kamu akan diajak membuat keputusan otomatis menggunakan fungsi IF serta menonjolkan data tertentu dengan conditional formatting. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan9": {
+    "pertanyaan": "Saat kasir minimarket memindai (scan) barcode sebuah barang, bagaimana cara layar kasir langsung mengenali nama barang dan harganya secara otomatis tanpa diketik manual?",
+    "topik": "Fungsi Pencarian & Rujukan (VLOOKUP / HLOOKUP) serta Pengolahan Data (Sort & Filter)",
+    "tujuan_pembelajaran": "Murid mampu mengambil data dari tabel referensi menggunakan VLOOKUP/HLOOKUP dan mengorganisasi tabel secara dinamis.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Fungsi Pencarian & Rujukan (VLOOKUP / HLOOKUP) serta Pengolahan Data (Sort & Filter)\" pada materi inti berikutnya, kamu akan diajak mengambil data dari tabel referensi menggunakan VLOOKUP/HLOOKUP dan mengorganisasi tabel secara dinamis. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan10": {
+    "pertanyaan": "Jika kamu mempresentasikan hasil perolehan suara pemilihan ketua OSIS di depan kelas, mana yang lebih cepat dipahami audiens: melihat tabel berisi deretan angka atau melihat grafik gambar berwarna?",
+    "topik": "Visualisasi Data Lembar Kerja: Pembuatan dan Pemformatan Grafik / Chart",
+    "tujuan_pembelajaran": "Murid mampu menyajikan data angka ke dalam bentuk diagram/grafik (batang, lingkaran, garis) yang komunikatif dan informatif.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Visualisasi Data Lembar Kerja: Pembuatan dan Pemformatan Grafik / Chart\" pada materi inti berikutnya, kamu akan diajak menyajikan data angka ke dalam bentuk diagram/grafik (batang, lingkaran, garis) yang komunikatif dan informatif. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan11": {
+    "pertanyaan": "Mengapa menempelkan satu paragraf tulisan panjang penuh teks ke dalam slide presentasi justru akan membuat penonton cepat bosan dan mengantuk?",
+    "topik": "Pengenalan Aplikasi Presentasi, Struktur Slide, dan Prinsip Desain Visual Efektif",
+    "tujuan_pembelajaran": "Murid mampu merancang struktur slide presentasi yang sistematis dengan memperhatikan alur informasi dan kontras warna.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Pengenalan Aplikasi Presentasi, Struktur Slide, dan Prinsip Desain Visual Efektif\" pada materi inti berikutnya, kamu akan diajak merancang struktur slide presentasi yang sistematis dengan memperhatikan alur informasi dan kontras warna. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan12": {
+    "pertanyaan": "Bagaimana cara menggunakan video singkat dan efek pergantian slide (transisi) agar presentasimu terlihat menarik seperti film, tanpa membuatnya menjadi norak atau berlebihan?",
+    "topik": "Penggunaan Objek, Media (Gambar & Video), serta Efek Transisi dan Animasi",
+    "tujuan_pembelajaran": "Murid mampu memperkaya materi presentasi dengan objek multimedia serta menerapkan transisi slide yang proporsional.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Penggunaan Objek, Media (Gambar & Video), serta Efek Transisi dan Animasi\" pada materi inti berikutnya, kamu akan diajak memperkaya materi presentasi dengan objek multimedia serta menerapkan transisi slide yang proporsional. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan13": {
+    "pertanyaan": "Jika kamu membuat presentasi berisi 20 slide, adakah cara instan agar logo sekolahmu otomatis terpasang di pojok kanan atas semua slide tanpa perlu melakukan copy-paste 20 kali?",
+    "topik": "Teknik Penyampaian Presentasi: Fitur Slide Master, Presenter View, dan Etika Presentasi",
+    "tujuan_pembelajaran": "Murid mampu mengelola konsistensi desain dengan Slide Master serta memperagakan teknik penyampaian presentasi di depan publik.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Teknik Penyampaian Presentasi: Fitur Slide Master, Presenter View, dan Etika Presentasi\" pada materi inti berikutnya, kamu akan diajak mengelola konsistensi desain dengan Slide Master serta memperagakan teknik penyampaian presentasi di depan publik. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan14": {
+    "pertanyaan": "Saat kamu memperbarui data angka laporan keuangan di aplikasi spreadsheet, bisakah grafik yang sudah terlanjur kamu tempel di Microsoft Word ikut berubah secara otomatis menyesuaikan angka baru?",
+    "topik": "Integrasi Konten Antar-Aplikasi Perkantoran: Object Linking & Embedding",
+    "tujuan_pembelajaran": "Murid mampu menghubungkan (linking) dan menyematkan (embedding) tabel data atau grafik spreadsheet ke dalam dokumen word dan slide presentasi.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Integrasi Konten Antar-Aplikasi Perkantoran: Object Linking & Embedding\" pada materi inti berikutnya, kamu akan diajak menghubungkan (linking) dan menyematkan (embedding) tabel data atau grafik spreadsheet ke dalam dokumen word dan slide presentasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas7-sem2-bab4-pertemuan15": {
+    "pertanyaan": "Jika kamu ditugaskan membuat riset lengkap tentang fasilitas sekolah, bagaimana caramu menggabungkan tabel data perhitungan, laporan naratif tertulis, dan slide presentasi menjadi satu proyek yang saling terhubung?",
+    "topik": "Proyek Integrasi Aplikasi Perkantoran (Dokumen, Data, dan Slide)",
+    "tujuan_pembelajaran": "Murid mampu menyelesaikan proyek terpadu pembuatan laporan, analisis data, dan slide presentasi yang saling terhubung secara profesional.",
+    "pengantar_materi": "Gagasan yang sangat tepat! Aplikasi perkantoran modern dirancang dengan fitur otomatisasi agar pekerjaan mengolah dokumen, angka, maupun presentasi menjadi jauh lebih rapi dan efisien. Melalui pembahasan \"Proyek Integrasi Aplikasi Perkantoran (Dokumen, Data, dan Slide)\" pada materi inti berikutnya, kamu akan diajak menyelesaikan proyek terpadu pembuatan laporan, analisis data, dan slide presentasi yang saling terhubung secara profesional. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan1": {
+    "pertanyaan": "Saat kamu punya tugas membersihkan seluruh kamar, biasanya kamu membaginya mulai dari merapikan kasur, menyapu, lalu mengepel; tahukah kamu bahwa cara ini sangat mirip dengan cara kerja komputer menyelesaikan masalah?",
+    "topik": "Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma)",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan dan mengidentifikasi penerapan 4 pilar berpikir komputasional dalam pemecahan masalah kehidupan sehari-hari.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma)\" pada materi inti berikutnya, kamu akan diajak menjelaskan dan mengidentifikasi penerapan 4 pilar berpikir komputasional dalam pemecahan masalah kehidupan sehari-hari. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan2": {
+    "pertanyaan": "Bagaimana cara paling rapi untuk mencatat daftar lagu favorit, nama teman, dan nilai ujian di bukumu agar mudah dibaca sekilas tanpa membuatmu pusing?",
+    "topik": "Konsep dan Pemodelan Data Berstruktur Sederhana (Tabel, Baris, Kolom, & List/Senarai Volume Kecil)",
+    "tujuan_pembelajaran": "Murid mampu memodelkan masalah data volume kecil ke dalam struktur tabel dan list secara terorganisir.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Konsep dan Pemodelan Data Berstruktur Sederhana (Tabel, Baris, Kolom, & List/Senarai Volume Kecil)\" pada materi inti berikutnya, kamu akan diajak memodelkan masalah data volume kecil ke dalam struktur tabel dan list secara terorganisir. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan3": {
+    "pertanyaan": "Jika kamu menjadi ketua panitia perpisahan kelas, bagaimana caramu memecah tugas besar tersebut menjadi tugas-tugas kecil yang bisa dibagikan ke teman-temanmu?",
+    "topik": "Penerapan Dekomposisi dan Pengenalan Pola pada Pengorganisasian Data Berstruktur Sederhana",
+    "tujuan_pembelajaran": "Murid mampu memecah masalah kompleks menjadi sub-masalah kecil (dekomposisi) dan menemukan kesamaan pola data.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Penerapan Dekomposisi dan Pengenalan Pola pada Pengorganisasian Data Berstruktur Sederhana\" pada materi inti berikutnya, kamu akan diajak memecah masalah kompleks menjadi sub-masalah kecil (dekomposisi) dan menemukan kesamaan pola data. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan4": {
+    "pertanyaan": "Bayangkan kamu sedang bermain kartu remi dan harus mencari kartu As Hati; apakah kamu akan memeriksa semua kartu secara acak, atau mengurutkannya dulu berdasarkan warna dan gambar?",
+    "topik": "Penerapan Abstraksi dan Algoritma Pencarian/Pengurutan Sederhana pada Data Volume Kecil",
+    "tujuan_pembelajaran": "Murid mampu memilah informasi penting (abstraksi) serta mensimulasikan algoritma pengurutan dan pencarian data sederhana.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Penerapan Abstraksi dan Algoritma Pencarian/Pengurutan Sederhana pada Data Volume Kecil\" pada materi inti berikutnya, kamu akan diajak memilah informasi penting (abstraksi) serta mensimulasikan algoritma pengurutan dan pencarian data sederhana. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan5": {
+    "pertanyaan": "Pernahkah kamu membaca buku resep masakan yang langkah-langkahnya ditulis berurutan secara logis; bagaimana jika kita menulis perintah untuk komputer dengan gaya bahasa yang mirip seperti resep tersebut?",
+    "topik": "Pengenalan Pseudocode: Konsep, Notasi, Kosakata Terbatas, dan Simbol Standar Logika",
+    "tujuan_pembelajaran": "Murid mampu memahami aturan penulisan notasi pseudocode dan konversi logika sederhana ke dalam instruksi terstruktur.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Pengenalan Pseudocode: Konsep, Notasi, Kosakata Terbatas, dan Simbol Standar Logika\" pada materi inti berikutnya, kamu akan diajak memahami aturan penulisan notasi pseudocode dan konversi logika sederhana ke dalam instruksi terstruktur. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan6": {
+    "pertanyaan": "Saat memasukkan kata sandi (password) di HP, mengapa urutan menekan angkanya harus tepat dari awal sampai akhir, dan apa jadinya jika perintah di komputer tidak ditulis secara berurutan?",
+    "topik": "Penulisan Pseudocode Struktur Runtutan (Sequential) dan Variabel/Tipe Data Dasar",
+    "tujuan_pembelajaran": "Murid mampu menyusun alur instruksi berurutan (sequential) dan pendeklarasian variabel/tipe data menggunakan pseudocode.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Penulisan Pseudocode Struktur Runtutan (Sequential) dan Variabel/Tipe Data Dasar\" pada materi inti berikutnya, kamu akan diajak menyusun alur instruksi berurutan (sequential) dan pendeklarasian variabel/tipe data menggunakan pseudocode. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan7": {
+    "pertanyaan": "Bagaimana cara komputer di mesin kasir otomatis mengetahui apakah pembeli berhak mendapat diskon atau tidak berdasarkan jumlah belanjaannya?",
+    "topik": "Penulisan Pseudocode Struktur Percabangan (Kondisional: IF-THEN-ELSE)",
+    "tujuan_pembelajaran": "Murid mampu menuliskan struktur algoritma percabangan (IF-THEN-ELSE) dalam bentuk pseudocode untuk pengambilan keputusan.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Penulisan Pseudocode Struktur Percabangan (Kondisional: IF-THEN-ELSE)\" pada materi inti berikutnya, kamu akan diajak menuliskan struktur algoritma percabangan (IF-THEN-ELSE) dalam bentuk pseudocode untuk pengambilan keputusan. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan8": {
+    "pertanyaan": "Jika guru menghukummu menulis \"Saya tidak akan terlambat lagi\" sebanyak 100 kali di papan tulis, adakah kode rahasia di komputer yang bisa menuliskannya secara otomatis tanpa harus mengetik 100 kali?",
+    "topik": "Penulisan Pseudocode Struktur Perulangan (Looping: FOR/WHILE)",
+    "tujuan_pembelajaran": "Murid mampu merancang struktur algoritma perulangan (FOR/WHILE) dalam pseudocode untuk menyelesaikan masalah perhitungan berulang.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Penulisan Pseudocode Struktur Perulangan (Looping: FOR/WHILE)\" pada materi inti berikutnya, kamu akan diajak merancang struktur algoritma perulangan (FOR/WHILE) dalam pseudocode untuk menyelesaikan masalah perhitungan berulang. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab1-pertemuan9": {
+    "pertanyaan": "Jika kamu diminta membuat aturan otomatis di grup WhatsApp kelas untuk menyortir pesan penting, bagaimana caramu menggabungkan logika pengecekan kata dan perulangan pesan?",
+    "topik": "Pemecahan Masalah Data Berstruktur dan Penyusunan Pseudocode Lanjutan",
+    "tujuan_pembelajaran": "Murid mampu memecahkan kasus logika kompleks melalui analisis data terstruktur dan penulisan dokumen pseudocode secara mandiri.",
+    "pengantar_materi": "Cara berpikirmu sudah selaras dengan pola pikir ilmuwan komputer! Menyelesaikan masalah rumit selalu dimulai dengan memecahnya menjadi langkah-langkah logis yang terstruktur. Melalui pembahasan \"Pemecahan Masalah Data Berstruktur dan Penyusunan Pseudocode Lanjutan\" pada materi inti berikutnya, kamu akan diajak memecahkan kasus logika kompleks melalui analisis data terstruktur dan penulisan dokumen pseudocode secara mandiri. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab2-pertemuan1": {
+    "pertanyaan": "Saat kamu menekan tombol 'A' di keyboard dan hurufnya muncul di layar, alat apa saja di dalam kotak komputer yang bekerja memproses sinyal tersebut?",
+    "topik": "Pengenalan Sistem Komputer dan Perangkat Keras (Hardware Input, Process, Output, Storage)",
+    "tujuan_pembelajaran": "Murid mampu mengklasifikasikan komponen perangkat keras komputer berdasarkan fungsinya (input, proses, output, penyimpan).",
+    "pengantar_materi": "Pengamatan yang tajam! Setiap sentuhan tombol hingga tampilnya gambar di layar melibatkan kerja sama harmonis antara perangkat keras, sistem operasi, dan perangkat lunak. Melalui pembahasan \"Pengenalan Sistem Komputer dan Perangkat Keras (Hardware Input, Process, Output, Storage)\" pada materi inti berikutnya, kamu akan diajak mengklasifikasikan komponen perangkat keras komputer berdasarkan fungsinya (input, proses, output, penyimpan). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab2-pertemuan2": {
+    "pertanyaan": "Mengapa HP baru yang belum diinstal aplikasi WhatsApp atau game tetap bisa menyala dan menampilkan menu layar utama; program apa yang mengendalikannya?",
+    "topik": "Perangkat Lunak (Software System & Application) serta Interaksi Antara Hardware dan Software",
+    "tujuan_pembelajaran": "Murid mampu membedakan sistem operasi dan aplikasi serta menjelaskan mekanisme interaksi antara perangkat keras dan sistem operasi.",
+    "pengantar_materi": "Pengamatan yang tajam! Setiap sentuhan tombol hingga tampilnya gambar di layar melibatkan kerja sama harmonis antara perangkat keras, sistem operasi, dan perangkat lunak. Melalui pembahasan \"Perangkat Lunak (Software System & Application) serta Interaksi Antara Hardware dan Software\" pada materi inti berikutnya, kamu akan diajak membedakan sistem operasi dan aplikasi serta menjelaskan mekanisme interaksi antara perangkat keras dan sistem operasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab2-pertemuan3": {
+    "pertanyaan": "Saat otak manusia memproses matematika, kita melihat angka, memikirkannya, lalu menjawab; kira-kira bagaimana urutan kerja 'otak' komputer (CPU) saat melakukan hal yang sama?",
+    "topik": "Siklus Pemrosesan Data dan Cara Kerja Komputer",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan alur siklus mengambil-menerjemahkan-mengesekusi (fetch-decode-execute) pada unit pemrosesan sentral (CPU).",
+    "pengantar_materi": "Pengamatan yang tajam! Setiap sentuhan tombol hingga tampilnya gambar di layar melibatkan kerja sama harmonis antara perangkat keras, sistem operasi, dan perangkat lunak. Melalui pembahasan \"Siklus Pemrosesan Data dan Cara Kerja Komputer\" pada materi inti berikutnya, kamu akan diajak menjelaskan alur siklus mengambil-menerjemahkan-mengesekusi (fetch-decode-execute) pada unit pemrosesan sentral (CPU). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem1-bab2-pertemuan4": {
+    "pertanyaan": "Pernahkah kamu memutar musik di komputer tapi suaranya tidak keluar; bagaimana caramu menjadi detektif untuk menyelidiki apakah yang rusak itu speakernya, kabelnya, atau justru aplikasinya?",
+    "topik": "Analisis Komponen Komputer dan Cara Kerja Pemrosesan",
+    "tujuan_pembelajaran": "Murid mampu mendiagnosis keterkaitan antarkomponen sistem komputer dan arsitektur jaringan melalui analisis studi kasus.",
+    "pengantar_materi": "Pengamatan yang tajam! Setiap sentuhan tombol hingga tampilnya gambar di layar melibatkan kerja sama harmonis antara perangkat keras, sistem operasi, dan perangkat lunak. Melalui pembahasan \"Analisis Komponen Komputer dan Cara Kerja Pemrosesan\" pada materi inti berikutnya, kamu akan diajak mendiagnosis keterkaitan antarkomponen sistem komputer dan arsitektur jaringan melalui analisis studi kasus. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan1": {
+    "pertanyaan": "Jika kamu dan temanmu bermain game multiplayer di dalam satu ruang kelas tanpa kuota internet, bagaimana cara kedua HP kalian bisa saling terhubung dan bertukar data permainan?",
+    "topik": "Konsep Dasar Jaringan Komputer dan Jaringan Lokal (LAN)",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan prinsip kerja pengiriman data dalam jaringan lokal (LAN) serta manfaat konektivitas antarkomputer.",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Konsep Dasar Jaringan Komputer dan Jaringan Lokal (LAN)\" pada materi inti berikutnya, kamu akan diajak menjelaskan prinsip kerja pengiriman data dalam jaringan lokal (LAN) serta manfaat konektivitas antarkomputer. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan2": {
+    "pertanyaan": "Mengapa kabel internet di lab komputer sekolah bentuknya berbeda dengan kabel listrik biasa, dan apa fungsi lampu kedap-kedip di colokannya?",
+    "topik": "Konektivitas Jaringan Kabel: Jenis Kabel (UTP/STP, Fiber Optik) & Perangkat Pendukung",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi jenis kabel jaringan (UTP/STP, Fiber) dan perangkat keras pendukungnya (switch, hub).",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Konektivitas Jaringan Kabel: Jenis Kabel (UTP/STP, Fiber Optik) & Perangkat Pendukung\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi jenis kabel jaringan (UTP/STP, Fiber) dan perangkat keras pendukungnya (switch, hub). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan3": {
+    "pertanyaan": "Menurutmu, mengapa sinyal Wi-Fi sering kali putus-putus saat kamu berada di ruangan yang tertutup tembok tebal, padahal sinyal radio bisa menembus dinding?",
+    "topik": "Konektivitas Jaringan Nirkabel: Wi-Fi, Bluetooth, Seluler, dan Gelombang Frekuensi",
+    "tujuan_pembelajaran": "Murid mampu menganalisis karakteristik media nirkabel (Wi-Fi, Bluetooth, jaringan seluler) serta faktor pendorong kecepatannya.",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Konektivitas Jaringan Nirkabel: Wi-Fi, Bluetooth, Seluler, dan Gelombang Frekuensi\" pada materi inti berikutnya, kamu akan diajak menganalisis karakteristik media nirkabel (Wi-Fi, Bluetooth, jaringan seluler) serta faktor pendorong kecepatannya. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan4": {
+    "pertanyaan": "Sama seperti setiap rumah memiliki alamat agar pak pos tidak salah antar barang, tahukah kamu bahwa HP dan komputermu juga memiliki 'alamat rumah' rahasia saat terhubung ke internet?",
+    "topik": "Konsep Jaringan Internet, Pengalamatan IP (IP Address), DNS, dan Router",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan alur kerja pengalamatan IP, translasi nama domain oleh DNS, dan fungsi router dalam penerusan data.",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Konsep Jaringan Internet, Pengalamatan IP (IP Address), DNS, dan Router\" pada materi inti berikutnya, kamu akan diajak menjelaskan alur kerja pengalamatan IP, translasi nama domain oleh DNS, dan fungsi router dalam penerusan data. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan5": {
+    "pertanyaan": "Apakah aman jika kita membuka aplikasi mobile banking atau berbelanja online menggunakan jaringan Wi-Fi gratis di kafe yang tidak memiliki kata sandi?",
+    "topik": "Keamanan dan Etika Penggunaan Jaringan (Wi-Fi Publik, Enkripsi HTTPS, & Password)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi risiko transmisi data di Wi-Fi publik dan menerapkan praktik keamanan menggunakan koneksi terenkripsi (HTTPS).",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Keamanan dan Etika Penggunaan Jaringan (Wi-Fi Publik, Enkripsi HTTPS, & Password)\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi risiko transmisi data di Wi-Fi publik dan menerapkan praktik keamanan menggunakan koneksi terenkripsi (HTTPS). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab3-pertemuan6": {
+    "pertanyaan": "Jika sekolah memiliki 30 komputer baru yang harus terhubung ke internet dalam satu ruangan, alat-alat apa saja yang perlu dibeli dan bagaimana cara menyambung kabel-kabelnya agar rapi?",
+    "topik": "Analisis Konektivitas Jaringan Lokal dan Internet",
+    "tujuan_pembelajaran": "Murid mampu memetakan dan mengevaluasi rancangan skenario konektivitas jaringan lokal dan internet pada suatu lingkungan tertentu.",
+    "pengantar_materi": "Pemikiran yang seru! Jaringan komputer dan internet bekerja layaknya sistem jalan raya digital yang menghubungkan miliaran perangkat dengan aturan alamat dan jalur khusus. Melalui pembahasan \"Analisis Konektivitas Jaringan Lokal dan Internet\" pada materi inti berikutnya, kamu akan diajak memetakan dan mengevaluasi rancangan skenario konektivitas jaringan lokal dan internet pada suatu lingkungan tertentu. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan1": {
+    "pertanyaan": "Apa bedanya mengejek teman secara langsung di kelas dengan mengejeknya melalui status media sosial, dan mana yang jejaknya paling sulit dihilangkan?",
+    "topik": "Bentuk dan Jenis Perundungan Digital (Cyberbullying, Cyberharassment, Doxxing)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi berbagai bentuk dan praktik perundungan siber yang marak terjadi di ekosistem digital.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Bentuk dan Jenis Perundungan Digital (Cyberbullying, Cyberharassment, Doxxing)\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi berbagai bentuk dan praktik perundungan siber yang marak terjadi di ekosistem digital. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan2": {
+    "pertanyaan": "Tahukah kamu bahwa menulis komentar yang berisi hinaan fisik atau fitnah di internet tidak hanya menyakiti hati orang lain, tetapi juga bisa membuatmu berurusan dengan polisi?",
+    "topik": "Dampak Psikologis, Sosial, serta Aspek Hukum Perundungan Digital",
+    "tujuan_pembelajaran": "Murid mampu menganalisis konsekuensi negatif perundungan digital terhadap kesehatan mental, hubungan sosial, dan implikasi hukumnya.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Dampak Psikologis, Sosial, serta Aspek Hukum Perundungan Digital\" pada materi inti berikutnya, kamu akan diajak menganalisis konsekuensi negatif perundungan digital terhadap kesehatan mental, hubungan sosial, dan implikasi hukumnya. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan3": {
+    "pertanyaan": "Jika ada akun palsu yang tiba-tiba mengirimimu pesan ancaman di Instagram, apa tindakan pertama yang paling cerdas untuk dilakukan selain membalas pesannya?",
+    "topik": "Strategi Pencegahan, Pelaporan (Reporting), dan Penanganan Kasus Cyberbullying",
+    "tujuan_pembelajaran": "Murid mampu memperagakan langkah penanganan awal, mekanisme pelaporan (reporting), serta dukungan bagi korban cyberbullying.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Strategi Pencegahan, Pelaporan (Reporting), dan Penanganan Kasus Cyberbullying\" pada materi inti berikutnya, kamu akan diajak memperagakan langkah penanganan awal, mekanisme pelaporan (reporting), serta dukungan bagi korban cyberbullying. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan4": {
+    "pertanyaan": "Pernahkah kamu menyadari bahwa internet diam-diam merekam apa saja video yang kamu tonton dan barang yang kamu cari, meskipun kamu tidak pernah mempostingnya di beranda?",
+    "topik": "Pengenalan Rekam Jejak Digital (Digital Footprint): Jejak Aktif vs Jejak Pasif",
+    "tujuan_pembelajaran": "Murid mampu membedakan rekam jejak digital aktif (postingan, komentar) dan pasif (cookies, IP log) yang tertinggal di internet.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Pengenalan Rekam Jejak Digital (Digital Footprint): Jejak Aktif vs Jejak Pasif\" pada materi inti berikutnya, kamu akan diajak membedakan rekam jejak digital aktif (postingan, komentar) dan pasif (cookies, IP log) yang tertinggal di internet. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan5": {
+    "pertanyaan": "Jika 10 tahun dari sekarang kamu melamar pekerjaan di perusahaan impianmu, apakah foto-foto konyol dan komentar marah-marah yang kamu tulis hari ini bisa membuatmu ditolak?",
+    "topik": "Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan",
+    "tujuan_pembelajaran": "Murid mampu menganalisis dampak jangka panjang dari rekam jejak digital negatif terhadap citra diri dan karir di masa depan.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan\" pada materi inti berikutnya, kamu akan diajak menganalisis dampak jangka panjang dari rekam jejak digital negatif terhadap citra diri dan karir di masa depan. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan6": {
+    "pertanyaan": "Sama seperti mengunci pintu rumah sebelum tidur, fitur apa saja di pengaturan akun media sosialmu yang harus 'dikunci' agar orang asing tidak sembarangan mengambil foto pribadimu?",
+    "topik": "Manajemen Rekam Jejak Digital & Pengaturan Privasi Akun (Digital Hygiene)",
+    "tujuan_pembelajaran": "Murid mampu mengonfigurasi setelan privasi akun media sosial serta melakukan tindakan perawatan kebersihan digital (digital hygiene).",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Manajemen Rekam Jejak Digital & Pengaturan Privasi Akun (Digital Hygiene)\" pada materi inti berikutnya, kamu akan diajak mengonfigurasi setelan privasi akun media sosial serta melakukan tindakan perawatan kebersihan digital (digital hygiene). Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan7": {
+    "pertanyaan": "Mengapa mengetik pesan ke guru menggunakan HURUF KAPITAL SEMUA sering disalahartikan sebagai orang yang sedang marah-marah atau membentak?",
+    "topik": "Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati di Media Sosial",
+    "tujuan_pembelajaran": "Murid mampu menerapkan norma kesantunan berwarganet (netiquette) serta berkomunikasi dengan empati saat berinteraksi online.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati di Media Sosial\" pada materi inti berikutnya, kamu akan diajak menerapkan norma kesantunan berwarganet (netiquette) serta berkomunikasi dengan empati saat berinteraksi online. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan8": {
+    "pertanyaan": "Saat melihat dua teman saling serang komentar kasar karena berbeda pilihan tim sepak bola, bagaimana caramu mendinginkan suasana tanpa ikut-ikutan marah?",
+    "topik": "Menghargai Keragaman Pandangan dan Mencegah Ujaran Kebencian (Hate Speech)",
+    "tujuan_pembelajaran": "Murid mampu menunjukkan sikap toleran terhadap perbedaan pendapat di media sosial dan menghindari penyebaran ujaran kebencian.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Menghargai Keragaman Pandangan dan Mencegah Ujaran Kebencian (Hate Speech)\" pada materi inti berikutnya, kamu akan diajak menunjukkan sikap toleran terhadap perbedaan pendapat di media sosial dan menghindari penyebaran ujaran kebencian. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas8-sem2-bab4-pertemuan9": {
+    "pertanyaan": "Jika kamu diberi kebebasan membuat sebuah poster kampanye yang bisa mengubah kebiasaan buruk teman-temanmu di grup chat, kalimat dan gambar apa yang akan kamu buat?",
+    "topik": "Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat",
+    "tujuan_pembelajaran": "Murid mampu merancang karya kampanye digital kreatif yang menyuarakan perilaku etis, bebas cyberbullying, dan ramah rekam jejak.",
+    "pengantar_materi": "Refleksi yang bijak! Setiap aktivitas kita di ruang siber meninggalkan jejak digital, sehingga kesadaran hukum, privasi, dan empati menjadi bekal yang sangat berharga. Melalui pembahasan \"Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat\" pada materi inti berikutnya, kamu akan diajak merancang karya kampanye digital kreatif yang menyuarakan perilaku etis, bebas cyberbullying, dan ramah rekam jejak. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan1": {
+    "pertanyaan": "Pernahkah kamu membongkar mainan lego lalu menyusunnya kembali menjadi bentuk baru; bagaimana jika kita menyusun 'blok-blok' perintah di layar komputer untuk membuat animasi kita sendiri?",
+    "topik": "Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma) & Antarmuka Aplikasi Scratch",
+    "tujuan_pembelajaran": "Murid mampu mengenali komponen antarmuka lingkungan pemrograman visual Scratch dan mereview 4 pilar berpikir komputasional.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma) & Antarmuka Aplikasi Scratch\" pada materi inti berikutnya, kamu akan diajak mengenali komponen antarmuka lingkungan pemrograman visual Scratch dan mereview 4 pilar berpikir komputasional. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan2": {
+    "pertanyaan": "Jika kamu harus memberi instruksi kepada robot pelayan untuk menyapa tamu, langkah-langkah berurutan apa saja yang harus kamu tuliskan agar robot tidak salah bertindak?",
+    "topik": "Pemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch (Motion, Looks, Sound, & Events)",
+    "tujuan_pembelajaran": "Murid mampu mengonversi urutan algoritma masalah harian menjadi barisan blok perintah dasar di Scratch.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Pemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch (Motion, Looks, Sound, & Events)\" pada materi inti berikutnya, kamu akan diajak mengonversi urutan algoritma masalah harian menjadi barisan blok perintah dasar di Scratch. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan3": {
+    "pertanyaan": "Daripada menyuruh tokoh animasimu 'maju satu langkah' sebanyak 100 kali secara manual, adakah blok perintah rahasia yang bisa menyuruhnya berjalan terus-menerus tanpa henti?",
+    "topik": "Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch",
+    "tujuan_pembelajaran": "Murid mampu menerapkan blok perintah perulangan (repeat/forever) untuk menyederhanakan struktur alur program Scratch.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch\" pada materi inti berikutnya, kamu akan diajak menerapkan blok perintah perulangan (repeat/forever) untuk menyederhanakan struktur alur program Scratch. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan4": {
+    "pertanyaan": "Bagaimana cara membuat sebuah game tebak-tebakan di mana komputermu bisa otomatis memuji jika jawabanmu benar dan menyorakimu jika jawabanmu salah?",
+    "topik": "Penerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else) dan Logika Pengambilan Keputusan",
+    "tujuan_pembelajaran": "Murid mampu menggunakan kondisi percabangan (if-then-else) dalam program Scratch untuk mengontrol alur interaksi objek.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Penerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else) dan Logika Pengambilan Keputusan\" pada materi inti berikutnya, kamu akan diajak menggunakan kondisi percabangan (if-then-else) dalam program Scratch untuk mengontrol alur interaksi objek. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan5": {
+    "pertanyaan": "Saat kamu bermain game seperti Mobile Legends, bagaimana cara sistem komputer mengingat jumlah skor dan uang logam (coin) yang terus bertambah setiap kali kamu menang?",
+    "topik": "Variabel dan Operator Matematika/Logika Dasar",
+    "tujuan_pembelajaran": "Murid mampu membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Variabel dan Operator Matematika/Logika Dasar\" pada materi inti berikutnya, kamu akan diajak membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan6": {
+    "pertanyaan": "Jika kamu diberi tantangan membuat game yang mengedukasi anak kecil cara membuang sampah, adegan dan tokoh apa saja yang akan kamu gambar terlebih dahulu di kertas?",
+    "topik": "Perancangan Proyek Scratch: Simulasi Masalah Sehari-hari / Game Edukasi Interaktif (Tahap Dekomposisi & Desain Logika)",
+    "tujuan_pembelajaran": "Murid mampu menyusun dokumen perancangan (storyboard dan desain logika) proyek game edukasi atau simulasi interaktif.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Perancangan Proyek Scratch: Simulasi Masalah Sehari-hari / Game Edukasi Interaktif (Tahap Dekomposisi & Desain Logika)\" pada materi inti berikutnya, kamu akan diajak menyusun dokumen perancangan (storyboard dan desain logika) proyek game edukasi atau simulasi interaktif. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan7": {
+    "pertanyaan": "Pernahkah kamu mengikuti resep membuat kue tapi ternyata kuenya gosong; apa yang harus kamu 'perbaiki' (debug) pada perintah programmu jika tokoh animasimu malah berjalan mundur?",
+    "topik": "Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch",
+    "tujuan_pembelajaran": "Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch\" pada materi inti berikutnya, kamu akan diajak mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab1-pertemuan8": {
+    "pertanyaan": "Saat memainkan game buatan temanmu yang sangat seru, pernahkah kamu penasaran kode logika dan blok perintah seperti apa yang disembunyikan di balik layarnya?",
+    "topik": "Unjuk Kerja, Demonstrasi Proyek Scratch, dan Refleksi Penerapan Berpikir Komputasional",
+    "tujuan_pembelajaran": "Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.",
+    "pengantar_materi": "Imajinasi yang keren! Dalam dunia pemrograman visual, ide kreatif seperti yang kamu bayangkan dapat diwujudkan menjadi animasi dan gim interaktif lewat susunan blok logika. Melalui pembahasan \"Unjuk Kerja, Demonstrasi Proyek Scratch, dan Refleksi Penerapan Berpikir Komputasional\" pada materi inti berikutnya, kamu akan diajak mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan1": {
+    "pertanyaan": "Menurutmu, apa perbedaan gaya bahasamu saat mengomentari foto teman di Instagram dengan saat berdiskusi di grup kelas WhatsApp bersama guru-guru?",
+    "topik": "Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)\" pada materi inti berikutnya, kamu akan diajak mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan2": {
+    "pertanyaan": "Jika kamu melihat seseorang sengaja memancing pertengkaran di kolom komentar TikTok, apa tindakan paling bijak yang bisa kamu lakukan agar tidak ikut terpancing emosi?",
+    "topik": "Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital",
+    "tujuan_pembelajaran": "Murid mampu menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital\" pada materi inti berikutnya, kamu akan diajak menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan3": {
+    "pertanyaan": "Jika kamu ingin membuat poster ucapan selamat ulang tahun yang keren untuk sahabatmu hanya dalam 5 menit, aplikasi desain apa yang akan kamu gunakan dan mengapa?",
+    "topik": "Pengenalan Perangkat Teknologi Digital untuk Produksi Konten",
+    "tujuan_pembelajaran": "Murid mampu memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Pengenalan Perangkat Teknologi Digital untuk Produksi Konten\" pada materi inti berikutnya, kamu akan diajak memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan4": {
+    "pertanyaan": "Ide konten kreatif seperti apa yang bisa kamu buat di internet agar teman-teman sekelasmu berhenti mempercayai dan menyebarkan berita bohong (hoaks)?",
+    "topik": "Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif",
+    "tujuan_pembelajaran": "Murid mampu membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif\" pada materi inti berikutnya, kamu akan diajak membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan5": {
+    "pertanyaan": "Apakah adil jika seseorang mengambil foto hasil jepretanmu dari Google lalu mempostingnya di akunnya seolah-olah itu miliknya, dan bagaimana aturan internet mengaturnya?",
+    "topik": "Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi",
+    "tujuan_pembelajaran": "Murid mampu memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi\" pada materi inti berikutnya, kamu akan diajak memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan6": {
+    "pertanyaan": "Sebelum mengunggah poster tugas sekolahmu ke akun Instagram publik, hal-hal penting apa saja yang harus kamu periksa agar postinganmu aman dan tidak melanggar hak cipta orang lain?",
+    "topik": "Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab",
+    "tujuan_pembelajaran": "Murid mampu mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab\" pada materi inti berikutnya, kamu akan diajak mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem1-bab2-pertemuan7": {
+    "pertanyaan": "Setelah melihat pameran karya digital dari semua teman sekelas, konten milik siapa yang menurutmu paling mudah dipahami dan menginspirasi, serta apa alasannya?",
+    "topik": "Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital",
+    "tujuan_pembelajaran": "Murid mampu menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya.",
+    "pengantar_materi": "Sudut pandang yang inspiratif! Menjadi kreator konten digital yang andal bukan hanya soal desain menarik, tetapi juga soal etika, orisinalitas, dan menghargai hak cipta. Melalui pembahasan \"Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital\" pada materi inti berikutnya, kamu akan diajak menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan1": {
+    "pertanyaan": "Pernahkah komputer atau HP-mu tiba-tiba menjadi sangat lambat dan muncul banyak iklan aneh; kira-kira 'penyakit' digital apa yang sedang menyerang perangkatmu itu?",
+    "topik": "Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)\" pada materi inti berikutnya, kamu akan diajak menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan2": {
+    "pertanyaan": "Sama seperti rumah yang butuh pagar dan gembok, program keamanan apa saja yang wajib dipasang di laptopmu agar tidak mudah kemasukan virus jahat dari internet?",
+    "topik": "Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)",
+    "tujuan_pembelajaran": "Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)\" pada materi inti berikutnya, kamu akan diajak menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan3": {
+    "pertanyaan": "Jika kata sandimu hanya '123456' atau namamu sendiri, berapa detik waktu yang dibutuhkan seorang peretas (hacker) untuk mengambil alih akun game atau media sosialmu?",
+    "topik": "Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)",
+    "tujuan_pembelajaran": "Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)\" pada materi inti berikutnya, kamu akan diajak merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan4": {
+    "pertanyaan": "Meskipun seseorang berhasil menebak password Instagram-mu, bagaimana cara fitur Autentikasi Dua Langkah (2FA) menggagalkannya masuk menggunakan kode rahasia di HP-mu?",
+    "topik": "Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital",
+    "tujuan_pembelajaran": "Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital\" pada materi inti berikutnya, kamu akan diajak mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan5": {
+    "pertanyaan": "Mengapa memamerkan foto tiket pesawat atau kartu pelajarmu yang belum disensor ke media sosial bisa menjadi incaran empuk bagi pelaku kejahatan penipuan online?",
+    "topik": "Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital",
+    "tujuan_pembelajaran": "Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital\" pada materi inti berikutnya, kamu akan diajak mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan6": {
+    "pertanyaan": "Pernahkah kamu mengunduh aplikasi game gratis yang tiba-tiba meminta izin (permission) untuk mengakses daftar kontak dan kamera HP-mu, padahal game itu tidak butuh kamera?",
+    "topik": "Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online",
+    "tujuan_pembelajaran": "Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online\" pada materi inti berikutnya, kamu akan diajak mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan7": {
+    "pertanyaan": "Jika kamu menerima email atau pesan WA yang menyatakan kamu memenangkan undian Rp100 juta dan memintamu mengklik sebuah link asing, mengapa kamu tidak boleh mengkliknya?",
+    "topik": "Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing",
+    "tujuan_pembelajaran": "Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing\" pada materi inti berikutnya, kamu akan diajak mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  },
+  "kelas9-sem2-bab3-pertemuan8": {
+    "pertanyaan": "Jika kamu harus mengecek tingkat keamanan semua akun digital milik teman sebangkumu, daftar periksa (checklist) apa saja yang akan kamu gunakan untuk memastikan akunnya anti-hacker?",
+    "topik": "Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety",
+    "tujuan_pembelajaran": "Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.",
+    "pengantar_materi": "Kewaspadaan yang luar biasa! Dunia digital menyimpan berbagai celah keamanan yang hanya bisa ditangkal jika kita memahami cara kerja ancaman siber dan langkah perlindungannya. Melalui pembahasan \"Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety\" pada materi inti berikutnya, kamu akan diajak melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya. Yuk, lanjutkan ke Eksplorasi Konsep dan temukan jawabannya secara mendalam!"
+  }
+}

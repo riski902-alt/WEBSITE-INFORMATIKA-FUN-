@@ -28,6 +28,7 @@ import { TopBar } from './components/TopBar';
 import { LearningHeader } from './components/LearningHeader';
 import { ATPView } from './components/ATPView';
 import { AsesmenAwalView } from './components/AsesmenAwalView';
+import { PertanyaanEsensialView } from './components/PertanyaanEsensialView';
 import { StageActivityView } from './components/StageActivityView';
 import { BacaMateriView } from './components/BacaMateriView';
 
@@ -181,6 +182,13 @@ export const App: React.FC = () => {
     setActiveMenu(menuId);
   };
 
+  const handleMarkStageCompleted = (completedMenuId: MenuId) => {
+    const { updated } = completeMenuStage(progress, completedMenuId);
+    setProgress(updated);
+    saveMeetingProgress(userKey, meetingId, updated);
+    setLockedNotice(null);
+  };
+
   const handleCompleteStage = (completedMenuId: MenuId) => {
     const { updated, nextMenuId } = completeMenuStage(
       progress,
@@ -264,6 +272,20 @@ export const App: React.FC = () => {
                 isCompleted={progress['asesmen-awal'] === 'completed'}
                 onCompleteAndContinue={() =>
                   handleCompleteStage('asesmen-awal')
+                }
+              />
+            ) : activeMenu === 'pertanyaan-esensial' ? (
+              <PertanyaanEsensialView
+                meetingId={meetingId}
+                userKey={userKey}
+                judulPertemuan={currentMateri.judul_pertemuan}
+                atpSections={currentATPSections}
+                isCompleted={progress['pertanyaan-esensial'] === 'completed'}
+                onMarkCompleted={() =>
+                  handleMarkStageCompleted('pertanyaan-esensial')
+                }
+                onContinueNext={() =>
+                  handleCompleteStage('pertanyaan-esensial')
                 }
               />
             ) : (
