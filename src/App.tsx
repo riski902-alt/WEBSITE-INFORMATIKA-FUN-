@@ -22,10 +22,12 @@ import {
   saveMeetingProgress,
 } from './utils/firebaseSync';
 import { parseATPSections } from './utils/normalizeAssessment';
+import { parseJsonTolerant } from './utils/komponen-asesmenawal';
 import { LoginView } from './components/LoginView';
 import { TopBar } from './components/TopBar';
 import { LearningHeader } from './components/LearningHeader';
 import { ATPView } from './components/ATPView';
+import { AsesmenAwalView } from './components/AsesmenAwalView';
 import { StageActivityView } from './components/StageActivityView';
 import { BacaMateriView } from './components/BacaMateriView';
 
@@ -50,7 +52,7 @@ export const App: React.FC = () => {
   );
   const [lockedNotice, setLockedNotice] = useState<string | null>(null);
 
-  // Muat file JSON katalog materi dan ATP
+  // Muat katalog utama materi.json dan atp.json (Asesmen Awal dimuat mandiri oleh komponen-asesmenawal)
   useEffect(() => {
     let cancelled = false;
 
@@ -66,8 +68,18 @@ export const App: React.FC = () => {
           throw new Error(`Gagal memuat materi.json (Status ${materiRes.status})`);
         }
 
-        const materiJson = (await materiRes.json()) as MateriCatalog;
-        const atpJson = atpRes.ok ? ((await atpRes.json()) as ATPCatalog) : {};
+        const materiText = await materiRes.text();
+        const materiJson = parseJsonTolerant<MateriCatalog>(materiText);
+
+        let atpJson: ATPCatalog = {};
+        if (atpRes.ok) {
+          try {
+            const atpText = await atpRes.text();
+            atpJson = parseJsonTolerant<ATPCatalog>(atpText);
+          } catch {
+            atpJson = {};
+          }
+        }
 
         if (cancelled) return;
 
@@ -75,7 +87,7 @@ export const App: React.FC = () => {
         setAtpCatalog(atpJson);
 
         const params = new URLSearchParams(window.location.search);
-        const requestedId = params.get('id');
+        const requestedId = params.get('id') || params.get('redirect');
         const requestedMenu = params.get('menu') as MenuId | null;
         const firstId = Object.keys(materiJson)[0] || '';
         const validMeetingId =
@@ -244,6 +256,15 @@ export const App: React.FC = () => {
                 sections={currentATPSections}
                 isCompleted={progress.atp === 'completed'}
                 onCompleteAndContinue={() => handleCompleteStage('atp')}
+              />
+            ) : activeMenu === 'asesmen-awal' ? (
+              <AsesmenAwalView
+                meetingId={meetingId}
+                userKey={userKey}
+                isCompleted={progress['asesmen-awal'] === 'completed'}
+                onCompleteAndContinue={() =>
+                  handleCompleteStage('asesmen-awal')
+                }
               />
             ) : (
               <StageActivityView menuId={activeMenu} />

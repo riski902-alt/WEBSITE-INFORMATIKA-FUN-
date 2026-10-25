@@ -118,6 +118,10 @@ export const BacaMateriView: React.FC<BacaMateriViewProps> = ({
                     {atpSections.topik || materi.judul_pertemuan}
                   </p>
                 </div>
+              ) : menu.id === 'asesmen-awal' ? (
+                <div className="bg-white rounded-xl p-4 border border-[#E2E8F0] text-sm text-[#243447]">
+                  Soal diagnostik interaktif tersedia pada menu Asesmen Awal.
+                </div>
               ) : (
                 <div className="bg-white rounded-xl p-4 border border-dashed border-[#E2E8F0] text-sm text-[#607286]">
                   Konten masih kosong (file JSON belum dihubungkan).
