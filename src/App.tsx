@@ -54,9 +54,10 @@ export const App: React.FC = () => {
 
     async function fetchAllData() {
       try {
+        const baseUrl = import.meta.env.BASE_URL;
         const [materiRes, atpRes] = await Promise.all([
-          fetch('/materi.json'),
-          fetch('/atp.json'),
+          fetch(`${baseUrl}materi.json`),
+          fetch(`${baseUrl}atp.json`),
         ]);
 
         if (!materiRes.ok) {
