@@ -25,69 +25,71 @@ export const ATPView: React.FC<ATPViewProps> = ({
 }) => {
   return (
     <div className="flex flex-col gap-5 text-[#243447]">
-      {/* Deretan 4 Kartu ATP ke Bawah (1 Baris 1 Elemen) */}
-      <div className="flex flex-col gap-4">
-        {/* 1. Elemen */}
-        <div className="group bg-white border border-[#527DA8]/20 rounded-2xl p-5 sm:p-6 shadow-sm cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.015] hover:border-[#88D4AB] hover:shadow-[0_12px_28px_rgba(30,58,95,0.18)] active:-translate-y-0.5 active:scale-[0.99] flex items-start gap-4">
-          <div className="w-12 h-12 rounded-xl bg-[#DCEAF5] text-[#243B53] flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
-            <Compass size={26} weight="duotone" />
+      {/* 1 Kotak Utama Warna Putih yang membungkus ke-4 kotak elemen ATP */}
+      <div className="bg-white border-2 border-[#88D4AB]/55 rounded-2xl sm:rounded-3xl p-5 sm:p-7 shadow-[0_14px_34px_rgba(21,44,91,0.16)]">
+        <div className="flex flex-col gap-3.5 sm:gap-4">
+          {/* 1. Elemen — Nuansa Navy & Pale Blue */}
+          <div className="group bg-gradient-to-r from-[#EDF4FB] to-[#F7FAFE] border border-[#527DA8]/25 border-l-4 border-l-[#1E3A5F] rounded-xl sm:rounded-2xl p-4 sm:p-5 cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#527DA8]/55 hover:shadow-[0_10px_24px_rgba(30,58,95,0.12)] active:translate-y-0 active:scale-[0.995] flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#1E3A5F] text-[#88D4AB] shadow-sm flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
+              <Compass size={26} weight="duotone" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-base font-bold text-[#1E3A5F] mb-1">
+                Elemen
+              </h3>
+              <p className="text-[0.95rem] leading-relaxed text-[#3B526B]">
+                {sections.elemen.length > 0
+                  ? sections.elemen.join(', ')
+                  : 'Informatika'}
+              </p>
+            </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-base font-bold text-[#243B53] mb-1.5 transition-colors duration-300 group-hover:text-[#1E3A5F]">
-              Elemen
-            </h3>
-            <p className="text-[0.95rem] leading-relaxed text-[#607286]">
-              {sections.elemen.length > 0
-                ? sections.elemen.join(', ')
-                : 'Informatika'}
-            </p>
-          </div>
-        </div>
 
-        {/* 2. Capaian Pembelajaran */}
-        <div className="group bg-white border border-[#527DA8]/20 rounded-2xl p-5 sm:p-6 shadow-sm cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.015] hover:border-[#88D4AB] hover:shadow-[0_12px_28px_rgba(30,58,95,0.18)] active:-translate-y-0.5 active:scale-[0.99] flex items-start gap-4">
-          <div className="w-12 h-12 rounded-xl bg-[#DCEAF5] text-[#527DA8] flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
-            <BookBookmark size={26} weight="duotone" />
+          {/* 2. Capaian Pembelajaran — Nuansa Denim Blue */}
+          <div className="group bg-gradient-to-r from-[#E6F0FA] to-[#F5F9FD] border border-[#527DA8]/30 border-l-4 border-l-[#527DA8] rounded-xl sm:rounded-2xl p-4 sm:p-5 cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#527DA8]/65 hover:shadow-[0_10px_24px_rgba(82,125,168,0.15)] active:translate-y-0 active:scale-[0.995] flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#527DA8] text-white shadow-sm flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
+              <BookBookmark size={26} weight="duotone" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-base font-bold text-[#1E3A5F] mb-1">
+                Capaian Pembelajaran
+              </h3>
+              <p className="text-[0.95rem] leading-relaxed text-[#3B526B]">
+                {sections.capaianPembelajaran ||
+                  'Data Capaian Pembelajaran belum tersedia untuk pertemuan ini.'}
+              </p>
+            </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-base font-bold text-[#243B53] mb-1.5 transition-colors duration-300 group-hover:text-[#1E3A5F]">
-              Capaian Pembelajaran
-            </h3>
-            <p className="text-[0.95rem] leading-relaxed text-[#607286]">
-              {sections.capaianPembelajaran ||
-                'Data Capaian Pembelajaran belum tersedia untuk pertemuan ini.'}
-            </p>
-          </div>
-        </div>
 
-        {/* 3. Tujuan Pembelajaran */}
-        <div className="group bg-white border-2 border-[#88D4AB]/60 rounded-2xl p-5 sm:p-6 shadow-sm cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.015] hover:border-[#88D4AB] hover:shadow-[0_12px_28px_rgba(30,58,95,0.18)] active:-translate-y-0.5 active:scale-[0.99] flex items-start gap-4">
-          <div className="w-12 h-12 rounded-xl bg-[#E1EFE5] text-[#1E3A5F] flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
-            <Target size={26} weight="duotone" />
+          {/* 3. Tujuan Pembelajaran — Nuansa Mint Green (Aksen Utama Informatika Fun) */}
+          <div className="group bg-gradient-to-r from-[#E5F5EC] to-[#F3FBF6] border border-[#88D4AB]/65 border-l-4 border-l-[#3BA776] rounded-xl sm:rounded-2xl p-4 sm:p-5 cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#3BA776]/70 hover:shadow-[0_10px_24px_rgba(59,167,118,0.15)] active:translate-y-0 active:scale-[0.995] flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#88D4AB] text-[#1E3A5F] shadow-sm flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
+              <Target size={26} weight="duotone" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-base font-bold text-[#1E3A5F] mb-1">
+                Tujuan Pembelajaran
+              </h3>
+              <p className="text-[0.95rem] leading-relaxed text-[#243447] font-medium">
+                {sections.tujuanPembelajaran ||
+                  'Data Tujuan Pembelajaran belum tersedia untuk pertemuan ini.'}
+              </p>
+            </div>
           </div>
-          <div className="flex-1">
-            <h3 className="text-base font-bold text-[#243B53] mb-1.5 transition-colors duration-300 group-hover:text-[#1E3A5F]">
-              Tujuan Pembelajaran
-            </h3>
-            <p className="text-[0.95rem] leading-relaxed text-[#243447] font-medium">
-              {sections.tujuanPembelajaran ||
-                'Data Tujuan Pembelajaran belum tersedia untuk pertemuan ini.'}
-            </p>
-          </div>
-        </div>
 
-        {/* 4. Topik */}
-        <div className="group bg-white border border-[#527DA8]/20 rounded-2xl p-5 sm:p-6 shadow-sm cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.015] hover:border-[#88D4AB] hover:shadow-[0_12px_28px_rgba(30,58,95,0.18)] active:-translate-y-0.5 active:scale-[0.99] flex items-start gap-4">
-          <div className="w-12 h-12 rounded-xl bg-[#FEF3C7] text-[#92400E] flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
-            <Lightbulb size={26} weight="duotone" />
-          </div>
-          <div className="flex-1">
-            <h3 className="text-base font-bold text-[#243B53] mb-1.5 transition-colors duration-300 group-hover:text-[#1E3A5F]">
-              Topik
-            </h3>
-            <p className="text-[0.95rem] leading-relaxed text-[#607286]">
-              {sections.topik || judulPertemuan}
-            </p>
+          {/* 4. Topik — Nuansa Soft Gold (Selaras dengan Badge Pertemuan) */}
+          <div className="group bg-gradient-to-r from-[#FAF3E1] to-[#FDFBF4] border border-[#D8BD7B]/60 border-l-4 border-l-[#C9A44C] rounded-xl sm:rounded-2xl p-4 sm:p-5 cursor-pointer transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:border-[#C9A44C]/75 hover:shadow-[0_10px_24px_rgba(201,164,76,0.16)] active:translate-y-0 active:scale-[0.995] flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#D8BD7B] text-[#1E3A5F] shadow-sm flex items-center justify-center shrink-0 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 group-active:scale-95">
+              <Lightbulb size={26} weight="duotone" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-base font-bold text-[#1E3A5F] mb-1">
+                Topik
+              </h3>
+              <p className="text-[0.95rem] leading-relaxed text-[#3B526B]">
+                {sections.topik || judulPertemuan}
+              </p>
+            </div>
           </div>
         </div>
       </div>
