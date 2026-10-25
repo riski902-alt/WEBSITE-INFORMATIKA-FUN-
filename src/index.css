@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-title: 'Space Grotesk', sans-serif;
+  --font-nav: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-bg-main: #4A7298;
+  --color-box-bg: #1E3A5F;
+  --color-box-border: #88D4AB;
+  --color-box-hover: #23436b;
+  --color-menu-bg: #152C5B;
+  --color-soft-gold: #D8BD7B;
+  --color-muted-blue-gray: #B5C2D0;
+  --color-soft-green: #88D4AB;
+  --color-status-red: #E57373;
+  --color-denim-blue: #527DA8;
+  --color-navy-blue: #243B53;
+  --color-pale-blue: #DCEAF5;
+  --color-mint-green: #E1EFE5;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-main);
+    color: #ffffff;
+    font-family: var(--font-body);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-title);
+  }
+}
+
+/* Login gradient matching original style.css */
+.login-bg-gradient {
+  background: linear-gradient(135deg, #F7FBFF 0%, #AFC9D8 50%, #B7D8C8 100%);
+}
+
+/* ATP Header gradient matching original style.css */
+.atp-header-gradient {
+  background: linear-gradient(135deg, #243B53 0%, #527DA8 100%);
+}
+
+/* Rich HTML content inside ATP / Materi cards */
+.atp-html-content h3 {
+  font-family: var(--font-title);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1E3A5F;
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #527DA8;
+  display: inline-block;
+}
+
+.atp-html-content h3:first-child {
+  margin-top: 0;
+}
+
+.atp-html-content p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #243447;
+  margin-bottom: 0.75rem;
+}
+
+/* Custom thin scrollbar for horizontal 7-menu bar */
+.menu-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.menu-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+}
+
+.menu-scroll::-webkit-scrollbar-thumb {
+  background: rgba(136, 212, 171, 0.45);
+  border-radius: 9999px;
+}

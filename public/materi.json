@@ -1,0 +1,1055 @@
+{
+  "kelas7-sem1-bab1-pertemuan1": {
+    "judul_bab": "Bab 1: Konsep dan Analisis Data Terstruktur",
+    "judul_pertemuan": "Pertemuan 1: Konsep Dasar Data: Data Terstruktur vs. Tidak Terstruktur",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep himpunan data terstruktur dalam kehidupan sehari-hari.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membedakan karakteristik data terstruktur dan tidak terstruktur serta memberikan contoh penerapannya dalam kehidupan sehari-hari.</p><h3>Topik:</h3><p>Konsep Dasar Data: Data Terstruktur vs. Tidak Terstruktur</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab1/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab1/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab1/p1-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab1/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab1/p1-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab1/p1-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab1-pertemuan2": {
+    "judul_bab": "Bab 1: Konsep dan Analisis Data Terstruktur",
+    "judul_pertemuan": "Pertemuan 2: Pengidentifikasian dan Pemodelan Data Terstruktur di Kehidupan Sehari-hari",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep himpunan data terstruktur dalam kehidupan sehari-hari.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi serta memodelkan kumpulan data mentah menjadi bentuk tabel yang terdiri atas baris, kolom, dan atribut data secara sistematis.</p><h3>Topik:</h3><p>Pengidentifikasian dan Pemodelan Data Terstruktur di Kehidupan Sehari-hari</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab1/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab1/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab1/p2-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab1/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab1/p2-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab1/p2-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab1-pertemuan3": {
+    "judul_bab": "Bab 1: Konsep dan Analisis Data Terstruktur",
+    "judul_pertemuan": "Pertemuan 3: Antarmuka dan Elemen Dasar Lembar Kerja Pengolah Data (Spreadsheet)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep lembar kerja pengolah data.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali dan mengoperasikan elemen antarmuka spreadsheet seperti cell, range, row, column, serta melakukan entri data dasar.</p><h3>Topik:</h3><p>Antarmuka dan Elemen Dasar Lembar Kerja Pengolah Data (Spreadsheet)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab1/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab1/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab1/p3-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab1/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab1/p3-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab1/p3-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab1-pertemuan4": {
+    "judul_bab": "Bab 1: Konsep dan Analisis Data Terstruktur",
+    "judul_pertemuan": "Pertemuan 4: Pengolahan dan Pengorganisasian Data (Sorting, Filtering, dan Formula Dasar)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep lembar kerja pengolah data.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data.</p><h3>Topik:</h3><p>Pengolahan dan Pengorganisasian Data (Sorting, Filtering, dan Formula Dasar)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab1/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab1/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab1/p4-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab1/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab1/p4-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab1/p4-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab1-pertemuan5": {
+    "judul_bab": "Bab 1: Konsep dan Analisis Data Terstruktur",
+    "judul_pertemuan": "Pertemuan 5: Praktik Analisis dan Pengolahan Data Sederhana",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan pengurutan data (sorting), penyaringan data (filtering), serta menggunakan formula aritmatika dasar untuk mengolah data.</p><h3>Topik:</h3><p>Praktik Analisis dan Pengolahan Data Sederhana</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab1/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab1/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab1/p5-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab1/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab1/p5-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab1/p5-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab2-pertemuan1": {
+    "judul_bab": "Bab 2: Literasi Informasi dan Pencarian Digital",
+    "judul_pertemuan": "Pertemuan 1: Cara Kerja Mesin Pencari (Crawling, Indexing, dan Ranking)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami cara kerja dan penggunaan mesin pencari di internet.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan alur kerja mesin pencari dalam menemukan informasi melalui proses crawling, indexing, dan ranking.</p><h3>Topik:</h3><p>Cara Kerja Mesin Pencari (Crawling, Indexing, dan Ranking)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab2/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab2/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab2/p1-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab2/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab2/p1-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab2/p1-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab2-pertemuan2": {
+    "judul_bab": "Bab 2: Literasi Informasi dan Pencarian Digital",
+    "judul_pertemuan": "Pertemuan 2: Teknik Pencarian Efektif (Search Operators dan Advanced Search)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami...</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membedakan...</p><h3>Topik:</h3><p> Teknik Pencarian Efektif (Search Operators dan Advanced Search)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab2/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab2/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab2/p2-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab2/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab2/p2-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab2/p2-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab2-pertemuan3": {
+    "judul_bab": "Bab 2: Literasi Informasi dan Pencarian Digital",
+    "judul_pertemuan": "Pertemuan 3: Indikator Kualitas Informasi Digital (Akurasi, Relevansi, dan Aktual)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami cara kerja dan penggunaan mesin pencari di internet.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan teknik pencarian tingkat lanjut menggunakan kata kunci spesifik dan kata kunci penjelas (search operators) untuk memperoleh hasil presisi.</p><h3>Topik:</h3><p>Indikator Kualitas Informasi Digital (Akurasi, Relevansi, dan Aktual)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab2/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab2/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab2/p3-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab2/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab2/p3-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab2/p3-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab2-pertemuan4": {
+    "judul_bab": "Bab 2: Literasi Informasi dan Pencarian Digital",
+    "judul_pertemuan": "Pertemuan 4: Evaluasi Kredibilitas Sumber, Reputasi Penulis, dan Verifikasi Domain Web",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui kualitas informasi dan kredibilitas sumber informasi digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengevaluasi kredibilitas situs web melalui pemeriksaan domain, rekam jejak penulis, dan verifikasi silang sumber informasi.</p><h3>Topik:</h3><p>Evaluasi Kredibilitas Sumber dan Verifikasi Domain Web</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab2/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab2/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab2/p4-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab2/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab2/p4-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab2/p4-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab2-pertemuan5": {
+    "judul_bab": "Bab 2: Literasi Informasi dan Pencarian Digital",
+    "judul_pertemuan": "Pertemuan 5: Studi Kasus Pencarian dan Penilaian Kredibilitas Informasi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu melakukan investigasi informasi digital dan menyusun laporan evaluasi kredibilitas sumber informasi dari kasus yang diberikan.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan investigasi informasi digital dan menyusun laporan evaluasi kredibilitas sumber informasi dari kasus yang diberikan.</p><h3>Topik:</h3><p>Studi Kasus Pencarian dan Penilaian Kredibilitas Informasi</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab2/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab2/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab2/p5-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab2/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab2/p5-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab2/p5-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab3-pertemuan1": {
+    "judul_bab": "Bab 3: Berpikir Kritis dan Etika Media Digital",
+    "judul_pertemuan": "Pertemuan 1: Perbedaan Dasar Fakta vs. Opini dalam Informasi Digital",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui kualitas informasi dan kredibilitas sumber informasi digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membedakan pernyataan bersifat fakta objektif dan opini subjektif dalam berbagai artikel atau unggahan media digital.</p><h3>Topik:</h3><p>Perbedaan Fakta dan Opini dalam Informasi Digital</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab3/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab3/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab3/p1-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab3/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab3/p1-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab3/p1-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab3-pertemuan2": {
+    "judul_bab": "Bab 3: Berpikir Kritis dan Etika Media Digital",
+    "judul_pertemuan": "Pertemuan 2: Anatomi Hoaks, Bentuk Disinformasi, dan Teknik Fact-Checking Sederhana",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membedakan fakta, opini, dan hoaks.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi ciri-ciri hoaks dan menguji kebenaran berita menggunakan tools atau teknik fact-checking sederhana.</p><h3>Topik:</h3><p>Anatomi Hoaks dan Teknik Fact-Checking</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab3/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab3/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab3/p2-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab3/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab3/p2-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab3/p2-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab3-pertemuan3": {
+    "judul_bab": "Bab 3: Berpikir Kritis dan Etika Media Digital",
+    "judul_pertemuan": "Pertemuan 3: Pengenalan Ekosistem Media Pers Digital dan Standar Jurnalistik Dasar",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengenal ekosistem media pers digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memahami peran dan standar kerja media pers resmi dibandingkan dengan media informasi non-resmi di platform digital.</p><h3>Topik:</h3><p>Pengenalan Ekosistem Media Pers Digital dan Standar Jurnalistik Dasar</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab3/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab3/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab3/p3-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab3/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab3/p3-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab3/p3-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab3-pertemuan4": {
+    "judul_bab": "Bab 3: Berpikir Kritis dan Etika Media Digital",
+    "judul_pertemuan": "Pertemuan 4: Peran Media Pers vs. Media Sosial serta Etika Berwarganet (Digital Citizenship)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengenal ekosistem media pers digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis batasan etika berinteraksi di media sosial serta menerapkan prinsip-prinsip kewargaan digital yang bertanggung jawab.</p><h3>Topik:</h3><p>Peran Media Pers vs. Media Sosial serta Etika Berwarganet (Digital Citizenship)</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab3/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab3/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab3/p4-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab3/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab3/p4-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab3/p4-aslearning.html"
+    }
+  },
+  "kelas7-sem1-bab3-pertemuan5": {
+    "judul_bab": "Bab 3: Berpikir Kritis dan Etika Media Digital",
+    "judul_pertemuan": "Pertemuan 5: Proyek Analisis Kasus / Kampanye Anti-Hoaks",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan cara berpikir kritis dalam menyikapi berita dan ekosistem media digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang dan menyajikan konten kampanye anti-hoaks atau analisis kasus edukatif berbasis etika digital.</p><h3>Topik:</h3><p>Proyek Analisis Kasus / Kampanye Anti-Hoaks</p>",
+      "asesmen-awal": "materi/kelas7/sem1/bab3/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem1/bab3/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem1/bab3/p5-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem1/bab3/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem1/bab3/p5-penerapan.html",
+      "as-learning": "materi/kelas7/sem1/bab3/p5-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan1": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan Aplikasi Pengolah Dokumen, Antarmuka, dan Pemformatan Teks Dasar",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah dokumen.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengoperasikan fungsi dasar pengolah kata, memilih font, ukuran, serta gaya penulisan teks secara tepat.</p><h3>Topik:</h3><p>Pengenalan Aplikasi Pengolah Dokumen, Antarmuka, dan Pemformatan Teks Dasar</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p1-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p1-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p1-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan2": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 2: Pemformatan Paragraf, Tata Letak Halaman (Page Layout), Header/Footer, dan Penomoran",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengoperasikan fungsi dasar pengolah kata, memilih font, ukuran, serta gaya penulisan teks secara tepat.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengatur perataan paragraf, jarak spasi, margin halaman, serta menambahkan header, footer, dan nomor halaman.</p><h3>Topik:</h3><p>Pemformatan Paragraf, Tata Letak Halaman (Page Layout), Header/Footer, dan Penomoran</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p2-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p2-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p2-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan3": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 3: Sisipan Objek (Tabel, Gambar, Shape) dan Pengaturan Layout Gambar dalam Dokumen",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah dokumen.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyisipkan dan mengatur tata letak objek visual seperti tabel, gambar, dan shape agar dokumen terlihat rapi.</p><h3>Topik:</h3><p>Sisipan Objek (Tabel, Gambar, Shape) dan Pengaturan Layout Gambar dalam Dokumen</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p3-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p3-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p3-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan4": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 4: Fitur Lanjutan Dokumen: Pembuatan Daftar Isi Otomatis, Mail Merge, dan Referensi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah dokumen.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat daftar isi otomatis berbasis heading style serta memanfaatkan fitur persuratan massal (mail merge).</p><h3>Topik:</h3><p>Fitur Lanjutan Dokumen: Pembuatan Daftar Isi Otomatis, Mail Merge, dan Referensi</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p4-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p4-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p4-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan5": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 5: Praktik Mandiri Pembuatan Dokumen Laporan / Proposal Terstruktur dan Rapi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah dokumen.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyusun dokumen laporan formal yang rapi dan terstruktur lengkap dengan elemen pemformatan baku secara mandiri.</p><h3>Topik:</h3><p>Praktik Mandiri Pembuatan Dokumen Laporan / Proposal Terstruktur dan Rapi</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p5-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p5-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p5-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan6": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 6: Pengenalan Lembar Kerja Pengolah Data: Antarmuka, Cell, Row, Column, dan Tipe Data",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah lembar kerja.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali struktur lembar kerja spreadsheet dan menentukan tipe data yang sesuai (teks, angka, tanggal).</p><h3>Topik:</h3><p>Pengenalan Lembar Kerja Pengolah Data: Antarmuka, Cell, Row, Column, dan Tipe Data</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p6-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p6-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p6-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan7": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 7: Penggunaan Formula Dasar dan Fungsi Aritmatika (SUM, AVERAGE, MIN, MAX, COUNT)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>MMurid mampu memahami pemanfaatan perangkat teknologi pengolah lembar kerja.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengaplikasikan fungsi statistik dasar (SUM, AVERAGE, MIN, MAX, COUNT) untuk mengolah sekumpulan data numerik.</p><h3>Topik:</h3><p>Penggunaan Formula Dasar dan Fungsi Aritmatika (SUM, AVERAGE, MIN, MAX, COUNT)</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p7-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p7-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p7-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan8": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 8: Penerapan Fungsi Logika (IF) dan Pemformatan Bersyarat (Conditional Formatting)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah lembar kerja.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat keputusan otomatis menggunakan fungsi IF serta menonjolkan data tertentu dengan conditional formatting.</p><h3>Topik:</h3><p>Penerapan Fungsi Logika (IF) dan Pemformatan Bersyarat (Conditional Formatting)</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p8-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p8-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p8-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p8-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p8-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p8-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan9": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 9: Fungsi Pencarian & Rujukan (VLOOKUP / HLOOKUP) serta Pengolahan Data (Sort & Filter)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah lembar kerja.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengambil data dari tabel referensi menggunakan VLOOKUP/HLOOKUP dan mengorganisasi tabel secara dinamis.</p><h3>Topik:</h3><p>Fungsi Pencarian & Rujukan (VLOOKUP / HLOOKUP) serta Pengolahan Data (Sort & Filter)</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p9-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p9-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p9-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p9-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p9-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p9-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan10": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 10: Visualisasi Data Lembar Kerja: Pembuatan dan Pemformatan Grafik / Chart",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah lembar kerja.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyajikan data angka ke dalam bentuk diagram/grafik (batang, lingkaran, garis) yang komunikatif dan informatif.</p><h3>Topik:</h3><p>Visualisasi Data Lembar Kerja: Pembuatan dan Pemformatan Grafik / Chart</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p10-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p10-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p10-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p10-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p10-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p10-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan11": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 11: Pengenalan Aplikasi Presentasi, Struktur Slide, dan Prinsip Desain Visual Efektif",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah presentasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang struktur slide presentasi yang sistematis dengan memperhatikan alur informasi dan kontras warna.</p><h3>Topik:</h3><p>Pengenalan Aplikasi Presentasi, Struktur Slide, dan Prinsip Desain Visual Efektif</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p11-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p11-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p11-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p11-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p11-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p11-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan12": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 12: Penggunaan Objek, Media (Gambar & Video), serta Efek Transisi dan Animasi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah presentasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memperkaya materi presentasi dengan objek multimedia serta menerapkan transisi slide yang proporsional.</p><h3>Topik:</h3><p>Penggunaan Objek, Media (Gambar & Video), serta Efek Transisi dan Animasi</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p12-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p12-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p12-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p12-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p12-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p12-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan13": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 13: Teknik Penyampaian Presentasi: Fitur Slide Master, Presenter View, dan Etika Presentasi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah presentasi</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengelola konsistensi desain dengan Slide Master serta memperagakan teknik penyampaian presentasi di depan publik.</p><h3>Topik:</h3><p>Teknik Penyampaian Presentasi: Fitur Slide Master, Presenter View, dan Etika Presentasi</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p13-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p13-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p13-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p13-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p13-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p13-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan14": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 14: Integrasi Konten Antar-Aplikasi Perkantoran (Object Linking & Embedding: Import Tabel/Grafik)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi pengolah dokumen, lembar kerja, dan presentasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menghubungkan (linking) dan menyematkan (embedding) tabel data atau grafik spreadsheet ke dalam dokumen word dan slide presentasi.</p><h3>Topik:</h3><p>Integrasi Konten Antar-Aplikasi Perkantoran: Object Linking & Embedding</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p14-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p14-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p14-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p14-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p14-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p14-aslearning.html"
+    }
+  },
+  "kelas7-sem2-bab4-pertemuan15": {
+    "judul_bab": "Bab 4: Aplikasi Perkantoran",
+    "judul_pertemuan": "Pertemuan 15: Proyek Integrasi Aplikasi Perkantoran (Dokumen, Data, dan Slide)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan pemanfaatan perangkat teknologi pengolah dokumen, lembar kerja, dan presentasi secara terpadu.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyelesaikan proyek terpadu pembuatan laporan, analisis data, dan slide presentasi yang saling terhubung secara profesional.</p><h3>Topik:</h3><p>Proyek Integrasi Aplikasi Perkantoran (Dokumen, Data, dan Slide)</p>",
+      "asesmen-awal": "materi/kelas7/sem2/bab4/p15-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas7/sem2/bab4/p15-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas7/sem2/bab4/p15-eksplorasi.html",
+      "for-learning": "materi/kelas7/sem2/bab4/p15-forlearning.html",
+      "penerapan-konsep": "materi/kelas7/sem2/bab4/p15-penerapan.html",
+      "as-learning": "materi/kelas7/sem2/bab4/p15-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan1": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional dalam menyelesaikan persoalan yang mengandung himpunan data berstruktur sederhana dengan volume kecil.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan dan mengidentifikasi penerapan 4 pilar berpikir komputasional dalam pemecahan masalah kehidupan sehari-hari.</p><h3>Topik:</h3><p>Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma)</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p1-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p1-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p1-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan2": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 2: Konsep dan Pemodelan Data Berstruktur Sederhana (Tabel, Baris, Kolom, & List/Senarai Volume Kecil)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional dalam menyelesaikan persoalan yang mengandung himpunan data berstruktur sederhana dengan volume kecil.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memodelkan masalah data volume kecil ke dalam struktur tabel dan list secara terorganisir.</p><h3>Topik:</h3><p>Konsep dan Pemodelan Data Berstruktur Sederhana (Tabel, Baris, Kolom, & List/Senarai Volume Kecil)</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p2-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p2-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p2-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan3": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 3: Penerapan Dekomposisi dan Pengenalan Pola pada Pengorganisasian Data Berstruktur Sederhana",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional dalam menyelesaikan persoalan yang mengandung himpunan data berstruktur sederhana dengan volume kecil.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memecah masalah kompleks menjadi sub-masalah kecil (dekomposisi) dan menemukan kesamaan pola data.</p><h3>Topik:</h3><p>Penerapan Dekomposisi dan Pengenalan Pola pada Pengorganisasian Data Berstruktur Sederhana</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p3-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p3-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p3-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan4": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 4: Penerapan Abstraksi dan Algoritma Pencarian/Pengurutan Sederhana pada Data Volume Kecil",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional dalam menyelesaikan persoalan yang mengandung himpunan data berstruktur sederhana dengan volume kecil.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memilah informasi penting (abstraksi) serta mensimulasikan algoritma pengurutan dan pencarian data sederhana.</p><h3>Topik:</h3><p>Penerapan Abstraksi dan Algoritma Pencarian/Pengurutan Sederhana pada Data Volume Kecil</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p4-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p4-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p4-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan5": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 5: Pengenalan Pseudocode: Konsep, Notasi, Kosakata Terbatas, dan Simbol Standar Logika",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menuliskan sekumpulan instruksi dengan menggunakan sekumpulan kosakata terbatas atau simbol dalam format pseudocode.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memahami aturan penulisan notasi pseudocode dan konversi logika sederhana ke dalam instruksi terstruktur.</p><h3>Topik:</h3><p>Pengenalan Pseudocode: Konsep, Notasi, Kosakata Terbatas, dan Simbol Standar Logika</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p5-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p5-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p5-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan6": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 6: Penulisan Pseudocode Struktur Runtutan (Sequential) dan Variabel/Tipe Data Dasar",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menuliskan sekumpulan instruksi dengan menggunakan sekumpulan kosakata terbatas atau simbol dalam format pseudocode.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyusun alur instruksi berurutan (sequential) dan pendeklarasian variabel/tipe data menggunakan pseudocode.</p><h3>Topik:</h3><p>Penulisan Pseudocode Struktur Runtutan (Sequential) dan Variabel/Tipe Data Dasar</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p6-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p6-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p6-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan7": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 7: Penulisan Pseudocode Struktur Percabangan (Kondisional: IF-THEN-ELSE)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menuliskan sekumpulan instruksi dengan menggunakan sekumpulan kosakata terbatas atau simbol dalam format pseudocode.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menuliskan struktur algoritma percabangan (IF-THEN-ELSE) dalam bentuk pseudocode untuk pengambilan keputusan.</p><h3>Topik:</h3><p>Penulisan Pseudocode Struktur Percabangan (Kondisional: IF-THEN-ELSE)</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p7-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p7-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p7-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan8": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 8: Penulisan Pseudocode Struktur Perulangan (Looping: FOR/WHILE) dan Studi Kasus Pemecahan Masalah",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menuliskan sekumpulan instruksi dengan menggunakan sekumpulan kosakata terbatas atau simbol dalam format pseudocode.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang struktur algoritma perulangan (FOR/WHILE) dalam pseudocode untuk menyelesaikan masalah perhitungan berulang.</p><h3>Topik:</h3><p>Penulisan Pseudocode Struktur Perulangan (Looping: FOR/WHILE)</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p8-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p8-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p8-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p8-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p8-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p8-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab1-pertemuan9": {
+    "judul_bab": "Bab 1: Berpikir Komputasional",
+    "judul_pertemuan": "Pertemuan 9: Pemecahan Masalah Data Berstruktur dan Penyusunan Pseudocode Lanjutan",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional dan menuliskan sekumpulan instruksi dalam format pseudocode.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memecahkan kasus logika kompleks melalui analisis data terstruktur dan penulisan dokumen pseudocode secara mandiri.</p><h3>Topik:</h3><p>Pemecahan Masalah Data Berstruktur dan Penyusunan Pseudocode Lanjutan</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab1/p9-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab1/p9-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab1/p9-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab1/p9-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab1/p9-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab1/p9-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan1": {
+    "judul_bab": "Bab 2: Sistem Komputer",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan Sistem Komputer dan Perangkat Keras (Hardware Input, Process, Output, Storage)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mendeskripsikan komponen, fungsi, dan cara kerja komputer.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengklasifikasikan komponen perangkat keras komputer berdasarkan fungsinya (input, proses, output, penyimpan).</p><h3>Topik:</h3><p>Pengenalan Sistem Komputer dan Perangkat Keras (Hardware Input, Process, Output, Storage)</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab2/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab2/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab2/p1-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab2/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab2/p1-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab2/p1-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan2": {
+    "judul_bab": "Bab 2: Sistem Komputer",
+    "judul_pertemuan": "Pertemuan 2: Perangkat Lunak (Software System & Application) serta Interaksi Antara Hardware dan Software",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mendeskripsikan komponen, fungsi, dan cara kerja komputer.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membedakan sistem operasi dan aplikasi serta menjelaskan mekanisme interaksi antara perangkat keras dan sistem operasi.</p><h3>Topik:</h3><p>Perangkat Lunak (Software System & Application) serta Interaksi Antara Hardware dan Software</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab2/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab2/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab2/p2-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab2/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab2/p2-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab2/p2-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan3": {
+    "judul_bab": "Bab 2: Sistem Komputer",
+    "judul_pertemuan": "Pertemuan 3: Siklus Pemrosesan Data dan Cara Kerja Komputer (CPU, Memori Utama/RAM, ALU, dan Bus Data)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mendeskripsikan komponen, fungsi, dan cara kerja komputer.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan alur siklus mengambil-menerjemahkan-mengesekusi (fetch-decode-execute) pada unit pemrosesan sentral (CPU).</p><h3>Topik:</h3><p>Siklus Pemrosesan Data dan Cara Kerja Komputer</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab2/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab2/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab2/p3-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab2/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab2/p3-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab2/p3-aslearning.html"
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan4": {
+    "judul_bab": "Bab 2: Sistem Komputer",
+    "judul_pertemuan": "Pertemuan 4: Analisis Komponen Komputer, Cara Kerja Pemrosesan",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mendeskripsikan komponen, fungsi, dan cara kerja komputer secara komprehensif.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mendiagnosis keterkaitan antarkomponen sistem komputer dan arsitektur jaringan melalui analisis studi kasus.</p><h3>Topik:</h3><p>Analisis Komponen Komputer dan Cara Kerja Pemrosesan</p>",
+      "asesmen-awal": "materi/kelas8/sem1/bab2/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem1/bab2/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem1/bab2/p4-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem1/bab2/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem1/bab2/p4-penerapan.html",
+      "as-learning": "materi/kelas8/sem1/bab2/p4-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan1": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 1: Konsep Dasar Jaringan Komputer dan Jaringan Lokal (LAN)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan prinsip kerja pengiriman data dalam jaringan lokal (LAN) serta manfaat konektivitas antarkomputer.</p><h3>Topik:</h3><p>Konsep Dasar Jaringan Komputer dan Jaringan Lokal (LAN)</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p1-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p1-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p1-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan2": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 2: Konektivitas Jaringan Kabel: Jenis Kabel (UTP/STP, Fiber Optik) & Perangkat Pendukung",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi jenis kabel jaringan (UTP/STP, Fiber) dan perangkat keras pendukungnya (switch, hub).</p><h3>Topik:</h3><p>Konektivitas Jaringan Kabel: Jenis Kabel (UTP/STP, Fiber Optik) & Perangkat Pendukung</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p2-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p2-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p2-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan3": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 3: Konektivitas Jaringan Nirkabel: Wi-Fi, Bluetooth, Seluler, dan Gelombang Frekuensi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis karakteristik media nirkabel (Wi-Fi, Bluetooth, jaringan seluler) serta faktor pendorong kecepatannya.</p><h3>Topik:</h3><p>Konektivitas Jaringan Nirkabel: Wi-Fi, Bluetooth, Seluler, dan Gelombang Frekuensi</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p3-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p3-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p3-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan4": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 4: Konsep Jaringan Internet, Pengalamatan IP (IP Address), DNS, dan Router",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan alur kerja pengalamatan IP, translasi nama domain oleh DNS, dan fungsi router dalam penerusan data.</p><h3>Topik:</h3><p>Konsep Jaringan Internet, Pengalamatan IP (IP Address), DNS, dan Router</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p4-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p4-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p4-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan5": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 5: Keamanan dan Etika Penggunaan Jaringan (Wi-Fi Publik, Enkripsi HTTPS, & Password)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi risiko transmisi data di Wi-Fi publik dan menerapkan praktik keamanan menggunakan koneksi terenkripsi (HTTPS).</p><h3>Topik:</h3><p>Keamanan dan Etika Penggunaan Jaringan (Wi-Fi Publik, Enkripsi HTTPS, & Password)</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p5-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p5-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p5-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan6": {
+    "judul_bab": "Bab 3: Jaringan Komputer dan Internet",
+    "judul_pertemuan": "Pertemuan 6: Analisis Konektivitas Jaringan Lokal dan Internet",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami konsep dan penerapan konektivitas jaringan lokal dan internet baik kabel maupun nirkabel.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memetakan dan mengevaluasi rancangan skenario konektivitas jaringan lokal dan internet pada suatu lingkungan tertentu.</p><h3>Topik:</h3><p>Analisis Konektivitas Jaringan Lokal dan Internet</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab3/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab3/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab3/p6-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab3/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab3/p6-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab3/p6-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan1": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 1: Bentuk dan Jenis Perundungan Digital (Cyberbullying, Cyberharassment, Doxxing)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami dampak perundungan digital (cyberbullying).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi berbagai bentuk dan praktik perundungan siber yang marak terjadi di ekosistem digital.</p><h3>Topik:</h3><p>Bentuk dan Jenis Perundungan Digital (Cyberbullying, Cyberharassment, Doxxing)</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p1-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p1-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p1-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan2": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 2: Dampak Psikologis, Sosial, serta Aspek Hukum Perundungan Digital",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami dampak perundungan digital (cyberbullying).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis konsekuensi negatif perundungan digital terhadap kesehatan mental, hubungan sosial, dan implikasi hukumnya.</p><h3>Topik:</h3><p>Dampak Psikologis, Sosial, serta Aspek Hukum Perundungan Digital</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p2-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p2-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p2-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan3": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 3: Strategi Pencegahan, Pelaporan (Reporting), dan Penanganan Kasus Cyberbullying",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami dampak perundungan digital (cyberbullying).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memperagakan langkah penanganan awal, mekanisme pelaporan (reporting), serta dukungan bagi korban cyberbullying.</p><h3>Topik:</h3><p>Strategi Pencegahan, Pelaporan (Reporting), dan Penanganan Kasus Cyberbullying</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p3-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p3-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p3-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan4": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 4: Pengenalan Rekam Jejak Digital (Digital Footprint): Jejak Aktif vs Jejak Pasif",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pentingnya menjaga rekam jejak digital (digital footprint).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membedakan rekam jejak digital aktif (postingan, komentar) dan pasif (cookies, IP log) yang tertinggal di internet.</p><h3>Topik:</h3><p>Pengenalan Rekam Jejak Digital (Digital Footprint): Jejak Aktif vs Jejak Pasif</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p4-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p4-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p4-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan5": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 5: Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pentingnya menjaga rekam jejak digital (digital footprint).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis dampak jangka panjang dari rekam jejak digital negatif terhadap citra diri dan karir di masa depan.</p><h3>Topik:</h3><p>Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p5-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p5-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p5-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan6": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 6: Manajemen Rekam Jejak Digital & Pengaturan Privasi Akun (Digital Hygiene)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pentingnya menjaga rekam jejak digital (digital footprint).</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengonfigurasi setelan privasi akun media sosial serta melakukan tindakan perawatan kebersihan digital (digital hygiene).</p><h3>Topik:</h3><p>Manajemen Rekam Jejak Digital & Pengaturan Privasi Akun (Digital Hygiene)</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p6-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p6-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p6-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan7": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 7: Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati di Media Sosial",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan toleransi dan empati di dunia digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan norma kesantunan berwarganet (netiquette) serta berkomunikasi dengan empati saat berinteraksi online.</p><h3>Topik:</h3><p>Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati di Media Sosial</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p7-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p7-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p7-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan8": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 8: Menghargai Keragaman Pandangan dan Mencegah Ujaran Kebencian (Hate Speech)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan toleransi dan empati di dunia digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menunjukkan sikap toleran terhadap perbedaan pendapat di media sosial dan menghindari penyebaran ujaran kebencian</p><h3>Topik:</h3><p>Menghargai Keragaman Pandangan dan Mencegah Ujaran Kebencian (Hate Speech)</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p8-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p8-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p8-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p8-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p8-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p8-aslearning.html"
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan9": {
+    "judul_bab": "Bab 4: Dampak Sosial Informatika",
+    "judul_pertemuan": "Pertemuan 9: Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan toleransi dan empati di dunia digital secara nyata.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang karya kampanye digital kreatif yang menyuarakan perilaku etis, bebas cyberbullying, dan ramah rekam jejak.</p><h3>Topik:</h3><p>Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat</p>",
+      "asesmen-awal": "materi/kelas8/sem2/bab4/p9-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas8/sem2/bab4/p9-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas8/sem2/bab4/p9-eksplorasi.html",
+      "for-learning": "materi/kelas8/sem2/bab4/p9-forlearning.html",
+      "penerapan-konsep": "materi/kelas8/sem2/bab4/p9-penerapan.html",
+      "as-learning": "materi/kelas8/sem2/bab4/p9-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan1": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma) & Antarmuka Aplikasi Scratch",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali komponen antarmuka lingkungan pemrograman visual Scratch dan mereview 4 pilar berpikir komputasional.</p><h3>Topik:</h3><p> Pengenalan 4 Pilar Berpikir Komputasional (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma) & Antarmuka Aplikasi Scratch</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p1-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p1-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p1-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan2": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 2: Pemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch (Motion, Looks, Sound, & Events)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengonversi urutan algoritma masalah harian menjadi barisan blok perintah dasar di Scratch.</p><h3>Topik:</h3><p> Pemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch (Motion, Looks, Sound, & Events)</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p2-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p2-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p2-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan3": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 3: Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan blok perintah perulangan (repeat/forever) untuk menyederhanakan struktur alur program Scratch.</p><h3>Topik:</h3><p> Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p3-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p3-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p3-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan4": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 4: Penerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else) dan Logika Pengambilan Keputusan",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menggunakan kondisi percabangan (if-then-else) dalam program Scratch untuk mengontrol alur interaksi objek.</p><h3>Topik:</h3><p> Penerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else) dan Logika Pengambilan Keputusan</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p4-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p4-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p4-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan5": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 5: Penerapan Struktur Data (List) dan Algoritma Sederhana di Scratch",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika.</p><h3>Topik:</h3><p></p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p5-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p5-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p5-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan6": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 6: Perancangan Proyek Scratch: Simulasi Masalah Sehari-hari / Game Edukasi Interaktif (Tahap Dekomposisi & Desain Logika)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menyusun dokumen perancangan (storyboard dan desain logika) proyek game edukasi atau simulasi interaktif.</p><h3>Topik:</h3><p> Perancangan Proyek Scratch: Simulasi Masalah Sehari-hari / Game Edukasi Interaktif (Tahap Dekomposisi & Desain Logika)</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p6-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p6-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p6-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan7": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 7: Pembuatan, Pengujian, dan Perbaikan (Debugging) Kode Proyek Scratch secara Mandiri/Kelompok",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.</p><h3>Topik:</h3><p> Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p7-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p7-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p7-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan8": {
+    "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
+    "judul_pertemuan": "Pertemuan 8: Unjuk Kerja, Demonstrasi Proyek Scratch, dan Refleksi Penerapan Berpikir Komputasional",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.</p><h3>Topik:</h3><p> Unjuk Kerja, Demonstrasi Proyek Scratch, dan Refleksi Penerapan Berpikir Komputasional</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab1/p8-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p8-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p8-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab1/p8-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab1/p8-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab1/p8-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan1": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi.</p><h3>Topik:</h3><p>Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p1-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p1-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p1-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan2": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 2: Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat.</p><h3>Topik:</h3><p>Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p2-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p2-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p2-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan3": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 3: Pengenalan Perangkat Teknologi Digital untuk Produksi Konten (Aplikasi Desain Visual, Pengolah Teks, & Multimedia)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>MMurid mampu memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi.</p><h3>Topik:</h3><p>Pengenalan Perangkat Teknologi Digital untuk Produksi Konten</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p3-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p3-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p3-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan4": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 4: Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif (Infografis, Poster, atau Video Pendek)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek.</p><h3>Topik:</h3><p>Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p4-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p4-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p4-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan5": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 5: Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah.</p><h3>Topik:</h3><p>Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p5-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p5-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p5-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan6": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 6: Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi.</p><h3>Topik:</h3><p>Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p6-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p6-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p6-aslearning.html"
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan7": {
+    "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
+    "judul_pertemuan": "Pertemuan 7: Pameran Karya Konten Digital Positif, Evaluasi Hasil Diseminasi, dan Refleksi Ruang Publik Virtual",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten serta mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya.</p><h3>Topik:</h3><p>Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital</p>",
+      "asesmen-awal": "materi/kelas9/sem1/bab2/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p7-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem1/bab2/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem1/bab2/p7-penerapan.html",
+      "as-learning": "materi/kelas9/sem1/bab2/p7-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan1": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 1: Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.</p><h3>Topik:</h3><p>Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p1-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p1-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p1-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p1-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p1-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p1-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan2": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 2: Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.</p><h3>Topik:</h3><p>Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p2-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p2-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p2-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p2-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p2-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p2-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan3": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 3: Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.</p><h3>Topik:</h3><p>Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p3-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p3-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p3-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p3-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p3-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p3-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan4": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 4: Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.</p><h3>Topik:</h3><p>Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p4-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p4-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p4-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p4-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p4-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p4-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan5": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 5: Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.</p><h3>Topik:</h3><p>Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p5-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p5-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p5-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p5-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p5-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p5-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan6": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 6: Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.</p><h3>Topik:</h3><p>Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p6-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p6-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p6-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p6-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p6-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p6-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan7": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 7: Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.</p><h3>Topik:</h3><p>Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p7-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p7-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p7-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p7-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p7-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p7-aslearning.html"
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan8": {
+    "judul_bab": "Bab 3: Keamanan Digital",
+    "judul_pertemuan": "Pertemuan 8: Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety",
+    "konten": {
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari malware, membuat kata sandi aman, memilah informasi privat/publik, serta melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.</p><h3>Topik:</h3><p>Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety</p>",
+      "asesmen-awal": "materi/kelas9/sem2/bab3/p8-asesmen.html",
+      "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p8-pertanyaan.html",
+      "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p8-eksplorasi.html",
+      "for-learning": "materi/kelas9/sem2/bab3/p8-forlearning.html",
+      "penerapan-konsep": "materi/kelas9/sem2/bab3/p8-penerapan.html",
+      "as-learning": "materi/kelas9/sem2/bab3/p8-aslearning.html"
+    }
+  }
+}

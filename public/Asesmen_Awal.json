@@ -1,0 +1,4451 @@
+{
+  "kelas7-sem1-bab1-pertemuan1": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "File berupa rekaman video praktik olahraga termasuk ke dalam kategori data ....",
+      "pilihan": [
+        "Tidak memiliki format baris dan kolom yang baku",
+        "Sulit diolah secara otomatis menggunakan rumus matematika",
+        "Mudah dicari menggunakan fitur penyaringan (filter) tabel",
+        "Contohnya meliputi gambar, audio, dan video"
+      ],
+      "jawaban": "tidak terstruktur",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Disusun rapi dalam baris dan kolom",
+          "kanan": "Data Terstruktur"
+        },
+        {
+          "kiri": "Bentuknya bebas, seperti teks panjang atau foto",
+          "kanan": "Data Tidak Terstruktur"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab1-pertemuan2": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Informasi utama yang menjadi judul pada bagian paling atas dari sebuah kolom tabel disebut ....",
+      "pilihan": [
+        "Nama Peminjam",
+        "Judul Buku",
+        "Warna sampul buku",
+        "Tanggal Pinjam"
+      ],
+      "jawaban": "atribut",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Umur",
+          "kanan": "Atribut/Judul Kolom"
+        },
+        {
+          "kiri": "13 Tahun",
+          "kanan": "Isi Data"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab1-pertemuan3": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Tanda huruf (seperti A, B, C) pada bagian atas spreadsheet menunjukkan bagian ....",
+      "pilihan": [
+        "Kolom diwakili oleh huruf (A, B, C...)",
+        "Baris diwakili oleh angka (1, 2, 3...)",
+        "Kolom diwakili oleh angka (1, 2, 3...)",
+        "Baris diwakili oleh huruf (A, B, C...)"
+      ],
+      "jawaban": "kolom",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Huruf A, B, C",
+          "kanan": "Penanda Kolom (Column)"
+        },
+        {
+          "kiri": "Angka 1, 2, 3",
+          "kanan": "Penanda Baris (Row)"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab1-pertemuan4": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Fitur yang berfungsi untuk menampilkan baris data tertentu yang memenuhi kriteria (misalnya hanya menampilkan perempuan) disebut ....",
+      "pilihan": [
+        "+ (tambah)",
+        "- (kurang)",
+        "? (tanya)",
+        "* (kali)"
+      ],
+      "jawaban": "filtering",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Sorting",
+          "kanan": "Mengurutkan data"
+        },
+        {
+          "kiri": "Filtering",
+          "kanan": "Menyaring data tertentu"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab1-pertemuan5": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Dalam spreadsheet, tanda bintang (*) digunakan untuk operasi aritmatika berupa ....",
+      "pilihan": [
+        "Saldo dapat dihitung secara otomatis",
+        "Kertas tidak akan pernah robek",
+        "Mudah mengedit nominal jika terjadi kesalahan",
+        "Tidak membutuhkan listrik"
+      ],
+      "jawaban": "perkalian",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Menjumlahkan uang",
+          "kanan": "Rumus Penjumlahan (+)"
+        },
+        {
+          "kiri": "Menghitung sisa saldo",
+          "kanan": "Rumus Pengurangan (-)"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab2-pertemuan1": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Google, Bing, dan Yahoo adalah contoh dari aplikasi berbasis web yang disebut ....",
+      "pilihan": [
+        "Mesin pencari menyimpan kata kunci dari halaman web",
+        "Mesin pencari mengategorikan informasi ke dalam database besar",
+        "Mesin pencari memblokir situs-situs yang tidak aman",
+        "Mesin pencari menulis artikel baru"
+      ],
+      "jawaban": "mesin pencari",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Indexing",
+          "kanan": "Pustakawan menyusun buku di rak sesuai kategori"
+        },
+        {
+          "kiri": "Ranking",
+          "kanan": "Pustakawan merekomendasikan buku terbaik"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab2-pertemuan2": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Kata-kata inti yang kita ketikkan di kolom Google untuk mencari informasi disebut dengan ....",
+      "pilihan": [
+        "\"kucing\"",
+        "\"cara merawat kucing anggora yang baru lahir\"",
+        "\"sejarah kemerdekaan indonesia filetype:pdf\"",
+        "\"buku\""
+      ],
+      "jawaban": "kata kunci",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Kata kunci umum (\"apel\")",
+          "kanan": "Hasil sangat banyak dan campur aduk"
+        },
+        {
+          "kiri": "Kata kunci spesifik (\"cara menanam pohon apel\")",
+          "kanan": "Hasil lebih sedikit namun relevan"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab2-pertemuan3": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Kebenaran suatu informasi digital yang bisa dibuktikan faktanya berkaitan dengan indikator ....",
+      "pilihan": [
+        "Didukung oleh bukti atau data yang jelas",
+        "Berasal dari sumber atau saksi mata yang kredibel",
+        "Murni berdasarkan tebakan penulis",
+        "Tidak melebih-lebihkan fakta yang ada"
+      ],
+      "jawaban": "akurasi",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Mencari jadwal bus terbaru, tapi yang muncul jadwal tahun 2010",
+          "kanan": "Tidak Aktual"
+        },
+        {
+          "kiri": "Mencari cara berenang, tapi yang muncul cara bermain catur",
+          "kanan": "Tidak Relevan"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab2-pertemuan4": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Jika kita tidak menemukan nama penulis pada sebuah artikel berita digital, situs tersebut dikatakan memiliki reputasi penulis yang berstatus .... (tanpa nama)",
+      "pilihan": [
+        "Memeriksa siapa nama penulis artikel tersebut",
+        "Melihat jenis ekstensi domain web-nya",
+        "Mengecek tanggal informasi diterbitkan",
+        "Melihat seberapa bagus warna latar belakang situsnya"
+      ],
+      "jawaban": "anonim",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Reputasi Penulis",
+          "kanan": "Memeriksa profil pembuat artikel"
+        },
+        {
+          "kiri": "Verifikasi Silang (Cross-check)",
+          "kanan": "Mencari berita di beberapa web berbeda"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab2-pertemuan5": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Informasi yang sengaja dipalsukan atau direkayasa untuk menipu pembacanya disebut ....",
+      "pilihan": [
+        "URL (alamat situs) sumber informasi asli",
+        "Tanggal pengecekan fakta dilakukan",
+        "Nama penulis atau redaksi berita",
+        "Merek ponsel yang digunakan untuk mencari"
+      ],
+      "jawaban": "hoaks",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Mencari fakta di Google menggunakan operator spesifik",
+          "kanan": "Penelusuran Digital"
+        },
+        {
+          "kiri": "Menulis hasil temuan ke dalam satu lembar kesimpulan",
+          "kanan": "Penyusunan Laporan Evaluasi"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab3-pertemuan1": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Informasi tentang waktu, tempat kejadian, dan angka statistik yang bisa dibuktikan kebenarannya tergolong sebagai ....",
+      "pilihan": [
+        "Didukung oleh data dan statistik yang jelas",
+        "Merupakan peristiwa yang benar-benar telah terjadi",
+        "Sering menggunakan kata \"menurut saya\" atau \"mungkin\"",
+        "Bersifat objektif dan tidak dipengaruhi perasaan pribadi"
+      ],
+      "jawaban": "fakta",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Objektif (Kenyataan apa adanya)",
+          "kanan": "Fakta"
+        },
+        {
+          "kiri": "Subjektif (Perasaan pribadi)",
+          "kanan": "Opini"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab3-pertemuan2": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Tindakan memverifikasi dan memeriksa kebenaran suatu berita menggunakan alat bantu digital disebut dengan .... (dalam bahasa Inggris: Fact-Checking)",
+      "pilihan": [
+        "Menyalin teks berita dan mencari di mesin pencari (Google)",
+        "Menggunakan fitur pencarian gambar terbalik (Reverse Image Search)",
+        "Membagikan langsung ke teman untuk ditanyakan",
+        "Mengecek ke situs penyedia klarifikasi hoaks"
+      ],
+      "jawaban": "cek fakta",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Google Reverse Image Search",
+          "kanan": "Menguji apakah foto asli atau hasil editan/konteks lama"
+        },
+        {
+          "kiri": "Pencarian dengan \"Tanda Kutip\"",
+          "kanan": "Menguji teks atau judul artikel"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab3-pertemuan3": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Prinsip jurnalistik yang mengharuskan wartawan mendengarkan penjelasan dari kedua belah pihak yang berselisih disebut asas .... (Berimbang)",
+      "pilihan": [
+        "Media resmi melalui proses penyuntingan (editing) oleh ahlinya",
+        "Media resmi bisa dituntut jika menyebarkan kebohongan",
+        "Media resmi selalu memihak pada satu pendapat saja",
+        "Akun anonim tidak mematuhi kode etik jurnalistik"
+      ],
+      "jawaban": "berimbang",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Jurnalis/Wartawan",
+          "kanan": "Mencari fakta dan meliput berita di lapangan"
+        },
+        {
+          "kiri": "Editor",
+          "kanan": "Memeriksa dan memperbaiki tulisan sebelum diterbitkan"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab3-pertemuan4": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Penduduk atau warga yang beraktivitas di dunia maya (internet) sering disebut dengan istilah ....",
+      "pilihan": [
+        "Ikut menyalahkan salah satu pihak",
+        "Mengabaikan dan tidak ikut memperkeruh suasana",
+        "Melaporkan (report) jika komentar tersebut berisi ujaran kebencian",
+        "Membagikan (share) tangkapan layar pertengkaran itu ke mana-mana"
+      ],
+      "jawaban": "warganet",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Media Pers",
+          "kanan": "Sarana penyampaian informasi jurnalistik resmi"
+        },
+        {
+          "kiri": "Media Sosial",
+          "kanan": "Sarana interaksi sosial santai antar pengguna"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem1-bab3-pertemuan5": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Kegiatan mengomunikasikan pesan edukatif (seperti menolak hoaks) kepada khalayak ramai dengan karya visual disebut proyek ....",
+      "pilihan": [
+        "Alasan memilih pesan tersebut",
+        "Harga komputer yang digunakan",
+        "Pesan moral dari kasus hoaks yang diangkat",
+        "Harapan agar teman-teman lebih kritis terhadap informasi"
+      ],
+      "jawaban": "kampanye",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "\"Saring sebelum Sharing\"",
+          "kanan": "Cek fakta sebelum membagikan informasi"
+        },
+        {
+          "kiri": "\"Kritik Boleh, Menghina Jangan\"",
+          "kanan": "Hindari mengejek di kolom komentar"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan1": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Gaya penulisan untuk memiringkan kata asing dalam bahasa Inggris pada dokumen disebut efek ....",
+      "pilihan": [
+        "Mengubah jenis huruf (Font Name) menjadi Times New Roman",
+        "Mengubah ukuran huruf (Font Size) menjadi 12",
+        "Menambahkan efek transisi slide",
+        "Memberi warna pada teks (Font Color)"
+      ],
+      "jawaban": "italic",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Font Size",
+          "kanan": "Mengubah ukuran besar/kecil huruf"
+        },
+        {
+          "kiri": "Font",
+          "kanan": "Mengubah jenis gaya huruf"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan2": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Posisi kertas yang berdiri tegak lurus ke atas dalam pengaturan dokumen disebut orientasi ....",
+      "pilihan": [
+        "Menampilkan judul laporan di bagian atas setiap halaman",
+        "Menampilkan nomor halaman di bagian bawah",
+        "Membuat huruf kapital secara otomatis",
+        "Menampilkan nama penulis dokumen secara konsisten di tiap halaman"
+      ],
+      "jawaban": "portrait",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Header",
+          "kanan": "Bagian tepi atas dokumen"
+        },
+        {
+          "kiri": "Footer",
+          "kanan": "Bagian tepi bawah dokumen"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan3": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Agar gambar tidak tertimpa huruf dan tulisan bisa mengalir rapi di sekitar gambar, kita perlu mengatur fitur Wrap ....",
+      "pilihan": [
+        "Lingkaran (Oval)",
+        "Panah (Arrow)",
+        "Kotak (Rectangle)",
+        "Kamera foto"
+      ],
+      "jawaban": "text",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "In Front of Text",
+          "kanan": "Gambar menutupi teks tulisan"
+        },
+        {
+          "kiri": "Behind Text",
+          "kanan": "Gambar berada di belakang teks tulisan"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan4": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Untuk membuat daftar isi otomatis, judul utama seperti \"BAB I PENDAHULUAN\" harus diformat menggunakan style Heading ....",
+      "pilihan": [
+        "Dokumen Utama (Master Document/Surat)",
+        "Sumber Data (Data Source/Daftar Nama)",
+        "Koneksi internet yang sangat cepat",
+        "Flashdisk baru"
+      ],
+      "jawaban": "1",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Dokumen Utama",
+          "kanan": "File Word berisi isi surat yang belum ada namanya"
+        },
+        {
+          "kiri": "Sumber Data",
+          "kanan": "Tabel Excel berisi nama tamu undangan"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan5": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Halaman judul yang berada paling awal dalam sebuah dokumen proposal disebut halaman ....",
+      "pilihan": [
+        "Spasi antar baris (Line spacing) 1.15 atau 1.5",
+        "Perataan teks (Justify)",
+        "Margin semua sisi 0 cm",
+        "Penggunaan kertas berukuran A4"
+      ],
+      "jawaban": "cover",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Agar paragraf rapi di kedua sisi",
+          "kanan": "Gunakan perataan Justify"
+        },
+        {
+          "kiri": "Agar kalimat tidak saling berdempetan",
+          "kanan": "Terapkan spasi paragraf (Line spacing) 1.5"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan6": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Inputan \"12/10/2023\" merupakan contoh tipe data ....",
+      "pilihan": [
+        "Biasanya otomatis rata kanan di dalam sel",
+        "Biasanya otomatis rata kiri di dalam sel",
+        "Bisa dijumlahkan menggunakan formula",
+        "Tidak bisa digunakan dalam operasi perkalian"
+      ],
+      "jawaban": "tanggal",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Data Angka",
+          "kanan": "Bisa dikurangi dan dikalikan"
+        },
+        {
+          "kiri": "Data Teks",
+          "kanan": "Tidak bisa dihitung dengan rumus Matematika"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan7": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Untuk mencari rata-rata tinggi badan siswa dalam sebuah tabel, kita menggunakan fungsi ....",
+      "pilihan": [
+        "=SUM(A1:A5) hasilnya 150",
+        "=MIN(A1:A5) hasilnya 50",
+        "=MAX(A1:A5) hasilnya 50",
+        "=COUNT(A1:A5) hasilnya 5"
+      ],
+      "jawaban": "average",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Mengetahui jumlah siswa yang mengumpulkan tugas",
+          "kanan": "=COUNT()"
+        },
+        {
+          "kiri": "Mengetahui nilai ulangan yang paling besar",
+          "kanan": "=MAX()"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan8": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Fitur untuk memberikan format warna secara otomatis pada sel berdasarkan kondisi angka di dalamnya disebut ... Formatting.",
+      "pilihan": [
+        "Menandai data kembar/duplikat secara otomatis",
+        "Mengubah warna sel berdasarkan angka tertentu",
+        "Mencetak tabel ke mesin printer",
+        "Membuat sel memiliki ikon indikator naik/turun"
+      ],
+      "jawaban": "conditional",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Fungsi Logika (IF)",
+          "kanan": "Memunculkan teks \"Tuntas\" pada kolom Keterangan"
+        },
+        {
+          "kiri": "Conditional Formatting",
+          "kanan": "Mengubah sel bernilai rendah menjadi warna merah"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan9": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "\"V\" pada awal kata VLOOKUP merupakan singkatan dari kata ....",
+      "pilihan": [
+        "Mencari nama produk otomatis berdasarkan kode barang",
+        "Menghitung total barang yang ada di gudang",
+        "Mengisi harga barang secara otomatis saat kasir mengetik kodenya",
+        "Menghapus data pelanggan yang sudah lama"
+      ],
+      "jawaban": "vertical",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Table Array",
+          "kanan": "Blok seluruh tabel referensi"
+        },
+        {
+          "kiri": "Col_index_num",
+          "kanan": "Nomor indeks kolom hasil"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan10": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Grafik berbentuk kolom-kolom yang berdiri tegak (atau menyamping) untuk membandingkan jumlah data disebut grafik ....",
+      "pilihan": [
+        "Bar/Column chart (Batang/Kolom)",
+        "Pie chart (Lingkaran)",
+        "Line chart (Garis)",
+        "Teks Paragraf"
+      ],
+      "jawaban": "batang",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Chart Title",
+          "kanan": "Judul utama dari grafik"
+        },
+        {
+          "kiri": "Legend",
+          "kanan": "Penjelasan makna setiap warna (misal: biru=pria, merah=wanita)"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan11": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Perbedaan kecerahan yang nyata antara warna tulisan dan warna latar belakang agar tulisan mudah dibaca disebut ... warna.",
+      "pilihan": [
+        "Judul slide (Title)",
+        "Isi materi (Body/Content)",
+        "Rumus =VLOOKUP",
+        "Nomor halaman slide"
+      ],
+      "jawaban": "kontras",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Teks kuning pada latar belakang putih",
+          "kanan": "Kontras rendah, sulit dibaca"
+        },
+        {
+          "kiri": "Teks putih pada latar belakang hitam pekat",
+          "kanan": "Kontras tinggi, mudah dibaca"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan12": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Objek multimedia berupa rekaman gambar bergerak yang memiliki durasi dan bisa disisipkan ke dalam slide adalah ....",
+      "pilihan": [
+        "Memakai animasi \"terbang berputar\" yang sangat lama untuk setiap kata",
+        "Menggunakan transisi sederhana seperti \"Fade\" agar audiens tidak pusing",
+        "Tidak menggunakan efek gerak yang berlebihan dan mencolok mata",
+        "Menggabungkan suara tepuk tangan keras pada setiap slide"
+      ],
+      "jawaban": "video",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Gambar/Foto",
+          "kanan": "Menampilkan ilustrasi diagram bunga"
+        },
+        {
+          "kiri": "Video",
+          "kanan": "Memutar cuplikan film 1 menit tentang flora"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan13": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Tindakan melihat ke arah penonton atau audiens secara langsung saat berbicara di depan publik disebut kontak ....",
+      "pilihan": [
+        "Menggunakan bahasa yang sopan dan jelas",
+        "Menatap mata audiens saat berbicara (eye contact)",
+        "Menguasai materi agar tidak terus menerus membaca teks",
+        "Memarahi teman yang bertanya jika pertanyaannya sulit"
+      ],
+      "jawaban": "mata",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Membaca layar proyektor sambil membelakangi kelas",
+          "kanan": "Teknik yang Buruk"
+        },
+        {
+          "kiri": "Tersenyum dan menyapa penonton dengan percaya diri",
+          "kanan": "Teknik yang Baik"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan14": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Aplikasi OLE merupakan singkatan dari Object Linking and ....",
+      "pilihan": [
+        "Menyisipkan grafik Excel ke dalam laporan teks Word",
+        "Memasang tabel Excel berhitung rumus ke dalam slide PowerPoint",
+        "Mencetak foto menggunakan printer",
+        "Membuat surat massal (Mail Merge) antara Word dan daftar nama Excel"
+      ],
+      "jawaban": "embedding",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Grafik Perhitungan Laba-Rugi",
+          "kanan": "Aplikasi Spreadsheet (Excel)"
+        },
+        {
+          "kiri": "Paragraf Penjelasan Latar Belakang",
+          "kanan": "Aplikasi Pengolah Kata (Word)"
+        }
+      ]
+    }
+  ],
+  "kelas7-sem2-bab4-pertemuan15": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Aplikasi perkantoran pengolah ... sangat cocok sebagai media penyajian lisan dari hasil proyek laporan kita di depan kelas.",
+      "pilihan": [
+        "Jika ada siswa baru yang mengubah data hobi di Excel, grafik di dokumen Word ikut berubah",
+        "Mengurangi risiko salah ketik angka di dokumen laporan",
+        "Presentasi otomatis dapat bicara sendiri",
+        "Proses kerja lebih profesional dan terpadu"
+      ],
+      "jawaban": "presentasi",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Laporan Tertulis",
+          "kanan": "Dokumen panjang berisi teks lengkap dan tabel sisipan"
+        },
+        {
+          "kiri": "Slide Pemaparan",
+          "kanan": "Kumpulan halaman pendek dengan teks besar dan poin-poin kunci"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan1": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Langkah demi langkah yang logis untuk memecahkan suatu masalah disebut...",
+      "pilihan": [
+        "Membuat jadwal piket dengan hanya menulis nama dan hari, mengabaikan warna baju siswa",
+        "Mengingat semua detail percakapan teman",
+        "Fokus pada jalan utama saat melihat peta, mengabaikan gambar pohon",
+        "Membagi tugas kelompok menjadi beberapa bagian kecil"
+      ],
+      "jawaban": "algoritma",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Mengabaikan hal tidak penting",
+          "kanan": "Abstraksi"
+        },
+        {
+          "kiri": "Memecah masalah besar",
+          "kanan": "Dekomposisi"
+        },
+        {
+          "kiri": "Urutan instruksi terstruktur",
+          "kanan": "Algoritma"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan2": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Istilah bahasa Inggris untuk \"Senarai\" atau daftar urutan item adalah...",
+      "pilihan": [
+        "Baris (Row)",
+        "Kolom (Column)",
+        "Suara (Audio)",
+        "Judul Header (Heading)"
+      ],
+      "jawaban": "list",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Daftar nama 5 teman sebangku",
+          "kanan": "List (Senarai)"
+        },
+        {
+          "kiri": "Data nama siswa, nilai UTS, dan nilai UAS",
+          "kanan": "Tabel 3 kolom"
+        },
+        {
+          "kiri": "Cerita pengalaman liburan",
+          "kanan": "Paragraf"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan3": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Kemampuan melihat kesamaan atau tren dari data-data sebelumnya disebut Pengenalan...",
+      "pilihan": [
+        "Menebak lagu berikutnya di radio karena selalu diputar di jam yang sama",
+        "Mengetahui bahwa setiap ulangan matematika selalu ada soal esai",
+        "Mengupas mangga dengan pisau",
+        "Membongkar sepeda menjadi bagian-bagian kecil"
+      ],
+      "jawaban": "pola",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Mempersiapkan Liburan",
+          "kanan": "Membeli tiket, memesan hotel, mengemas pakaian"
+        },
+        {
+          "kiri": "Membuat Laporan Kelompok",
+          "kanan": "Mencari referensi, mengetik naskah, membuat cover"
+        },
+        {
+          "kiri": "Memasak Mie Instan",
+          "kanan": "Menyiapkan bumbu, merebus air, memasukkan mie"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan4": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Istilah bahasa Inggris untuk proses pencarian data adalah...",
+      "pilihan": [
+        "Data menjadi lebih berantakan",
+        "Waktu pencarian menjadi lebih cepat dan efisien",
+        "Data lebih rapi untuk dilihat",
+        "Membuat perangkat komputer menjadi rusak"
+      ],
+      "jawaban": "searching",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Menyusun daftar nilai dari tertinggi ke terendah",
+          "kanan": "Sorting"
+        },
+        {
+          "kiri": "Mencari nama \"Siti\" di buku presensi",
+          "kanan": "Searching"
+        },
+        {
+          "kiri": "Hanya menggambar jalan dan gedung utama di peta",
+          "kanan": "Abstraksi"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan5": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Perintah dasar dalam pseudocode untuk mengakhiri program biasanya ditulis dengan kata END atau...",
+      "pilihan": [
+        "READ (Baca)",
+        "WRITE/PRINT (Tulis/Cetak)",
+        "COOK (Masak)",
+        "IF (Jika)"
+      ],
+      "jawaban": "stop",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "<",
+          "kanan": "Lebih kecil dari"
+        },
+        {
+          "kiri": ">",
+          "kanan": "Lebih besar dari"
+        },
+        {
+          "kiri": "=",
+          "kanan": "Sama dengan"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan6": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Struktur kode yang berjalan lurus berurutan dari baris pertama hingga terakhir disebut struktur...",
+      "pilihan": [
+        "INPUT panjang",
+        "INPUT lebar",
+        "JIKA panjang > 10 MAKA cetak \"Besar\"",
+        "LUAS = panjang * lebar"
+      ],
+      "jawaban": "runtutan",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Langkah 1",
+          "kanan": "INPUT alas, tinggi"
+        },
+        {
+          "kiri": "Langkah 2",
+          "kanan": "Luas = 0.5 * alas * tinggi"
+        },
+        {
+          "kiri": "Langkah 3",
+          "kanan": "PRINT Luas"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan7": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Bentuk penutup dari blok percabangan IF dalam pseudocode biasanya ditulis dengan...",
+      "pilihan": [
+        "IF (kondisi)",
+        "THEN (perintah jika benar)",
+        "REPEAT (ulang)",
+        "END IF (tutup percabangan)"
+      ],
+      "jawaban": "end if",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "IF tinggi >= 150 THEN",
+          "kanan": "\"Boleh Masuk\""
+        },
+        {
+          "kiri": "ELSE (jika tinggi < 150)",
+          "kanan": "\"Tidak Boleh Masuk\""
+        },
+        {
+          "kiri": "IF tiket = 0 THEN",
+          "kanan": "Wahana ditutup"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan8": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Jika perulangan WHILE memiliki kondisi yang selalu \"True\" (Benar) dan tidak pernah berubah jadi \"False\", apa yang terjadi pada program? (Program akan berulang tanpa...)",
+      "pilihan": [
+        "Berlari mengelilingi lapangan sebanyak 5 putaran",
+        "Memompa ban sepeda berkali-kali hingga penuh",
+        "Menentukan lulus atau tidak lulus",
+        "Tidur nyenyak"
+      ],
+      "jawaban": "henti",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "FOR",
+          "kanan": "Untuk setiap nilai (jumlah perulangan pasti)"
+        },
+        {
+          "kiri": "WHILE",
+          "kanan": "Selama (kondisi masih benar, terus lakukan)"
+        },
+        {
+          "kiri": "REPEAT",
+          "kanan": "Mengulangi blok perintah"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab1-pertemuan9": [
+    {
+      "id_soal": "q8",
+      "tipe": "isian",
+      "pertanyaan": "Gabungan instruksi dasar seperti variabel, INPUT, IF-THEN, dan OUTPUT membentuk suatu...",
+      "pilihan": [
+        "Menghindari kebingungan alur saat membuat program asli",
+        "Membantu programmer berdiskusi dengan orang lain tentang logika program",
+        "Menjadi laporan yang bisa dibaca oleh mesin fotokopi",
+        "Memudahkan identifikasi kesalahan logika sebelum diketik menjadi kode"
+      ],
+      "jawaban": "algoritma",
+      "poin": 15,
+      "pasangan": [
+        {
+          "kiri": "Baris Pertama",
+          "kanan": "INPUT Belanja"
+        },
+        {
+          "kiri": "Baris Kedua",
+          "kanan": "IF Belanja > 50000 THEN Diskon = 10%"
+        },
+        {
+          "kiri": "Baris Ketiga",
+          "kanan": "PRINT Total_Bayar"
+        }
+      ]
+    }
+  ],
+  "kelas8-sem1-bab2-pertemuan1": {
+    "topik": "Pengenalan Sistem Komputer dan Perangkat Keras",
+    "tujuan_pembelajaran": "Murid mampu mengklasifikasikan komponen perangkat keras komputer berdasarkan fungsinya (input, proses, output, penyimpan).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Manakah di bawah ini yang merupakan contoh perangkat keras keluaran (Output) yang menampilkan hasil berupa gambar atau teks visual?",
+          "opsi": {
+            "A": "Mouse",
+            "B": "Monitor",
+            "C": "Keyboard",
+            "D": "Flashdisk"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa fungsi dari perangkat Storage (Penyimpanan) seperti Hardisk atau Flashdisk?",
+          "opsi": {
+            "A": "Menampilkan video ke pengguna",
+            "B": "Menyimpan dokumen, foto, dan aplikasi agar tidak hilang saat komputer dimatikan",
+            "C": "Mengetik angka ke komputer",
+            "D": "Menyediakan ruang memori simpanan data jangka panjang"
+          },
+          "jawaban_benar": [
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan nama perangkat dengan golongannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Hardisk Internal",
+              "jawaban": "C. Storage"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Perangkat masukan yang berfungsi untuk menggerakkan kursor di layar monitor adalah...",
+          "jawaban_benar": [
+            "Mouse",
+            "Tetikus"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan2": {
+    "topik": "Perangkat Lunak serta Interaksi Hardware dan Software",
+    "tujuan_pembelajaran": "Murid mampu membedakan sistem operasi dan aplikasi serta menjelaskan mekanisme interaksi antara perangkat keras dan sistem operasi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Perangkat lunak utama yang berfungsi mengatur seluruh sumber daya perangkat keras dan menjadi jembatan bagi aplikasi lain disebut...",
+          "opsi": {
+            "A": "Sistem Operasi (Operating System)",
+            "B": "Aplikasi Pengolah Kata",
+            "C": "Game Online",
+            "D": "Aplikasi Pemutar Musik"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa saja peran penting Sistem Operasi (OS) dalam komputer atau HP?",
+          "opsi": {
+            "A": "Menjadi alat pendingin mesin",
+            "B": "Mengatur dan mengelola ruang memori perangkat",
+            "C": "Memungkinkan pengguna menginstal dan menjalankan aplikasi (seperti WhatsApp, Word)",
+            "D": "Menghubungkan perintah perangkat lunak dengan perangkat keras (seperti menyuruh printer mencetak)"
+          },
+          "jawaban_benar": [
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan lapisan sistem komputer dengan maknanya!",
+          "pasangan": [
+            {
+              "pernyataan": "Aplikasi",
+              "jawaban": "C. Program khusus untuk kebutuhan tertentu (misal mengetik/edit foto)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Singkatan \"OS\" pada perangkat lunak komputer kepanjangannya adalah...",
+          "jawaban_benar": [
+            "Operating System"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan3": {
+    "topik": "Siklus Pemrosesan Data dan Cara Kerja Komputer",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan alur siklus mengambil-menerjemahkan-mengesekusi (fetch-decode-execute) pada unit pemrosesan sentral (CPU).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Siklus dasar cara kerja CPU komputer selalu berulang-ulang, dimulai dari mengambil instruksi. Istilah bahasa Inggris untuk \"mengambil\" perintah dari memori adalah...",
+          "opsi": {
+            "A": "Decode",
+            "B": "Execute",
+            "C": "Fetch",
+            "D": "Print"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa peran memori utama (RAM) saat CPU sedang memproses data?",
+          "opsi": {
+            "A": "Menyimpan data secara permanen seumur hidup",
+            "B": "Menyimpan sementara instruksi dan data aplikasi yang sedang aktif berjalan",
+            "C": "Memberikan akses data yang sangat cepat kepada CPU",
+            "D": "Menampilkan gambar ke layar"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan komponen prosesor dengan perannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Bus Data",
+              "jawaban": "B. Jalur kabel tempat data mengalir"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Tahap terakhir dari siklus kerja CPU, yaitu menjalankan instruksi yang sudah diterjemahkan, disebut...",
+          "jawaban_benar": [
+            "Execute",
+            "Eksekusi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab2-pertemuan4": {
+    "topik": "Analisis Komponen Komputer",
+    "tujuan_pembelajaran": "Murid mampu mendiagnosis keterkaitan antarkomponen sistem komputer dan arsitektur jaringan melalui analisis studi kasus.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Jika sebuah komputer menyala dengan lambat setiap kali membuka banyak aplikasi secara bersamaan, perangkat keras apa yang fungsinya paling terbebani menangani aplikasi-aplikasi yang sedang aktif tersebut?",
+          "opsi": {
+            "A": "Hardisk dan RAM",
+            "B": "Keyboard",
+            "C": "Printer",
+            "D": "Microphone"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Saat terjadi masalah (error) di mana layar tiba-tiba tidak menampilkan gambar apa-apa padahal CPU menyala, hal yang perlu dianalisis adalah...",
+          "opsi": {
+            "A": "Memeriksa kabel VGA/HDMI antara monitor dan komputer",
+            "B": "Memeriksa tinta printer",
+            "C": "Memastikan monitor sudah terhubung ke listrik dan menyala",
+            "D": "Mengganti keyboard"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan tindakan dengan kelompok diagnosis sistem komputer!",
+          "pasangan": [
+            {
+              "pernyataan": "Ganti mouse yang tidak bisa digerakkan",
+              "jawaban": "B. Diagnosis perangkat masukan (Input Hardware)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Program kecil yang menghubungkan antara sistem operasi komputer dengan perangkat keras tambahan (seperti printer) agar saling mengenali disebut...",
+          "jawaban_benar": [
+            "Driver"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan1": {
+    "topik": "Konsep Dasar Jaringan Komputer dan Jaringan Lokal (LAN)",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan prinsip kerja pengiriman data dalam jaringan lokal (LAN) serta manfaat konektivitas antarkomputer.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Jaringan komputer yang ruang lingkupnya kecil, seperti jaringan antar komputer di lab sekolah atau di dalam satu gedung perkantoran, disebut dengan...",
+          "opsi": {
+            "A": "Internet",
+            "B": "LAN (Local Area Network)",
+            "C": "PAN (Personal Area Network)",
+            "D": "WAN (Wide Area Network)"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Alat atau medium apa saja yang bisa dipakai untuk membentuk jaringan LAN?",
+          "opsi": {
+            "A": "Kabel UTP / LAN",
+            "B": "Jaringan Wi-Fi (WLAN)",
+            "C": "Switch / Hub",
+            "D": "Kertas Folio"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan istilah aktivitas jaringan dengan maknanya!",
+          "pasangan": [
+            {
+              "pernyataan": "Client-Server",
+              "jawaban": "C. Hubungan antara komputer pusat pelayan dan komputer pengguna"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Komputer utama yang berfungsi mengatur dan menyimpan data pusat untuk melayani komputer lain di jaringan disebut komputer...",
+          "jawaban_benar": [
+            "Server"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan2": {
+    "topik": "Konektivitas Jaringan Kabel dan Perangkat Pendukung",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi jenis kabel jaringan (UTP/STP, Fiber) dan perangkat keras pendukungnya (switch, hub).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Perangkat keras sentral (di tengah) berbentuk kotak dengan banyak colokan yang berfungsi menghubungkan banyak kabel dari berbagai komputer di lab menjadi satu jaringan disebut...",
+          "opsi": {
+            "A": "Switch / Hub",
+            "B": "Monitor",
+            "C": "Flashdisk",
+            "D": "Mouse"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Perangkat keras (Hardware) apa saja yang digunakan untuk membangun jaringan komputer lokal (LAN) berbasis kabel?",
+          "opsi": {
+            "A": "Kabel LAN (UTP)",
+            "B": "Switch / Hub",
+            "C": "Konektor RJ-45",
+            "D": "Lensa Kamera"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan jenis media transmisi dengan bahan dasarnya!",
+          "pasangan": [
+            {
+              "pernyataan": "Nirkabel (Wireless)",
+              "jawaban": "B. Udara / Frekuensi Radio"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Alat pusat persimpangan penghubung kabel-kabel komputer di LAN yang meneruskan data secara spesifik ke komputer tujuan disebut...",
+          "jawaban_benar": [
+            "Switch",
+            "Hub"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan3": {
+    "topik": "Konektivitas Jaringan Nirkabel (Wi-Fi, Bluetooth)",
+    "tujuan_pembelajaran": "Murid mampu menganalisis karakteristik media nirkabel (Wi-Fi, Bluetooth, jaringan seluler) serta faktor pendorong kecepatannya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Budi ingin mengirim sebuah foto dari HP-nya ke HP Siti yang sedang duduk di sebelahnya secara langsung tanpa butuh kuota internet. Teknologi nirkabel jarak dekat apa yang sebaiknya dipakai?",
+          "opsi": {
+            "A": "Bluetooth",
+            "B": "Jaringan Seluler 4G",
+            "C": "Kabel LAN",
+            "D": "Parabola"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Manakah yang termasuk ke dalam jenis koneksi Nirkabel (Wireless/tanpa kabel)?",
+          "opsi": {
+            "A": "Jaringan Seluler (3G, 4G, 5G)",
+            "B": "Bluetooth",
+            "C": "Kabel UTP",
+            "D": "Wi-Fi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan media penghubung dengan jenis koneksinya (Kabel / Nirkabel)!",
+          "pasangan": [
+            {
+              "pernyataan": "UTP (Twisted Pair)",
+              "jawaban": "A. Kabel (Wired)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Singkatan umum untuk koneksi nirkabel gelombang radio lokal (Wireless Fidelity) yang sering kita temukan di cafe atau sekolah adalah...",
+          "jawaban_benar": [
+            "Wi-Fi",
+            "WiFi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan4": {
+    "topik": "Pengalamatan IP (IP Address), DNS, dan Router",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan alur kerja pengalamatan IP, translasi nama domain oleh DNS, dan fungsi router dalam penerusan data.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Kita biasanya mengetikkan 'www.google.com' daripada menghafal alamat IP (seperti 142.250.190.46) di browser. Buku telepon otomatis di internet yang menerjemahkan nama web menjadi alamat IP tersebut dinamakan...",
+          "opsi": {
+            "A": "DNS (Domain Name System)",
+            "B": "Router",
+            "C": "Switch",
+            "D": "USB"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Pernyataan mana saja yang tepat mengibaratkan cara kerja internet (IP dan DNS)?",
+          "opsi": {
+            "A": "IP Address diibaratkan seperti alamat spesifik rumah lengkap dengan nomornya",
+            "B": "Router diibaratkan seperti tukang pos/kurir yang menentukan jalan pengiriman paket",
+            "C": "DNS diibaratkan seperti daftar kontak di HP (menyimpan nomor HP di balik nama teman)",
+            "D": "IP Address adalah harga sebuah komputer di toko"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan jenis perangkat jaringan dengan lokasi menghubungkannya!",
+          "pasangan": [
+            {
+              "pernyataan": "DNS Server",
+              "jawaban": "A. Menerjemahkan nama web (google.com) menjadi angka IP"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Sistem penerjemah nama situs web seperti 'www.sekolahku.id' menjadi sederet angka IP Address disebut...",
+          "jawaban_benar": [
+            "DNS",
+            "Domain Name System"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan5": {
+    "topik": "Keamanan dan Etika Penggunaan Jaringan (Wi-Fi Publik)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi risiko transmisi data di Wi-Fi publik dan menerapkan praktik keamanan menggunakan koneksi terenkripsi (HTTPS).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Saat kamu berbelanja online atau memasukkan password, pastikan alamat situs web di bagian atas browser selalu diawali dengan... (yang menandakan komunikasi data diacak/aman).",
+          "opsi": {
+            "A": "HTTP",
+            "B": "HTTPS",
+            "C": "FTP",
+            "D": "WWW"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa manfaat huruf 'S' pada HTTPS (Hypertext Transfer Protocol Secure)?",
+          "opsi": {
+            "A": "Menandakan situs tersebut menggunakan enkripsi (pengacakan data)",
+            "B": "Menjamin data yang kita ketik tidak mudah dibaca oleh orang di tengah jalan yang menyadap",
+            "C": "Membuat warna web menjadi lebih terang",
+            "D": "Membuat internet menjadi lambat dan mahal"
+          },
+          "jawaban_benar": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan istilah keamanan internet dengan maknanya!",
+          "pasangan": [
+            {
+              "pernyataan": "HTTP",
+              "jawaban": "A. Protokol web biasa tanpa sistem keamanan pengacakan"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Proses menyamarkan/mengacak data pribadi (seperti password) saat dikirim di jaringan agar tidak bisa dibaca peretas disebut...",
+          "jawaban_benar": [
+            "Enkripsi",
+            "Encryption"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab3-pertemuan6": {
+    "topik": "Analisis Konektivitas Jaringan Lokal dan Internet",
+    "tujuan_pembelajaran": "Murid mampu memetakan dan mengevaluasi rancangan skenario konektivitas jaringan lokal dan internet pada suatu lingkungan tertentu.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Sekolah juga ingin agar jaringan Lab Komputer tadi bisa terhubung ke internet dunia (ISP). Perangkat apa yang harus ditambahkan sebagai gerbang penghubung keluar menuju internet?",
+          "opsi": {
+            "A": "Router",
+            "B": "Switch",
+            "C": "Keyboard",
+            "D": "Kabel USB"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Jika Ruang Guru ada di lantai dua dan Ruang Lab di lantai satu, bagaimana cara menghubungkannya secara stabil agar menjadi satu jaringan?",
+          "opsi": {
+            "A": "Menggunakan sinyal asap",
+            "B": "Menarik jalur kabel Fiber Optik atau UTP panjang antarlantai (ke switch di lantai satu)",
+            "C": "Memasang Wireless Router / Access Point berantai antar lantai",
+            "D": "Meletakkan komputer Guru di lantai satu setiap ingin internetan"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Urutkan alur konektivitas dari komputer siswa hingga ke internet global!",
+          "pasangan": [
+            {
+              "pernyataan": "Langkah Ketiga",
+              "jawaban": "A. Ke Router Pusat Sekolah"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Perangkat penyebar sinyal Wi-Fi di sebuah ruangan (misal di aula atau kantin) disebut Access...",
+          "jawaban_benar": [
+            "Point",
+            "Access Point"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan1": {
+    "topik": "Bentuk dan Jenis Perundungan Digital (Cyberbullying)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi berbagai bentuk dan praktik perundungan siber yang marak terjadi di ekosistem digital.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Tindakan jahat mengumpulkan data pribadi dan rahasia seseorang (seperti alamat rumah lengkap, nomor telepon orang tua, atau foto aib), lalu menyebarkannya ke publik secara online untuk mempermalukan atau mengancam, disebut...",
+          "opsi": {
+            "A": "Phishing",
+            "B": "Doxxing",
+            "C": "Spamming",
+            "D": "Hacking"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa perbedaan cyberbullying dengan bullying (perundungan) di dunia nyata (fisik)?",
+          "opsi": {
+            "A": "Cyberbullying dilakukan melalui perantara teknologi digital (internet, sosmed, game)",
+            "B": "Cyberbullying bisa tersebar dengan sangat cepat, meluas, dan sulit dihapus jejaknya",
+            "C": "Cyberbullying selalu melibatkan pukulan fisik secara langsung",
+            "D": "Cyberbullying pelaku utamanya bisa anonim (menyembunyikan identitas asli)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan perilaku online dengan jenisnya!",
+          "pasangan": [
+            {
+              "pernyataan": "Memposting alamat rumah lawan debat di medsos",
+              "jawaban": "C. Doxxing"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Orang yang menjadi sasaran ejekan atau kekerasan (baik nyata maupun maya) disebut...",
+          "jawaban_benar": [
+            "Korban",
+            "Victim"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan2": {
+    "topik": "Dampak Psikologis, Sosial, dan Aspek Hukum Perundungan Digital",
+    "tujuan_pembelajaran": "Murid mampu menganalisis konsekuensi negatif perundungan digital terhadap kesehatan mental, hubungan sosial, dan implikasi hukumnya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Di Indonesia, pelaku pencemaran nama baik, penyebaran ujaran kebencian, dan ancaman kekerasan di media sosial dapat dipidana. Undang-undang yang mengatur tindak pidana di dunia siber tersebut adalah...",
+          "opsi": {
+            "A": "UU Lalu Lintas",
+            "B": "UU ITE (Informasi dan Transaksi Elektronik)",
+            "C": "UU Hak Cipta",
+            "D": "UU Ketenagakerjaan"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa konsekuensi nyata bagi pelaku (orang yang mem-bully) di media sosial?",
+          "opsi": {
+            "A": "Mendapat penghargaan dari pemerintah",
+            "B": "Jejak digital buruknya akan tercatat selamanya di internet (merusak masa depan sendiri)",
+            "C": "Terkena sanksi hukum penjara dan denda sesuai UU ITE",
+            "D": "Mendapat sanksi drop-out atau skorsing dari pihak sekolah"
+          },
+          "jawaban_benar": [
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan peran dalam kasus bullying dengan kondisinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Bystander (Saksi/Penonton Baik)",
+              "jawaban": "A. Membantu menghentikan atau melaporkan pelaku"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Orang yang melihat kejadian perundungan di media sosial namun memilih berpihak membela korban atau melaporkan kejadian disebut saksi yang aktif atau...",
+          "jawaban_benar": [
+            "Upstander",
+            "Pembela",
+            "Saksi Aktif"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan3": {
+    "topik": "Pencegahan, Pelaporan (Reporting), dan Penanganan Cyberbullying",
+    "tujuan_pembelajaran": "Murid mampu memperagakan langkah penanganan awal, mekanisme pelaporan (reporting), serta dukungan bagi korban cyberbullying.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Apa bukti yang paling kuat dan harus segera disimpan jika kita menjadi korban perundungan siber sebelum pelakunya menghapus postingan tersebut?",
+          "opsi": {
+            "A": "Tangkapan Layar (Screenshot) dari komentar/pesan ancaman tersebut",
+            "B": "Foto profil diri kita sendiri",
+            "C": "Bukti pembelian pulsa atau kuota internet",
+            "D": "Gambar pemandangan"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Jika seorang teman sekelas curhat (bercerita) menjadi korban cyberbullying, apa dukungan yang bisa kita berikan?",
+          "opsi": {
+            "A": "Mendengarkannya tanpa menghakimi dan menenangkan perasaannya",
+            "B": "Menyuruhnya diam saja dan menanggungnya sendiri",
+            "C": "Membantunya menyimpan bukti screenshot dan melaporkannya kepada Guru BK/Orang Tua",
+            "D": "Ikut mengejek teman tersebut karena dianggap lemah"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Urutkan langkah darurat saat menerima ancaman cyberbullying!",
+          "pasangan": [
+            {
+              "pernyataan": "Langkah Ketiga",
+              "jawaban": "C. Ceritakan dan tunjukkan bukti kepada orang dewasa yang dipercaya (Orang Tua/Guru)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Tindakan mengambil gambar atau memotret tampilan layar di HP/Komputer untuk dijadikan alat bukti kuat disebut...",
+          "jawaban_benar": [
+            "Screenshot",
+            "Tangkapan Layar"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan4": {
+    "topik": "Pengenalan Rekam Jejak Digital (Aktif vs Pasif)",
+    "tujuan_pembelajaran": "Murid mampu membedakan rekam jejak digital aktif (postingan, komentar) dan pasif (cookies, IP log) yang tertinggal di internet.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Jejak digital yang kita tinggalkan SECARA SENGAJA, seperti foto liburan yang kita unggah (upload) ke Facebook atau komentar yang kita tulis di YouTube, disebut...",
+          "opsi": {
+            "A": "Jejak Digital Aktif",
+            "B": "Jejak Digital Pasif",
+            "C": "Jejak Fisik",
+            "D": "Jejak Anonim"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Mengapa jejak digital disebut sebagai sesuatu yang abadi?",
+          "opsi": {
+            "A": "Karena internet akan rusak suatu saat nanti",
+            "B": "Karena meskipun kita menghapusnya, orang lain mungkin sudah melakukan screenshot (tangkap layar)",
+            "C": "Karena data disimpan di berbagai server/cloud yang tersebar luas (back up otomatis)",
+            "D": "Karena layar komputer tidak bisa dibersihkan"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan istilah pelacakan internet dengan artinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Riwayat Penelusuran",
+              "jawaban": "A. Catatan pencarian kata kunci yang kita ketik di Google (Search History)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Jejak digital yang kita buat secara sadar dan sengaja dengan memposting sesuatu disebut jejak digital...",
+          "jawaban_benar": [
+            "Aktif"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan5": {
+    "topik": "Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan",
+    "tujuan_pembelajaran": "Murid mampu menganalisis dampak jangka panjang dari rekam jejak digital negatif terhadap citra diri dan karir di masa depan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Bagaimana cara terbaik membentuk \"Citra Diri (Reputasi) Digital\" yang positif untuk masa depan?",
+          "opsi": {
+            "A": "Sering menyindir teman di status WhatsApp",
+            "B": "Membagikan pencapaian, karya seni, portofolio, tugas sekolah, dan memposting hal bermanfaat",
+            "C": "Menulis komentar kasar di akun artis",
+            "D": "Menyebarkan foto memalukan teman sekelas"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Prinsip kehati-hatian sebelum memposting sesuatu ke internet (Think Before You Post) meliputi aspek...",
+          "opsi": {
+            "A": "Apakah postingan ini benar? (True)",
+            "B": "Apakah ini menyakiti atau mempermalukan orang lain? (Helpful/Harmful)",
+            "C": "Apakah ini pantas dilihat oleh orang tua atau calon guru di masa depan? (Inspiring)",
+            "D": "Apakah kuota internet masih banyak?"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan pertanyaan \"THINK\" sebelum posting dengan artinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Is it Necessary?",
+              "jawaban": "C. Apakah ini hal yang sangat penting untuk dibagikan secara publik?"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Slogan \"Think Before You...\" selalu ditekankan agar kita tidak menyesal mengunggah sesuatu di media sosial.",
+          "jawaban_benar": [
+            "Post",
+            "Posting"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan6": {
+    "topik": "Manajemen Rekam Jejak Digital & Pengaturan Privasi (Digital Hygiene)",
+    "tujuan_pembelajaran": "Murid mampu mengonfigurasi setelan privasi akun media sosial serta melakukan tindakan perawatan kebersihan digital (digital hygiene).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Menghapus riwayat penelusuran (clear history/cookies) di peramban web dan menghapus akun lama yang sudah tidak dipakai adalah contoh tindakan...",
+          "opsi": {
+            "A": "Digital Hygiene (Kebersihan Digital)",
+            "B": "Digital Art",
+            "C": "Cyberbullying",
+            "D": "Hardware Troubleshooting"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Pengaturan privasi apa yang penting disetel pada akun media sosial remaja?",
+          "opsi": {
+            "A": "Menonaktifkan penandaan lokasi persis (Location Tag) saat memposting foto secara langsung",
+            "B": "Menyetel akun menjadi Privat agar orang asing tidak mudah mengirim pesan atau menguntit foto diri",
+            "C": "Menyebarkan nomor HP di Bio profil publik",
+            "D": "Mengatur agar siapa saja bisa menandai (Tag) foto memalukan kita di linimasa"
+          },
+          "jawaban_benar": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan setelan privasi dengan efeknya pada orang tak dikenal!",
+          "pasangan": [
+            {
+              "pernyataan": "Blokir pengguna asing",
+              "jawaban": "B. Orang asing tidak bisa melihat kita sama sekali saat mencari nama kita"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Setelan pada media sosial yang berfungsi membatasi siapa yang bisa melihat profil kita disebut pengaturan...",
+          "jawaban_benar": [
+            "Privacy",
+            "Privasi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan7": {
+    "topik": "Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati",
+    "tujuan_pembelajaran": "Murid mampu menerapkan norma kesantunan berwarganet (netiquette) serta berkomunikasi dengan empati saat berinteraksi online.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Mengapa mengetik pesan atau komentar dengan HURUF KAPITAL SEMUA (CAPSLOCK) sangat dihindari dalam etika berinternet?",
+          "opsi": {
+            "A": "Karena menghabiskan banyak tinta keyboard",
+            "B": "Karena ukuran hurufnya terlalu besar",
+            "C": "Karena di dunia maya sering diartikan sebagai sedang TERIAK atau MARAH",
+            "D": "Karena tidak bisa terbaca oleh komputer"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Prinsip Netiquette (Netiket) yang baik saat berdiskusi di grup kelas meliputi...",
+          "opsi": {
+            "A": "Tidak menyela atau mengirim spam pesan beruntun (flooding)",
+            "B": "Menggunakan bahasa yang baik dan bebas typo yang parah agar mudah dimengerti",
+            "C": "Membagikan stiker berlebihan hingga isi diskusi tenggelam",
+            "D": "Membaca pesan guru/teman secara utuh sebelum bertanya hal yang sudah dijelaskan"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan konsep komunikasi berempati dengan tindakannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Konteks Komunikasi (Kepada siapa kita bicara)",
+              "jawaban": "A. Menggunakan bahasa baku saat chat ke Guru, dan bahasa santai ke Sahabat"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Kemampuan ikut merasakan emosi atau membayangkan diri kita di posisi orang yang menerima pesan di internet disebut dengan rasa...",
+          "jawaban_benar": [
+            "Empati"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan8": {
+    "topik": "Menghargai Keragaman dan Mencegah Ujaran Kebencian (Hate Speech)",
+    "tujuan_pembelajaran": "Murid mampu menunjukkan sikap toleran terhadap perbedaan pendapat di media sosial dan menghindari penyebaran ujaran kebencian.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "8A-2",
+          "pertanyaan": "Ketika melihat teman berdebat tentang tim olahraga jagoannya di grup sekolah, sikap yang mencerminkan toleransi digital yang baik adalah...",
+          "opsi": {
+            "A": "Ikut menghina tim lawan teman tersebut menggunakan kata-kata kasar",
+            "B": "Memprovokasi kedua teman agar saling bermusuhan di dunia nyata",
+            "C": "Menghargai pandangannya (meski beda jagoan) dan membalas dengan diskusi sehat/bercanda yang tidak menyakiti",
+            "D": "Mengeluarkan teman yang beda pandangan dari grup sekolah"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "8B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Cara mencegah diri agar tidak ikut menyebarkan ujaran kebencian adalah...",
+          "opsi": {
+            "A": "Menahan diri (tidak mudah terpancing emosi) saat melihat konten provokatif",
+            "B": "Mencari sumber berita terpercaya (klarifikasi/tabayyun) sebelum bereaksi marah",
+            "C": "Langsung membagikan berita SARA dari grup keluarga ke medsos tanpa disaring",
+            "D": "Menghormati pendapat orang lain yang memiliki latar belakang agama/suku yang berbeda"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "8C-2",
+          "instruksi": "Pasangkan respons komentar terhadap perbedaan pendapat dengan sikapnya!",
+          "pasangan": [
+            {
+              "pernyataan": "\"Ayo semua serang dan laporkan akun dia sampai hilang!\"",
+              "jawaban": "B. Provokasi (memanaskan suasana pertengkaran)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "8D-2",
+          "pertanyaan": "Sikap tenggang rasa, saling menghargai, dan tidak memaksakan kehendak meski berbeda pendapat (baik di dunia nyata maupun internet) disebut...",
+          "jawaban_benar": [
+            "Toleransi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem1-bab4-pertemuan9": {
+    "topik": "Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat",
+    "tujuan_pembelajaran": "Murid mampu merancang karya kampanye digital kreatif yang menyuarakan perilaku etis, bebas cyberbullying, dan ramah rekam jejak.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "9A-2",
+          "pertanyaan": "Kriteria poster/infografis kampanye digital yang sukses bagi siswa SMP adalah...",
+          "opsi": {
+            "A": "Pesan teksnya terlalu panjang melebihi satu halaman penuh huruf kecil",
+            "B": "Visual/gambar ilustrasi menarik dengan pesan singkat (Slogan) yang menempel kuat di ingatan (contoh: \"Saring sebelum Sharing\")",
+            "C": "Menggunakan bahasa pemrograman yang sulit",
+            "D": "Menyebutkan nama lengkap siswa yang pernah jadi pelaku secara terang-terangan"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "9B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Proses merancang karya kampanye (seperti infografis anti-hoax) melibatkan kegiatan berpikir...",
+          "opsi": {
+            "A": "Kreatif dalam memadukan warna dan gambar (Desain Visual)",
+            "B": "Komputasional (Abstraksi mencari inti pesan penting dari banyak materi yang ada)",
+            "C": "Kriminal (Mengambil gambar berhak cipta milik artis diam-diam)",
+            "D": "Empati (Memikirkan kata-kata yang mudah menyentuh dan dipahami orang banyak)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "9C-2",
+          "instruksi": "Pasangkan tema kampanye dengan contoh solusi/pesannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Keamanan Sandi (Password)",
+              "jawaban": "B. \"Gunakan kombinasi huruf kapital, angka, dan simbol!\""
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "9D-2",
+          "pertanyaan": "Warga negara yang cerdas dan bertanggung jawab dalam menggunakan teknologi digital disebut warganet atau Digital...",
+          "jawaban_benar": [
+            "Citizen"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan1": {
+    "topik": "Pengenalan 4 Pilar Berpikir Komputasional & Antarmuka Aplikasi Scratch",
+    "tujuan_pembelajaran": "Murid mampu mengenali komponen antarmuka lingkungan pemrograman visual Scratch dan mereview 4 pilar berpikir komputasional.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Siti sedang memecahkan masalah tugas kelompok yang besar menjadi bagian-bagian yang lebih kecil agar mudah dikerjakan. Dalam berpikir komputasional, langkah Siti disebut...",
+          "opsi": {
+            "A": "Abstraksi",
+            "B": "Pengenalan Pola",
+            "C": "Algoritma",
+            "D": "Dekomposisi"
+          },
+          "jawaban_benar": "D"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Pada antarmuka Scratch, bagian mana saja yang secara langsung digunakan oleh pembuat program untuk menyusun dan memilih kode?",
+          "opsi": {
+            "A": "Block Palette",
+            "B": "Stage",
+            "C": "Script Area",
+            "D": "Fullscreen Button"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan pilar berpikir komputasional di sebelah kiri dengan penjelasannya di sebelah kanan!",
+          "pasangan": [
+            {
+              "pernyataan": "Algoritma",
+              "jawaban": "B. Menyusun langkah-langkah penyelesaian secara urut"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Proses menyusun instruksi langkah demi langkah untuk menyelesaikan sebuah masalah disebut...",
+          "jawaban_benar": [
+            "Algoritma"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan2": {
+    "topik": "Pemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch",
+    "tujuan_pembelajaran": "Murid mampu mengonversi urutan algoritma masalah harian menjadi barisan blok perintah dasar di Scratch.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Langkah pertama saat kita bangun tidur adalah membuka mata, lalu duduk, dan berdiri. Jika diubah ke Scratch, blok perintah apa yang biasanya digunakan untuk memulai keseluruhan urutan kejadian (algoritma)?",
+          "opsi": {
+            "A": "Move 10 steps",
+            "B": "When green flag clicked",
+            "C": "Play sound Meow",
+            "D": "Say Hello"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Cara apa saja yang bisa digunakan di Scratch untuk memicu (memulai) sebuah perintah (Events)?",
+          "opsi": {
+            "A": "Menekan bendera hijau",
+            "B": "Menekan tombol spasi di keyboard",
+            "C": "Mengganti warna background komputer",
+            "D": "Mengklik sprite tersebut"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan warna kategori blok pada Scratch dengan jenis perintahnya!",
+          "pasangan": [
+            {
+              "pernyataan": "Merah Muda (Pink/Magenta)",
+              "jawaban": "C. Tampilan (Looks)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Untuk membuat karakter mengeluarkan suara \"Meow\", kita menggunakan blok perintah dari kategori...",
+          "jawaban_benar": [
+            "Sound",
+            "Suara"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan3": {
+    "topik": "Penerapan Struktur Kontrol Perulangan (Looping) di Scratch",
+    "tujuan_pembelajaran": "Murid mampu menerapkan blok perintah perulangan (repeat/forever) untuk menyederhanakan struktur alur program Scratch.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Jika Budi menyusun 5 blok \"Move 10 steps\" berturut-turut ke bawah, cara yang lebih efisien (singkat) untuk menggantikannya adalah dengan menggunakan blok...",
+          "opsi": {
+            "A": "Repeat 5",
+            "B": "Forever",
+            "C": "Stop all",
+            "D": "Next costume"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Blok manakah yang termasuk ke dalam kategori Control untuk perulangan di Scratch?",
+          "opsi": {
+            "A": "Repeat 10",
+            "B": "Forever",
+            "C": "Move 10 steps",
+            "D": "Play sound"
+          },
+          "jawaban_benar": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan situasi kehidupan sehari-hari berikut dengan konsep perulangan yang sesuai!",
+          "pasangan": [
+            {
+              "pernyataan": "Push-up 10 kali",
+              "jawaban": "A. Repeat 10"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Blok perulangan di Scratch umumnya memiliki warna... (sebutkan warnanya dalam bahasa Indonesia atau Inggris).",
+          "jawaban_benar": [
+            "Oranye",
+            "Orange",
+            "Kuning keemasan"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan4": {
+    "topik": "Penerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else)",
+    "tujuan_pembelajaran": "Murid mampu menggunakan kondisi percabangan (if-then-else) dalam program Scratch untuk mengontrol alur interaksi objek.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Dalam blok \"If-Then-Else\", apa yang terjadi jika kondisi (syarat) ternyata salah (tidak terpenuhi)?",
+          "opsi": {
+            "A": "Program akan error dan berhenti otomatis",
+            "B": "Program menjalankan perintah yang ada di bagian \"If\" (Jika)",
+            "C": "Program menjalankan perintah yang ada di bagian \"Else\" (Selain itu)",
+            "D": "Komputer akan mati"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Blok manakah yang biasanya digunakan sebagai kondisi (berbentuk segi enam) untuk mengisi syarat pada blok \"If-Then\"?",
+          "opsi": {
+            "A": "Touching mouse-pointer?",
+            "B": "Move 10 steps",
+            "C": "Key space pressed?",
+            "D": "Say Hello for 2 seconds"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan kondisi di game dengan hasil respons yang logis menggunakan If-Then-Else!",
+          "pasangan": [
+            {
+              "pernyataan": "Jika menyentuh koin emas",
+              "jawaban": "B. Menambah skor +1"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Bentuk geometri dari lubang tempat memasukkan syarat pada blok \"If\" di Scratch adalah... (sebutkan bentuknya, misal: kotak/lingkaran/segi enam).",
+          "jawaban_benar": [
+            "Segi enam",
+            "Heksagon"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan5": {
+    "topik": "Penggunaan Variabel, Input/Output, serta Operator Matematika/Logika",
+    "tujuan_pembelajaran": "Murid mampu membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Blok apa yang digunakan untuk meminta pengguna mengetikkan nama mereka melalui keyboard, lalu menunggunya?",
+          "opsi": {
+            "A": "Say \"Siapa namamu?\"",
+            "B": "Ask \"Siapa namamu?\" and wait",
+            "C": "Broadcast \"Siapa namamu?\"",
+            "D": "Think \"Siapa namamu?\""
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Operator matematika dasar apa saja yang tersedia di kategori Operators pada Scratch?",
+          "opsi": {
+            "A": "Penjumlahan (+)",
+            "B": "Pengurangan (-)",
+            "C": "Menyimpan file (Save)",
+            "D": "Perkalian (*)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan konsep input/output dengan penerapannya di Scratch!",
+          "pasangan": [
+            {
+              "pernyataan": "Proses (Pengolahan)",
+              "jawaban": "C. Komputer mengecek apakah angka tersebut lebih dari 5"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Untuk menggabungkan teks \"Halo \" dengan teks nama dari pengguna, kita menggunakan blok operator yang bernama... (join/gabung).",
+          "jawaban_benar": [
+            "Join",
+            "Gabung"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan6": {
+    "topik": "Perancangan Proyek Scratch (Dekomposisi & Desain Logika)",
+    "tujuan_pembelajaran": "Murid mampu menyusun dokumen perancangan (storyboard dan desain logika) proyek game edukasi atau simulasi interaktif.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Mengapa merancang alur logika (desain logika) di atas kertas penting sebelum mulai menyusun blok kode?",
+          "opsi": {
+            "A": "Agar warna komputernya terlihat bagus",
+            "B": "Agar membuang waktu pelajaran",
+            "C": "Agar kita punya panduan langkah kerja yang jelas dan terstruktur",
+            "D": "Agar mouse komputer tidak cepat rusak"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Dalam tahap dekomposisi perancangan game, tugas-tugas apa saja yang bisa dibagi-bagi ke anggota kelompok?",
+          "opsi": {
+            "A": "Mencari ide cerita",
+            "B": "Menggambar aset visual",
+            "C": "Mengganti merk monitor",
+            "D": "Merancang logika kode"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan komponen rancangan logika dengan contoh instruksinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Aturan Menang/Kalah",
+              "jawaban": "A. Jika jawaban benar, skor +10"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Memecah proyek pembuatan game yang besar menjadi langkah-langkah kecil yang mudah dikerjakan disebut proses... (salah satu pilar berpikir komputasional).",
+          "jawaban_benar": [
+            "Dekomposisi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan7": {
+    "topik": "Pembuatan, Pengujian, dan Perbaikan (Debugging) Kode Proyek Scratch",
+    "tujuan_pembelajaran": "Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Proses mencari, menemukan, dan memperbaiki kesalahan pada program yang kita buat disebut...",
+          "opsi": {
+            "A": "Hacking",
+            "B": "Browsing",
+            "C": "Debugging",
+            "D": "Downloading"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Manakah yang merupakan contoh \"bug\" logika pada pembuatan game Scratch?",
+          "opsi": {
+            "A": "Skor tidak bertambah saat mengambil koin",
+            "B": "Layar monitor berdebu",
+            "C": "Karakter menembus dinding padahal seharusnya terhalang",
+            "D": "Mouse komputer tidak dicolok"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan masalah (bug) dengan kemungkinan solusinya di Scratch!",
+          "pasangan": [
+            {
+              "pernyataan": "Kondisi If-Then tidak pernah terdeteksi",
+              "jawaban": "A. Periksa apakah blok If-Then bersarang di dalam blok Forever"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Istilah bahasa Inggris untuk kutu atau serangga yang sering dipakai untuk menyebut kesalahan pada program adalah...",
+          "jawaban_benar": [
+            "Bug"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab1-pertemuan8": {
+    "topik": "Asesmen Sumatif: Demonstrasi Proyek Scratch & Refleksi",
+    "tujuan_pembelajaran": "Murid mampu mendemonstrasikan hasil proyek Scratch di depan kelas serta mejelaskan alur berpikir komputasional di balik programnya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "8A-2",
+          "pertanyaan": "Ketika menjelaskan cara kerja program, Budi memaparkan langkah-langkah urut dari awal permainan hingga akhir. Budi sedang mendemonstrasikan pilar komputasional yaitu...",
+          "opsi": {
+            "A": "Abstraksi",
+            "B": "Algoritma",
+            "C": "Instalasi",
+            "D": "Dekomposisi"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "8B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Sikap yang menunjukkan penerimaan umpan balik (feedback) yang baik saat presentasi adalah...",
+          "opsi": {
+            "A": "Marah ketika teman memberi saran perbaikan",
+            "B": "Mencatat saran dari teman dan guru untuk perbaikan",
+            "C": "Mengucapkan terima kasih atas kritik yang membangun",
+            "D": "Menyalahkan teman satu kelompok"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "8C-2",
+          "instruksi": "Pasangkan pilar komputasional dengan cara menjelaskannya saat presentasi!",
+          "pasangan": [
+            {
+              "pernyataan": "Abstraksi",
+              "jawaban": "A. \"Kami membuang fitur latar belakang yang terlalu ramai agar fokus ke kuis.\""
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "8D-2",
+          "pertanyaan": "Saran, tanggapan, atau kritik yang diberikan penonton setelah kita melakukan demonstrasi proyek dikenal dengan istilah...",
+          "jawaban_benar": [
+            "Umpan Balik",
+            "Feedback",
+            "Evaluasi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan1": {
+    "topik": "Pengenalan Ruang Publik Virtual: Jenis & Platform Interaksi",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Manakah dari platform berikut yang fokus utamanya adalah forum diskusi berbasis tanya jawab atau topik minat khusus?",
+          "opsi": {
+            "A": "Kaskus / Reddit",
+            "B": "Microsoft Excel",
+            "C": "Adobe Photoshop",
+            "D": "WinRAR"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa saja karakteristik dari ruang publik virtual?",
+          "opsi": {
+            "A": "Hanya bisa diakses oleh pejabat negara",
+            "B": "Memungkinkan interaksi tanpa harus bertatap muka secara langsung",
+            "C": "Informasi dapat menyebar dengan sangat cepat",
+            "D": "Selalu bebas dari aturan hukum"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan tujuan penggunaan dengan ruang virtual yang paling cocok!",
+          "pasangan": [
+            {
+              "pernyataan": "Mengerjakan tugas makalah kelompok secara bersamaan secara online",
+              "jawaban": "B. Platform Kolaborasi Dokumen (Google Docs)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Bentuk media sosial yang konten utamanya berupa foto dan video pendek dengan fitur \"Likes\" dan \"Story\" yang sangat populer di kalangan remaja adalah... (sebutkan salah satu: Instagram/TikTok).",
+          "jawaban_benar": [
+            "Instagram",
+            "TikTok"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan2": {
+    "topik": "Karakteristik Ruang Publik Virtual & Aturan Kewargaan Digital",
+    "tujuan_pembelajaran": "Murid mampu menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Perilaku warga digital yang baik saat menemukan berita di grup WhatsApp yang belum pasti kebenarannya adalah...",
+          "opsi": {
+            "A": "Langsung menyebarkannya ke semua kontak agar cepat tahu",
+            "B": "Mengecek kebenaran informasi tersebut (fact-check) sebelum membagikannya",
+            "C": "Menambahkan cerita bohong agar lebih seru",
+            "D": "Menghina pengirim pesan tersebut di dalam grup"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Dampak negatif apa yang bisa timbul jika kita tidak menjaga etika di ruang publik virtual?",
+          "opsi": {
+            "A": "Terjadinya pertengkaran online (flame war)",
+            "B": "Mendapatkan banyak teman positif",
+            "C": "Melukai perasaan orang lain secara psikologis (cyberbullying)",
+            "D": "Terkena sanksi sosial atau hukum seperti UU ITE"
+          },
+          "jawaban_benar": [
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan situasi komentar dengan tanggapan kewargaan digital yang tepat!",
+          "pasangan": [
+            {
+              "pernyataan": "Berbeda pandangan tentang tim bola favorit",
+              "jawaban": "B. \"Aku tidak setuju dengan pendapatmu, namun aku menghargainya.\""
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Tindakan merundung, mengancam, atau mempermalukan orang lain secara berulang melalui media sosial disebut...",
+          "jawaban_benar": [
+            "Cyberbullying"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan3": {
+    "topik": "Perangkat Teknologi Digital untuk Produksi Konten",
+    "tujuan_pembelajaran": "Murid mampu memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Fitur apa dalam aplikasi desain visual yang digunakan untuk memotong bagian gambar yang tidak diinginkan?",
+          "opsi": {
+            "A": "Zoom",
+            "B": "Crop",
+            "C": "Font",
+            "D": "Save"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa saja elemen dasar yang bisa kita masukkan ke dalam kanvas (lembar kerja) saat membuat poster digital?",
+          "opsi": {
+            "A": "Teks (Text)",
+            "B": "Gambar/Foto (Image/Photo)",
+            "C": "Perangkat Keras (Hardware)",
+            "D": "Bentuk/Bilah (Shapes/Elements)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan jenis aplikasi dengan fokus produksinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Penyunting Video (Video Editor)",
+              "jawaban": "C. Menggabungkan klip gambar bergerak, suara, dan transisi"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Proses memotong klip video yang terlalu panjang menjadi lebih pendek dalam aplikasi edit video disebut...",
+          "jawaban_benar": [
+            "Cut",
+            "Crop",
+            "Trim"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan4": {
+    "topik": "Praktik Pembuatan Konten Digital Positif/Edukatif",
+    "tujuan_pembelajaran": "Murid mampu membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Syarat utama dari sebuah \"konten edukatif\" yang baik bagi masyarakat adalah...",
+          "opsi": {
+            "A": "Berisi rumor yang menghebohkan",
+            "B": "Menyajikan informasi yang bermanfaat, akurat, dan mendidik",
+            "C": "Memicu pertengkaran antar kelompok",
+            "D": "Memakai bahasa gaul yang kasar"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Langkah apa saja yang termasuk dalam perancangan infografis yang benar?",
+          "opsi": {
+            "A": "Mencari data dan fakta yang valid (benar)",
+            "B": "Langsung mempublikasikan sebelum dicek",
+            "C": "Membuat sketsa tata letak gambar dan teks",
+            "D": "Menyalin utuh tugas orang lain"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan tema konten dengan jenis pesan positif yang dibawanya!",
+          "pasangan": [
+            {
+              "pernyataan": "Pentingnya tidur 8 jam sehari",
+              "jawaban": "A. Kampanye kesehatan fisik dan mental"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Tulisan singkat, padat, dan menarik yang biasanya disematkan di bagian atas atau tengah poster sebagai pemikat disebut...",
+          "jawaban_benar": [
+            "Judul",
+            "Headline",
+            "Slogan"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan5": {
+    "topik": "Hak Cipta, Lisensi, dan Etika Penyebaran Informasi",
+    "tujuan_pembelajaran": "Murid mampu memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Jika kita ingin menggunakan musik orang lain sebagai latar video tugas sekolah dan menemukan lambang \"CC\" (Creative Commons), apa maksudnya?",
+          "opsi": {
+            "A": "Lagu itu berbayar sangat mahal",
+            "B": "Lagu itu tidak boleh dipakai sama sekali",
+            "C": "Lagu itu merupakan karya yang diizinkan untuk dipakai ulang dengan syarat tertentu, misalnya menyebutkan nama pembuatnya",
+            "D": "Lagu itu penuh dengan virus komputer"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Tindakan mana saja yang termasuk pelanggaran hak cipta (pembajakan)?",
+          "opsi": {
+            "A": "Mengunduh film berbayar secara ilegal dan menyebarkannya gratis",
+            "B": "Menyalin artikel orang lain dan memakai nama kita sebagai penulisnya (Plagiat)",
+            "C": "Menulis ulasan film dengan kata-kata sendiri",
+            "D": "Menjual software bajakan di internet"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan istilah hak cipta bahasa Inggris dengan padanan Indonesianya!",
+          "pasangan": [
+            {
+              "pernyataan": "Watermark",
+              "jawaban": "A. Tanda air pelindung hak cipta"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Simbol huruf C yang dilingkari (©) adalah lambang internasional untuk...",
+          "jawaban_benar": [
+            "Copyright",
+            "Hak Cipta"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan6": {
+    "topik": "Praktik Diseminasi Konten Positif Secara Bijak, Aman, dan Bertanggung Jawab",
+    "tujuan_pembelajaran": "Murid mampu mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Ketika membagikan karya di platform publik, hal penting apa yang harus dihindari terkait privasi?",
+          "opsi": {
+            "A": "Menuliskan pesan positif tentang peduli lingkungan",
+            "B": "Menggunakan gambar ilustrasi pohon",
+            "C": "Menampilkan nama lengkap, nomor HP pribadi, dan alamat rumah secara detail di gambar",
+            "D": "Menyertakan daftar pustaka/sumber referensi"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Manfaat menyebarkan (diseminasi) konten edukatif yang kita buat ke publik adalah...",
+          "opsi": {
+            "A": "Menginspirasi orang lain untuk berbuat baik",
+            "B": "Membantu teman yang butuh informasi bermanfaat",
+            "C": "Membuat komputer kita rusak",
+            "D": "Berpartisipasi positif dalam masyarakat digital"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan jenis jangkauan (privacy) unggahan dengan siapa yang bisa melihatnya!",
+          "pasangan": [
+            {
+              "pernyataan": "Only Me",
+              "jawaban": "B. Hanya diri sendiri yang bisa melihat, sebagai arsip pribadi"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Simbol tanda pagar yang digunakan di media sosial untuk menandai topik tertentu disebut...",
+          "jawaban_benar": [
+            "Hashtag",
+            "Tagar"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem1-bab2-pertemuan7": {
+    "topik": "Pameran Karya Konten Digital Positif & Evaluasi Hasil Diseminasi",
+    "tujuan_pembelajaran": "Murid mampu menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Setelah poster digital diunggah ke internet, salah satu cara paling sederhana mengukur \"jangkauan interaksi\" atau ketertarikan publik adalah dengan melihat jumlah...",
+          "opsi": {
+            "A": "Huruf pada poster",
+            "B": "Kuota internet yang habis",
+            "C": "Likes, Views, dan komentar positif",
+            "D": "Ukuran file (Megabyte)"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Cara memberikan umpan balik (feedback) yang baik kepada karya teman adalah...",
+          "opsi": {
+            "A": "Menyebutkan kelebihan karyanya terlebih dahulu",
+            "B": "Memberikan saran perbaikan secara spesifik dan sopan",
+            "C": "Menyuruh teman berhenti membuat karya",
+            "D": "Menggunakan kata-kata yang memotivasi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan data hasil publikasi dengan maknanya!",
+          "pasangan": [
+            {
+              "pernyataan": "Jumlah Share (Bagikan)",
+              "jawaban": "A. Menunjukkan berapa kali poster tersebut disebar luaskan lagi oleh orang lain"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Tanggapan, komentar, atau saran yang diberikan penonton setelah melihat karya kita dikenal dengan istilah...",
+          "jawaban_benar": [
+            "Umpan balik",
+            "Feedback"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan1": {
+    "topik": "Pengenalan Ancaman Siber & Jenis-Jenis Malware",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Perangkat lunak (software) jahat yang mengunci file atau layar komputer korban, lalu meminta tebusan uang agar file tersebut bisa dibuka kembali disebut...",
+          "opsi": {
+            "A": "Adware",
+            "B": "Ransomware",
+            "C": "Microsoft Word",
+            "D": "Antivirus"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Manakah yang merupakan cara penyebaran malware yang sering terjadi?",
+          "opsi": {
+            "A": "Mengklik tautan (link) sembarangan dari email tidak dikenal",
+            "B": "Mencolokkan flashdisk sembarangan dari tempat umum",
+            "C": "Membeli komputer baru di toko resmi",
+            "D": "Mengunduh program bajakan dari situs tidak resmi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan skenario infeksi dengan nama ancamannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Unduh game gratis yang isinya diam-diam merusak sistem",
+              "jawaban": "A. Trojan"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Jenis malware yang meminta bayaran berupa tebusan dari korban adalah...",
+          "jawaban_benar": [
+            "Ransomware"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan2": {
+    "topik": "Strategi dan Praktik Pengamanan Perangkat",
+    "tujuan_pembelajaran": "Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Mengapa kita harus rajin melakukan pembaruan (update) sistem operasi (seperti Windows/Android) di perangkat kita?",
+          "opsi": {
+            "A": "Agar harga perangkat menjadi mahal",
+            "B": "Untuk menambal celah keamanan (patch) agar tidak mudah ditembus peretas",
+            "C": "Agar memori handphone cepat penuh",
+            "D": "Agar baterai perangkat cepat habis"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Langkah keamanan mana saja yang benar untuk melindungi perangkat sehari-hari?",
+          "opsi": {
+            "A": "Melakukan pemindaian (scanning) flashdisk menggunakan Windows Defender sebelum membukanya",
+            "B": "Mematikan sistem pembaruan otomatis (auto-update) agar selamanya memakai versi lama",
+            "C": "Menyimpan cadangan file penting (backup) di Google Drive atau hardisk lain",
+            "D": "Menghapus aplikasi antivirus karena memakan memori"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan tindakan pengguna dengan hasil keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Rutin Backup Data",
+              "jawaban": "A. File tetap aman jika komputer rusak karena ada salinannya"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Fitur yang berfungsi layaknya petugas satpam di pintu masuk jaringan internet untuk memblokir peretas adalah...",
+          "jawaban_benar": [
+            "Firewall"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan3": {
+    "topik": "Konsep Kredensial & Pembuatan Kata Sandi yang Aman",
+    "tujuan_pembelajaran": "Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Siti memiliki 10 akun digital dengan kata sandi rumit yang berbeda-beda. Agar tidak lupa dan tetap aman, aplikasi bantu apa yang sebaiknya ia gunakan?",
+          "opsi": {
+            "A": "Password Manager (Pengelola Kata Sandi)",
+            "B": "Microsoft Paint",
+            "C": "Kalkulator",
+            "D": "Browser History"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Kebiasaan buruk apa yang bisa membuat kredensial (username & password) kita mudah dicuri?",
+          "opsi": {
+            "A": "Mencatat sandi di secarik kertas lalu menempelkannya di monitor",
+            "B": "Membagikan kata sandi kepada sahabat terdekat sebagai bukti setia",
+            "C": "Menggunakan frasa (kalimat pendek) yang kita modifikasi sebagai kata sandi",
+            "D": "Menyimpan sandi di aplikasi Password Manager bawaan Google/Apple yang terenkripsi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan kebiasaan keamanan sandi dengan tingkat keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Memakai aplikasi Password Manager",
+              "jawaban": "A. Sangat Kuat dan Aman"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Aplikasi \"brankas\" digital yang berfungsi untuk menyimpan dan menghasilkan berbagai kata sandi secara aman dan terenkripsi adalah...",
+          "jawaban_benar": [
+            "Password Manager",
+            "Pengelola Kata Sandi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan4": {
+    "topik": "Autentikasi Tambahan: Two-Factor Authentication (2FA)",
+    "tujuan_pembelajaran": "Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Budi sudah memasukkan password Instagramnya dengan benar. Namun karena 2FA aktif, ia diminta memasukkan enam digit angka sementara yang dikirimkan ke nomor ponselnya. Angka ini sering disebut...",
+          "opsi": {
+            "A": "PIN ATM",
+            "B": "NIK KTP",
+            "C": "OTP (One-Time Password)",
+            "D": "QR Code"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa keuntungan mengaktifkan 2FA pada akun email penting kita?",
+          "opsi": {
+            "A": "Jika password kita dicuri peretas, mereka tetap tidak bisa masuk karena tidak punya kode langkah keduanya",
+            "B": "Proses login menjadi tidak perlu password sama sekali selamanya",
+            "C": "Akun lebih aman dari ancaman pembajakan jarak jauh",
+            "D": "Membuat kuota internet bertambah secara gratis"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan istilah 2FA dengan fungsinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Backup Codes",
+              "jawaban": "A. Kode cadangan untuk login jika HP hilang"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Kode rahasia enam angka yang dikirim lewat SMS/Email dan hanya berlaku satu kali untuk login disebut...",
+          "jawaban_benar": [
+            "OTP",
+            "One-Time Password"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan5": {
+    "topik": "Klasifikasi Informasi: Memilah Informasi Privat vs Publik",
+    "tujuan_pembelajaran": "Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Jika seseorang bertanya tentang hobi dan warna kesukaan Andi di forum publik, maka data tersebut termasuk ke dalam jenis informasi...",
+          "opsi": {
+            "A": "Rahasia Negara",
+            "B": "Publik (Umum) yang relatif aman dibagikan",
+            "C": "Privat (Sensitif) yang sangat berbahaya",
+            "D": "Malware"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Risiko apa yang mungkin terjadi jika kita membagikan nomor tiket pesawat/konser lengkap dengan barcode-nya ke media sosial publik?",
+          "opsi": {
+            "A": "Tiket kita bisa dibajak dan dipakai oleh orang lain",
+            "B": "Kita akan mendapat diskon tambahan dari maskapai",
+            "C": "Barcode bisa di-scan oleh penipu untuk mencuri data pemesanan kita",
+            "D": "Akun media sosial kita otomatis terverifikasi (centang biru)"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan akibat dengan penyebab kebocoran data!",
+          "pasangan": [
+            {
+              "pernyataan": "Akun sosmed diambil alih",
+              "jawaban": "C. Menggunakan tanggal lahir sebagai password dan membagikannya ke publik"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Singkatan nomor identitas kependudukan 16 digit yang ada di KTP/Kartu Keluarga dan wajib dirahasiakan adalah...",
+          "jawaban_benar": [
+            "NIK"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan6": {
+    "topik": "Etika Berbagi & Pencegahan Kebocoran Informasi di Aplikasi",
+    "tujuan_pembelajaran": "Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Istilah untuk kebiasaan pengguna media sosial yang terlalu banyak membagikan setiap detail kecil kehidupannya secara berlebihan ke internet adalah...",
+          "opsi": {
+            "A": "Oversharing",
+            "B": "Debugging",
+            "C": "Coding",
+            "D": "Uploading"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Saat kita berfoto di sekolah dan ingin mengunggahnya ke medsos terbuka, perhatikan apakah di dalam foto terdapat... (yang berpotensi membahayakan privasi teman)",
+          "opsi": {
+            "A": "Langit biru dan awan",
+            "B": "Teman yang sedang berganti baju atau dalam pose memalukan tanpa izin",
+            "C": "Papan tulis yang berisi nomor HP guru atau nilai ujian teman secara jelas",
+            "D": "Meja dan kursi kayu kelas"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan kebiasaan bermedsos dengan dampaknya pada privasi!",
+          "pasangan": [
+            {
+              "pernyataan": "Memposting \"Sekeluarga liburan ke luar kota seminggu, rumah kosong!\"",
+              "jawaban": "A. Mengundang maling karena tahu rumah sedang tidak dijaga"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Kebiasaan terlalu berlebihan dalam membagikan informasi kehidupan pribadi ke internet disebut...",
+          "jawaban_benar": [
+            "Oversharing"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan7": {
+    "topik": "Perlindungan Identitas Digital & Mitigasi Phishing/Doxxing",
+    "tujuan_pembelajaran": "Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Tindakan jahat mencari dan mempublikasikan data pribadi rahasia seseorang (seperti alamat rumah, nama keluarga, atau KTP) ke internet terbuka untuk tujuan mengintimidasi atau balas dendam disebut...",
+          "opsi": {
+            "A": "Vlog",
+            "B": "Doxxing",
+            "C": "E-learning",
+            "D": "Coding"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Langkah pertama yang harus dilakukan jika kita secara tidak sengaja mengklik link mencurigakan dan memasukkan password adalah...",
+          "opsi": {
+            "A": "Segera mengganti password di aplikasi aslinya melalui jalur resmi",
+            "B": "Membuang HP ke tempat sampah",
+            "C": "Mengaktifkan fitur Autentikasi Dua Faktor (2FA) secepatnya",
+            "D": "Membagikan link tersebut ke semua teman"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan ciri-ciri link/alamat situs web dengan tingkat keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "www.faceb00k-login.com",
+              "jawaban": "B. Sengaja meniru situs asli (Tipografi/Typo squatting), berbahaya"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Huruf tambahan \"s\" pada protokol \"https://\" yang biasa ada di alamat situs web menunjukkan bahwa situs tersebut...",
+          "jawaban_benar": [
+            "Secure",
+            "Aman",
+            "Terenkripsi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab4-pertemuan8": {
+    "topik": "Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety",
+    "tujuan_pembelajaran": "Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "8A-2",
+          "pertanyaan": "Ketika membuat poster kampanye \"Digital Safety\" (Keselamatan Digital) untuk teman SMP, bahasa yang paling cocok digunakan adalah...",
+          "opsi": {
+            "A": "Bahasa pemrograman yang sangat rumit",
+            "B": "Bahasa Inggris kuno yang puitis",
+            "C": "Bahasa sehari-hari yang sederhana, singkat, ramah, dan mudah dipahami teman sebaya",
+            "D": "Kalimat ancaman hukuman penjara yang sangat panjang"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "8B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Topik apa saja yang bermanfaat untuk dijadikan materi edukasi dalam brosur Kampanye Keselamatan Digital?",
+          "opsi": {
+            "A": "Cara membuat kata sandi yang kuat",
+            "B": "Cara merakit bom rakitan",
+            "C": "Panduan membedakan email asli dan email phishing",
+            "D": "Tips mencegah kecanduan game dan cyberbullying"
+          },
+          "jawaban_benar": [
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "8C-2",
+          "instruksi": "Pasangkan hasil temuan saat audit keamanan dengan solusi yang harus dilakukan!",
+          "pasangan": [
+            {
+              "pernyataan": "Email penting belum ada pengamanan lapis kedua",
+              "jawaban": "C. Aktifkan fitur Autentikasi Dua Faktor (2FA)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "8D-2",
+          "pertanyaan": "Panduan atau sosialisasi keselamatan berinternet yang disebarkan untuk melindungi pengguna lain disebut kampanye...",
+          "jawaban_benar": [
+            "Keselamatan Digital",
+            "Digital Safety"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan1": {
+    "topik": "Bentuk dan Jenis Perundungan Digital (Cyberbullying)",
+    "tujuan_pembelajaran": "Murid mampu mengidentifikasi berbagai bentuk dan praktik perundungan siber yang marak terjadi di ekosistem digital.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Tindakan jahat mengumpulkan data pribadi dan rahasia seseorang (seperti alamat rumah lengkap, nomor telepon orang tua, atau foto aib), lalu menyebarkannya ke publik secara online untuk mempermalukan atau mengancam, disebut...",
+          "opsi": {
+            "A": "Phishing",
+            "B": "Doxxing",
+            "C": "Spamming",
+            "D": "Hacking"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa perbedaan cyberbullying dengan bullying (perundungan) di dunia nyata (fisik)?",
+          "opsi": {
+            "A": "Cyberbullying dilakukan melalui perantara teknologi digital (internet, sosmed, game)",
+            "B": "Cyberbullying bisa tersebar dengan sangat cepat, meluas, dan sulit dihapus jejaknya",
+            "C": "Cyberbullying selalu melibatkan pukulan fisik secara langsung",
+            "D": "Cyberbullying pelaku utamanya bisa anonim (menyembunyikan identitas asli)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan perilaku online dengan jenisnya!",
+          "pasangan": [
+            {
+              "pernyataan": "Memposting alamat rumah lawan debat di medsos",
+              "jawaban": "C. Doxxing"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Orang yang menjadi sasaran ejekan atau kekerasan (baik nyata maupun maya) disebut...",
+          "jawaban_benar": [
+            "Korban",
+            "Victim"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan2": {
+    "topik": "Dampak Psikologis, Sosial, dan Aspek Hukum Perundungan Digital",
+    "tujuan_pembelajaran": "Murid mampu menganalisis konsekuensi negatif perundungan digital terhadap kesehatan mental, hubungan sosial, dan implikasi hukumnya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Di Indonesia, pelaku pencemaran nama baik, penyebaran ujaran kebencian, dan ancaman kekerasan di media sosial dapat dipidana. Undang-undang yang mengatur tindak pidana di dunia siber tersebut adalah...",
+          "opsi": {
+            "A": "UU Lalu Lintas",
+            "B": "UU ITE (Informasi dan Transaksi Elektronik)",
+            "C": "UU Hak Cipta",
+            "D": "UU Ketenagakerjaan"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa konsekuensi nyata bagi pelaku (orang yang mem-bully) di media sosial?",
+          "opsi": {
+            "A": "Mendapat penghargaan dari pemerintah",
+            "B": "Jejak digital buruknya akan tercatat selamanya di internet (merusak masa depan sendiri)",
+            "C": "Terkena sanksi hukum penjara dan denda sesuai UU ITE",
+            "D": "Mendapat sanksi drop-out atau skorsing dari pihak sekolah"
+          },
+          "jawaban_benar": [
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan peran dalam kasus bullying dengan kondisinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Bystander (Saksi/Penonton Baik)",
+              "jawaban": "A. Membantu menghentikan atau melaporkan pelaku"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Orang yang melihat kejadian perundungan di media sosial namun memilih berpihak membela korban atau melaporkan kejadian disebut saksi yang aktif atau...",
+          "jawaban_benar": [
+            "Upstander",
+            "Pembela",
+            "Saksi Aktif"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan3": {
+    "topik": "Pencegahan, Pelaporan (Reporting), dan Penanganan Cyberbullying",
+    "tujuan_pembelajaran": "Murid mampu memperagakan langkah penanganan awal, mekanisme pelaporan (reporting), serta dukungan bagi korban cyberbullying.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Apa bukti yang paling kuat dan harus segera disimpan jika kita menjadi korban perundungan siber sebelum pelakunya menghapus postingan tersebut?",
+          "opsi": {
+            "A": "Tangkapan Layar (Screenshot) dari komentar/pesan ancaman tersebut",
+            "B": "Foto profil diri kita sendiri",
+            "C": "Bukti pembelian pulsa atau kuota internet",
+            "D": "Gambar pemandangan"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Jika seorang teman sekelas curhat (bercerita) menjadi korban cyberbullying, apa dukungan yang bisa kita berikan?",
+          "opsi": {
+            "A": "Mendengarkannya tanpa menghakimi dan menenangkan perasaannya",
+            "B": "Menyuruhnya diam saja dan menanggungnya sendiri",
+            "C": "Membantunya menyimpan bukti screenshot dan melaporkannya kepada Guru BK/Orang Tua",
+            "D": "Ikut mengejek teman tersebut karena dianggap lemah"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Urutkan langkah darurat saat menerima ancaman cyberbullying!",
+          "pasangan": [
+            {
+              "pernyataan": "Langkah Ketiga",
+              "jawaban": "C. Ceritakan dan tunjukkan bukti kepada orang dewasa yang dipercaya (Orang Tua/Guru)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Tindakan mengambil gambar atau memotret tampilan layar di HP/Komputer untuk dijadikan alat bukti kuat disebut...",
+          "jawaban_benar": [
+            "Screenshot",
+            "Tangkapan Layar"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan4": {
+    "topik": "Pengenalan Rekam Jejak Digital (Aktif vs Pasif)",
+    "tujuan_pembelajaran": "Murid mampu membedakan rekam jejak digital aktif (postingan, komentar) dan pasif (cookies, IP log) yang tertinggal di internet.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Jejak digital yang kita tinggalkan SECARA SENGAJA, seperti foto liburan yang kita unggah (upload) ke Facebook atau komentar yang kita tulis di YouTube, disebut...",
+          "opsi": {
+            "A": "Jejak Digital Aktif",
+            "B": "Jejak Digital Pasif",
+            "C": "Jejak Fisik",
+            "D": "Jejak Anonim"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Mengapa jejak digital disebut sebagai sesuatu yang abadi?",
+          "opsi": {
+            "A": "Karena internet akan rusak suatu saat nanti",
+            "B": "Karena meskipun kita menghapusnya, orang lain mungkin sudah melakukan screenshot (tangkap layar)",
+            "C": "Karena data disimpan di berbagai server/cloud yang tersebar luas (back up otomatis)",
+            "D": "Karena layar komputer tidak bisa dibersihkan"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan istilah pelacakan internet dengan artinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Riwayat Penelusuran",
+              "jawaban": "A. Catatan pencarian kata kunci yang kita ketik di Google (Search History)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Jejak digital yang kita buat secara sadar dan sengaja dengan memposting sesuatu disebut jejak digital...",
+          "jawaban_benar": [
+            "Aktif"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan5": {
+    "topik": "Dampak Rekam Jejak Digital Terhadap Privasi, Reputasi, dan Masa Depan",
+    "tujuan_pembelajaran": "Murid mampu menganalisis dampak jangka panjang dari rekam jejak digital negatif terhadap citra diri dan karir di masa depan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Bagaimana cara terbaik membentuk \"Citra Diri (Reputasi) Digital\" yang positif untuk masa depan?",
+          "opsi": {
+            "A": "Sering menyindir teman di status WhatsApp",
+            "B": "Membagikan pencapaian, karya seni, portofolio, tugas sekolah, dan memposting hal bermanfaat",
+            "C": "Menulis komentar kasar di akun artis",
+            "D": "Menyebarkan foto memalukan teman sekelas"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Prinsip kehati-hatian sebelum memposting sesuatu ke internet (Think Before You Post) meliputi aspek...",
+          "opsi": {
+            "A": "Apakah postingan ini benar? (True)",
+            "B": "Apakah ini menyakiti atau mempermalukan orang lain? (Helpful/Harmful)",
+            "C": "Apakah ini pantas dilihat oleh orang tua atau calon guru di masa depan? (Inspiring)",
+            "D": "Apakah kuota internet masih banyak?"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan pertanyaan \"THINK\" sebelum posting dengan artinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Is it Necessary?",
+              "jawaban": "C. Apakah ini hal yang sangat penting untuk dibagikan secara publik?"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Slogan \"Think Before You...\" selalu ditekankan agar kita tidak menyesal mengunggah sesuatu di media sosial.",
+          "jawaban_benar": [
+            "Post",
+            "Posting"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan6": {
+    "topik": "Manajemen Rekam Jejak Digital & Pengaturan Privasi (Digital Hygiene)",
+    "tujuan_pembelajaran": "Murid mampu mengonfigurasi setelan privasi akun media sosial serta melakukan tindakan perawatan kebersihan digital (digital hygiene).",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Menghapus riwayat penelusuran (clear history/cookies) di peramban web dan menghapus akun lama yang sudah tidak dipakai adalah contoh tindakan...",
+          "opsi": {
+            "A": "Digital Hygiene (Kebersihan Digital)",
+            "B": "Digital Art",
+            "C": "Cyberbullying",
+            "D": "Hardware Troubleshooting"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Pengaturan privasi apa yang penting disetel pada akun media sosial remaja?",
+          "opsi": {
+            "A": "Menonaktifkan penandaan lokasi persis (Location Tag) saat memposting foto secara langsung",
+            "B": "Menyetel akun menjadi Privat agar orang asing tidak mudah mengirim pesan atau menguntit foto diri",
+            "C": "Menyebarkan nomor HP di Bio profil publik",
+            "D": "Mengatur agar siapa saja bisa menandai (Tag) foto memalukan kita di linimasa"
+          },
+          "jawaban_benar": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan setelan privasi dengan efeknya pada orang tak dikenal!",
+          "pasangan": [
+            {
+              "pernyataan": "Blokir pengguna asing",
+              "jawaban": "B. Orang asing tidak bisa melihat kita sama sekali saat mencari nama kita"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Setelan pada media sosial yang berfungsi membatasi siapa yang bisa melihat profil kita disebut pengaturan...",
+          "jawaban_benar": [
+            "Privacy",
+            "Privasi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan7": {
+    "topik": "Etika Berwarganet (Netiquette) dan Kebudayaan Komunikasi Berempati",
+    "tujuan_pembelajaran": "Murid mampu menerapkan norma kesantunan berwarganet (netiquette) serta berkomunikasi dengan empati saat berinteraksi online.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Mengapa mengetik pesan atau komentar dengan HURUF KAPITAL SEMUA (CAPSLOCK) sangat dihindari dalam etika berinternet?",
+          "opsi": {
+            "A": "Karena menghabiskan banyak tinta keyboard",
+            "B": "Karena ukuran hurufnya terlalu besar",
+            "C": "Karena di dunia maya sering diartikan sebagai sedang TERIAK atau MARAH",
+            "D": "Karena tidak bisa terbaca oleh komputer"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Prinsip Netiquette (Netiket) yang baik saat berdiskusi di grup kelas meliputi...",
+          "opsi": {
+            "A": "Tidak menyela atau mengirim spam pesan beruntun (flooding)",
+            "B": "Menggunakan bahasa yang baik dan bebas typo yang parah agar mudah dimengerti",
+            "C": "Membagikan stiker berlebihan hingga isi diskusi tenggelam",
+            "D": "Membaca pesan guru/teman secara utuh sebelum bertanya hal yang sudah dijelaskan"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan konsep komunikasi berempati dengan tindakannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Konteks Komunikasi (Kepada siapa kita bicara)",
+              "jawaban": "A. Menggunakan bahasa baku saat chat ke Guru, dan bahasa santai ke Sahabat"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Kemampuan ikut merasakan emosi atau membayangkan diri kita di posisi orang yang menerima pesan di internet disebut dengan rasa...",
+          "jawaban_benar": [
+            "Empati"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan8": {
+    "topik": "Menghargai Keragaman dan Mencegah Ujaran Kebencian (Hate Speech)",
+    "tujuan_pembelajaran": "Murid mampu menunjukkan sikap toleran terhadap perbedaan pendapat di media sosial dan menghindari penyebaran ujaran kebencian.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "8A-2",
+          "pertanyaan": "Ketika melihat teman berdebat tentang tim olahraga jagoannya di grup sekolah, sikap yang mencerminkan toleransi digital yang baik adalah...",
+          "opsi": {
+            "A": "Ikut menghina tim lawan teman tersebut menggunakan kata-kata kasar",
+            "B": "Memprovokasi kedua teman agar saling bermusuhan di dunia nyata",
+            "C": "Menghargai pandangannya (meski beda jagoan) dan membalas dengan diskusi sehat/bercanda yang tidak menyakiti",
+            "D": "Mengeluarkan teman yang beda pandangan dari grup sekolah"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "8B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Cara mencegah diri agar tidak ikut menyebarkan ujaran kebencian adalah...",
+          "opsi": {
+            "A": "Menahan diri (tidak mudah terpancing emosi) saat melihat konten provokatif",
+            "B": "Mencari sumber berita terpercaya (klarifikasi/tabayyun) sebelum bereaksi marah",
+            "C": "Langsung membagikan berita SARA dari grup keluarga ke medsos tanpa disaring",
+            "D": "Menghormati pendapat orang lain yang memiliki latar belakang agama/suku yang berbeda"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "8C-2",
+          "instruksi": "Pasangkan respons komentar terhadap perbedaan pendapat dengan sikapnya!",
+          "pasangan": [
+            {
+              "pernyataan": "\"Ayo semua serang dan laporkan akun dia sampai hilang!\"",
+              "jawaban": "B. Provokasi (memanaskan suasana pertengkaran)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "8D-2",
+          "pertanyaan": "Sikap tenggang rasa, saling menghargai, dan tidak memaksakan kehendak meski berbeda pendapat (baik di dunia nyata maupun internet) disebut...",
+          "jawaban_benar": [
+            "Toleransi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas8-sem2-bab4-pertemuan9": {
+    "topik": "Proyek Kampanye Digital / Analisis Kasus Kewargaan Digital Sehat",
+    "tujuan_pembelajaran": "Murid mampu merancang karya kampanye digital kreatif yang menyuarakan perilaku etis, bebas cyberbullying, dan ramah rekam jejak.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "9A-2",
+          "pertanyaan": "Kriteria poster/infografis kampanye digital yang sukses bagi siswa SMP adalah...",
+          "opsi": {
+            "A": "Pesan teksnya terlalu panjang melebihi satu halaman penuh huruf kecil",
+            "B": "Visual/gambar ilustrasi menarik dengan pesan singkat (Slogan) yang menempel kuat di ingatan (contoh: \"Saring sebelum Sharing\")",
+            "C": "Menggunakan bahasa pemrograman yang sulit",
+            "D": "Menyebutkan nama lengkap siswa yang pernah jadi pelaku secara terang-terangan"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "9B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Proses merancang karya kampanye (seperti infografis anti-hoax) melibatkan kegiatan berpikir...",
+          "opsi": {
+            "A": "Kreatif dalam memadukan warna dan gambar (Desain Visual)",
+            "B": "Komputasional (Abstraksi mencari inti pesan penting dari banyak materi yang ada)",
+            "C": "Kriminal (Mengambil gambar berhak cipta milik artis diam-diam)",
+            "D": "Empati (Memikirkan kata-kata yang mudah menyentuh dan dipahami orang banyak)"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "9C-2",
+          "instruksi": "Pasangkan tema kampanye dengan contoh solusi/pesannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Keamanan Sandi (Password)",
+              "jawaban": "B. \"Gunakan kombinasi huruf kapital, angka, dan simbol!\""
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "9D-2",
+          "pertanyaan": "Warga negara yang cerdas dan bertanggung jawab dalam menggunakan teknologi digital disebut warganet atau Digital...",
+          "jawaban_benar": [
+            "Citizen"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan1": {
+    "topik": "Pengenalan Ancaman Siber & Jenis-Jenis Malware",
+    "tujuan_pembelajaran": "Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "1A-2",
+          "pertanyaan": "Perangkat lunak (software) jahat yang mengunci file atau layar komputer korban, lalu meminta tebusan uang agar file tersebut bisa dibuka kembali disebut...",
+          "opsi": {
+            "A": "Adware",
+            "B": "Ransomware",
+            "C": "Microsoft Word",
+            "D": "Antivirus"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "1B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Manakah yang merupakan cara penyebaran malware yang sering terjadi?",
+          "opsi": {
+            "A": "Mengklik tautan (link) sembarangan dari email tidak dikenal",
+            "B": "Mencolokkan flashdisk sembarangan dari tempat umum",
+            "C": "Membeli komputer baru di toko resmi",
+            "D": "Mengunduh program bajakan dari situs tidak resmi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "1C-2",
+          "instruksi": "Pasangkan skenario infeksi dengan nama ancamannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Unduh game gratis yang isinya diam-diam merusak sistem",
+              "jawaban": "A. Trojan"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "1D-2",
+          "pertanyaan": "Jenis malware yang meminta bayaran berupa tebusan dari korban adalah...",
+          "jawaban_benar": [
+            "Ransomware"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan2": {
+    "topik": "Strategi dan Praktik Pengamanan Perangkat",
+    "tujuan_pembelajaran": "Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "2A-2",
+          "pertanyaan": "Mengapa kita harus rajin melakukan pembaruan (update) sistem operasi (seperti Windows/Android) di perangkat kita?",
+          "opsi": {
+            "A": "Agar harga perangkat menjadi mahal",
+            "B": "Untuk menambal celah keamanan (patch) agar tidak mudah ditembus peretas",
+            "C": "Agar memori handphone cepat penuh",
+            "D": "Agar baterai perangkat cepat habis"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "2B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Langkah keamanan mana saja yang benar untuk melindungi perangkat sehari-hari?",
+          "opsi": {
+            "A": "Melakukan pemindaian (scanning) flashdisk menggunakan Windows Defender sebelum membukanya",
+            "B": "Mematikan sistem pembaruan otomatis (auto-update) agar selamanya memakai versi lama",
+            "C": "Menyimpan cadangan file penting (backup) di Google Drive atau hardisk lain",
+            "D": "Menghapus aplikasi antivirus karena memakan memori"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "2C-2",
+          "instruksi": "Pasangkan tindakan pengguna dengan hasil keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Rutin Backup Data",
+              "jawaban": "A. File tetap aman jika komputer rusak karena ada salinannya"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "2D-2",
+          "pertanyaan": "Fitur yang berfungsi layaknya petugas satpam di pintu masuk jaringan internet untuk memblokir peretas adalah...",
+          "jawaban_benar": [
+            "Firewall"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan3": {
+    "topik": "Konsep Kredensial & Pembuatan Kata Sandi yang Aman",
+    "tujuan_pembelajaran": "Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "3A-2",
+          "pertanyaan": "Siti memiliki 10 akun digital dengan kata sandi rumit yang berbeda-beda. Agar tidak lupa dan tetap aman, aplikasi bantu apa yang sebaiknya ia gunakan?",
+          "opsi": {
+            "A": "Password Manager (Pengelola Kata Sandi)",
+            "B": "Microsoft Paint",
+            "C": "Kalkulator",
+            "D": "Browser History"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "3B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Kebiasaan buruk apa yang bisa membuat kredensial (username & password) kita mudah dicuri?",
+          "opsi": {
+            "A": "Mencatat sandi di secarik kertas lalu menempelkannya di monitor",
+            "B": "Membagikan kata sandi kepada sahabat terdekat sebagai bukti setia",
+            "C": "Menggunakan frasa (kalimat pendek) yang kita modifikasi sebagai kata sandi",
+            "D": "Menyimpan sandi di aplikasi Password Manager bawaan Google/Apple yang terenkripsi"
+          },
+          "jawaban_benar": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "3C-2",
+          "instruksi": "Pasangkan kebiasaan keamanan sandi dengan tingkat keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "Memakai aplikasi Password Manager",
+              "jawaban": "A. Sangat Kuat dan Aman"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "3D-2",
+          "pertanyaan": "Aplikasi \"brankas\" digital yang berfungsi untuk menyimpan dan menghasilkan berbagai kata sandi secara aman dan terenkripsi adalah...",
+          "jawaban_benar": [
+            "Password Manager",
+            "Pengelola Kata Sandi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan4": {
+    "topik": "Autentikasi Tambahan: Two-Factor Authentication (2FA)",
+    "tujuan_pembelajaran": "Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "4A-2",
+          "pertanyaan": "Budi sudah memasukkan password Instagramnya dengan benar. Namun karena 2FA aktif, ia diminta memasukkan enam digit angka sementara yang dikirimkan ke nomor ponselnya. Angka ini sering disebut...",
+          "opsi": {
+            "A": "PIN ATM",
+            "B": "NIK KTP",
+            "C": "OTP (One-Time Password)",
+            "D": "QR Code"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "4B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Apa keuntungan mengaktifkan 2FA pada akun email penting kita?",
+          "opsi": {
+            "A": "Jika password kita dicuri peretas, mereka tetap tidak bisa masuk karena tidak punya kode langkah keduanya",
+            "B": "Proses login menjadi tidak perlu password sama sekali selamanya",
+            "C": "Akun lebih aman dari ancaman pembajakan jarak jauh",
+            "D": "Membuat kuota internet bertambah secara gratis"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "4C-2",
+          "instruksi": "Pasangkan istilah 2FA dengan fungsinya!",
+          "pasangan": [
+            {
+              "pernyataan": "Backup Codes",
+              "jawaban": "A. Kode cadangan untuk login jika HP hilang"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "4D-2",
+          "pertanyaan": "Kode rahasia enam angka yang dikirim lewat SMS/Email dan hanya berlaku satu kali untuk login disebut...",
+          "jawaban_benar": [
+            "OTP",
+            "One-Time Password"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan5": {
+    "topik": "Klasifikasi Informasi: Memilah Informasi Privat vs Publik",
+    "tujuan_pembelajaran": "Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "5A-2",
+          "pertanyaan": "Jika seseorang bertanya tentang hobi dan warna kesukaan Andi di forum publik, maka data tersebut termasuk ke dalam jenis informasi...",
+          "opsi": {
+            "A": "Rahasia Negara",
+            "B": "Publik (Umum) yang relatif aman dibagikan",
+            "C": "Privat (Sensitif) yang sangat berbahaya",
+            "D": "Malware"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "5B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Risiko apa yang mungkin terjadi jika kita membagikan nomor tiket pesawat/konser lengkap dengan barcode-nya ke media sosial publik?",
+          "opsi": {
+            "A": "Tiket kita bisa dibajak dan dipakai oleh orang lain",
+            "B": "Kita akan mendapat diskon tambahan dari maskapai",
+            "C": "Barcode bisa di-scan oleh penipu untuk mencuri data pemesanan kita",
+            "D": "Akun media sosial kita otomatis terverifikasi (centang biru)"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "5C-2",
+          "instruksi": "Pasangkan akibat dengan penyebab kebocoran data!",
+          "pasangan": [
+            {
+              "pernyataan": "Akun sosmed diambil alih",
+              "jawaban": "C. Menggunakan tanggal lahir sebagai password dan membagikannya ke publik"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "5D-2",
+          "pertanyaan": "Singkatan nomor identitas kependudukan 16 digit yang ada di KTP/Kartu Keluarga dan wajib dirahasiakan adalah...",
+          "jawaban_benar": [
+            "NIK"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan6": {
+    "topik": "Etika Berbagi & Pencegahan Kebocoran Informasi di Aplikasi",
+    "tujuan_pembelajaran": "Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "6A-2",
+          "pertanyaan": "Istilah untuk kebiasaan pengguna media sosial yang terlalu banyak membagikan setiap detail kecil kehidupannya secara berlebihan ke internet adalah...",
+          "opsi": {
+            "A": "Oversharing",
+            "B": "Debugging",
+            "C": "Coding",
+            "D": "Uploading"
+          },
+          "jawaban_benar": "A"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "6B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Saat kita berfoto di sekolah dan ingin mengunggahnya ke medsos terbuka, perhatikan apakah di dalam foto terdapat... (yang berpotensi membahayakan privasi teman)",
+          "opsi": {
+            "A": "Langit biru dan awan",
+            "B": "Teman yang sedang berganti baju atau dalam pose memalukan tanpa izin",
+            "C": "Papan tulis yang berisi nomor HP guru atau nilai ujian teman secara jelas",
+            "D": "Meja dan kursi kayu kelas"
+          },
+          "jawaban_benar": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "6C-2",
+          "instruksi": "Pasangkan kebiasaan bermedsos dengan dampaknya pada privasi!",
+          "pasangan": [
+            {
+              "pernyataan": "Memposting \"Sekeluarga liburan ke luar kota seminggu, rumah kosong!\"",
+              "jawaban": "A. Mengundang maling karena tahu rumah sedang tidak dijaga"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "6D-2",
+          "pertanyaan": "Kebiasaan terlalu berlebihan dalam membagikan informasi kehidupan pribadi ke internet disebut...",
+          "jawaban_benar": [
+            "Oversharing"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan7": {
+    "topik": "Perlindungan Identitas Digital & Mitigasi Phishing/Doxxing",
+    "tujuan_pembelajaran": "Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "7A-2",
+          "pertanyaan": "Tindakan jahat mencari dan mempublikasikan data pribadi rahasia seseorang (seperti alamat rumah, nama keluarga, atau KTP) ke internet terbuka untuk tujuan mengintimidasi atau balas dendam disebut...",
+          "opsi": {
+            "A": "Vlog",
+            "B": "Doxxing",
+            "C": "E-learning",
+            "D": "Coding"
+          },
+          "jawaban_benar": "B"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "7B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Langkah pertama yang harus dilakukan jika kita secara tidak sengaja mengklik link mencurigakan dan memasukkan password adalah...",
+          "opsi": {
+            "A": "Segera mengganti password di aplikasi aslinya melalui jalur resmi",
+            "B": "Membuang HP ke tempat sampah",
+            "C": "Mengaktifkan fitur Autentikasi Dua Faktor (2FA) secepatnya",
+            "D": "Membagikan link tersebut ke semua teman"
+          },
+          "jawaban_benar": [
+            "A",
+            "C"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "7C-2",
+          "instruksi": "Pasangkan ciri-ciri link/alamat situs web dengan tingkat keamanannya!",
+          "pasangan": [
+            {
+              "pernyataan": "www.faceb00k-login.com",
+              "jawaban": "B. Sengaja meniru situs asli (Tipografi/Typo squatting), berbahaya"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "7D-2",
+          "pertanyaan": "Huruf tambahan \"s\" pada protokol \"https://\" yang biasa ada di alamat situs web menunjukkan bahwa situs tersebut...",
+          "jawaban_benar": [
+            "Secure",
+            "Aman",
+            "Terenkripsi"
+          ]
+        }
+      ]
+    }
+  },
+  "kelas9-sem2-bab3-pertemuan8": {
+    "topik": "Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety",
+    "tujuan_pembelajaran": "Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.",
+    "soal": {
+      "pilihan_ganda": [
+        {
+          "id": "8A-2",
+          "pertanyaan": "Ketika membuat poster kampanye \"Digital Safety\" (Keselamatan Digital) untuk teman SMP, bahasa yang paling cocok digunakan adalah...",
+          "opsi": {
+            "A": "Bahasa pemrograman yang sangat rumit",
+            "B": "Bahasa Inggris kuno yang puitis",
+            "C": "Bahasa sehari-hari yang sederhana, singkat, ramah, dan mudah dipahami teman sebaya",
+            "D": "Kalimat ancaman hukuman penjara yang sangat panjang"
+          },
+          "jawaban_benar": "C"
+        }
+      ],
+      "pilihan_ganda_kompleks": [
+        {
+          "id": "8B-2",
+          "petunjuk": "Pilih semua jawaban yang benar.",
+          "pertanyaan": "Topik apa saja yang bermanfaat untuk dijadikan materi edukasi dalam brosur Kampanye Keselamatan Digital?",
+          "opsi": {
+            "A": "Cara membuat kata sandi yang kuat",
+            "B": "Cara merakit bom rakitan",
+            "C": "Panduan membedakan email asli dan email phishing",
+            "D": "Tips mencegah kecanduan game dan cyberbullying"
+          },
+          "jawaban_benar": [
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ],
+      "menjodohkan": [
+        {
+          "id": "8C-2",
+          "instruksi": "Pasangkan hasil temuan saat audit keamanan dengan solusi yang harus dilakukan!",
+          "pasangan": [
+            {
+              "pernyataan": "Email penting belum ada pengamanan lapis kedua",
+              "jawaban": "C. Aktifkan fitur Autentikasi Dua Faktor (2FA)"
+            }
+          ]
+        }
+      ],
+      "isian": [
+        {
+          "id": "8D-2",
+          "pertanyaan": "Panduan atau sosialisasi keselamatan berinternet yang disebarkan untuk melindungi pengguna lain disebut kampanye...",
+          "jawaban_benar": [
+            "Keselamatan Digital",
+            "Digital Safety"
+          ]
+        }
+      ]
+    }
+  }
+}
