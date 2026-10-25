@@ -12,6 +12,33 @@ export function createDefaultProgress(): StudentProgress {
   };
 }
 
+export function isMenuLocked(
+  progress: StudentProgress,
+  menuId: MenuId
+): boolean {
+  const idx = MENU_ORDER.indexOf(menuId);
+  if (idx <= 0) return false;
+  const prevMenuId = MENU_ORDER[idx - 1];
+  return progress[prevMenuId] !== 'completed';
+}
+
+function normalizeSequentialProgress(raw: StudentProgress): StudentProgress {
+  const normalized: StudentProgress = { ...raw };
+  if (normalized.atp === 'locked') {
+    normalized.atp = 'available';
+  }
+  for (let i = 1; i < MENU_ORDER.length; i++) {
+    const prevId = MENU_ORDER[i - 1];
+    const currId = MENU_ORDER[i];
+    if (normalized[prevId] !== 'completed') {
+      normalized[currId] = 'locked';
+    } else if (normalized[currId] === 'locked') {
+      normalized[currId] = 'available';
+    }
+  }
+  return normalized;
+}
+
 export function loadMeetingProgress(
   userIdentifier: string,
   meetingId: string
@@ -31,7 +58,7 @@ export function loadMeetingProgress(
           base[id] = parsed[id]!;
         }
       });
-      return base;
+      return normalizeSequentialProgress(base);
     } catch {
       return createDefaultProgress();
     }

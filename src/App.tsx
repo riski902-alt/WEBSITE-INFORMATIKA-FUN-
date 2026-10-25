@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
   ATPCatalog,
+  MENU_DEFINITIONS,
   MENU_ORDER,
   MateriCatalog,
   MenuId,
@@ -16,6 +17,7 @@ import {
 import {
   completeMenuStage,
   createDefaultProgress,
+  isMenuLocked,
   loadMeetingProgress,
   saveMeetingProgress,
 } from './utils/firebaseSync';
@@ -106,12 +108,13 @@ export const App: React.FC = () => {
     [session]
   );
 
-  // Sinkronkan progres siswa setiap kali meetingId atau userKey berubah
+  // Sinkronkan progres setiap kali meetingId atau userKey berubah
   useEffect(() => {
     if (!meetingId) return;
     const loaded = loadMeetingProgress(userKey, meetingId);
     setProgress(loaded);
     setLockedNotice(null);
+    setActiveMenu((prev) => (isMenuLocked(loaded, prev) ? 'atp' : prev));
 
     // Sinkronkan parameter ?id= di URL tanpa reload halaman
     const url = new URL(window.location.href);
@@ -149,6 +152,19 @@ export const App: React.FC = () => {
   };
 
   const handleSelectMenu = (menuId: MenuId) => {
+    if (isMenuLocked(progress, menuId)) {
+      const idx = MENU_ORDER.indexOf(menuId);
+      const prevMenuLabel =
+        idx > 0 ? MENU_DEFINITIONS[idx - 1]?.label : 'sebelumnya';
+      const currMenuLabel =
+        MENU_DEFINITIONS.find((m) => m.id === menuId)?.label || menuId;
+
+      setLockedNotice(
+        `Menu "${currMenuLabel}" masih terkunci. Selesaikan menu "${prevMenuLabel}" terlebih dahulu.`
+      );
+      return;
+    }
+
     setLockedNotice(null);
     setActiveMenu(menuId);
   };
@@ -205,7 +221,6 @@ export const App: React.FC = () => {
           materi={currentMateri}
           atpSections={currentATPSections}
           progress={progress}
-          userRole={session.role}
           onOpenStageInDashboard={(targetMenu) => {
             setActiveMenu(targetMenu);
             setViewMode('dashboard');
@@ -218,7 +233,6 @@ export const App: React.FC = () => {
             materi={currentMateri}
             progress={progress}
             activeMenu={activeMenu}
-            userRole={session.role}
             lockedNotice={lockedNotice}
             onSelectMenu={handleSelectMenu}
           />

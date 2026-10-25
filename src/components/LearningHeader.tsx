@@ -17,15 +17,13 @@ import {
   MateriItem,
   MenuId,
   StudentProgress,
-  UserRole,
 } from '../types/learning';
-import { countCompletedMenus } from '../utils/firebaseSync';
+import { countCompletedMenus, isMenuLocked } from '../utils/firebaseSync';
 
 interface LearningHeaderProps {
   materi: MateriItem;
   progress: StudentProgress;
   activeMenu: MenuId;
-  userRole: UserRole;
   lockedNotice: string | null;
   onSelectMenu: (menuId: MenuId) => void;
 }
@@ -65,7 +63,6 @@ export const LearningHeader: React.FC<LearningHeaderProps> = ({
   materi,
   progress,
   activeMenu,
-  userRole,
   lockedNotice,
   onSelectMenu,
 }) => {
@@ -129,8 +126,8 @@ export const LearningHeader: React.FC<LearningHeaderProps> = ({
         <nav className="learning-menu-container menu-scroll flex w-full gap-3 overflow-x-auto pt-3.5 pb-1 mt-1">
           {MENU_DEFINITIONS.map((menu) => {
             const state = progress[menu.id];
-            const isLocked = state === 'locked' && userRole !== 'guru';
-            const isCompleted = state === 'completed';
+            const isLocked = isMenuLocked(progress, menu.id);
+            const isCompleted = !isLocked && state === 'completed';
             const isActive = activeMenu === menu.id;
 
             let btnClasses =
@@ -138,7 +135,7 @@ export const LearningHeader: React.FC<LearningHeaderProps> = ({
 
             if (isLocked) {
               btnClasses +=
-                'bg-[#1E3A5F]/50 border-[#88D4AB]/20 text-white/45 cursor-pointer opacity-75 ';
+                'bg-[#132644]/90 border-white/20 text-white/55 cursor-not-allowed ';
             } else if (isCompleted && isActive) {
               btnClasses +=
                 'bg-[#88D4AB] text-[#1E3A5F] border-2 border-white shadow-[0_0_16px_rgba(136,212,171,0.45)] cursor-pointer -translate-y-0.5 ';
@@ -161,11 +158,16 @@ export const LearningHeader: React.FC<LearningHeaderProps> = ({
                 onClick={() => onSelectMenu(menu.id)}
                 className={btnClasses}
               >
-                <div className="absolute top-2 right-2 text-sm">
+                <div className="absolute top-2 right-2">
                   {isLocked ? (
-                    <LockKey size={15} weight="bold" />
+                    <span
+                      title="Terkunci — selesaikan menu sebelumnya"
+                      className="inline-flex items-center justify-center w-6 h-6 rounded-md bg-[#1E3A5F] border border-[#D8BD7B]/55 text-[#D8BD7B] shadow-sm"
+                    >
+                      <LockKey size={14} weight="fill" />
+                    </span>
                   ) : isCompleted ? (
-                    <CheckCircle size={16} weight="fill" />
+                    <CheckCircle size={17} weight="fill" />
                   ) : (
                     <CaretRight size={14} weight="bold" />
                   )}

@@ -12,14 +12,13 @@ import {
   MenuId,
   ParsedATPSections,
   StudentProgress,
-  UserRole,
 } from '../types/learning';
+import { isMenuLocked } from '../utils/firebaseSync';
 
 interface BacaMateriViewProps {
   materi: MateriItem;
   atpSections: ParsedATPSections;
   progress: StudentProgress;
-  userRole: UserRole;
   onOpenStageInDashboard: (menuId: MenuId) => void;
   onBackToDashboard: () => void;
 }
@@ -28,7 +27,6 @@ export const BacaMateriView: React.FC<BacaMateriViewProps> = ({
   materi,
   atpSections,
   progress,
-  userRole,
   onOpenStageInDashboard,
   onBackToDashboard,
 }) => {
@@ -62,7 +60,7 @@ export const BacaMateriView: React.FC<BacaMateriViewProps> = ({
       <div className="bg-white rounded-2xl p-6 sm:p-7 shadow-sm text-[#243447] flex flex-col gap-6">
         {MENU_DEFINITIONS.map((menu) => {
           const state = progress[menu.id];
-          const isLocked = state === 'locked' && userRole !== 'guru';
+          const isLocked = isMenuLocked(progress, menu.id);
 
           return (
             <div
