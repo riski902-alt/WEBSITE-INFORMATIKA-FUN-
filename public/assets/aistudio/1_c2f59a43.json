@@ -1,0 +1,2222 @@
+{
+  "Kelas7-sem1-bab1-pertemuan1": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Budi menemukan setumpuk struk belanja dan mencatat total pengeluaran harian ke dalam tabel buku kas. Perubahan jenis data apa yang terjadi pada aktivitas Budi?",
+        "pilihan": {
+          "A": "Dari terstruktur menjadi tidak terstruktur",
+          "B": "Dari tidak terstruktur menjadi terstruktur",
+          "C": "Dari kualitatif menjadi tidak terstruktur",
+          "D": "Dari terstruktur menjadi kuantitatif"
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Manakah dari situasi berikut yang paling tepat menggunakan sistem penyimpanan data terstruktur?",
+        "pilihan": {
+          "A": "Menyimpan koleksi video liburan keluarga.",
+          "B": "Menyimpan rekaman wawancara dengan narasumber.",
+          "C": "Mencatat daftar nilai rapor 30 siswa di kelas.",
+          "D": "Mengumpulkan foto-foto kejadian kecelakaan."
+        },
+        "kunciJawaban": "C"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dari pilihan berikut, manakah yang merupakan karakteristik data terstruktur? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Memiliki baris dan kolom yang jelas.",
+          "B": "Mudah dianalisis menggunakan mesin pencari gambar.",
+          "C": "Memerlukan format tabel atau database untuk pengelolaannya.",
+          "D": "Formatnya bebas dan tidak memiliki pola khusus."
+        },
+        "kunciJawaban": "A, C"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Sita ingin merapikan kamarnya yang berisi banyak dokumen. Manakah yang termasuk data tidak terstruktur di kamarnya? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Tabel jadwal piket di dinding.",
+          "B": "Kumpulan foto polaroid yang berserakan.",
+          "C": "Buku harian yang berisi tulisan cerita sehari-hari.",
+          "D": "Daftar nomor telepon darurat di buku catatan."
+        },
+        "kunciJawaban": "B, C"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Data yang tersusun dalam format baris dan kolom.",
+        "jawaban": "Data Terstruktur"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Kumpulan file audio dari rekaman rapat.",
+        "jawaban": "Data Tidak Terstruktur"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Sebuah daftar kontak di ponsel cerdas yang berisi nama, nomor telepon, dan email merupakan contoh dari data...",
+        "jawaban": "Terstruktur"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "File gambar hasil tangkapan layar (screenshot) struk ATM yang belum diolah teksnya termasuk kategori data...",
+        "jawaban": "Tidak Terstruktur"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab1-pertemuan2": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Pak Guru membacakan informasi: 'Andi lahir di Jakarta, cita-cita Dokter. Budi lahir di Bandung, cita-cita Polisi.' Jika informasi ini diubah ke tabel, apa saja judul kolom (atribut) yang paling tepat?",
+        "pilihan": {
+          "A": "Nama, Andi, Budi",
+          "B": "Nama, Tempat Lahir, Cita-cita",
+          "C": "Tempat Lahir, Dokter, Polisi",
+          "D": "Andi, Budi, Tempat Lahir"
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Dalam sebuah tabel data siswa, setiap satu baris (row) secara utuh biasanya mewakili...",
+        "pilihan": {
+          "A": "Satu jenis atribut dari seluruh siswa.",
+          "B": "Seluruh data dari semua siswa di kelas.",
+          "C": "Data lengkap dari satu individu/siswa tertentu.",
+          "D": "Satu kolom nilai dari seluruh mata pelajaran."
+        },
+        "kunciJawaban": "C"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Sebuah tabel data inventaris laboratorium memiliki kolom 'Nama Barang', 'Jumlah', dan 'Kondisi'. Manakah pernyataan yang benar? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "'Nama Barang' disebut sebagai atribut data.",
+          "B": "Satu baris berisi informasi lengkap satu jenis barang.",
+          "C": "'Kondisi' merupakan data tidak terstruktur.",
+          "D": "Jumlah baris menunjukkan jumlah atribut tabel."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Saat memodelkan daftar menu kantin ke dalam tabel, informasi apa yang tepat dijadikan sebagai atribut kolom? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Nama Makanan",
+          "B": "Harga",
+          "C": "Nasi Goreng",
+          "D": "Rp 15.000"
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Elemen tabel yang memanjang ke bawah (vertikal) dan mewakili satu jenis atribut.",
+        "jawaban": "Kolom (Column)"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Elemen tabel yang memanjang ke samping (horizontal) dan mewakili satu kesatuan data spesifik.",
+        "jawaban": "Baris (Row)"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam pembuatan tabel data, judul pada bagian atas kolom yang mendeskripsikan jenis data di bawahnya disebut...",
+        "jawaban": "Atribut (Header/Field)"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika sebuah tabel memiliki 4 kolom dan berisi data milik 10 orang anak (ditambah 1 baris judul), maka jumlah total baris pada tabel tersebut adalah...",
+        "jawaban": "11"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab1-pertemuan3": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Saat mengoperasikan spreadsheet, Dina mengklik sebuah kotak yang merupakan perpotongan antara kolom C dan baris 5. Kotak tersebut bernama...",
+        "pilihan": {
+          "A": "5C",
+          "B": "Sel 5",
+          "C": "Sel C5",
+          "D": "Range C-5"
+        },
+        "kunciJawaban": "C"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Budi ingin memblok (memilih) sekumpulan data dari sel A1 hingga sel A10 untuk disalin. Kumpulan sel yang dipilih ini disebut sebagai...",
+        "pilihan": {
+          "A": "Column",
+          "B": "Row",
+          "C": "Sheet",
+          "D": "Range"
+        },
+        "kunciJawaban": "D"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah pernyataan yang benar terkait antarmuka spreadsheet? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Kolom diwakili oleh huruf abjad (A, B, C, dst).",
+          "B": "Baris diwakili oleh angka (1, 2, 3, dst).",
+          "C": "Satu file spreadsheet hanya dapat memiliki satu lembar kerja (sheet).",
+          "D": "Range selalu terdiri dari minimal dua kolom yang berbeda."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Pilih contoh penulisan referensi Range yang benar dalam spreadsheet! (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "A1:A5",
+          "B": "C3-D7",
+          "C": "B2:F2",
+          "D": "Kolom A sampai B"
+        },
+        "kunciJawaban": "A, C"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Perpotongan antara satu baris dan satu kolom tempat memasukkan data.",
+        "jawaban": "Sel (Cell)"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Kumpulan dari beberapa sel yang dipilih secara bersamaan.",
+        "jawaban": "Range"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Huruf yang berada di bagian paling atas lembar kerja spreadsheet digunakan untuk melambangkan...",
+        "jawaban": "Kolom (Column)"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Alamat sel yang berada pada pertemuan kolom D dan baris ke-12 adalah...",
+        "jawaban": "D12"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab1-pertemuan4": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dika memiliki data nilai ulangan 30 siswa yang masih acak. Ia ingin melihat nilai dari yang paling besar ke yang paling kecil. Fitur apa yang harus ia gunakan?",
+        "pilihan": {
+          "A": "Sort A to Z",
+          "B": "Sort Z to A (Descending)",
+          "C": "Filter (Menyaring)",
+          "D": "Find and Replace"
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Guru BK ingin melihat daftar siswa yang HANYA memiliki hobi 'Membaca' dari tabel data 500 siswa. Fitur yang paling efisien untuk memunculkan data tersebut tanpa menghapus data lain adalah...",
+        "pilihan": {
+          "A": "Menghapus baris secara manual.",
+          "B": "Menggunakan fitur Sort.",
+          "C": "Menggunakan fitur Filter.",
+          "D": "Mengubah warna teks (Highlight)."
+        },
+        "kunciJawaban": "C"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait penggunaan formula aritmatika di spreadsheet, manakah cara penulisan yang benar untuk melakukan perkalian? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "=A1*B1",
+          "B": "=A1 x B1",
+          "C": "=C2*D2",
+          "D": "Perkalian(A1,B1)"
+        },
+        "kunciJawaban": "A, C"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Apa kelebihan menggunakan fitur Filter pada tabel data yang besar? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Dapat menyembunyikan data yang tidak relevan sementara waktu.",
+          "B": "Dapat menghapus data yang tidak diinginkan secara permanen.",
+          "C": "Memudahkan pencarian informasi spesifik dari ribuan baris.",
+          "D": "Otomatis memperbaiki data yang salah ketik."
+        },
+        "kunciJawaban": "A, C"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Fitur untuk mengurutkan nama siswa berdasarkan abjad dari A ke Z.",
+        "jawaban": "Sort Ascending"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Karakter yang wajib ditulis pertama kali saat membuat rumus atau formula.",
+        "jawaban": "Sama dengan (=)"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Fitur yang digunakan untuk menampilkan baris data tertentu berdasarkan kriteria khusus dan menyembunyikan sisanya adalah...",
+        "jawaban": "Filter"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Operator simbol matematika yang digunakan untuk melakukan pembagian dalam formula spreadsheet adalah...",
+        "jawaban": "Garis Miring ( / )"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab1-pertemuan5": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Siswa diberikan tugas membuat laporan kas kelas. Terdapat pemasukan dari 30 siswa dan pengeluaran untuk alat kebersihan. Untuk mengetahui sisa uang kas, tindakan analisis yang paling tepat pada tabel tersebut adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur filter untuk mencari nama siswa.",
+          "B": "Menjumlahkan total pemasukan, lalu menguranginya dengan total pengeluaran menggunakan formula.",
+          "C": "Mengurutkan data pengeluaran dari A ke Z.",
+          "D": "Menggunakan fungsi teks pada kolom nominal uang."
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika menganalisis data hasil survei ekskul, Doni menyadari bahwa banyak baris data kosong. Langkah terbaik sebelum menganalisis data tersebut adalah...",
+        "pilihan": {
+          "A": "Menyimpan file dengan nama baru.",
+          "B": "Melakukan pembersihan data (data cleaning) dengan menghapus baris yang kosong.",
+          "C": "Langsung membuat grafik dari data mentah tersebut.",
+          "D": "Mewarnai baris kosong dengan warna merah."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam menyusun laporan data penjualan koperasi sekolah yang rapi, hal apa saja yang perlu dipastikan oleh siswa? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Header kolom ditulis dengan jelas dan dicetak tebal.",
+          "B": "Angka nominal uang menggunakan format Currency/Accounting.",
+          "C": "Semua data teks ditulis menggunakan huruf kapital penuh tanpa spasi.",
+          "D": "Menghapus kolom yang berisi jumlah barang."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Saat menghadapi error '#VALUE!' pada hasil perhitungan rumusnya, penyebab yang paling mungkin adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Murid mengalikan sel angka dengan sel berisi teks.",
+          "B": "Murid lupa memasukkan tanda '=' di awal rumus.",
+          "C": "Data yang diinput mengandung spasi di belakang angka.",
+          "D": "Baterai komputer hampir habis."
+        },
+        "kunciJawaban": "A, C"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Proses mendeteksi dan memperbaiki (atau menghapus) data yang korup atau tidak akurat dari tabel.",
+        "jawaban": "Data Cleaning"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Pesan error di spreadsheet ketika sel yang dibagi bernilai nol.",
+        "jawaban": "#DIV/0!"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Langkah terakhir setelah data selesai dihitung dan disaring agar mudah dipahami oleh pembaca laporan adalah dengan menyajikannya dalam bentuk visual seperti...",
+        "jawaban": "Grafik (Chart)"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika sebuah sel berisi formula '=B2-C2' disalin (copy) ke sel tepat di bawahnya, maka rumus di bawahnya akan otomatis berubah menjadi...",
+        "jawaban": "=B3-C3"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab2-pertemuan1": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Ketika bot mesin pencari menjelajahi internet dari satu tautan ke tautan lain untuk menemukan halaman web baru, proses ini dinamakan...",
+        "pilihan": {
+          "A": "Indexing",
+          "B": "Crawling",
+          "C": "Ranking",
+          "D": "Surfing"
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Mengapa sebuah artikel yang baru saja dipublikasikan di blog kadang tidak langsung muncul di halaman pertama pencarian Google padahal kata kuncinya tepat?",
+        "pilihan": {
+          "A": "Karena artikel tersebut belum melewati proses indexing dan ranking oleh mesin pencari.",
+          "B": "Karena penulis blog tidak memiliki koneksi internet yang cepat.",
+          "C": "Karena mesin pencari membenci blog baru.",
+          "D": "Karena komputer pengguna terkena virus."
+        },
+        "kunciJawaban": "A"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah dari pernyataan berikut yang mendeskripsikan proses Indexing dengan benar? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menyimpan dan mengorganisasi informasi yang ditemukan selama crawling.",
+          "B": "Mesin pencari membuat basis data katalog situs web.",
+          "C": "Menentukan urutan halaman dari nomor 1 sampai 10 di hasil pencarian.",
+          "D": "Menghapus situs web yang tidak disukai dari internet."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Faktor apa saja yang umumnya memengaruhi tahapan Ranking pada mesin pencari? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Kecepatan muat halaman web.",
+          "B": "Kesesuaian isi halaman web dengan kata kunci (relevansi).",
+          "C": "Jumlah kuota internet yang dimiliki pengguna.",
+          "D": "Warna latar belakang halaman web yang digunakan."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Tahap penyusunan hasil pencarian dari yang paling relevan hingga kurang relevan.",
+        "jawaban": "Ranking"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Program otomatis (bot/spider) yang bertugas menyusuri halaman web di internet.",
+        "jawaban": "Crawler"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Proses pengindeksan data web ke dalam database raksasa mesin pencari agar cepat ditemukan saat dicari disebut...",
+        "jawaban": "Indexing"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Mesin pencari menggunakan algoritma khusus untuk menentukan posisi atau urutan situs web di halaman hasil pencarian. Proses penentuan urutan ini disebut...",
+        "jawaban": "Ranking"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab2-pertemuan2": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Tono sedang mencari dokumen materi sejarah dalam format PDF. Ia mengetik kata kunci: 'Sejarah Kemerdekaan Indonesia'. Hasil yang muncul kebanyakan berupa blog dan Wikipedia. Operator pencarian apa yang harus ia tambahkan agar hasilnya HANYA berupa file PDF?",
+        "pilihan": {
+          "A": "filetype:pdf",
+          "B": "pdf_only:",
+          "C": "site:pdf",
+          "D": "format=pdf"
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Nina ingin mencari artikel tentang kucing (cat), tetapi ia tidak ingin hasil pencariannya memunculkan informasi tentang mobil (karena 'cat' juga merek alat berat Caterpillar). Teknik penulisan kata kunci yang paling tepat adalah...",
+        "pilihan": {
+          "A": "cat and not car",
+          "B": "cat -caterpillar",
+          "C": "kucing caterpillar",
+          "D": "cat OR caterpillar"
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah penggunaan tanda kutip (\") yang benar dalam mesin pencari untuk menemukan frasa yang sama persis? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "\"cara membuat tempe mendoan\"",
+          "B": "cara membuat \"tempe mendoan\"",
+          "C": "cara \"membuat\" tempe mendoan",
+          "D": "\"cara\" membuat tempe \"mendoan\""
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Untuk membatasi hasil pencarian hanya dari situs web pemerintah Indonesia, operator pencarian mana yang dapat digunakan? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "site:go.id",
+          "B": "site:kemdikbud.go.id",
+          "C": "filetype:go.id",
+          "D": "domain:pemerintah"
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Operator untuk mencari frasa kata secara berurutan dan sama persis.",
+        "jawaban": "Tanda Kutip ( \" \" )"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Operator untuk mengecualikan kata tertentu dari hasil pencarian.",
+        "jawaban": "Tanda Minus ( - )"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Untuk membatasi pencarian informasi hanya dari satu situs web spesifik, misalnya situs kompas, kita menggunakan operator...",
+        "jawaban": "site:"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika ingin mencari dua kemungkinan kata kunci sekaligus, misalnya 'SMP' atau 'MTS', operator logika yang digunakan di antara kedua kata tersebut adalah...",
+        "jawaban": "OR"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab2-pertemuan3": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Rina mencari data tentang jumlah penduduk Indonesia untuk tugas presentasi besok. Ia menemukan dua situs: Situs A menampilkan data tahun 2010, Situs B menampilkan data hasil Sensus 2020. Mengapa Rina harus memilih Situs B?",
+        "pilihan": {
+          "A": "Karena Situs B lebih memenuhi kriteria keaktualan (up-to-date) data.",
+          "B": "Karena Situs B pasti ditulis oleh pejabat negara.",
+          "C": "Karena Situs A memiliki desain halaman yang kuno.",
+          "D": "Karena data tahun 2010 sudah dihapus dari internet."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Budi ditugaskan mencari penyebab terjadinya gerhana bulan. Ia menemukan artikel yang membahas mitos gerhana bulan di zaman kuno. Berdasarkan kriteria informasi yang baik, apa kelemahan utama dari artikel yang ditemukan Budi?",
+        "pilihan": {
+          "A": "Kurang akurat secara ejaan.",
+          "B": "Kurang relevan dengan tugas sains yang memintanya menjelaskan penyebab ilmiah.",
+          "C": "Terlalu aktual dan modern.",
+          "D": "Kurang panjang isi artikelnya."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Indikator apa saja yang menandakan sebuah artikel di internet memiliki akurasi yang baik? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menyertakan referensi atau daftar pustaka dari sumber terpercaya.",
+          "B": "Data dan fakta yang disajikan dapat diverifikasi di situs resmi lain.",
+          "C": "Banyak menggunakan tanda seru agar terlihat meyakinkan.",
+          "D": "Memiliki banyak kolom komentar yang setuju dengan penulis."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Mengapa kriteria 'Aktual' (terkini) sangat penting untuk topik pencarian tertentu? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Dalam berita bencana alam, informasi yang berjam-jam lalu mungkin sudah tidak relevan dengan kondisi sekarang.",
+          "B": "Untuk perkembangan teknologi, spesifikasi gadget berubah sangat cepat setiap tahun.",
+          "C": "Untuk sejarah kerajaan Majapahit, data aktual mengubah sejarah masa lalu setiap hari.",
+          "D": "Karena mesin pencari memblokir artikel yang sudah berumur lebih dari setahun."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Tingkat ketepatan dan kebenaran data berdasarkan sumber yang valid.",
+        "jawaban": "Akurasi"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Kesesuaian antara informasi yang ditemukan dengan kebutuhan informasi yang sedang dicari pengguna.",
+        "jawaban": "Relevansi"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Sebuah artikel berita mengenai jadwal keberangkatan kereta api yang diunggah 5 tahun lalu dikategorikan informasi yang kurang berkualitas karena tidak memenuhi syarat...",
+        "jawaban": "Aktual / Keaktualan"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika sebuah situs kesehatan mengklaim bahwa makan batu bata menyehatkan tanpa adanya penelitian medis yang mendukung, maka situs tersebut gagal memenuhi kriteria kualitas informasi yaitu...",
+        "jawaban": "Akurasi / Akurat"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab2-pertemuan4": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Doni menemukan artikel tentang obat kanker dari dua situs web: www.rs-kanker-nasional.go.id dan www.obat-ajaib-manjur.blogspot.com. Mengapa situs pertama jauh lebih kredibel untuk dijadikan rujukan ilmiah?",
+        "pilihan": {
+          "A": "Karena domain .go.id menandakan situs resmi lembaga pemerintah.",
+          "B": "Karena blogspot adalah domain berbayar yang mahal.",
+          "C": "Karena situs pertama memiliki nama yang lebih panjang.",
+          "D": "Karena situs kedua tidak menggunakan bahasa Indonesia."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Apa tujuan utama melakukan 'Verifikasi Silang' (cross-checking) ketika membaca sebuah berita mengejutkan di sebuah situs web?",
+        "pilihan": {
+          "A": "Mencari situs yang desainnya paling bagus.",
+          "B": "Membandingkan berita tersebut dengan liputan dari media berita arus utama lainnya untuk memastikan kebenarannya.",
+          "C": "Mengecek apakah situs tersebut memiliki banyak iklan atau tidak.",
+          "D": "Menyalin berita tersebut ke akun media sosial sendiri."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Domain manakah di bawah ini yang umumnya memiliki tingkat pengawasan ketat sehingga isinya cenderung lebih kredibel untuk keperluan akademis/pendidikan? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": ".edu (Institusi Pendidikan)",
+          "B": ".ac.id (Akademik Indonesia)",
+          "C": ".biz (Bisnis Komersial)",
+          "D": ".xyz (Domain Umum)"
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Langkah-langkah yang tepat untuk mengecek rekam jejak penulis (author) di internet adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Mengeklik nama penulis untuk melihat artikel lain yang pernah ia tulis.",
+          "B": "Mencari nama penulis di mesin pencari untuk melihat latar belakang profesinya.",
+          "C": "Mengirimkan email ancaman kepada penulis jika artikelnya salah.",
+          "D": "Melihat seberapa banyak pengikut (followers) penulis di Instagram pribadinya sebagai ukuran kepintaran."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Domain yang diperuntukkan bagi lembaga pendidikan di Indonesia.",
+        "jawaban": ".ac.id / .sch.id"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Domain yang diperuntukkan bagi organisasi non-profit atau nirlaba.",
+        "jawaban": ".org"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Halaman pada sebuah situs web yang biasanya berisi profil pembuat web, sejarah berdirinya, dan alamat kontak perusahaan adalah halaman...",
+        "jawaban": "About Us / Tentang Kami"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Membaca informasi yang sama di beberapa portal berita besar yang terpercaya untuk memastikan sebuah fakta disebut teknik...",
+        "jawaban": "Verifikasi Silang (Cross-check)"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab2-pertemuan5": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam studi kasus mengevaluasi berita tentang 'Penemuan alien di Mars', langkah investigasi pertama yang paling sistematis menggunakan mesin pencari adalah...",
+        "pilihan": {
+          "A": "Langsung membagikan berita tersebut ke grup kelas.",
+          "B": "Mencari artikel tersebut menggunakan operator site:nasa.gov untuk melihat laporan resmi.",
+          "C": "Membaca komentar netizen di YouTube.",
+          "D": "Mengganti kata kunci pencarian menggunakan bahasa gaul."
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Sebuah laporan investigasi informasi dinilai baik apabila...",
+        "pilihan": {
+          "A": "Hanya berisi ringkasan cerita dari satu blog pribadi tanpa verifikasi.",
+          "B": "Melampirkan bukti dari berbagai sumber terpercaya dan membandingkan fakta secara objektif.",
+          "C": "Ditulis dengan kalimat yang sangat panjang dan menggunakan kata-kata sulit.",
+          "D": "Langsung menyimpulkan berita adalah hoaks tanpa melampirkan tautan bukti."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Elemen apa saja yang wajib dicantumkan saat menyusun laporan evaluasi kredibilitas sebuah situs web? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "URL atau tautan lengkap dari situs yang dievaluasi.",
+          "B": "Analisis terhadap ekstensi domain web tersebut.",
+          "C": "Daftar kata sandi dari situs web yang dievaluasi.",
+          "D": "Harga pembuatan situs web tersebut."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika saat investigasi murid menemukan bahwa artikel disalin secara persis dari situs satir (lelucon/parodi), kesimpulan apa yang harus ditarik murid? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Artikel tersebut bukan merupakan berita faktual.",
+          "B": "Informasi tersebut mungkin dibuat untuk tujuan hiburan semata.",
+          "C": "Artikel tersebut adalah hasil penelitian ilmiah terbaru.",
+          "D": "Situs satir selalu memberikan informasi yang akurat."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Menelaah secara kritis sebuah informasi sebelum menyebarkannya.",
+        "jawaban": "Saring sebelum sharing"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Situs yang secara terbuka menyatakan bahwa isi kontennya adalah lelucon atau fiksi.",
+        "jawaban": "Situs Satir / Parodi"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam melakukan investigasi gambar yang meragukan di internet, kita dapat mengunggah gambar tersebut ke mesin pencari Google untuk melacak sumber aslinya. Teknik ini dinamakan...",
+        "jawaban": "Reverse Image Search"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Kemampuan menggunakan perangkat digital untuk menemukan, mengevaluasi, dan menyusun informasi secara bijak disebut...",
+        "jawaban": "Literasi Digital"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab3-pertemuan1": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah dari kalimat berikut yang merupakan sebuah FAKTA objektif?",
+        "pilihan": {
+          "A": "'Film pahlawan super ini adalah yang terbaik tahun ini.'",
+          "B": "'Udara di desa jauh lebih menyegarkan daripada di kota.'",
+          "C": "'Suhu air mendidih pada tekanan 1 atmosfer adalah 100 derajat Celcius.'",
+          "D": "'Kucing adalah hewan peliharaan yang paling menggemaskan.'"
+        },
+        "kunciJawaban": "C"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Seringkali di media sosial kita melihat postingan: 'Menurut saya, kebijakan baru ini akan menyusahkan siswa.' Pernyataan tersebut dikategorikan sebagai opini karena...",
+        "pilihan": {
+          "A": "Memiliki data numerik yang kuat.",
+          "B": "Berasal dari pandangan pribadi dan belum tentu dirasakan sama oleh orang lain.",
+          "C": "Ditulis oleh seorang jurnalis.",
+          "D": "Sudah diverifikasi oleh pemerintah."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Ciri-ciri dari pernyataan yang bersifat opini subjektif di media sosial adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Sering menggunakan kata 'menurut saya', 'sepertinya', atau 'mungkin'.",
+          "B": "Mengandung penilaian emosional terhadap sesuatu.",
+          "C": "Menyebutkan tanggal kejadian secara spesifik dari sumber polisi.",
+          "D": "Menyertakan kutipan undang-undang negara."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ciri-ciri sebuah kalimat fakta objektif adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Dapat dibuktikan kebenarannya oleh siapa saja.",
+          "B": "Berdasarkan kejadian nyata atau penelitian.",
+          "C": "Selalu mendapat banyak 'likes' di media sosial.",
+          "D": "Biasanya bersifat menyinggung orang lain."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Pernyataan yang kebenarannya mutlak dan dapat diuji secara ilmiah atau data.",
+        "jawaban": "Fakta"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Pandangan, keyakinan, atau perkiraan seseorang yang belum tentu benar.",
+        "jawaban": "Opini"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kata-kata seperti 'sebaiknya', 'menurutku', dan 'terindah' merupakan ciri khas dari kalimat...",
+        "jawaban": "Opini"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Data statistik penduduk dari Badan Pusat Statistik merupakan contoh informasi yang bersifat...",
+        "jawaban": "Fakta objektif"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab3-pertemuan2": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Sebuah pesan WhatsApp masuk dengan judul kapital besar: 'AWAS! VIRUS BARU MENYEBAR LEWAT UDARA! SEBARKAN KE 10 ORANG ATAU KELUARGAMU CELAKA!' Ciri utama hoaks pada pesan tersebut adalah...",
+        "pilihan": {
+          "A": "Menggunakan ejaan yang sempurna.",
+          "B": "Memanfaatkan gaya bahasa netral.",
+          "C": "Menciptakan kepanikan dan memaksa pesan diviralkan.",
+          "D": "Menyertakan tautan ke jurnal medis terkemuka."
+        },
+        "kunciJawaban": "C"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika menemukan foto dramatis tentang bencana alam di negara lain, namun kamu curiga foto tersebut adalah hasil editan atau kejadian lama, alat (tool) apa yang paling tepat digunakan untuk mengeceknya?",
+        "pilihan": {
+          "A": "Google Maps",
+          "B": "Google Reverse Image Search",
+          "C": "Kalkulator",
+          "D": "Microsoft Word"
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah dari pernyataan berikut yang merupakan ciri khas informasi hoaks? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Judulnya sangat provokatif atau sensasional (clickbait).",
+          "B": "Meminta pembaca untuk segera memviralkan tanpa mengecek kebenarannya.",
+          "C": "Ditulis dengan sumber rujukan jurnal yang bisa dilacak.",
+          "D": "Dipublikasikan oleh situs portal berita nasional yang terdaftar di dewan pers."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Situs web apa saja yang dapat digunakan murid di Indonesia untuk melakukan pengecekan fakta (fact-checking)? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "turnbackhoax.id",
+          "B": "cekfakta.com",
+          "C": "gameonlinegratis.com",
+          "D": "tokoonlinemurah.com"
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Informasi palsu yang sengaja dibuat untuk menipu atau memanipulasi.",
+        "jawaban": "Hoaks (Hoax)"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Judul artikel yang menjebak dan dibuat terlalu heboh agar orang penasaran mengkliknya.",
+        "jawaban": "Clickbait"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Proses memastikan kebenaran sebuah klaim atau berita di internet dengan membandingkannya terhadap sumber yang valid disebut...",
+        "jawaban": "Fact-checking (Cek Fakta)"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Menyebarkan informasi yang salah namun penyebarnya tidak tahu bahwa itu salah (tidak ada niat jahat) disebut...",
+        "jawaban": "Misinformasi"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab3-pertemuan3": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Apa perbedaan utama antara portal berita jurnalistik resmi (seperti Kompas, Tempo) dengan akun gosip di Instagram?",
+        "pilihan": {
+          "A": "Akun gosip memiliki sistem penyuntingan berita berlapis oleh editor profesional.",
+          "B": "Portal berita terikat oleh Kode Etik Jurnalistik dan harus berimbang (cover both sides).",
+          "C": "Portal berita selalu memihak satu golongan.",
+          "D": "Akun gosip wajib memiliki badan hukum pers resmi."
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika sebuah media massa membuat kesalahan dalam melaporkan berita, standar jurnalistik mewajibkan mereka untuk...",
+        "pilihan": {
+          "A": "Membiarkan berita tersebut agar tetap mendapat klik.",
+          "B": "Menyalahkan narasumber atas kesalahan tersebut.",
+          "C": "Menerbitkan ralat atau koreksi serta meminta maaf kepada pembaca.",
+          "D": "Menutup perusahaan media mereka seketika."
+        },
+        "kunciJawaban": "C"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Manakah yang merupakan bagian dari proses standar kerja media jurnalistik? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Wartawan mewawancarai narasumber yang kredibel.",
+          "B": "Berita diperiksa (diedit) oleh redaktur sebelum dipublikasikan.",
+          "C": "Menyalin cerita viral dari TikTok tanpa verifikasi lapangan.",
+          "D": "Menambahkan opini pribadi wartawan ke dalam berita straight news."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Mengapa masyarakat lebih aman menjadikan media pers terdaftar (Dewan Pers) sebagai rujukan informasi? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Mereka dapat dimintai pertanggungjawaban hukum jika menyebar fitnah.",
+          "B": "Mereka diwajibkan menyajikan fakta yang sudah terverifikasi.",
+          "C": "Karena mereka selalu membagikan berita paling viral meski hoaks.",
+          "D": "Karena mereka menggunakan bot untuk menulis berita."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Organisasi independen yang menaungi dan mengawasi pers di Indonesia.",
+        "jawaban": "Dewan Pers"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Prinsip jurnalistik untuk memberikan ruang bicara yang sama bagi kedua pihak yang berkonflik.",
+        "jawaban": "Cover Both Sides"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Orang yang bertugas mencari, mengumpulkan, dan meliput berita di lapangan disebut...",
+        "jawaban": "Wartawan / Jurnalis"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Orang yang bertugas menyeleksi dan memeriksa tulisan wartawan sebelum diterbitkan disebut...",
+        "jawaban": "Redaktur / Editor"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab3-pertemuan4": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Budi kesal dengan teman sekelasnya dan membuat postingan anonim di media sosial yang berisi hinaan fisik terhadap temannya. Tindakan Budi melanggar etika digital yang dikenal sebagai...",
+        "pilihan": {
+          "A": "Cyberbullying (Perundungan Siber)",
+          "B": "Phishing",
+          "C": "Hacking",
+          "D": "Fact-checking"
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Prinsip 'Jejak Digital itu Abadi' mengandung pesan bahwa pengguna media sosial harus...",
+        "pilihan": {
+          "A": "Menyimpan semua file ke dalam hardisk.",
+          "B": "Berhati-hati dalam mengunggah tulisan atau gambar karena sulit dihapus sepenuhnya dari internet.",
+          "C": "Membuat akun baru setiap tahun agar jejak lamanya tertumpuk.",
+          "D": "Tidak menggunakan internet sama sekali."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Perilaku mana saja yang mencerminkan etika kewargaan digital (Digital Citizenship) yang baik? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghargai perbedaan pendapat di kolom komentar.",
+          "B": "Meminta izin sebelum menandai (tag) foto teman di media sosial.",
+          "C": "Menggunakan kata-kata kasar saat bermain game online.",
+          "D": "Membagikan data pribadi orang lain tanpa izin."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Dampak negatif apa yang dapat terjadi jika seseorang tidak menjaga etika berkomunikasi di internet? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Dapat terjerat masalah hukum terkait pencemaran nama baik (UU ITE).",
+          "B": "Merusak reputasi dan jejak digital pribadi untuk masa depan.",
+          "C": "Mendapatkan penghargaan dari perusahaan teknologi.",
+          "D": "Meningkatkan kecepatan koneksi internet."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Aturan tidak tertulis terkait sopan santun dalam berinteraksi di internet.",
+        "jawaban": "Netiket (Network Etiquette)"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Catatan atau rekam jejak aktivitas seseorang saat menggunakan internet.",
+        "jawaban": "Jejak Digital"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Perilaku merundung, mengancam, atau mempermalukan orang lain secara berulang melalui media digital disebut...",
+        "jawaban": "Cyberbullying / Perundungan Siber"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Membocorkan informasi pribadi (seperti alamat rumah atau nomor telepon) orang lain di internet tanpa izin dengan tujuan jahat dikenal dengan istilah...",
+        "jawaban": "Doxing"
+      }
+    ]
+  },
+  "Kelas7-sem1-bab3-pertemuan5": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam merancang poster kampanye anti-hoaks untuk siswa SMP, elemen desain apa yang paling efektif untuk digunakan?",
+        "pilihan": {
+          "A": "Teks hukum yang panjang dan detail bersumber dari Undang-Undang.",
+          "B": "Kalimat persuasif yang singkat, padat, dan gambar visual yang relevan.",
+          "C": "Penggunaan warna gelap seluruhnya tanpa teks.",
+          "D": "Hanya menaruh logo sekolah di tengah poster."
+        },
+        "kunciJawaban": "B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Jika kelompokmu membuat video edukasi etika digital tentang 'Bahaya Oversharing', pesan utama apa yang seharusnya disampaikan?",
+        "pilihan": {
+          "A": "Ajakan untuk membagikan lokasi real-time 24 jam di medsos.",
+          "B": "Peringatan agar tidak membagikan data pribadi seperti tiket pesawat dan KTP di media sosial.",
+          "C": "Tutorial cara mengunggah foto sebanyak mungkin di Instagram.",
+          "D": "Anjuran untuk tidak berteman dengan siapapun di dunia nyata."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Saat melakukan analisis pada studi kasus cyberbullying, komponen apa saja yang perlu dijelaskan dalam laporan kelompok? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Akar masalah mengapa pelaku melakukan perundungan.",
+          "B": "Dampak psikologis yang dialami korban.",
+          "C": "Cara membuat akun palsu agar tidak ketahuan.",
+          "D": "Harga paket data internet yang digunakan korban."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Manakah kalimat kampanye (tagline) yang sesuai untuk mempromosikan literasi digital yang sehat? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "'Saring Sebelum Sharing.'",
+          "B": "'Pikir Dulu Sebelum Posting.'",
+          "C": "'Sebarkan Saja Jika Ragu, Nanti Ada yang Benarkan.'",
+          "D": "'Hoaks itu Seni, Jangan Dibatasi.'"
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Membagikan informasi pribadi secara berlebihan di internet.",
+        "jawaban": "Oversharing"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Slogan singkat yang mudah diingat untuk kampanye.",
+        "jawaban": "Tagline"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Target audiens dari kampanye edukasi anti-hoaks yang dibuat dalam lingkungan sekolah adalah...",
+        "jawaban": "Siswa / Warga Sekolah"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Kegiatan membujuk atau mengedukasi publik melalui media visual dan teks tentang suatu isu sosial disebut...",
+        "jawaban": "Kampanye (Campaign)"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan1": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Aplikasi Pengolah Kata, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Aplikasi Pengolah Kata untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Pemformatan Dasar, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Aplikasi Pengolah Kata dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Pemformatan Dasar mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Aplikasi Pengolah Kata.",
+        "jawaban": "Fitur Aplikasi Pengolah Kata"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Pemformatan Dasar.",
+        "jawaban": "Penerapan Pemformatan Dasar"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Aplikasi Pengolah Kata disebut...",
+        "jawaban": "Menu Aplikasi Pengolah Kata"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Pemformatan Dasar akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan2": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Margin dan Paragraf, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Margin dan Paragraf untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Header dan Footer, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Margin dan Paragraf dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Header dan Footer mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Margin dan Paragraf.",
+        "jawaban": "Fitur Margin dan Paragraf"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Header dan Footer.",
+        "jawaban": "Penerapan Header dan Footer"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Margin dan Paragraf disebut...",
+        "jawaban": "Menu Margin dan Paragraf"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Header dan Footer akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan3": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Insert Objek, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Insert Objek untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Wrap Text, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Insert Objek dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Wrap Text mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Insert Objek.",
+        "jawaban": "Fitur Insert Objek"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Wrap Text.",
+        "jawaban": "Penerapan Wrap Text"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Insert Objek disebut...",
+        "jawaban": "Menu Insert Objek"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Wrap Text akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan4": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Daftar Isi Otomatis, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Daftar Isi Otomatis untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Mail Merge, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Daftar Isi Otomatis dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Mail Merge mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Daftar Isi Otomatis.",
+        "jawaban": "Fitur Daftar Isi Otomatis"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Mail Merge.",
+        "jawaban": "Penerapan Mail Merge"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Daftar Isi Otomatis disebut...",
+        "jawaban": "Menu Daftar Isi Otomatis"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Mail Merge akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan5": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Praktik Laporan, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Praktik Laporan untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Struktur Dokumen, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Praktik Laporan dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Struktur Dokumen mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Praktik Laporan.",
+        "jawaban": "Fitur Praktik Laporan"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Struktur Dokumen.",
+        "jawaban": "Penerapan Struktur Dokumen"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Praktik Laporan disebut...",
+        "jawaban": "Menu Praktik Laporan"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Struktur Dokumen akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan6": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Tipe Data Spreadsheet, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Tipe Data Spreadsheet untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Sel dan Range, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Tipe Data Spreadsheet dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Sel dan Range mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Tipe Data Spreadsheet.",
+        "jawaban": "Fitur Tipe Data Spreadsheet"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Sel dan Range.",
+        "jawaban": "Penerapan Sel dan Range"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Tipe Data Spreadsheet disebut...",
+        "jawaban": "Menu Tipe Data Spreadsheet"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Sel dan Range akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan7": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Fungsi Statistik Dasar, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Fungsi Statistik Dasar untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan SUM, AVERAGE, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Fungsi Statistik Dasar dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari SUM, AVERAGE mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Fungsi Statistik Dasar.",
+        "jawaban": "Fitur Fungsi Statistik Dasar"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada SUM, AVERAGE.",
+        "jawaban": "Penerapan SUM, AVERAGE"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Fungsi Statistik Dasar disebut...",
+        "jawaban": "Menu Fungsi Statistik Dasar"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses SUM, AVERAGE akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan8": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Fungsi IF, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Fungsi IF untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Conditional Formatting, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Fungsi IF dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Conditional Formatting mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Fungsi IF.",
+        "jawaban": "Fitur Fungsi IF"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Conditional Formatting.",
+        "jawaban": "Penerapan Conditional Formatting"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Fungsi IF disebut...",
+        "jawaban": "Menu Fungsi IF"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Conditional Formatting akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan9": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan VLOOKUP / HLOOKUP, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur VLOOKUP / HLOOKUP untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Tabel Rujukan, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan VLOOKUP / HLOOKUP dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Tabel Rujukan mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari VLOOKUP / HLOOKUP.",
+        "jawaban": "Fitur VLOOKUP / HLOOKUP"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Tabel Rujukan.",
+        "jawaban": "Penerapan Tabel Rujukan"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan VLOOKUP / HLOOKUP disebut...",
+        "jawaban": "Menu VLOOKUP / HLOOKUP"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Tabel Rujukan akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan10": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Visualisasi Chart, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Visualisasi Chart untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Grafik Batang dan Lingkaran, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Visualisasi Chart dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Grafik Batang dan Lingkaran mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Visualisasi Chart.",
+        "jawaban": "Fitur Visualisasi Chart"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Grafik Batang dan Lingkaran.",
+        "jawaban": "Penerapan Grafik Batang dan Lingkaran"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Visualisasi Chart disebut...",
+        "jawaban": "Menu Visualisasi Chart"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Grafik Batang dan Lingkaran akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan11": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Prinsip Desain Slide, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Prinsip Desain Slide untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Kontras Warna Visual, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Prinsip Desain Slide dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Kontras Warna Visual mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Prinsip Desain Slide.",
+        "jawaban": "Fitur Prinsip Desain Slide"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Kontras Warna Visual.",
+        "jawaban": "Penerapan Kontras Warna Visual"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Prinsip Desain Slide disebut...",
+        "jawaban": "Menu Prinsip Desain Slide"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Kontras Warna Visual akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan12": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Transisi Slide, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Transisi Slide untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Animasi Objek, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Transisi Slide dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Animasi Objek mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Transisi Slide.",
+        "jawaban": "Fitur Transisi Slide"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Animasi Objek.",
+        "jawaban": "Penerapan Animasi Objek"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Transisi Slide disebut...",
+        "jawaban": "Menu Transisi Slide"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Animasi Objek akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan13": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Slide Master, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Slide Master untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Presenter View, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Slide Master dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Presenter View mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Slide Master.",
+        "jawaban": "Fitur Slide Master"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Presenter View.",
+        "jawaban": "Penerapan Presenter View"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Slide Master disebut...",
+        "jawaban": "Menu Slide Master"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Presenter View akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan14": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Object Linking, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Object Linking untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Integrasi OLE, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Object Linking dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Integrasi OLE mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Object Linking.",
+        "jawaban": "Fitur Object Linking"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Integrasi OLE.",
+        "jawaban": "Penerapan Integrasi OLE"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Object Linking disebut...",
+        "jawaban": "Menu Object Linking"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Integrasi OLE akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  },
+  "Kelas7-sem2-bab4-pertemuan15": {
+    "pilihanGanda": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Terkait dengan Proyek Terpadu, tindakan paling tepat yang dilakukan murid adalah...",
+        "pilihan": {
+          "A": "Menggunakan fitur Proyek Terpadu untuk efisiensi.",
+          "B": "Menghapus semua file.",
+          "C": "Mematikan komputer secara paksa.",
+          "D": "Mencetak semua file tanpa diatur."
+        },
+        "kunciJawaban": "A"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Ketika murid ingin menerapkan Kemampuan Perkantoran Terintegrasi, hal penting yang harus diperhatikan adalah...",
+        "pilihan": {
+          "A": "Mengabaikan tata letak.",
+          "B": "Ketepatan dalam memilih opsi dan format yang sesuai kebutuhan dokumen.",
+          "C": "Mengubah warna komputer.",
+          "D": "Mengirim file ke teman."
+        },
+        "kunciJawaban": "B"
+      }
+    ],
+    "pilihanGandaKompleks": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Kelebihan utama dari penggunaan Proyek Terpadu dalam aplikasi perkantoran adalah... (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Menghemat waktu pengerjaan.",
+          "B": "Membuat format terlihat profesional dan seragam.",
+          "C": "Menghabiskan tinta printer lebih banyak.",
+          "D": "Menyebabkan komputer cepat panas."
+        },
+        "kunciJawaban": "A, B"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Fitur pendukung dari Kemampuan Perkantoran Terintegrasi mencakup hal-apa saja? (Pilih lebih dari satu)",
+        "pilihan": {
+          "A": "Pengaturan otomatisasi.",
+          "B": "Pemformatan objek digital.",
+          "C": "Pembongkaran perangkat keras.",
+          "D": "Perbaikan mesin ketik manual."
+        },
+        "kunciJawaban": "A, B"
+      }
+    ],
+    "menjodohkan": [
+      {
+        "nomor": 1,
+        "pernyataan": "Konsep dasar yang menjadi inti dari Proyek Terpadu.",
+        "jawaban": "Fitur Proyek Terpadu"
+      },
+      {
+        "nomor": 2,
+        "pernyataan": "Metode penerapan pada Kemampuan Perkantoran Terintegrasi.",
+        "jawaban": "Penerapan Kemampuan Perkantoran Terintegrasi"
+      }
+    ],
+    "isian": [
+      {
+        "nomor": 1,
+        "pertanyaan": "Dalam aplikasi perkantoran, alat untuk mempermudah pekerjaan Proyek Terpadu disebut...",
+        "jawaban": "Menu Proyek Terpadu"
+      },
+      {
+        "nomor": 2,
+        "pertanyaan": "Hasil akhir dari proses Kemampuan Perkantoran Terintegrasi akan terlihat pada lembar kerja atau...",
+        "jawaban": "Dokumen / Slide"
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "pertanyaan_esensial": [
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan1",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Pilar yang berfokus pada memecah masalah besar menjadi bagian kecil disebut...   A. Pengenalan Pola   B. Dekomposisi   C. Abstraksi   D. Algoritma   Kunci Jawaban: B2. Mengabaikan detail tidak penting untuk fokus pada inti masalah adalah...   A. Dekomposisi   B. Abstraksi   C. Algoritma   D. Pengenalan Pola   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Manakah contoh penerapan algoritma? (Pilih >1)   A. Mengikuti resep masakan terurut.   B. Menyusun panduan perakitan.   C. Menebak warna baju.   D. Menangis saat sedih.   Kunci Jawaban: A, B2. Pernyataan yang tepat mengenai pengenalan pola adalah... (Pilih >1)   A. Mencari kesamaan bentuk dari masalah terdahulu.   B. Mengidentifikasi tren data.   C. Menulis kode tanpa analisis.   D. Membuang semua data.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Langkah-langkah terurut untuk menyelesaikan masalah.   Jawaban: Algoritma2. Pernyataan: Menyederhanakan masalah dengan membuang detail tidak penting.   Jawaban: Abstraksi",
+        "D. Isian1. Pertanyaan: Proses memecah masalah merakit sepeda menjadi bagian-bagian kecil disebut...   Jawaban: Dekomposisi2. Pertanyaan: Melihat kesamaan kemacetan setiap pukul 07.00 pagi merupakan proses...   Jawaban: Pengenalan Pola"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan2",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Apa keuntungan utama mengorganisasi data ke dalam bentuk tabel?   A. Data menjadi lebih acak.   B. Data lebih mudah dicari dan dianalisis.   C. Menghapus data yang tidak disukai.   D. Memperbesar ukuran file.   Kunci Jawaban: B2. Kumpulan item yang disusun secara berurutan dalam satu baris memanjang disebut...   A. Tabel   B. Kolom   C. List (Senarai)   D. Grid   Kunci Jawaban: C",
+        "B. Pilihan Ganda Kompleks1. Manakah yang merupakan elemen dari sebuah tabel? (Pilih >1)   A. Baris (Row)   B. Kolom (Column)   C. Paragraf   D. Suara   Kunci Jawaban: A, B2. Karakteristik dari list/senarai adalah... (Pilih >1)   A. Memiliki urutan tertentu (indeks).   B. Berisi sekumpulan elemen data.   C. Harus selalu berbentuk 2 dimensi.   D. Tidak bisa menyimpan angka.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Struktur data 2 dimensi yang terdiri dari baris dan kolom.   Jawaban: Tabel2. Pernyataan: Struktur data 1 dimensi berupa daftar berurutan.   Jawaban: List / Senarai",
+        "D. Isian1. Pertanyaan: Bagian mendatar (horizontal) pada tabel disebut...   Jawaban: Baris / Row2. Pertanyaan: Bagian menurun (vertikal) pada tabel disebut...   Jawaban: Kolom / Column"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan3",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jika siswa harus mengelompokkan 1000 data buku perpustakaan, membaginya berdasarkan genre (Fiksi, Non-Fiksi) adalah contoh dari...   A. Dekomposisi   B. Algoritma   C. Enkripsi   D. Deskripsi   Kunci Jawaban: A2. Menemukan bahwa setiap NIS siswa selalu diawali angka tahun angkatan adalah contoh...   A. Abstraksi   B. Pengenalan Pola   C. Dekomposisi   D. Evaluasi   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Manfaat pengenalan pola dalam pengorganisasian data adalah... (Pilih >1)   A. Mempercepat pencarian data.   B. Membantu membuat aturan kategorisasi.   C. Menghapus semua file.   D. Membuat data menjadi acak.   Kunci Jawaban: A, B2. Tindakan dekomposisi pada tabel data siswa meliputi... (Pilih >1)   A. Memisahkan tabel kelas VII, VIII, IX.   B. Membagi kolom alamat menjadi jalan, kota, kodepos.   C. Menghapus nama siswa.   D. Mewarnai seluruh tabel dengan warna hitam.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Memecah data tabel besar menjadi tabel-tabel kecil spesifik.   Jawaban: Dekomposisi2. Pernyataan: Menemukan format berulang pada sekumpulan data.   Jawaban: Pengenalan Pola",
+        "D. Isian1. Pertanyaan: Memisahkan nama lengkap menjadi kolom 'Nama Depan' dan 'Nama Belakang' adalah teknik...   Jawaban: Dekomposisi2. Pertanyaan: Kemampuan komputer mengenali wajah berdasarkan letak mata dan hidung menggunakan teknik...   Jawaban: Pengenalan Pola"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan4",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Dalam membuat daftar kontak telepon, mengabaikan informasi 'warna rambut' adalah bentuk dari...   A. Dekomposisi   B. Algoritma   C. Abstraksi   D. Pengenalan Pola   Kunci Jawaban: C2. Mencari nama 'Budi' pada daftar absensi dari nomor urut 1 sampai selesai disebut algoritma...   A. Binary Search   B. Linear Search   C. Bubble Sort   D. Merge Sort   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Karakteristik algoritma Binary Search adalah... (Pilih >1)   A. Data harus diurutkan terlebih dahulu.   B. Mencari dengan membagi dua bagian data tengah.   C. Bisa digunakan pada data yang acak.   D. Memeriksa satu per satu dari awal.   Kunci Jawaban: A, B2. Tujuan melakukan pengurutan (sorting) data adalah... (Pilih >1)   A. Mempermudah pencarian (searching).   B. Membuat tampilan laporan lebih terstruktur.   C. Menghapus data duplikat.   D. Membuat ukuran file lebih besar.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Pencarian dengan memeriksa data satu per satu dari awal.   Jawaban: Linear Search2. Pernyataan: Pengurutan data dari nilai terkecil ke terbesar.   Jawaban: Ascending",
+        "D. Isian1. Pertanyaan: Teknik menyembunyikan detail data yang tidak relevan dengan tujuan pencarian disebut...   Jawaban: Abstraksi2. Pertanyaan: Proses menyusun sekumpulan data acak menjadi berurutan disebut...   Jawaban: Sorting / Pengurutan"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan5",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Apa fungsi utama dari penulisan pseudocode?   A. Untuk langsung dieksekusi oleh prosesor komputer.   B. Sebagai kerangka logika sebelum menulis kode program asli.   C. Untuk mendesain grafis antarmuka aplikasi.   D. Untuk menghapus virus dari komputer.   Kunci Jawaban: B2. Kata kunci (keyword) yang umum digunakan dalam pseudocode untuk memulai dan mengakhiri program adalah...   A. START dan END   B. IF dan THEN   C. INPUT dan OUTPUT   D. LOOP dan STOP   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Manakah pernyataan yang benar mengenai pseudocode? (Pilih >1)   A. Tidak memiliki aturan sintaks yang seketat bahasa pemrograman asli.   B. Mudah dibaca oleh manusia.   C. Hanya bisa ditulis dalam bahasa Inggris baku.   D. Bisa langsung dikompilasi (compile) menjadi aplikasi .exe.   Kunci Jawaban: A, B2. Kosakata standar yang sering dipakai dalam pseudocode adalah... (Pilih >1)   A. READ / INPUT   B. WRITE / PRINT   C. GAMBAR   D. HAPUS_HARDISK   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Kode semu yang menyerupai bahasa pemrograman tetapi mudah dipahami manusia.   Jawaban: Pseudocode2. Pernyataan: Instruksi untuk menampilkan data ke layar.   Jawaban: PRINT / OUTPUT",
+        "D. Isian1. Pertanyaan: Kata kunci dalam pseudocode untuk menerima data dari pengguna adalah...   Jawaban: READ / INPUT2. Pertanyaan: Simbol matematika yang digunakan untuk perbandingan 'tidak sama dengan' dalam algoritma adalah...   Jawaban: != atau <>"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan6",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Struktur algoritma yang menjalankan instruksi secara berurutan dari baris atas ke baris bawah tanpa ada lompatan disebut...   A. Percabangan   B. Perulangan   C. Runtutan (Sequential)   D. Fungsi   Kunci Jawaban: C2. Tipe data yang paling tepat untuk menyimpan teks nama siswa adalah...   A. Integer   B. String   C. Boolean   D. Float   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Karakteristik variabel dalam algoritma adalah... (Pilih >1)   A. Tempat untuk menyimpan nilai data sementara.   B. Nilainya dapat diubah selama program berjalan.   C. Selalu menyimpan data permanen walau komputer mati.   D. Hanya bisa menggunakan nama dari angka saja.   Kunci Jawaban: A, B2. Tipe data numerik yang sering digunakan dalam pseudocode adalah... (Pilih >1)   A. Integer (bilangan bulat)   B. Float / Real (bilangan desimal)   C. String (teks)   D. Boolean (benar/salah)   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Wadah memori untuk menyimpan nilai sementara.   Jawaban: Variabel2. Pernyataan: Tipe data bilangan bulat.   Jawaban: Integer",
+        "D. Isian1. Pertanyaan: Tipe data yang hanya memiliki dua kemungkinan nilai, yaitu True atau False, disebut...   Jawaban: Boolean2. Pertanyaan: Algoritma yang instruksinya dikerjakan langkah demi langkah secara berurutan disebut...   Jawaban: Sequential / Runtutan"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan7",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Dalam pseudocode, kondisi IF akan dieksekusi (dijalankan) apabila evaluasi pernyataannya bernilai...   A. False   B. True   C. Error   D. Null   Kunci Jawaban: B2. Jika nilai ujian = 80, dan syarat lulus adalah IF nilai >= 75. Apa output yang dihasilkan?   A. Siswa mengulang   B. Siswa lulus   C. Program error   D. Tidak terjadi apa-apa   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Struktur percabangan IF-THEN-ELSE digunakan untuk... (Pilih >1)   A. Menentukan blok instruksi mana yang akan dijalankan berdasarkan kondisi.   B. Mengambil keputusan dalam algoritma.   C. Mengulang baris kode ribuan kali secara otomatis.   D. Menyimpan data tabel dalam database.   Kunci Jawaban: A, B2. Operator logika yang sering menyertai kondisi IF adalah... (Pilih >1)   A. AND   B. OR   C. PRINT   D. READ   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Kata kunci untuk kondisi alternatif jika kondisi pertama (IF) bernilai salah.   Jawaban: ELSE2. Pernyataan: Kata kunci yang menandakan akhir dari blok percabangan.   Jawaban: ENDIF",
+        "D. Isian1. Pertanyaan: Struktur algoritma yang digunakan untuk memilih jalur eksekusi berdasarkan kondisi tertentu disebut...   Jawaban: Percabangan / Kondisional2. Pertanyaan: Operator yang digunakan untuk mengecek apakah dua nilai bernilai sama adalah...   Jawaban: =="
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan8",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Instruksi perulangan (looping) yang digunakan apabila jumlah perulangan sudah diketahui sejak awal adalah...   A. WHILE   B. FOR   C. IF   D. SWITCH   Kunci Jawaban: B2. Apa yang terjadi jika kondisi pada struktur WHILE selalu bernilai True dan tidak pernah diubah menjadi False?   A. Program selesai dengan cepat.   B. Terjadi infinite loop (perulangan tanpa henti).   C. Kompiler akan memperbaiki secara otomatis.   D. Layar komputer berubah hitam.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Karakteristik struktur perulangan FOR adalah... (Pilih >1)   A. Memiliki nilai awal dan nilai akhir perulangan.   B. Biasanya menggunakan variabel counter (pencacah).   C. Hanya berjalan saat kondisi awalnya False.   D. Tidak bisa digunakan untuk mencetak angka.   Kunci Jawaban: A, B2. Perintah yang sering ditemukan dalam blok perulangan adalah... (Pilih >1)   A. Peningkatan nilai counter (misal i = i + 1).   B. Pemrosesan data secara berurutan.   C. Menghapus sistem operasi Windows.   D. Mengunci keyboard pengguna.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Perulangan yang berjalan selama kondisinya masih memenuhi (True).   Jawaban: WHILE2. Pernyataan: Perulangan dengan jumlah iterasi yang sudah pasti.   Jawaban: FOR",
+        "D. Isian1. Pertanyaan: Struktur kontrol algoritma yang berfungsi menjalankan instruksi yang sama berulang kali disebut...   Jawaban: Looping / Perulangan2. Pertanyaan: Kondisi dimana perulangan tidak pernah berhenti karena kesalahan logika disebut...   Jawaban: Infinite Loop"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab1-pertemuan9",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jika dalam pseudocode terdapat perintah 'FOR i = 1 TO 5 PRINT i', apa hasil di layar?   A. 1 2 3 4 5   B. 5 5 5 5 5   C. i i i i i   D. 1 5   Kunci Jawaban: A2. Manakah urutan penyelesaian masalah (problem solving) yang paling tepat?   A. Coding - Testing - Algoritma - Abstraksi   B. Dekomposisi - Pengenalan Pola - Algoritma - Pseudocode   C. Pseudocode - Dekomposisi - Coding - Testing   D. Algoritma - Dekomposisi - Testing - Pola   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Dalam studi kasus penghitungan diskon belanja, algoritma harus memuat... (Pilih >1)   A. Deklarasi variabel TotalBelanja.   B. Percabangan IF TotalBelanja > 100000 THEN Diskon.   C. Perulangan tanpa henti.   D. Pengurutan nama kasir dari Z ke A.   Kunci Jawaban: A, B2. Hal yang dievaluasi dari sebuah penulisan pseudocode yang baik adalah... (Pilih >1)   A. Logikanya terstruktur dan menyelesaikan masalah.   B. Kosakatanya mudah dipahami manusia.   C. Harus bisa di-run langsung di browser.   D. Harus berwarna-warni.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Proses menguji algoritma secara manual baris demi baris menggunakan kertas.   Jawaban: Dry Run / Tracing2. Pernyataan: Gabungan tipe, variabel, input, proses, dan output.   Jawaban: Struktur Program",
+        "D. Isian1. Pertanyaan: Kegiatan menemukan dan memperbaiki kesalahan (bug) pada algoritma atau program disebut...   Jawaban: Debugging2. Pertanyaan: Sebelum menulis baris kode (coding) sesungguhnya, programmer menyusun kerangka logika menggunakan...   Jawaban: Pseudocode"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab2-pertemuan1",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Manakah dari perangkat berikut yang BUKAN merupakan perangkat masukan (input device)?   A. Keyboard   B. Mouse   C. Proyektor   D. Mikrofon   Kunci Jawaban: C2. Perangkat yang berfungsi sebagai tempat penyimpanan data secara permanen di dalam komputer adalah...   A. RAM   B. Hard Disk Drive (HDD)   C. Prosesor (CPU)   D. VGA Card   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Perangkat keras (hardware) yang tergolong dalam perangkat keluaran (output) adalah... (Pilih >1)   A. Monitor   B. Printer   C. Scanner   D. Webcam   Kunci Jawaban: A, B2. Komponen utama yang berada di dalam casing (unit sistem) komputer meliputi... (Pilih >1)   A. Motherboard   B. Power Supply   C. Mousepad   D. Flashdisk luar   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Perangkat untuk memasukkan data teks ke komputer.   Jawaban: Keyboard2. Pernyataan: Perangkat untuk mencetak dokumen digital ke kertas.   Jawaban: Printer",
+        "D. Isian1. Pertanyaan: Bagian komputer yang dapat dilihat dan disentuh secara fisik disebut...   Jawaban: Perangkat Keras (Hardware)2. Pertanyaan: Perangkat penyimpanan portabel berukuran kecil yang menggunakan port USB adalah...   Jawaban: Flashdisk / USB Drive"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab2-pertemuan2",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Perangkat lunak dasar yang berfungsi mengelola seluruh perangkat keras dan aplikasi komputer disebut...   A. Aplikasi Perkantoran   B. Sistem Operasi (OS)   C. Bahasa Pemrograman   D. Antivirus   Kunci Jawaban: B2. Contoh dari perangkat lunak aplikasi (Application Software) adalah...   A. Microsoft Windows   B. Linux   C. Microsoft Word   D. Mac OS   Kunci Jawaban: C",
+        "B. Pilihan Ganda Kompleks1. Manakah yang termasuk dalam contoh Sistem Operasi? (Pilih >1)   A. Windows 11   B. Android   C. Google Chrome   D. Adobe Photoshop   Kunci Jawaban: A, B2. Tugas utama dari Sistem Operasi adalah... (Pilih >1)   A. Mengelola alokasi memori komputer.   B. Menjadi jembatan interaksi antara pengguna dan hardware.   C. Mengetik surat secara otomatis.   D. Mengedit foto dan video.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Sistem operasi pada ponsel buatan Apple.   Jawaban: iOS2. Pernyataan: Aplikasi peramban untuk berselancar di internet.   Jawaban: Web Browser",
+        "D. Isian1. Pertanyaan: Program komputer yang tidak memiliki wujud fisik disebut perangkat lunak atau...   Jawaban: Software2. Pertanyaan: Android dan Windows merupakan contoh dari perangkat lunak jenis...   Jawaban: Sistem Operasi (OS)"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab2-pertemuan3",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Komponen CPU yang bertugas melakukan perhitungan matematika dan operasi logika adalah...   A. Control Unit (CU)   B. Arithmetic Logic Unit (ALU)   C. Register   D. Bus   Kunci Jawaban: B2. Dalam siklus pemrosesan data, tahap ketika CPU mengambil instruksi dari memori (RAM) disebut...   A. Decode   B. Execute   C. Store   D. Fetch   Kunci Jawaban: D",
+        "B. Pilihan Ganda Kompleks1. Fungsi dari Random Access Memory (RAM) adalah... (Pilih >1)   A. Menyimpan data dan instruksi yang sedang diproses CPU secara sementara.   B. Membantu mempercepat kinerja komputer saat membuka banyak aplikasi.   C. Menyimpan file secara permanen meskipun komputer dimatikan.   D. Menampilkan gambar ke layar monitor.   Kunci Jawaban: A, B2. Komponen utama di dalam CPU (Prosesor) meliputi... (Pilih >1)   A. ALU (Arithmetic Logic Unit)   B. CU (Control Unit)   C. Hardisk   D. Keyboard   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Menerjemahkan instruksi agar dapat dipahami oleh CPU.   Jawaban: Decode2. Pernyataan: Jalur komunikasi transfer data di dalam sistem komputer.   Jawaban: Bus Data",
+        "D. Isian1. Pertanyaan: Perangkat keras yang bertindak sebagai otak utama dari sebuah komputer disebut...   Jawaban: Prosesor / CPU2. Pertanyaan: Siklus dasar pemrosesan instruksi pada CPU dikenal dengan istilah Fetch, Decode, dan...   Jawaban: Execute"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem1-bab2-pertemuan4",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jika seorang pengguna mengeluh komputernya sangat lambat saat membuka banyak tab di browser, komponen hardware apa yang paling logis untuk ditingkatkan (upgrade)?   A. Monitor   B. RAM (Memori Utama)   C. Mouse   D. Keyboard   Kunci Jawaban: B2. Ketika kita menyimpan dokumen yang sedang diketik, data berpindah dari memori sementara ke penyimpanan permanen. Proses ini melibatkan...   A. Dari RAM ke Hardisk (Storage)   B. Dari Hardisk ke RAM   C. Dari CPU ke Monitor   D. Dari Keyboard ke Mouse   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Kerusakan pada Sistem Operasi dapat menyebabkan... (Pilih >1)   A. Komputer tidak bisa masuk (booting) ke tampilan desktop.   B. Aplikasi-aplikasi tidak bisa dijalankan.   C. Layar monitor pecah.   D. Kabel power putus.   Kunci Jawaban: A, B2. Ciri-ciri interaksi yang baik antara hardware dan software adalah... (Pilih >1)   A. Sistem Operasi mendeteksi saat flashdisk ditancapkan.   B. Printer merespon saat tombol cetak diklik pada aplikasi.   C. Komputer terbakar saat dinyalakan.   D. Mouse menolak digerakkan oleh tangan.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Proses menyalakan komputer dari kondisi mati hingga OS siap digunakan.   Jawaban: Booting2. Pernyataan: Komponen yang menjembatani komunikasi hardware dengan OS.   Jawaban: Driver",
+        "D. Isian1. Pertanyaan: Kegiatan menambah kapasitas memori atau mengganti komponen menjadi lebih baik disebut...   Jawaban: Upgrade2. Pertanyaan: Penyimpanan data komputasi awan yang memerlukan koneksi internet disebut...   Jawaban: Cloud Storage"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan1",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jaringan komputer yang menghubungkan perangkat dalam area geografis yang sangat terbatas, seperti sebuah ruang kelas atau gedung sekolah, disebut...   A. WAN (Wide Area Network)   B. LAN (Local Area Network)   C. MAN (Metropolitan Area Network)   D. PAN (Personal Area Network)   Kunci Jawaban: B2. Manfaat utama menghubungkan beberapa komputer ke dalam sebuah jaringan LAN adalah...   A. Menghemat penggunaan listrik ruangan.   B. Dapat berbagi file dan menggunakan satu printer bersama-sama.   C. Mencegah komputer dari kerusakan fisik.   D. Memperindah tampilan ruangan lab komputer.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Tujuan dibangunnya sebuah jaringan komputer adalah... (Pilih >1)   A. Berbagi sumber daya (resource sharing) seperti printer dan data.   B. Memudahkan komunikasi antar pengguna dalam satu area.   C. Mengisolasi komputer agar tidak bisa dipakai.   D. Membuat komputer cepat rusak.   Kunci Jawaban: A, B2. Contoh perangkat yang dapat terhubung dalam sebuah LAN adalah... (Pilih >1)   A. Komputer desktop dan Laptop   B. Printer yang mendukung jaringan   C. Meja dan kursi   D. Buku tulis   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Jaringan dalam skala kecil di satu gedung.   Jawaban: LAN2. Pernyataan: Jaringan skala global yang menghubungkan seluruh dunia.   Jawaban: Internet",
+        "D. Isian1. Pertanyaan: Singkatan dari Local Area Network adalah...   Jawaban: LAN2. Pertanyaan: Komputer yang menyediakan data atau layanan untuk komputer lain di jaringan disebut...   Jawaban: Server"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan2",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jenis kabel jaringan yang menggunakan helaian kaca tipis untuk mengirimkan data berupa cahaya dengan kecepatan sangat tinggi adalah...   A. Kabel Coaxial   B. Kabel UTP   C. Kabel Fiber Optik   D. Kabel Telepon   Kunci Jawaban: C2. Perangkat keras jaringan yang berfungsi sebagai titik pusat (konsentrator) untuk menghubungkan beberapa komputer menggunakan kabel dalam satu LAN adalah...   A. Switch / Hub   B. Modem   C. Flashdisk   D. Monitor   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Karakteristik dari kabel UTP (Unshielded Twisted Pair) adalah... (Pilih >1)   A. Sering digunakan untuk jaringan LAN di sekolah atau kantor.   B. Memiliki konektor ujung bernama RJ-45.   C. Terbuat dari serat kaca.   D. Mampu mentransmisikan data antar benua di bawah laut.   Kunci Jawaban: A, B2. Perangkat yang berperan mendistribusikan sinyal jaringan lokal menggunakan kabel adalah... (Pilih >1)   A. Switch   B. Hub   C. Keyboard   D. Power Supply   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Konektor standar untuk kabel LAN tipe UTP.   Jawaban: RJ-452. Pernyataan: Kabel jaringan dengan inti tembaga yang dililit.   Jawaban: Twisted Pair",
+        "D. Isian1. Pertanyaan: Perangkat pusat jaringan yang lebih pintar dari Hub karena dapat menyalurkan data tepat ke tujuan adalah...   Jawaban: Switch2. Pertanyaan: Kabel jaringan berkecepatan tinggi yang berbasis pada transmisi cahaya adalah...   Jawaban: Fiber Optik"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan3",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Teknologi jaringan nirkabel yang umum digunakan untuk menghubungkan ponsel dengan perangkat audio/headset dalam jarak sangat dekat (sekitar 10 meter) adalah...   A. Wi-Fi   B. Bluetooth   C. Koneksi 4G LTE   D. Fiber Optik   Kunci Jawaban: B2. Faktor utama yang dapat menyebabkan sinyal Wi-Fi di rumah menjadi lemah adalah...   A. Warna casing router.   B. Terhalang oleh dinding beton yang tebal atau jarak yang terlalu jauh dari router.   C. Terlalu sering mengganti password.   D. Menyalakan lampu ruangan.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Kelebihan jaringan nirkabel (Wireless) dibandingkan jaringan kabel adalah... (Pilih >1)   A. Lebih praktis karena perangkat bisa bebas bergerak.   B. Mudah diatur untuk menghubungkan smartphone dan tablet.   C. Keamanannya lebih sulit ditembus daripada kabel fisik.   D. Kecepatannya tidak pernah terganggu oleh cuaca.   Kunci Jawaban: A, B2. Teknologi yang memanfaatkan gelombang radio nirkabel untuk komunikasi data adalah... (Pilih >1)   A. Wi-Fi   B. Jaringan Seluler (4G/5G)   C. Kabel UTP   D. Konektor RJ-45   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Teknologi nirkabel jarak dekat untuk transfer data kecil.   Jawaban: Bluetooth2. Pernyataan: Standar jaringan nirkabel lokal (WLAN).   Jawaban: Wi-Fi",
+        "D. Isian1. Pertanyaan: Perangkat yang memancarkan sinyal Wi-Fi di dalam rumah atau kantor biasa disebut...   Jawaban: Access Point / Router2. Pertanyaan: Jaringan internet nirkabel pada smartphone yang disediakan oleh operator telekomunikasi (seperti 4G) disebut jaringan...   Jawaban: Seluler"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan4",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Angka unik (misal: 192.168.1.5) yang diberikan kepada setiap perangkat yang terhubung ke jaringan agar dapat saling berkomunikasi disebut...   A. MAC Address   B. Domain Name   C. IP Address   D. Nomor Telepon   Kunci Jawaban: C2. Fungsi dari sistem DNS (Domain Name System) di internet adalah...   A. Menambah kecepatan internet.   B. Menerjemahkan nama situs web (seperti google.com) menjadi IP address yang dipahami komputer.   C. Mencegah virus masuk ke komputer.   D. Memblokir iklan di situs web.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Peran dari perangkat Router dalam jaringan adalah... (Pilih >1)   A. Menghubungkan dua atau lebih jaringan yang berbeda (misal LAN ke Internet).   B. Mencarikan jalur (rute) pengiriman paket data yang terbaik.   C. Menyimpan semua video YouTube.   D. Mengubah komputer menjadi proyektor.   Kunci Jawaban: A, B2. Komponen penting untuk dapat berselancar di internet menggunakan nama website adalah... (Pilih >1)   A. DNS Server   B. IP Address pada perangkat pengguna   C. Mouse gaming   D. Printer warna   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Alamat numerik identitas komputer di jaringan.   Jawaban: IP Address2. Pernyataan: Buku telepon internet pengubah nama domain ke IP.   Jawaban: DNS",
+        "D. Isian1. Pertanyaan: Perangkat yang bertugas meneruskan rute data dari jaringan lokal kita menuju internet adalah...   Jawaban: Router2. Pertanyaan: Alamat teks yang mudah diingat manusia untuk mengunjungi sebuah website (seperti kemdikbud.go.id) disebut...   Jawaban: Nama Domain"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan5",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Tindakan yang SANGAT BERBAHAYA dilakukan saat menggunakan jaringan Wi-Fi publik tanpa password di warung kopi adalah...   A. Membaca berita olahraga.   B. Menonton video hiburan.   C. Melakukan transaksi perbankan dan memasukkan password akun utama.   D. Mencari artikel tugas sekolah di Google.   Kunci Jawaban: C2. Protokol komunikasi aman di internet yang ditandai dengan ikon gembok pada address bar browser adalah...   A. HTTP   B. HTTPS   C. FTP   D. HTML   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Praktik keamanan yang baik dalam menggunakan jaringan internet adalah... (Pilih >1)   A. Membuat password yang kuat (kombinasi huruf, angka, simbol).   B. Menghindari klik tautan (link) mencurigakan dari email tak dikenal.   C. Menggunakan password '123456' di semua akun.   D. Membagikan password kepada semua teman.   Kunci Jawaban: A, B2. Risiko menggunakan Wi-Fi publik terbuka (Open Wi-Fi) antara lain... (Pilih >1)   A. Pencurian data login (password) oleh peretas di jaringan yang sama.   B. Terkena serangan penyadapan data (Man-in-the-Middle).   C. Kecepatan internet menjadi sangat cepat tanpa batas.   D. Baterai laptop menjadi awet.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Proses mengacak data agar tidak bisa dibaca oleh pihak tak berwenang.   Jawaban: Enkripsi2. Pernyataan: Protokol website yang aman dengan enkripsi.   Jawaban: HTTPS",
+        "D. Isian1. Pertanyaan: Teknik pengelabuan memancing korban untuk memberikan password melalui link palsu disebut...   Jawaban: Phishing2. Pertanyaan: Kunci rahasia untuk mengakses sebuah akun digital disebut...   Jawaban: Password / Kata Sandi"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab3-pertemuan6",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Jika sebuah sekolah ingin membuat 20 komputer di laboratorium saling terhubung dan stabil kecepatannya untuk ujian, konektivitas apa yang paling direkomendasikan?   A. Tethering dari ponsel guru.   B. Menggunakan jaringan kabel UTP dan sebuah Switch.   C. Menggunakan Bluetooth.   D. Menggunakan Radio FM.   Kunci Jawaban: B2. Di dalam sebuah denah jaringan rumah pintar (smart home), perangkat CCTV dan Smart TV dihubungkan ke internet secara nirkabel melalui sebuah perangkat sentral, yaitu...   A. Router Wi-Fi   B. Kabel Fiber   C. Keyboard Wireless   D. Bluetooth Earphone   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Untuk membangun jaringan lokal (LAN) di warnet berkapasitas 15 PC, perangkat yang dibutuhkan adalah... (Pilih >1)   A. Kabel LAN UTP   B. Switch 16 atau 24 port   C. Timbangan digital   D. Mesin cuci   Kunci Jawaban: A, B2. Keuntungan menggunakan jaringan kabel (Wired) pada komputer desktop di kantor adalah... (Pilih >1)   A. Koneksi lebih stabil dibandingkan Wi-Fi.   B. Kecepatan transfer data cenderung lebih maksimal dan minim gangguan.   C. Bisa dibawa ke mana-mana dengan mudah.   D. Tidak memerlukan konfigurasi alamat IP.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Gangguan fisik (seperti tembok) yang menurunkan sinyal.   Jawaban: Interferensi Nirkabel2. Pernyataan: Pusat koneksi kabel LAN dalam ruangan.   Jawaban: Switch",
+        "D. Isian1. Pertanyaan: Untuk menghubungkan jaringan gedung sekolah yang satu dengan gedung lainnya yang berjarak 500 meter, media transmisi kabel terbaik yang digunakan adalah...   Jawaban: Fiber Optik2. Pertanyaan: Penyedia layanan jasa internet berbayar yang menyalurkan internet ke rumah-rumah (seperti Indihome/Biznet) disebut (singkatan)...   Jawaban: ISP"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan1",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Perilaku menyebarkan data pribadi orang lain (seperti alamat rumah dan nomor telepon) di internet tanpa izin dengan tujuan untuk mengancam disebut...   A. Phishing   B. Doxing (Doxxing)   C. Spamming   D. Browsing   Kunci Jawaban: B2. Manakah dari pernyataan berikut yang merupakan contoh tindakan cyberbullying?   A. Mengirimkan stiker lucu ke teman di grup WhatsApp.   B. Menulis komentar ejekan fisik secara berulang di setiap foto Instagram teman sekelas.   C. Tidak memberikan like pada postingan orang lain.   D. Mengunfollow akun artis yang tidak disukai.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Bentuk perundungan siber (cyberbullying) yang sering terjadi di kalangan remaja adalah... (Pilih >1)   A. Mengeluarkan seseorang dari grup chat untuk mengucilkan secara sengaja.   B. Membuat akun palsu untuk menjelekkan nama baik teman.   C. Membantu teman mengerjakan PR Matematika.   D. Membuat grup diskusi belajar bersama.   Kunci Jawaban: A, B2. Tindakan pelecehan siber (Cyberharassment) meliputi hal-hal berikut... (Pilih >1)   A. Mengirim pesan ancaman secara terus-menerus.   B. Membanjiri kolom komentar korban dengan kata-kata kasar.   C. Meminta izin sebelum meminjam barang.   D. Memberikan apresiasi atas karya orang lain.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Menyebar data pribadi seseorang secara ilegal.   Jawaban: Doxxing2. Pernyataan: Pelecehan atau intimidasi berkelanjutan di internet.   Jawaban: Cyberbullying",
+        "D. Isian1. Pertanyaan: Pelaku perundungan siber yang berlindung di balik identitas atau akun palsu disebut...   Jawaban: Anonim2. Pertanyaan: Tindakan sengaja mengabaikan atau mengucilkan seseorang dalam komunitas atau grup digital disebut...   Jawaban: Exclusion (Pengucilan)"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan2",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Dampak psikologis yang paling sering dialami oleh korban perundungan digital (cyberbullying) adalah...   A. Menjadi lebih pintar dalam TIK.   B. Mengalami depresi, kecemasan, dan hilangnya kepercayaan diri.   C. Mendapatkan banyak teman baru.   D. Meningkatkan nafsu makan.   Kunci Jawaban: B2. Di Indonesia, pelaku perundungan digital yang menyebarkan fitnah atau ancaman kekerasan di media sosial dapat dijerat oleh hukum, yaitu...   A. Undang-Undang Lalu Lintas   B. Undang-Undang Perlindungan Anak dan UU ITE   C. Undang-Undang Perdagangan   D. Hukum Adat   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Konsekuensi bagi pelaku cyberbullying jika terbukti melanggar UU ITE antara lain... (Pilih >1)   A. Bisa dijatuhi hukuman penjara.   B. Dikenakan sanksi denda yang besar.   C. Diberi beasiswa pendidikan.   D. Dipuji oleh pemerintah.   Kunci Jawaban: A, B2. Tanda-tanda sosial anak yang menjadi korban perundungan siber adalah... (Pilih >1)   A. Menarik diri dari pergaulan dunia nyata.   B. Enggan membuka media sosial atau tampak ketakutan melihat notifikasi HP.   C. Bersemangat pergi ke sekolah.   D. Menjadi ketua OSIS.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Aturan hukum yang mengatur informasi dan transaksi elektronik di Indonesia.   Jawaban: UU ITE2. Pernyataan: Gangguan mental yang muncul akibat perundungan.   Jawaban: Depresi / Kecemasan",
+        "D. Isian1. Pertanyaan: Undang-Undang yang mengatur pelanggaran di ruang siber di Indonesia disingkat...   Jawaban: UU ITE2. Pertanyaan: Dampak sosial di mana korban cyberbullying merasa takut untuk bertemu teman-temannya di sekolah disebut...   Jawaban: Isolasi Sosial"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan3",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Tindakan PERTAMA yang paling tepat dilakukan saat kamu menerima pesan berisi ancaman atau hujatan di media sosial adalah...   A. Membalasnya dengan kata-kata yang lebih kasar.   B. Mengabaikan pesannya, men-screenshot (tangkapan layar) sebagai bukti, dan memblokir akunnya.   C. Menghapus akun media sosialmu seketika.   D. Menantang pelaku berkelahi di dunia nyata.   Kunci Jawaban: B2. Mengapa fitur 'Report' atau 'Laporkan' pada platform media sosial (seperti Instagram/TikTok) sangat penting digunakan dalam penanganan cyberbullying?   A. Agar pelaku mendapat teguran resmi atau akunnya ditutup (banned) oleh platform.   B. Agar kita mendapat uang dari platform.   C. Agar kita mendapat centang biru.   D. Agar handphone pelaku rusak otomatis.   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Langkah bijak sebagai teman jika melihat temanmu menjadi korban perundungan digital adalah... (Pilih >1)   A. Memberikan dukungan moral kepadanya secara pribadi.   B. Melaporkan akun pelaku menggunakan fitur report in-app.   C. Ikut-ikutan mengejek agar tidak dimusuhi pelaku.   D. Merekam korban yang sedang menangis untuk diunggah kembali.   Kunci Jawaban: A, B2. Bukti penting yang harus disimpan korban perundungan digital untuk dilaporkan kepada pihak berwajib atau guru adalah... (Pilih >1)   A. Tangkapan layar (Screenshot) percakapan.   B. Tautan (URL) dari akun atau postingan pelaku.   C. Struk belanja makan siang pelaku.   D. Buku pelajaran pelaku.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Tindakan menghentikan akses seseorang untuk menghubungi kita.   Jawaban: Blokir (Block)2. Pernyataan: Tindakan melaporkan konten negatif ke pengelola platform.   Jawaban: Report",
+        "D. Isian1. Pertanyaan: Cara mendokumentasikan bukti pelecehan siber dari layar HP adalah dengan melakukan...   Jawaban: Screenshot / Tangkapan Layar2. Pertanyaan: Menyimpan atau mengumpulkan bukti digital dari kasus perundungan sangat penting untuk proses...   Jawaban: Pelaporan (Reporting)"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan4",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Manakah dari aktivitas berikut yang merupakan contoh rekam jejak digital PASIF?   A. Mengunggah foto liburan di Instagram.   B. Menulis komentar di video YouTube.   C. Website toko online merekam riwayat produk yang pernah kamu lihat (cookies).   D. Membuat status tweet di Twitter/X.   Kunci Jawaban: C2. Jejak digital (Digital Footprint) dapat diartikan sebagai...   A. Goresan fisik di layar HP.   B. Langkah kaki di lantai yang tertinggal saat bermain game online.   C. Kumpulan data aktivitas, kontribusi, dan rekam komunikasi seseorang di internet.   D. Berkas kertas yang dicetak dari internet.   Kunci Jawaban: C",
+        "B. Pilihan Ganda Kompleks1. Contoh dari rekam jejak digital AKTIF yang dibuat secara sadar oleh pengguna adalah... (Pilih >1)   A. Video TikTok yang kamu unggah ke akun publikmu.   B. Email pendaftaran yang kamu kirim ke suatu forum online.   C. IP Address perangkat yang tercatat oleh server website tanpa disadari.   D. Lokasi GPS yang direkam secara diam-diam oleh aplikasi di latar belakang.   Kunci Jawaban: A, B2. Hal yang benar tentang jejak digital adalah... (Pilih >1)   A. Sangat sulit atau hampir mustahil dihapus secara permanen dari internet.   B. Dapat dicari kembali menggunakan mesin pencari (Google).   C. Akan hilang otomatis setelah 24 jam meskipun bukan fitur story.   D. Hanya bisa dilihat oleh diri sendiri.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Jejak yang sengaja ditinggalkan pengguna.   Jawaban: Jejak Aktif2. Pernyataan: Data yang dikumpulkan website di belakang layar.   Jawaban: Jejak Pasif",
+        "D. Isian1. Pertanyaan: Kumpulan jejak data yang tertinggal setelah seseorang menggunakan internet disebut...   Jawaban: Jejak Digital / Digital Footprint2. Pertanyaan: File kecil yang disimpan oleh browser untuk mengingat aktivitas kunjunganmu di sebuah website disebut...   Jawaban: Cookies"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan5",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Apa akibat dari memiliki rekam jejak digital yang berisi komentar-komentar rasialis atau ujaran kebencian di masa lalu?   A. Membuat pelakunya menjadi lebih terkenal dan dihormati.   B. Dapat menggagalkan peluang orang tersebut saat melamar beasiswa atau pekerjaan di masa depan.   C. Akan mendapat penghargaan dari platform media sosial.   D. Tidak akan berdampak apa-apa karena internet sifatnya anonim.   Kunci Jawaban: B2. Banyak perusahaan saat ini mengecek profil media sosial calon karyawannya. Proses pemeriksaan ini disebut...   A. Background Check   B. Fact Checking   C. Cyberbullying   D. Digital Divide   Kunci Jawaban: A",
+        "B. Pilihan Ganda Kompleks1. Dampak negatif dari membagikan informasi terlalu pribadi (oversharing) di internet adalah... (Pilih >1)   A. Meningkatnya risiko menjadi target kejahatan atau penipuan (scam).   B. Hilangnya batasan privasi pribadi.   C. Mendapat keamanan ganda dari pemerintah.   D. Diberi saldo internet gratis.   Kunci Jawaban: A, B2. Jejak digital yang positif dan bermanfaat untuk masa depan (reputasi baik) misalnya... (Pilih >1)   A. Portofolio hasil desain grafis atau coding yang diunggah ke blog.   B. Postingan aktivitas sosial/relawan yang membangun inspirasi.   C. Video yang berisi makian kepada teman.   D. Menyebar hoaks di grup keluarga.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Pemeriksaan riwayat kandidat oleh perusahaan.   Jawaban: Background Check2. Pernyataan: Penilaian orang lain terhadap citra dirimu di internet.   Jawaban: Reputasi Digital",
+        "D. Isian1. Pertanyaan: Citra diri atau pandangan masyarakat terhadap seseorang berdasarkan riwayat aktivitasnya di internet disebut...   Jawaban: Reputasi Digital2. Pertanyaan: Membagikan data pribadi secara berlebihan yang membahayakan diri sendiri disebut...   Jawaban: Oversharing"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan6",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Tindakan 'Digital Hygiene' (kebersihan digital) untuk mengelola akun media sosial secara aman meliputi...   A. Menerima semua permintaan pertemanan dari akun yang tidak dikenal.   B. Mengatur akun menjadi Private (Privat) dan meninjau tag foto dari orang lain.   C. Menggunakan password yang sama untuk email, bank, dan game.   D. Mengunggah foto kartu pelajar dan KTP ke Instagram.   Kunci Jawaban: B2. Untuk mencegah profil pribadimu muncul di hasil pencarian Google secara bebas, fitur pengaturan media sosial apa yang harus kamu aktifkan?   A. Location Services (Layanan Lokasi)   B. Privacy Settings (Setelan Privasi)   C. Dark Mode (Mode Gelap)   D. Auto-play Video   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Praktik mengelola privasi akun yang benar adalah... (Pilih >1)   A. Membatasi siapa saja yang bisa mengomentari postingan (hanya teman).   B. Rutin mengganti password dan mengaktifkan otentikasi dua langkah (2FA).   C. Membuat akun menjadi publik agar semua orang bisa mengambil fotonya.   D. Memasang foto alamat rumah dengan jelas.   Kunci Jawaban: A, B2. Langkah membersihkan jejak digital masa lalu yang kurang pantas adalah... (Pilih >1)   A. Menghapus atau mengarsipkan (archive) postingan lama yang memalukan/kasar.   B. Mencabut tag diri sendiri dari foto memalukan unggahan orang lain.   C. Memviralkan postingan tersebut agar tambah terkenal.   D. Mencetak postingan tersebut untuk dibagikan ke teman kelas.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Pembersihan rutin rekam jejak digital.   Jawaban: Digital Hygiene2. Pernyataan: Fitur pembatas akses akun dari publik.   Jawaban: Mode Privat / Private Account",
+        "D. Isian1. Pertanyaan: Menu yang digunakan untuk membatasi siapa saja yang bisa melihat informasi pribadi kita di media sosial adalah Setelan...   Jawaban: Privasi / Privacy Settings2. Pertanyaan: Praktik menjaga kebersihan dan keamanan perangkat serta akun digital secara berkala disebut Digital...   Jawaban: Hygiene"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan7",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Dalam etika komunikasi digital, mengetik seluruh pesan teks menggunakan HURUF KAPITAL (HURUF BESAR) umumnya diartikan sebagai...   A. Ekspresi kegembiraan yang luar biasa.   B. Tindakan berteriak atau menunjukkan kemarahan.   C. Tanda bahwa pesan tersebut sangat rahasia.   D. Sopan santun berstandar internasional.   Kunci Jawaban: B2. Contoh penerapan Netiquette yang benar saat mengirim pesan WhatsApp kepada guru adalah...   A. Menyingkat pesan seperti: 'P pak, prny gmn?'   B. Mengawali dengan salam, menyebut nama, dan menggunakan bahasa yang sopan.   C. Menelpon berkali-kali di jam 11 malam sampai diangkat.   D. Mengirimkan voice note sambil bernyanyi.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Prinsip dasar dari Netiquette (Network Etiquette) adalah... (Pilih >1)   A. Ingatlah keberadaan orang lain di seberang layar (Remember the human).   B. Hargai waktu dan bandwidth (kuota) orang lain.   C. Bebas berbuat apa saja karena kita memakai nama samaran.   D. Menyebarkan spam adalah hak asasi pengguna.   Kunci Jawaban: A, B2. Tindakan yang menunjukkan rasa empati di internet adalah... (Pilih >1)   A. Memberi dukungan positif di kolom komentar teman yang sedang bersedih.   B. Tidak ikut membagikan foto memalukan dari teman yang sedang viral.   C. Mem-bully orang yang beda pendapat.   D. Menertawakan musibah orang lain.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Aturan sopan santun saat berkomunikasi di internet.   Jawaban: Netiquette2. Pernyataan: Kemampuan merasakan apa yang dirasakan orang lain di dunia maya.   Jawaban: Empati Digital",
+        "D. Isian1. Pertanyaan: Etika atau tata krama dalam menggunakan internet dan media digital disebut...   Jawaban: Netiket / Netiquette2. Pertanyaan: Kemampuan untuk menempatkan diri pada posisi orang lain dan memahami perasaan mereka saat berkomunikasi secara digital disebut...   Jawaban: Empati"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan8",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Perdebatan sengit yang berujung pada saling melontarkan makian atau hinaan di kolom komentar media sosial sering disebut dengan istilah...   A. Flame War (Perang Api)   B. Fact Checking   C. Cyber Security   D. Digital Divide   Kunci Jawaban: A2. Ungkapan atau pernyataan yang secara sengaja ditujukan untuk merendahkan, menghina, atau memprovokasi kekerasan terhadap suku, agama, ras, dan antargolongan (SARA) disebut...   A. Clickbait   B. Misinformasi   C. Ujaran Kebencian (Hate Speech)   D. Hoaks   Kunci Jawaban: C",
+        "B. Pilihan Ganda Kompleks1. Tindakan yang benar dalam menghadapi perbedaan pendapat di kolom komentar adalah... (Pilih >1)   A. Berdikusi menggunakan argumen yang logis tanpa menyerang pribadi.   B. Mundur dari perdebatan jika diskusi sudah mengarah pada emosi negatif.   C. Menyerang latar belakang agama atau suku lawan debat.   D. Mengumpulkan teman untuk melaporkan akun lawan agar terblokir.   Kunci Jawaban: A, B2. Alasan dilarangnya penyebaran ujaran kebencian di media sosial adalah... (Pilih >1)   A. Dapat memicu konflik atau kerusuhan di dunia nyata.   B. Melanggar hukum dan dapat dikenai sanksi pidana UU ITE.   C. Dapat meningkatkan keuntungan finansial platform.   D. Diwajibkan oleh sekolah sebagai tugas harian.   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Serangan kata-kata kasar terhadap SARA.   Jawaban: Ujaran Kebencian (Hate Speech)2. Pernyataan: Perdebatan panas dan saling maki di internet.   Jawaban: Flame War",
+        "D. Isian1. Pertanyaan: Istilah bahasa Inggris untuk ujaran kebencian yang menargetkan kelompok tertentu secara diskriminatif adalah...   Jawaban: Hate Speech2. Pertanyaan: Perang komentar yang berisi caci maki akibat emosi tak terkontrol di internet disebut...   Jawaban: Flame War"
+      ]
+    },
+    {
+      "id_pertemuan": "Kelas8-sem2-bab4-pertemuan9",
+      "daftar_pertanyaan": [
+        "A. Pilihan Ganda1. Dalam merancang sebuah poster kampanye 'Stop Cyberbullying' untuk lingkungan sekolah, pesan yang paling kuat dan efektif (Call to Action) adalah...   A. 'Cyberbullying itu ada di mana-mana, biarkan saja.'   B. 'Ayo matikan HP mu selamanya.'   C. 'Berani Melapor! Kamu Tidak Sendirian. Hentikan Cyberbullying Sekarang.'   D. 'Tingkatkan Cyberbullying agar mental kita kuat.'   Kunci Jawaban: C2. Tujuan akhir dari kampanye Kewargaan Digital Sehat (Healthy Digital Citizenship) adalah...   A. Mendapatkan banyak 'Likes' di media sosial.   B. Meningkatkan kesadaran masyarakat agar lebih bijak, aman, dan beretika di internet.   C. Memaksa semua orang menggunakan HP merek tertentu.   D. Menghapus semua akun sosial media milik siswa.   Kunci Jawaban: B",
+        "B. Pilihan Ganda Kompleks1. Karakteristik konten kampanye digital yang baik dan menarik perhatian publik adalah... (Pilih >1)   A. Menggunakan visual (gambar/warna) yang menarik dan relevan.   B. Menyampaikan pesan dengan singkat, padat, dan bahasa yang mudah dipahami.   C. Hanya berisi teks hitam putih yang panjang sebanyak tiga halaman.   D. Menggunakan kata-kata kasar agar diperhatikan.   Kunci Jawaban: A, B2. Aksi nyata (Call to Action) yang bisa disematkan dalam kampanye rekam jejak digital positif antara lain... (Pilih >1)   A. 'Pikir dulu sebelum Posting!'   B. 'Cek setelan privasi akunmu hari ini!'   C. 'Sebarkan foto pribadi temanmu tanpa izin!'   D. 'Gunakan password '1234' agar mudah diingat!'   Kunci Jawaban: A, B",
+        "C. Menjodohkan1. Pernyataan: Pesan ajakan bertindak pada akhir kampanye.   Jawaban: Call to Action2. Pernyataan: Warga masyarakat yang menggunakan teknologi secara cerdas dan beretika.   Jawaban: Warga Digital (Digital Citizen)",
+        "D. Isian1. Pertanyaan: Slogan ajakan dalam kampanye (misal: 'Saring sebelum Sharing') biasa disebut dengan istilah CTA atau...   Jawaban: Call to Action2. Pertanyaan: Seseorang yang berpartisipasi dan berkontribusi secara positif, etis, dan aman di lingkungan digital disebut sebagai Warga...   Jawaban: Digital / Digital Citizen"
+      ]
+    }
+  ]
+}
