@@ -29,8 +29,12 @@ import { LearningHeader } from './components/LearningHeader';
 import { ATPView } from './components/ATPView';
 import { AsesmenAwalView } from './components/AsesmenAwalView';
 import { PertanyaanEsensialView } from './components/PertanyaanEsensialView';
+import { EksplorasiKonsepView } from './components/EksplorasiKonsepView';
+import { ForLearningView } from './components/ForLearningView';
+import { PenerapanKonsepView } from './components/PenerapanKonsepView';
 import { StageActivityView } from './components/StageActivityView';
 import { BacaMateriView } from './components/BacaMateriView';
+import { normalisasiIdPertemuanEksplorasi } from './utils/komponen_eksplorasi_konsep.js';
 
 export const App: React.FC = () => {
   const [session, setSession] = useState<UserSession | null>(() =>
@@ -53,7 +57,7 @@ export const App: React.FC = () => {
   );
   const [lockedNotice, setLockedNotice] = useState<string | null>(null);
 
-  // Muat katalog utama materi.json dan atp.json (Asesmen Awal dimuat mandiri oleh komponen-asesmenawal)
+  // Muat katalog utama materi.json dan atp.json
   useEffect(() => {
     let cancelled = false;
 
@@ -88,11 +92,17 @@ export const App: React.FC = () => {
         setAtpCatalog(atpJson);
 
         const params = new URLSearchParams(window.location.search);
-        const requestedId = params.get('id') || params.get('redirect');
+        const rawRequestedId = params.get('id') || params.get('redirect') || '';
+        const normalizedRequestedId =
+          normalisasiIdPertemuanEksplorasi(rawRequestedId);
         const requestedMenu = params.get('menu') as MenuId | null;
         const firstId = Object.keys(materiJson)[0] || '';
         const validMeetingId =
-          requestedId && materiJson[requestedId] ? requestedId : firstId;
+          rawRequestedId && materiJson[rawRequestedId]
+            ? rawRequestedId
+            : normalizedRequestedId && materiJson[normalizedRequestedId]
+              ? normalizedRequestedId
+              : firstId;
 
         setMeetingId(validMeetingId);
 
@@ -251,10 +261,13 @@ export const App: React.FC = () => {
         <>
           <LearningHeader
             materi={currentMateri}
+            materiCatalog={materiCatalog}
+            meetingId={meetingId}
             progress={progress}
             activeMenu={activeMenu}
             lockedNotice={lockedNotice}
             onSelectMenu={handleSelectMenu}
+            onSelectMeeting={(nextId) => setMeetingId(nextId)}
           />
 
           <main id="dynamic-content-area" className="px-[5%] pt-4 pb-8">
@@ -287,6 +300,47 @@ export const App: React.FC = () => {
                 onContinueNext={() =>
                   handleCompleteStage('pertanyaan-esensial')
                 }
+              />
+            ) : activeMenu === 'eksplorasi-konsep' ? (
+              <EksplorasiKonsepView
+                meetingId={meetingId}
+                userKey={userKey}
+                judulBab={currentMateri.judul_bab}
+                judulPertemuan={currentMateri.judul_pertemuan}
+                isCompleted={progress['eksplorasi-konsep'] === 'completed'}
+                onMarkCompleted={() =>
+                  handleMarkStageCompleted('eksplorasi-konsep')
+                }
+                onContinueNext={() =>
+                  handleCompleteStage('eksplorasi-konsep')
+                }
+              />
+            ) : activeMenu === 'for-learning' ? (
+              <ForLearningView
+                session={session}
+                userKey={userKey}
+                meetingId={meetingId}
+                judulBab={currentMateri.judul_bab}
+                judulPertemuan={currentMateri.judul_pertemuan}
+                isCompleted={progress['for-learning'] === 'completed'}
+                onMarkCompleted={() =>
+                  handleMarkStageCompleted('for-learning')
+                }
+                onContinueNext={() => handleCompleteStage('for-learning')}
+              />
+            ) : activeMenu === 'penerapan-konsep' ? (
+              <PenerapanKonsepView
+                session={session}
+                userKey={userKey}
+                meetingId={meetingId}
+                judulBab={currentMateri.judul_bab}
+                judulPertemuan={currentMateri.judul_pertemuan}
+                atpSections={currentATPSections}
+                isCompleted={progress['penerapan-konsep'] === 'completed'}
+                onMarkCompleted={() =>
+                  handleMarkStageCompleted('penerapan-konsep')
+                }
+                onContinueNext={() => handleCompleteStage('penerapan-konsep')}
               />
             ) : (
               <StageActivityView menuId={activeMenu} />

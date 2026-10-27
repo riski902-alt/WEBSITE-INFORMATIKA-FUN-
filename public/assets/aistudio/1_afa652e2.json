@@ -1,0 +1,484 @@
+{
+  "eksplorasi_konsep": [
+    {
+      "pertemuan": "Kelas7-sem1-bab1-pertemuan1",
+      "materi": [
+        "SLIDE 1 — PEMBUKAKonsep Dasar Data: Data Terstruktur vs. Tidak TerstrukturINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Data?Data adalah kumpulan fakta atau keterangan mentah yang belum diolah, seperti angka, teks, gambar, atau suara. Di dunia digital, setiap aktivitas kita menghasilkan data.",
+        "SLIDE 3 — Jenis Data Berdasarkan StrukturnyaData dibagi menjadi dua jenis utama:1. Data Terstruktur2. Data Tidak Terstruktur",
+        "SLIDE 4 — Mengenal Data TerstrukturData terstruktur adalah data yang terorganisir dengan rapi dalam format tertentu, seperti tabel dengan baris dan kolom. Mudah dibaca oleh mesin dan manusia.",
+        "SLIDE 5 — Karakteristik Data Terstruktur- Memiliki pola yang tetap.- Disimpan dalam basis data relasional (RDBMS) atau spreadsheet (Excel).- Mudah dicari, diurutkan, dan dianalisis.",
+        "SLIDE 6 — Contoh Data Terstruktur- Daftar nilai siswa di Excel.- Data kontak di HP (Nama, Nomor Telepon, Email).- Jadwal penerbangan di bandara.",
+        "SLIDE 7 — Mengenal Data Tidak TerstrukturData tidak terstruktur adalah data yang tidak memiliki format baku atau organisasi yang jelas. Bentuknya bebas dan sulit dimasukkan langsung ke dalam tabel.",
+        "SLIDE 8 — Karakteristik Data Tidak Terstruktur- Bentuknya bervariasi (teks bebas, audio, video).- Membutuhkan teknologi khusus (seperti AI) untuk dianalisis.- Ukuran file biasanya lebih besar.",
+        "SLIDE 9 — Contoh Data Tidak Terstruktur- Postingan media sosial (foto, video, caption).- Pesan suara (voice note) di WhatsApp.- Artikel blog atau video YouTube.",
+        "SLIDE 10 — Perbedaan Utama- Format: Terstruktur (tabel/rapi), Tidak Terstruktur (bebas).- Pencarian: Terstruktur (sangat mudah dicari), Tidak Terstruktur (butuh proses pencarian kompleks).- Contoh: Excel vs. Video TikTok.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMulailah merapikan datamu dari hal kecil, seperti daftar tugas sekolahmu!"
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab1-pertemuan2",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengidentifikasian dan Pemodelan Data Terstruktur di Kehidupan Sehari-hari (Tabel, Baris, Kolom)INFORMATIKA SMP",
+        "SLIDE 2 — Pengertian Model DataPemodelan data adalah proses mengubah informasi nyata menjadi bentuk terstruktur agar mudah disimpan dan dikelola komputer, biasanya dalam bentuk tabel.",
+        "SLIDE 3 — Mengapa Kita Perlu Tabel?Tabel membantu kita mengatur data mentah yang berantakan menjadi informasi yang rapi, mudah dibaca, dan mudah dibandingkan.",
+        "SLIDE 4 — Komponen Utama TabelSebuah tabel data terstruktur terdiri dari tiga elemen dasar:1. Kolom (Column)2. Baris (Row)3. Atribut (Header/Nama Kolom)",
+        "SLIDE 5 — Apa itu Kolom?Kolom (Column) adalah bagian tabel yang membentang dari atas ke bawah (vertikal). Kolom mewakili satu jenis atribut data (misalnya: Kolom 'Nama' khusus untuk nama).",
+        "SLIDE 6 — Apa itu Baris?Baris (Row) adalah bagian tabel yang membentang dari kiri ke kanan (horizontal). Satu baris mewakili satu kesatuan data (misalnya: Data lengkap satu orang siswa).",
+        "SLIDE 7 — Apa itu Atribut?Atribut adalah judul atau label pada kolom yang menjelaskan isi data di bawahnya. Contoh: 'No. Absen', 'Nama Siswa', 'Nilai UTS'.",
+        "SLIDE 8 — Studi Kasus: Data MentahBayangkan kamu punya catatan: 'Budi absen 1 nilainya 80. Siti absen 2 nilainya 90.' Ini adalah data mentah berbentuk paragraf. Bagaimana memodelkannya?",
+        "SLIDE 9 — Langkah Pemodelan ke Tabel1. Tentukan atribut yang dibutuhkan: No. Absen, Nama, Nilai.2. Buat kolom untuk masing-masing atribut.3. Masukkan data Budi dan Siti ke dalam baris yang berbeda.",
+        "SLIDE 10 — Contoh Hasil Pemodelan[Kolom 1: No] | [Kolom 2: Nama] | [Kolom 3: Nilai]Baris 1: 1 | Budi | 80Baris 2: 2 | Siti | 90Data kini menjadi terstruktur!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMerapikan data mencerminkan pikiran yang terstruktur dan sistematis."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab1-pertemuan3",
+      "materi": [
+        "SLIDE 1 — PEMBUKAAntarmuka dan Elemen Dasar Lembar Kerja Pengolah Data (Spreadsheet)INFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Spreadsheet?Spreadsheet atau lembar kerja adalah perangkat lunak untuk mengolah data berupa angka dan teks yang disajikan dalam bentuk tabel. Contoh aplikasinya: Microsoft Excel, Google Sheets.",
+        "SLIDE 3 — Fungsi Utama Spreadsheet- Menyimpan data dalam jumlah besar secara rapi.- Melakukan perhitungan matematis otomatis.- Membuat grafik atau visualisasi data.",
+        "SLIDE 4 — Mengenal Antarmuka SpreadsheetSaat membuka aplikasi, kamu akan melihat area kerja kotak-kotak yang sangat luas. Ini disebut 'Worksheet' atau lembar kerja tempat kita memasukkan data.",
+        "SLIDE 5 — Elemen Dasar: Kolom (Column)Kolom adalah deretan kotak vertikal (atas ke bawah). Di spreadsheet, kolom ditandai dengan huruf abjad (A, B, C, D, dst).",
+        "SLIDE 6 — Elemen Dasar: Baris (Row)Baris adalah deretan kotak horizontal (kiri ke kanan). Di spreadsheet, baris ditandai dengan angka (1, 2, 3, 4, dst).",
+        "SLIDE 7 — Elemen Dasar: Sel (Cell)Sel adalah pertemuan antara kolom dan baris (satu kotak tunggal). Sel memiliki nama, contohnya Sel B3 (pertemuan Kolom B dan Baris 3).",
+        "SLIDE 8 — Elemen Dasar: Range (Rentang)Range adalah kumpulan beberapa sel yang dipilih bersamaan. Contoh: Range A1:A5 berarti kita memilih kotak A1 sampai A5.",
+        "SLIDE 9 — Cara Entri Data DasarUntuk memasukkan data:1. Klik pada sel yang diinginkan.2. Ketik teks atau angka dari keyboard.3. Tekan 'Enter' untuk berpindah ke sel di bawahnya.",
+        "SLIDE 10 — Navigasi Cepat- Tombol Tab: Pindah ke sel sebelah kanan.- Tombol Panah: Pindah sesuai arah panah.- Double-click batas kolom: Menyesuaikan lebar kolom agar teks muat.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKenali alat kerjamu, maka tugas berat akan terasa jauh lebih ringan."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab1-pertemuan4",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengolahan dan Pengorganisasian Data (Sorting, Filtering, dan Formula Dasar)INFORMATIKA SMP",
+        "SLIDE 2 — Pentingnya Mengorganisasi DataData yang banyak akan sulit dibaca jika tidak diatur. Kita perlu mengurutkan (Sorting), menyaring (Filtering), dan menghitung data agar menjadi informasi yang berguna.",
+        "SLIDE 3 — Apa itu Sorting (Pengurutan)?Sorting adalah fitur untuk mengurutkan data berdasarkan kriteria tertentu. Berguna untuk mencari data tertinggi, terendah, atau mengurutkan nama sesuai abjad.",
+        "SLIDE 4 — Jenis-jenis Sorting- Ascending (A-Z / Kecil-Besar): Mengurutkan dari abjad awal atau nilai terkecil hingga terbesar.- Descending (Z-A / Besar-Kecil): Mengurutkan dari abjad akhir atau nilai terbesar ke terkecil.",
+        "SLIDE 5 — Contoh Penggunaan SortingDi sekolah, guru menggunakan Sorting (Descending) pada kolom 'Total Nilai' untuk mencari siswa yang mendapat peringkat 1 sampai 10.",
+        "SLIDE 6 — Apa itu Filtering (Penyaringan)?Filtering adalah fitur untuk menyembunyikan data yang tidak ingin dilihat, dan hanya menampilkan data yang memenuhi kriteria tertentu tanpa menghapus data asli.",
+        "SLIDE 7 — Contoh Penggunaan FilteringJika kamu punya data seluruh siswa SMP, kamu bisa menggunakan Filter pada kolom 'Kelas' untuk hanya menampilkan siswa 'Kelas 7' saja.",
+        "SLIDE 8 — Formula Dasar dalam SpreadsheetFormula adalah rumus untuk melakukan perhitungan matematika. Setiap rumus di spreadsheet HARUS selalu diawali dengan tanda sama dengan (=).",
+        "SLIDE 9 — Simbol Aritmatika Dasar- Penjumlahan: =A1+B1- Pengurangan: =A1-B1- Perkalian: =A1*B1 (menggunakan bintang/asterisk)- Pembagian: =A1/B1 (menggunakan garis miring)",
+        "SLIDE 10 — Praktik Menggunakan FormulaJika kamu ingin menghitung total belanja:Sel C1 (Harga) = 5000Sel D1 (Jumlah) = 2Di Sel E1 ketik: =C1*D1 lalu tekan Enter. Hasilnya otomatis 10000!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHBerpikir logis dalam menyusun data akan melatihmu memecahkan masalah dengan cepat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab1-pertemuan5",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPraktik Analisis dan Pengolahan Data SederhanaINFORMATIKA SMP",
+        "SLIDE 2 — Proyek Praktik Analisis DataHari ini kita akan mempraktikkan semua kemampuan yang telah dipelajari: membuat tabel, entri data, sorting, filtering, dan penggunaan formula dasar.",
+        "SLIDE 3 — Skenario KasusBayangkan kamu adalah bendahara kelas. Kamu ditugaskan mencatat uang kas masuk, uang keluar untuk beli alat kebersihan, dan menghitung sisa saldo kas kelas.",
+        "SLIDE 4 — Tahap 1: Pemodelan DataBuat tabel dengan kolom berikut:- No- Tanggal- Keterangan- Pemasukan (Rp)- Pengeluaran (Rp)- Saldo (Rp)",
+        "SLIDE 5 — Tahap 2: Entri DataMasukkan data mentah berikut ke dalam sel:- 1 Sep: Iuran Rp 50.000- 3 Sep: Beli Sapu Rp 15.000- 5 Sep: Iuran Rp 30.000",
+        "SLIDE 6 — Tahap 3: Penerapan Formula SaldoPada baris pertama, Saldo = Pemasukan - Pengeluaran.Pada baris kedua, Saldo Baru = Saldo Lama + Pemasukan Baru - Pengeluaran Baru.",
+        "SLIDE 7 — Tahap 4: Menggunakan SortingUrutkan (Sort) tabel berdasarkan kolom 'Tanggal' dari yang paling lama ke yang paling baru (Oldest to Newest) agar catatan transaksi berurutan.",
+        "SLIDE 8 — Tahap 5: Menggunakan FilteringGunakan Filter pada kolom 'Keterangan' untuk hanya melihat daftar transaksi 'Pengeluaran'. Ini membantu memeriksa kemana saja uang dipakai.",
+        "SLIDE 9 — Tahap 6: Analisa HasilSetelah data diolah, kamu bisa melihat sisa saldo akhir dengan akurat. Jika saldo salah, rumus akan otomatis menghitung ulang saat angkanya diperbaiki.",
+        "SLIDE 10 — Evaluasi PraktikData yang diolah dengan baik menghasilkan informasi (laporan keuangan kelas) yang transparan, akurat, dan bisa dipertanggungjawabkan.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKetelitian dalam mengelola data adalah kunci kepercayaan dari orang lain."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab2-pertemuan1",
+      "materi": [
+        "SLIDE 1 — PEMBUKACara Kerja Mesin Pencari (Crawling, Indexing, dan Ranking)INFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Mesin Pencari?Mesin pencari (Search Engine) adalah program yang mencari dokumen atau informasi di internet berdasarkan kata kunci (keyword). Contoh: Google, Bing, Yahoo.",
+        "SLIDE 3 — Bagaimana Mesin Pencari Bekerja?Internet berisi miliaran halaman web. Untuk menemukan informasi dalam hitungan detik, mesin pencari melakukan 3 tahapan utama: Crawling, Indexing, dan Ranking.",
+        "SLIDE 4 — 1. Crawling (Penjelajahan)Mesin pencari mengirim 'bot' atau 'spider' (program otomatis) untuk menjelajahi internet. Bot ini mengunjungi halaman web dan mengikuti tautan (link) ke halaman lain.",
+        "SLIDE 5 — Tujuan CrawlingTujuan utama crawling adalah menemukan halaman-halaman baru atau halaman yang baru diperbarui di internet untuk dikumpulkan datanya.",
+        "SLIDE 6 — 2. Indexing (Pengindeksan)Setelah bot mengumpulkan halaman, data tersebut disimpan dan disusun ke dalam perpustakaan digital raksasa milik mesin pencari yang disebut 'Indeks'.",
+        "SLIDE 7 — Analogi IndexingBayangkan indeks seperti daftar isi di bagian belakang buku tebal. Saat kamu mencari kata tertentu, mesin pencari mencarinya di daftar isi ini, bukan membaca seluruh buku.",
+        "SLIDE 8 — 3. Ranking (Pemeringkatan)Saat kamu mengetik kata kunci, mesin pencari akan mencari di dalam indeksnya. Kemudian, sistem akan mengurutkan (ranking) hasilnya dari yang paling relevan hingga yang kurang relevan.",
+        "SLIDE 9 — Faktor RankingMesin pencari menentukan peringkat berdasarkan:- Kecocokan kata kunci.- Kecepatan memuat website.- Keamanan situs.- Seberapa sering situs tersebut dikunjungi orang.",
+        "SLIDE 10 — Rangkuman Alur Kerja1. Crawling: Bot mengumpulkan halaman web.2. Indexing: Data disimpan dalam perpustakaan raksasa.3. Ranking: Hasil terbaik ditampilkan saat kamu mencari.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMemahami cara kerja teknologi membuat kita menjadi pengguna yang lebih bijak."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab2-pertemuan2",
+      "materi": [
+        "SLIDE 1 — PEMBUKATeknik Pencarian Efektif (Search Operators dan Advanced Search)INFORMATIKA SMP",
+        "SLIDE 2 — Tantangan Mencari InformasiMengetik kata kunci biasa di mesin pencari kadang memberikan jutaan hasil yang tidak kita butuhkan. Kita perlu teknik pencarian efektif untuk menghemat waktu.",
+        "SLIDE 3 — Apa itu Search Operators?Search Operators adalah simbol atau kata khusus yang ditambahkan pada kata kunci pencarian agar mesin pencari memberikan hasil yang sangat spesifik dan akurat.",
+        "SLIDE 4 — Operator Tanda Kutip (\"\")Fungsi: Mencari frasa atau kalimat yang persis sama susunannya.Contoh ketik: \"Sejarah Kemerdekaan Indonesia\"Hasil: Hanya memunculkan web yang memuat frasa tersebut tanpa terpisah.",
+        "SLIDE 5 — Operator Minus (-)Fungsi: Menyingkirkan kata tertentu dari hasil pencarian.Contoh ketik: resep sate -kambingHasil: Memunculkan resep sate (ayam, sapi, dll) tapi menolak web yang berisi kata kambing.",
+        "SLIDE 6 — Operator Filetype:Fungsi: Mencari informasi dalam format dokumen tertentu seperti PDF, DOC, atau PPT.Contoh ketik: materi informatika smp filetype:pdfHasil: Semua hasil berupa file PDF yang bisa diunduh.",
+        "SLIDE 7 — Operator Site:Fungsi: Mencari informasi khusus di dalam satu situs web saja.Contoh ketik: beasiswa site:kemdikbud.go.idHasil: Info beasiswa yang HANYA berasal dari web resmi kemdikbud.",
+        "SLIDE 8 — Operator ORFungsi: Mencari salah satu dari dua kata kunci.Contoh ketik: laptop OR komputerHasil: Memunculkan artikel tentang laptop, atau komputer, atau keduanya.",
+        "SLIDE 9 — Keuntungan Pencarian Spesifik (Advanced Search)- Menghemat waktu secara drastis.- Mendapatkan informasi yang relevan dan akurat.- Menghindari informasi sampah atau tidak terkait.",
+        "SLIDE 10 — Praktik KombinasiKamu bisa menggabungkan operator:\"dampak pemanasan global\" filetype:pdf site:go.id(Mencari dokumen PDF dari situs pemerintah tentang frasa pasti dampak pemanasan global).",
+        "SLIDE 10 — PENUTUPTERIMA KASIHPencari informasi yang cerdas tahu cara bertanya dengan tepat kepada mesin pencari."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab2-pertemuan3",
+      "materi": [
+        "SLIDE 1 — PEMBUKAIndikator Kualitas Informasi Digital (Akurasi, Relevansi, dan Aktual)INFORMATIKA SMP",
+        "SLIDE 2 — Banjir Informasi di Era DigitalInternet memberikan kita miliaran informasi, namun tidak semuanya benar, berguna, atau terkini. Kita harus memiliki keterampilan untuk menilai kualitas informasi.",
+        "SLIDE 3 — Tiga Indikator Kualitas InformasiUntuk menilai apakah sebuah informasi di internet layak digunakan atau tidak, gunakan 3 indikator utama: Akurasi, Relevansi, dan Aktual (Kebaruan).",
+        "SLIDE 4 — 1. Akurasi (Accuracy)Akurasi berarti informasi tersebut benar, tepat, dan dapat dibuktikan. Informasi yang akurat tidak mengandung kesalahan fakta, kebohongan, atau penyesatan.",
+        "SLIDE 5 — Cara Cek Akurasi- Apakah data didukung oleh bukti atau penelitian?- Apakah penulis menyebutkan sumber asli datanya?- Bandingkan dengan web lain, apakah informasinya sama?",
+        "SLIDE 6 — 2. Relevansi (Relevance)Relevansi berarti informasi tersebut sesuai atau nyambung dengan topik yang sedang kamu cari dan sesuai dengan tingkat kebutuhanmu.",
+        "SLIDE 7 — Cara Cek Relevansi- Apakah artikel ini menjawab pertanyaan tugasmu?- Apakah bahasa yang digunakan cocok untuk siswa SMP atau terlalu rumit (level universitas)?",
+        "SLIDE 8 — 3. Aktual (Currency/Kebaruan)Aktual berarti informasi tersebut adalah yang terbaru atau masih berlaku (tidak basi). Beberapa topik sangat membutuhkan data yang aktual, seperti berita atau teknologi.",
+        "SLIDE 9 — Cara Cek Keaktualan- Kapan artikel tersebut diterbitkan atau diperbarui terakhir kali?- Apakah tautan (link) di dalamnya masih bisa diklik atau sudah rusak (dead link)?",
+        "SLIDE 10 — Contoh KasusJika kamu mencari 'Jumlah provinsi di Indonesia', data tahun 2010 sudah tidak AKTUAL karena ada pemekaran provinsi baru. Kamu butuh data tahun ini agar AKURAT.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHJangan mudah percaya pada informasi pertama yang kamu temukan; jadilah pembaca yang kritis."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab2-pertemuan4",
+      "materi": [
+        "SLIDE 1 — PEMBUKAEvaluasi Kredibilitas Sumber, Reputasi Penulis, dan Verifikasi Domain WebINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Kredibilitas?Kredibilitas berarti tingkat kepercayaan. Sumber informasi yang kredibel adalah sumber yang dapat dipercaya, ditulis oleh ahlinya, dan diterbitkan secara resmi.",
+        "SLIDE 3 — Elemen Evaluasi KredibilitasAda tiga cara utama untuk mengecek kredibilitas suatu situs web:1. Memeriksa Domain Web2. Memeriksa Reputasi Penulis3. Verifikasi Silang Sumber",
+        "SLIDE 4 — 1. Verifikasi Domain WebDomain adalah alamat akhir dari sebuah situs. Domain dapat memberi petunjuk tentang tujuan dan siapa pemilik situs tersebut.",
+        "SLIDE 5 — Mengenal Ekstensi Domain- .go.id / .gov : Web resmi pemerintah (Sangat kredibel)- .ac.id / .edu : Web institusi pendidikan (Kredibel)- .com : Komersial (Bisa siapa saja, perlu dicek lebih lanjut)- .blogspot / .wordpress : Blog pribadi (Kurang kredibel untuk tugas resmi).",
+        "SLIDE 6 — 2. Evaluasi Reputasi PenulisSiapa yang menulis artikel tersebut? Apakah ada nama penulisnya? Apakah penulis memiliki latar belakang atau pendidikan yang sesuai dengan topik yang ditulisnya?",
+        "SLIDE 7 — Tanda Penulis yang BaikWeb yang terpercaya biasanya menyediakan kolom 'Tentang Kami' (About Us) dan mencantumkan biodata singkat penulis atau susunan dewan redaksi (jika portal berita).",
+        "SLIDE 8 — 3. Verifikasi Silang (Cross-Checking)Jangan hanya membaca dari satu situs. Cari informasi yang sama di 2 atau 3 situs terpercaya lainnya. Jika semuanya mengatakan hal yang sama, info itu kemungkinan besar benar.",
+        "SLIDE 9 — Ciri Web Kurang Kredibel- Judul terlalu berlebihan (Clickbait).- Terlalu banyak iklan mengganggu (pop-up).- Banyak kesalahan ketik (typo) dan tata bahasa yang buruk.- Tidak jelas siapa penulisnya.",
+        "SLIDE 10 — Penerapan dalam TugasSaat membuat tugas makalah, utamakan mengutip dari web berdomain .go.id, .ac.id, atau portal berita pers resmi. Hindari mengutip dari blog pribadi atau Wikipedia sebagai sumber utama.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHInformasi yang salah dapat menyesatkan; selalu periksa siapa yang berbicaranya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab2-pertemuan5",
+      "materi": [
+        "SLIDE 1 — PEMBUKAAsesmen Sumatif Bab 2: Studi Kasus Pencarian dan Penilaian Kredibilitas InformasiINFORMATIKA SMP",
+        "SLIDE 2 — Tujuan Asesmen SumatifHari ini kita akan mempraktikkan keterampilan Literasi Informasi melalui studi kasus. Kamu akan mencari, mengevaluasi, dan menyimpulkan sebuah informasi digital.",
+        "SLIDE 3 — Kasus PenyelidikanBeredar informasi di media sosial yang mengklaim: 'Makan es krim setiap pagi dapat menyembuhkan flu dalam 2 hari, berdasarkan penelitian Universitas XYZ'.",
+        "SLIDE 4 — Langkah 1: Menentukan Kata KunciTentukan kata kunci yang tepat untuk mencari kebenaran klaim ini menggunakan Search Operators. Contoh: \"penelitian Universitas XYZ\" es krim flu.",
+        "SLIDE 5 — Langkah 2: Melakukan PencarianGunakan mesin pencari untuk menemukan artikel asli atau artikel dari portal kesehatan resmi (misalnya berdomain .go.id atau .org) yang membahas klaim tersebut.",
+        "SLIDE 6 — Langkah 3: Mengukur Kualitas InformasiGunakan indikator Akurasi, Relevansi, dan Aktual pada artikel yang kamu temukan. Apakah ada bukti medis yang akurat? Kapan artikel itu diterbitkan?",
+        "SLIDE 7 — Langkah 4: Evaluasi KredibilitasPeriksa domain situs web yang membahas kasus tersebut. Siapa penulisnya? Apakah dia seorang dokter atau jurnalis kesehatan terpercaya?",
+        "SLIDE 8 — Langkah 5: Verifikasi SilangCari tahu di portal berita anti-hoaks (seperti turnbackhoax.id atau kominfo.go.id). Apakah informasi es krim menyembuhkan flu ini fakta atau sekadar mitos?",
+        "SLIDE 9 — Langkah 6: Menyusun LaporanTuliskan hasil investigasimu:1. Kata kunci yang digunakan.2. Sumber web yang ditemukan (beserta alasannya kenapa kredibel).3. Kesimpulan: Fakta atau Hoaks?",
+        "SLIDE 10 — Pelajaran dari Studi KasusKemampuan mencari data dengan presisi dan mengevaluasinya sangat penting agar kita tidak mudah tertipu oleh klaim palsu di internet.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKeahlian menemukan kebenaran adalah pelindung terbaikmu di dunia maya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab3-pertemuan1",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPerbedaan Dasar Fakta vs. Opini dalam Informasi DigitalINFORMATIKA SMP",
+        "SLIDE 2 — Informasi di Dunia DigitalSetiap hari kita membaca ribuan kata di media sosial dan portal berita. Untuk tidak mudah tertipu, kita harus bisa membedakan mana yang Fakta dan mana yang Opini.",
+        "SLIDE 3 — Apa itu Fakta?Fakta adalah pernyataan tentang keadaan yang nyata, peristiwa yang benar-benar terjadi, dan dapat dibuktikan kebenarannya oleh siapa saja.",
+        "SLIDE 4 — Karakteristik Fakta- Bersifat objektif (apa adanya).- Didukung oleh data, angka, atau bukti yang jelas.- Memiliki waktu, tempat, dan subjek kejadian yang pasti.- Tidak dipengaruhi perasaan penulis.",
+        "SLIDE 5 — Contoh Kalimat Fakta'Ibu kota negara Indonesia saat ini adalah Jakarta.''Suhu air mendidih pada tekanan normal adalah 100 derajat Celcius.'(Kalimat ini mutlak benar dan bisa dibuktikan).",
+        "SLIDE 6 — Apa itu Opini?Opini adalah pendapat, pandangan, atau perkiraan seseorang mengenai suatu hal. Kebenarannya masih belum pasti karena bisa berbeda pada tiap orang.",
+        "SLIDE 7 — Karakteristik Opini- Bersifat subjektif (menurut pandangan pribadi).- Sering menggunakan kata sifat atau perkiraan (sebaiknya, mungkin, sangat, menurut saya, terlihat).- Belum tentu disetujui oleh semua orang.",
+        "SLIDE 8 — Contoh Kalimat Opini'Kota Jakarta adalah kota yang paling tidak nyaman untuk ditinggali.''Suhu udara hari ini sangat panas.'(Bagi sebagian orang, Jakarta mungkin nyaman, dan suhu hari ini mungkin biasa saja).",
+        "SLIDE 9 — Mengapa Penting Membedakan Keduanya?Banyak pembuat berita palsu yang mencampurkan fakta sedikit lalu menambahkan banyak opini provokatif agar pembaca marah atau takut. Kita harus kritis memisahkan keduanya.",
+        "SLIDE 10 — Cara Menguji Sebuah PernyataanSaat membaca artikel, tanyakan pada diri sendiri:'Apakah pernyataan ini bisa diukur atau dibuktikan kebenarannya?'Jika Ya = Fakta. Jika Tidak = Opini.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHBerdirilah di atas fakta, namun tetap hargai setiap opini yang ada."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab3-pertemuan2",
+      "materi": [
+        "SLIDE 1 — PEMBUKAAnatomi Hoaks, Bentuk Disinformasi, dan Teknik Fact-Checking SederhanaINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Hoaks?Hoaks (Hoax) adalah informasi palsu, berita bohong, atau fakta yang direkayasa dengan tujuan menipu atau mengakali pembacanya agar mempercayai sesuatu yang tidak benar.",
+        "SLIDE 3 — Tujuan Pembuatan Hoaks- Menimbulkan kepanikan atau ketakutan.- Menjatuhkan nama baik seseorang atau kelompok.- Mencari keuntungan finansial (lewat klik situs/clickbait).- Lelucon yang tidak bertanggung jawab.",
+        "SLIDE 4 — Bentuk-Bentuk Disinformasi1. Misinformasi: Info salah tapi penyebarnya tidak tahu itu salah.2. Disinformasi: Info salah dan SENGAJA disebarkan untuk menipu.3. Malinformasi: Info asli tapi digunakan untuk merugikan orang lain.",
+        "SLIDE 5 — Anatomi dan Ciri-Ciri Hoaks- Judul sangat provokatif, huruf besar semua, banyak tanda seru (!!!).- Meminta pembaca segera membagikan (Viralkan! Sebarkan!).- Mengatasnamakan institusi terkenal tapi salah eja.- Menggunakan foto atau video hasil editan.",
+        "SLIDE 6 — Teknik Fact-Checking SederhanaJika menerima berita mencurigakan, terapkan Saring Sebelum Sharing.Langkah 1: Jangan langsung emosi atau panik. Baca isinya dengan tenang.",
+        "SLIDE 7 — Langkah 2: Cek Alamat WebApakah tautan (link) berasal dari portal berita terpercaya, atau dari blog/website aneh yang tidak jelas pengelolanya?",
+        "SLIDE 8 — Langkah 3: Cek Foto/GambarPelaku hoaks sering memakai foto lama untuk kejadian baru. Gunakan fitur 'Google Reverse Image Search' untuk melihat kapan foto asli pertama kali muncul di internet.",
+        "SLIDE 9 — Langkah 4: Cari KlarifikasiBuka Google, ketik isi berita ditambah kata 'hoaks'. Contoh: 'Kiamat hari jumat hoaks'. Biasanya situs cek fakta sudah membedah kebohongan tersebut.",
+        "SLIDE 10 — Situs Resmi Pengecek Fakta di IndonesiaSelalu andalkan situs yang diakui kredibilitasnya seperti:- turnbackhoax.id- kominfo.go.id (bagian cek fakta)- CekFakta.com",
+        "SLIDE 10 — PENUTUPTERIMA KASIHJari yang bijak akan menyaring setiap informasi sebelum menekan tombol bagikan."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab3-pertemuan3",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengenalan Ekosistem Media Pers Digital dan Standar Jurnalistik DasarINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Media Pers?Media Pers atau media massa adalah lembaga resmi yang melakukan kegiatan jurnalistik (mencari, memperoleh, mengolah, dan menyampaikan informasi/berita kepada publik).",
+        "SLIDE 3 — Ekosistem Media Pers DigitalSaat ini, media pers tidak hanya mencetak koran, tetapi berpindah ke platform digital (website berita online). Contoh: Kompas.com, Detik.com, Antara News.",
+        "SLIDE 4 — Beda Pers Resmi dan Non-ResmiPers Resmi terdaftar di Dewan Pers Indonesia, memiliki badan hukum, dan alamat redaksi jelas. Sedangkan portal berita bodong (non-resmi) biasanya anonim dan hanya mengincar sensasi.",
+        "SLIDE 5 — Pentingnya Standar JurnalistikWartawan atau jurnalis yang bekerja di media resmi terikat oleh Kode Etik Jurnalistik. Mereka tidak boleh sembarangan menulis berita hanya berdasarkan gosip.",
+        "SLIDE 6 — Prinsip Dasar Jurnalistik: AkurasiWartawan wajib mengecek kebenaran informasi sebelum diterbitkan. Jika terjadi kesalahan, media resmi wajib menerbitkan ralat atau permintaan maaf.",
+        "SLIDE 7 — Prinsip Dasar Jurnalistik: Keberimbangan (Cover Both Sides)Berita yang baik harus seimbang. Jika memberitakan dua pihak yang bertengkar, jurnalis harus mewawancarai keduanya, bukan membela salah satu pihak.",
+        "SLIDE 8 — Prinsip Dasar Jurnalistik: IndependenMedia harus memberitakan sesuatu demi kepentingan publik tanpa ditekan atau dibayar oleh pihak tertentu untuk mengubah isi berita.",
+        "SLIDE 9 — Mengapa Kita Butuh Pers Terpercaya?Di tengah lautan informasi media sosial yang sering kali dipenuhi hoaks dan opini pribadi, media pers resmi berfungsi sebagai penjernih informasi (clearing house).",
+        "SLIDE 10 — Cara Mengetahui Media ResmiKamu bisa mengecek nama portal berita tersebut di website resmi dewanpers.or.id. Jika terdaftar, berarti media tersebut resmi dan berbadan hukum.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMembaca dari sumber yang benar adalah langkah awal membangun pemikiran yang sehat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab3-pertemuan4",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPeran Media Pers vs. Media Sosial serta Etika Berwarganet (Digital Citizenship)INFORMATIKA SMP",
+        "SLIDE 2 — Media Pers vs. Media SosialMedia Pers: Dibuat oleh profesional (jurnalis), diawasi Dewan Pers, bertujuan memberi informasi valid.Media Sosial: Dibuat oleh siapa saja (pengguna), bertujuan berbagi cerita pribadi, rentan opini.",
+        "SLIDE 3 — Sifat Interaksi di Media SosialMedia sosial memberikan kebebasan bagi siapa pun untuk berkomentar dan berbagi (share). Kebebasan ini sering kali disalahgunakan jika kita tidak tahu etika.",
+        "SLIDE 4 — Apa itu Digital Citizenship?Kewargaan Digital (Digital Citizenship) adalah norma atau etika berinteraksi di dunia maya, layaknya kita hidup bertetangga di dunia nyata.",
+        "SLIDE 5 — Prinsip Berwarganet yang Bertanggung Jawab1. Hormati orang lain: Di balik nama akun (username), ada manusia sungguhan yang punya perasaan.2. Jaga privasi: Jangan sembarangan membagikan data diri (NIK, alamat rumah, nomor HP).",
+        "SLIDE 6 — Batasan Etika di Media Sosial- Jangan melakukan Cyberbullying (perundungan online), seperti mengejek fisik atau mengancam.- Jangan menggunakan kata-kata kasar (hate speech/ujaran kebencian).- Jangan membagikan informasi palsu.",
+        "SLIDE 7 — Jejak Digital Tidak Pernah HilangSetiap foto, komentar kasar, atau unggahan yang kamu buat di internet akan menjadi Jejak Digital. Meskipun sudah dihapus, orang lain mungkin sudah mengambil tangkapan layar (screenshot).",
+        "SLIDE 8 — Dampak Jejak Digital BurukJejak digital yang buruk bisa merugikan masa depanmu. Saat melamar sekolah, beasiswa, atau pekerjaan, pihak penilai sering memeriksa rekam jejak media sosial pendaftarnya.",
+        "SLIDE 9 — Berpikir Sebelum Posting (THINK)T - Is it True? (Apakah itu benar?)H - Is it Helpful? (Apakah itu membantu?)I - Is it Inspiring? (Apakah itu menginspirasi?)N - Is it Necessary? (Apakah itu penting?)K - Is it Kind? (Apakah itu baik?)",
+        "SLIDE 10 — Menjadi Pahlawan DigitalAlih-alih menyebarkan kebencian, gunakan media sosialmu untuk berbagi ilmu, mendukung karya teman, dan melaporkan (report) konten yang negatif.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKetikan jarimu hari ini adalah cerminan karaktermu di masa depan."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem1-bab3-pertemuan5",
+      "materi": [
+        "SLIDE 1 — PEMBUKAProyek Analisis Kasus / Kampanye Anti-HoaksINFORMATIKA SMP",
+        "SLIDE 2 — Proyek Akhir Bab: Kampanye Anti-HoaksHari ini, kita akan mengaplikasikan pemahaman tentang pemikiran kritis, literasi digital, dan etika berwarganet dalam sebuah proyek kelompok.",
+        "SLIDE 3 — Tujuan ProyekKamu akan menjadi agen perubahan dengan merancang konten edukatif atau kampanye untuk mengajak teman-teman sekolahmu melawan hoaks dan bijak bermedia sosial.",
+        "SLIDE 4 — Langkah 1: Tentukan Topik KasusPilih satu kasus disinformasi atau pelanggaran etika digital. Contoh:- Hoaks kesehatan (obat ajaib).- Kasus cyberbullying di game online.- Penipuan berkedok hadiah.",
+        "SLIDE 5 — Langkah 2: Lakukan Analisis KritisBedah kasus tersebut:- Mengapa informasi itu salah?- Apa dampak buruknya jika dipercaya?- Bagaimana cara mengecek fakta sebenarnya?",
+        "SLIDE 6 — Langkah 3: Rancang Pesan KampanyeBuatlah pesan yang mengajak kebaikan. Gunakan bahasa yang sesuai dengan remaja, singkat, dan tidak menggurui. Contoh slogan: 'Faktanya Dulu, Baru Share-nya!'",
+        "SLIDE 7 — Langkah 4: Pilih Media PenyampaianKonten kampanye bisa berupa:- Poster digital.- Video pendek (Reels / TikTok edukasi).- Infografis atau komik strip sederhana.",
+        "SLIDE 8 — Langkah 5: Desain dan PembuatanGunakan aplikasi desain sederhana. Pastikan desain menarik, teks mudah dibaca, kontras warna bagus, dan langsung pada inti pesan.",
+        "SLIDE 9 — Langkah 6: Presentasi KaryaTampilkan hasil kerjamu di depan kelas. Jelaskan kasus yang dipilih, alasan pemilihan, dan makna dari pesan kampanye yang dibuat.",
+        "SLIDE 10 — Kriteria Penilaian- Kesesuaian analisis fakta vs hoaks.- Kreativitas dan kejelasan pesan kampanye.- Kemampuan kerja sama dan presentasi.Mari buat internet jadi tempat yang lebih aman!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHJadilah bagian dari solusi, bukan bagian dari polusi informasi."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan1",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengenalan Aplikasi Pengolah Dokumen, Antarmuka, dan Pemformatan Teks DasarINFORMATIKA SMP",
+        "SLIDE 2 — Mengenal Aplikasi Pengolah DokumenAplikasi pengolah dokumen (Word Processor) adalah perangkat lunak untuk membuat, mengedit, dan memformat dokumen berbasis teks, seperti surat, laporan, dan makalah. Contoh: MS Word, Google Docs.",
+        "SLIDE 3 — Fungsi Utama Aplikasi- Mengetik teks dengan rapi.- Menyisipkan gambar dan tabel ke dalam teks.- Mengatur tata letak halaman untuk dicetak.",
+        "SLIDE 4 — Antarmuka UtamaSaat membuka aplikasi, kamu akan melihat:- Lembar Kerja (Page): Area putih seperti kertas untuk mengetik.- Kursor Berkedip: Penanda tempat huruf akan muncul saat diketik.",
+        "SLIDE 5 — Elemen Menu (Ribbon)Di bagian atas terdapat Ribbon atau kumpulan menu. Menu 'Home' adalah yang paling sering digunakan karena berisi alat-alat untuk mengatur teks dasar.",
+        "SLIDE 6 — Pemformatan Font (Jenis Huruf)Kamu bisa mengubah gaya tulisan (Font Type) sesuai kebutuhan. Contoh:- Arial atau Times New Roman untuk tugas resmi/formal.- Comic Sans untuk dokumen santai/informal.",
+        "SLIDE 7 — Ukuran Huruf (Font Size)Ukuran huruf standar untuk teks makalah biasanya adalah 11 atau 12. Untuk judul dokumen, gunakan ukuran lebih besar seperti 14 atau 16 agar terlihat perbedaannya.",
+        "SLIDE 8 — Gaya Penulisan (Font Style)- Bold (Tebal): Menekankan kata penting atau judul.- Italic (Miring): Untuk istilah asing atau penekanan frasa.- Underline (Garis Bawah): Digunakan untuk hyperlink atau penanda khusus.",
+        "SLIDE 9 — Warna Teks (Font Color)Gunakan font berwarna hitam untuk dokumen resmi. Warna lain bisa digunakan pada judul atau bagian tertentu untuk memperindah desain, namun jangan terlalu berlebihan.",
+        "SLIDE 10 — Cara Cepat (Shortcut Keyboard)- Ctrl + B : Membuat teks tebal (Bold)- Ctrl + I : Membuat teks miring (Italic)- Ctrl + U : Memberi garis bawah (Underline)",
+        "SLIDE 10 — PENUTUPTERIMA KASIHDokumen yang rapi menunjukkan pemikiran penulisnya yang teratur."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan2",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPemformatan Paragraf, Tata Letak Halaman (Page Layout), Header/Footer, dan PenomoranINFORMATIKA SMP",
+        "SLIDE 2 — Menata Paragraf agar RapiSetelah mengetik, dokumen harus diatur perataannya agar enak dibaca. Fasilitas ini disebut Alignment (Perataan Paragraf).",
+        "SLIDE 3 — Jenis Perataan Paragraf1. Align Left (Rata Kiri): Teks rata di kiri, acak di kanan.2. Center (Rata Tengah): Teks berada tepat di tengah halaman (untuk judul).3. Align Right (Rata Kanan): Teks rata di kanan (untuk tanggal/alamat surat).",
+        "SLIDE 4 — Rata Kiri-Kanan (Justify)Justify membuat paragraf lurus dan rapi di sisi kiri maupun kanan. Ini adalah standar perataan yang diwajibkan untuk makalah, laporan, dan buku formal.",
+        "SLIDE 5 — Mengatur Jarak Spasi (Line Spacing)Spasi adalah jarak antara baris teks satu dengan di bawahnya. - Spasi 1.0 (Single): Jarak rapat.- Spasi 1.5: Jarak sedang, standar untuk laporan sekolah.- Spasi 2.0 (Double): Sangat renggang.",
+        "SLIDE 6 — Tata Letak Halaman (Page Layout)Kita harus mengatur ukuran kertas sebelum mencetak.- Size: Pilih A4 untuk kertas HVS standar.- Orientation: Portrait (Berdiri/Tegak) atau Landscape (Mendatar/Tidur).",
+        "SLIDE 7 — Mengatur MarginMargin adalah batas kosong di tepi kertas (atas, bawah, kiri, kanan). Margin mencegah teks terpotong saat dicetak atau saat makalah dijilid.",
+        "SLIDE 8 — Apa itu Header dan Footer?- Header: Area di margin atas dokumen yang diulang di setiap halaman (contoh: Logo Sekolah, Judul Bab).- Footer: Area di margin bawah (contoh: Alamat web, Catatan kaki).",
+        "SLIDE 9 — Menambahkan Nomor HalamanAgar halaman makalah berurutan, gunakan fitur Page Number (Sisipkan Nomor Halaman). Nomor biasanya diletakkan di Footer (tengah atau kanan bawah).",
+        "SLIDE 10 — Kesatuan FormatDokumen yang baik memiliki konsistensi: Spasi yang sama, Justify pada semua paragraf, dan Margin yang proporsional di seluruh halamannya.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKerapian detail kecil akan menghasilkan kualitas karya yang besar."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan3",
+      "materi": [
+        "SLIDE 1 — PEMBUKASisipan Objek (Tabel, Gambar, Shape) dan Pengaturan Layout Gambar dalam DokumenINFORMATIKA SMP",
+        "SLIDE 2 — Pentingnya Visual dalam DokumenDokumen yang hanya berisi teks panjang bisa membosankan. Menyisipkan objek visual seperti tabel, gambar, dan bentuk (shape) dapat membuat informasi lebih jelas dan menarik.",
+        "SLIDE 3 — Menyisipkan Tabel (Insert Table)Tabel digunakan untuk menampilkan daftar data terstruktur dalam dokumen teks.Cara: Klik menu Insert -> Table -> Pilih jumlah kolom dan baris menggunakan grid kotak-kotak.",
+        "SLIDE 4 — Mengatur TabelSetelah tabel dibuat, kamu bisa:- Menarik garis tepi (border) untuk mengatur lebar kolom.- Mewarnai baris judul (shading) agar lebih menonjol.- Menggabungkan sel (Merge Cells) untuk merapikan judul tabel.",
+        "SLIDE 5 — Menyisipkan Gambar (Insert Picture)Gambar atau foto dapat mendukung penjelasan dokumen.Cara: Klik Insert -> Pictures -> Pilih gambar dari komputermu.",
+        "SLIDE 6 — Mengatur Ukuran GambarKlik gambar, lalu tarik titik bulat (handle) di sudut gambar. Selalu tarik dari SUDUT agar proporsi gambar (panjang x lebar) tetap seimbang dan tidak peyang (distorsi).",
+        "SLIDE 7 — Pengaturan Layout Gambar (Wrap Text)Secara default, gambar akan bertabrakan dengan teks. Gunakan fitur Wrap Text untuk mengaturnya.- In Line with Text: Gambar sejajar dengan teks.- Square / Tight: Teks akan mengelilingi kotak gambar secara rapi.",
+        "SLIDE 8 — Posisi Gambar Lainnya- Behind Text: Gambar menjadi latar belakang di belakang teks.- In Front of Text: Gambar menutupi teks (bisa digeser bebas ke mana saja).",
+        "SLIDE 9 — Menyisipkan Bentuk (Insert Shape)Shape adalah bentuk geometris (kotak, lingkaran, panah) yang bisa digunakan untuk membuat diagram alur (flowchart) sederhana.Cara: Klik Insert -> Shapes -> Pilih bentuk -> Gambar di halaman.",
+        "SLIDE 10 — Format Objek VisualSetiap objek (tabel, gambar, shape) akan memunculkan menu khusus saat diklik. Kamu bisa menambahkan efek bayangan, bingkai, atau merubah warnanya di menu tersebut.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHSatu gambar yang tepat dapat menjelaskan seribu kata dengan lebih baik."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan4",
+      "materi": [
+        "SLIDE 1 — PEMBUKAFitur Lanjutan Dokumen: Pembuatan Daftar Isi Otomatis, Mail Merge, dan ReferensiINFORMATIKA SMP",
+        "SLIDE 2 — Fitur Lanjutan untuk KemudahanAplikasi dokumen memiliki fitur tingkat lanjut untuk mengotomatisasi pekerjaan yang melelahkan, seperti membuat daftar isi dan mengirim surat massal.",
+        "SLIDE 3 — Konsep Heading StyleHeading adalah format khusus untuk menandai struktur tingkatan judul.- Heading 1: Judul Bab Utama (Contoh: BAB I PENDAHULUAN)- Heading 2: Sub-Bab (Contoh: A. Latar Belakang)- Normal: Teks isi paragraf biasa.",
+        "SLIDE 4 — Pembuatan Daftar Isi OtomatisJika kamu mengetik daftar isi secara manual (mengetik titik-titik dan angka halaman), halama akan berantakan jika teks berubah. Solusinya adalah fitur Table of Contents.",
+        "SLIDE 5 — Cara Kerja Daftar Isi Otomatis1. Terapkan Heading 1 dan Heading 2 pada semua judul dan sub-judulmu.2. Klik menu References -> Table of Contents.3. Daftar isi beserta titik-titik dan nomor halamannya akan muncul otomatis!",
+        "SLIDE 6 — Apa itu Mail Merge (Surat Massal)?Mail Merge adalah fitur untuk membuat dokumen berjumlah banyak (seperti surat undangan atau sertifikat) dengan format yang sama, tetapi data penerimanya berbeda-beda.",
+        "SLIDE 7 — Komponen Mail MergeMail Merge membutuhkan dua file:1. Main Document: Dokumen utama (misal: template surat di Word).2. Data Source: Sumber data berisi daftar nama/alamat penerima (biasanya berupa file Excel).",
+        "SLIDE 8 — Cara Kerja Mail MergeFitur ini akan menghubungkan 'kolom nama di Excel' dengan 'area tujuan di Word'. Satu template surat bisa langsung mencetak 100 surat dengan nama berbeda secara otomatis.",
+        "SLIDE 9 — Manfaat Mail MergeSangat menghemat waktu. Daripada menyalin nama penerima satu per satu ke dalam surat, komputer yang akan menggantikannya dengan sangat cepat dan akurat.",
+        "SLIDE 10 — Fitur Referensi TambahanPada menu References, kamu juga bisa menambahkan Catatan Kaki (Footnote) di bawah halaman untuk memberikan penjelasan tambahan atas sebuah kata tanpa mengganggu teks utama.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHManfaatkan teknologi untuk bekerja lebih cerdas, bukan hanya bekerja keras."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan5",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPraktik Mandiri Pembuatan Dokumen Laporan / Proposal Terstruktur dan RapiINFORMATIKA SMP",
+        "SLIDE 2 — Proyek Mandiri: Dokumen FormalHari ini kita akan menyatukan semua keterampilan pengolah kata (pemformatan teks, paragraf, penyisipan objek, dan daftar isi otomatis) ke dalam satu proyek utuh.",
+        "SLIDE 3 — Studi Kasus ProyekKamu ditugaskan membuat sebuah Proposal Laporan Kegiatan Ekstrakurikuler. Dokumen ini harus terlihat profesional, rapi, dan sesuai standar dokumen resmi.",
+        "SLIDE 4 — Tahap 1: Persiapan Tata Letak- Atur ukuran kertas: A4.- Atur Margin: Kiri (4cm), Atas, Kanan, Bawah (masing-masing 3cm).- Atur Spasi Paragraf: 1.5 Lines.",
+        "SLIDE 5 — Tahap 2: Pembuatan Halaman Sampul (Cover)Buat halaman pertama berisi:- Judul Proposal (Rata tengah, cetak tebal, font besar).- Logo Sekolah (Gunakan Insert Picture, atur posisi).- Nama penyusun dan Nama Sekolah.",
+        "SLIDE 6 — Tahap 3: Daftar Isi OtomatisSediakan halaman kosong setelah cover. Ingat, jangan ketik manual. Kita akan menggunakan fitur References -> Table of Contents di akhir setelah semua judul diatur.",
+        "SLIDE 7 — Tahap 4: Penulisan Bab dan ParagrafKetik isi laporan. Pastikan:- Judul bab menggunakan format Heading 1.- Sub-bab menggunakan Heading 2.- Teks paragraf menggunakan rata kiri-kanan (Justify).",
+        "SLIDE 8 — Tahap 5: Menyisipkan DataPada bagian Rincian Biaya, buatlah sebuah Tabel (Insert Table) yang rapi. Pada bagian Dokumentasi, sisipkan 1 atau 2 Gambar (Insert Picture) dengan layout yang seimbang.",
+        "SLIDE 9 — Tahap 6: Nomor Halaman (Page Number)Tambahkan nomor halaman di bagian Footer. Pastikan nomor halaman berurutan dan terlihat jelas pada seluruh dokumen.",
+        "SLIDE 10 — Tahap 7: Pengecekan Akhir (Review)Periksa kembali dokumenmu dari halaman pertama hingga terakhir. Jika semua judul sudah menggunakan Heading, klik Update Table pada Daftar Isi agar nomor halamannya menyesuaikan otomatis.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHDokumen yang disusun secara profesional akan mencerminkan keseriusan pembuatnya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan6",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengenalan Lembar Kerja Pengolah Data: Antarmuka, Cell, Row, Column, dan Tipe DataINFORMATIKA SMP",
+        "SLIDE 2 — Kembali ke SpreadsheetPada bab sebelumnya kita sudah mengenal antarmuka spreadsheet secara singkat. Sekarang kita akan mendalami fungsinya untuk pengolahan angka di aplikasi perkantoran.",
+        "SLIDE 3 — Review Antarmuka Utama- Workbook (Buku Kerja): Keseluruhan file spreadsheet.- Worksheet / Sheet (Lembar Kerja): Halaman di dalam buku kerja (Sheet1, Sheet2, dst).- Name Box: Kotak yang menunjukkan nama sel aktif (misal: A1).",
+        "SLIDE 4 — Anatomi Grid Data- Kolom (Column): Vertikal, diwakili huruf (A, B, C...). - Baris (Row): Horizontal, diwakili angka (1, 2, 3...). - Sel (Cell): Satu kotak pertemuan kolom & baris.- Range: Kumpulan kotak (blok sel).",
+        "SLIDE 5 — Pentingnya Tipe DataSaat memasukkan data ke dalam sel, komputer harus tahu jenis data apa itu agar bisa memprosesnya dengan benar. Angka yang salah format tidak bisa dihitung.",
+        "SLIDE 6 — Tipe Data: Teks (Label)Tipe data berupa huruf atau kombinasi huruf dan angka yang TIDAK bisa dihitung matematis. Contoh: 'Andi', 'Kelas 7A', 'Nomor HP 0812...'.Karakteristik: Otomatis rata kiri (Align Left) di dalam sel.",
+        "SLIDE 7 — Tipe Data: Angka (Value/Number)Tipe data khusus angka murni yang bisa digunakan untuk operasi hitung matematika. Contoh: '100', '25000', '3.14'.Karakteristik: Otomatis rata kanan (Align Right) di dalam sel.",
+        "SLIDE 8 — Tipe Data: Tanggal dan Waktu (Date/Time)Data yang menunjukkan hari, bulan, tahun, atau jam. Contoh: '17/08/1945', '10:30 AM'. Spreadsheet menganggap tanggal sebagai angka spesial sehingga bisa dihitung (misal: selisih hari).",
+        "SLIDE 9 — Format Angka Mata UangJika mengetik harga, JANGAN ketik huruf 'Rp' secara manual (contoh: Rp5000). Ketik saja angka '5000', lalu gunakan menu Format Number -> Currency / Accounting untuk memunculkan simbol mata uang.",
+        "SLIDE 10 — Perbaikan Tampilan SelJika data yang diketik terlalu panjang dan melebihi lebar sel, klik fitur 'Wrap Text' agar teksnya turun ke bawah menyesuaikan kotak, tanpa mengubah lebar sel.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKenali karakteristik datamu agar alat kerjamu dapat merespons dengan akurat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan7",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPenggunaan Formula Dasar dan Fungsi Aritmatika (SUM, AVERAGE, MIN, MAX, COUNT)INFORMATIKA SMP",
+        "SLIDE 2 — Formula vs Fungsi DasarFormula adalah rumus yang kita ketik manual (contoh: =A1+A2+A3). Sedangkan Fungsi (Function) adalah rumus otomatis bawaan aplikasi untuk perhitungan kompleks secara cepat.",
+        "SLIDE 3 — Aturan WajibSama seperti formula manual, semua Fungsi Fungsi dasar dalam spreadsheet selalu harus diawali dengan tanda SAMA DENGAN (=).",
+        "SLIDE 4 — Fungsi SUM (Total/Jumlah)SUM digunakan untuk menjumlahkan semua angka dalam suatu range.Cara penulisan: =SUM(range_awal:range_akhir)Contoh: =SUM(A1:A10)Hasil: Menjumlahkan semua angka dari sel A1 hingga A10.",
+        "SLIDE 5 — Fungsi AVERAGE (Rata-rata)AVERAGE digunakan untuk mencari nilai rata-rata dari sekumpulan angka.Cara penulisan: =AVERAGE(B1:B5)Berguna untuk mencari nilai rata-rata ujian siswa.",
+        "SLIDE 6 — Fungsi MIN (Nilai Terkecil)MIN digunakan untuk mencari angka paling kecil dari sekumpulan data.Cara penulisan: =MIN(C1:C20)Berguna untuk mencari siapa siswa yang mendapat nilai terendah.",
+        "SLIDE 7 — Fungsi MAX (Nilai Terbesar)MAX digunakan untuk mencari angka paling besar dari sekumpulan data.Cara penulisan: =MAX(C1:C20)Berguna untuk mencari skor tertinggi dalam sebuah pertandingan.",
+        "SLIDE 8 — Fungsi COUNT (Menghitung Jumlah Sel)COUNT digunakan untuk menghitung ADA BERAPA BANYAK SEL yang berisi data angka (bukan menjumlahkan isinya).Cara penulisan: =COUNT(D1:D10)Berguna untuk menghitung jumlah siswa yang sudah menyerahkan tugas.",
+        "SLIDE 9 — Cara Penggunaan Cepat (AutoSum)Kamu tidak harus mengetik manual. Blok range data yang ingin dihitung, lalu klik tombol 'AutoSum' (simbol Σ) di menu Home, dan pilih SUM, AVERAGE, MIN, atau MAX.",
+        "SLIDE 10 — Studi Kasus PenggunaanKamu punya tabel Nilai Kelas. - Pakai SUM untuk total nilai satu siswa.- Pakai AVERAGE untuk rata-rata kelas.- Pakai MAX untuk nilai tertinggi kelas.Semua dihitung dalam hitungan detik!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKuasai rumus dasar, maka pekerjaan berjam-jam bisa selesai dalam hitungan detik."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan8",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPenerapan Fungsi Logika (IF) dan Pemformatan Bersyarat (Conditional Formatting)INFORMATIKA SMP",
+        "SLIDE 2 — Pengambilan Keputusan di SpreadsheetTerkadang kita tidak hanya ingin menghitung, tapi juga memberikan keputusan otomatis berdasarkan syarat tertentu. Misalnya: 'Jika nilai > 75, maka LULUS, jika tidak maka GAGAL'.",
+        "SLIDE 3 — Mengenal Fungsi Logika IFFungsi IF digunakan untuk menghasilkan nilai tertentu jika sebuah kondisi (syarat) BENAR, dan menghasilkan nilai lain jika SALAH.",
+        "SLIDE 4 — Struktur Rumus IFFormatnya adalah: =IF(Syarat, \"Hasil jika Benar\", \"Hasil jika Salah\")Catatan: Teks hasil harus diapit tanda kutip dua. Pemisah koma (,) bisa berubah menjadi titik koma (;) tergantung setting komputer.",
+        "SLIDE 5 — Penerapan Fungsi IF (Contoh 1)Syarat: Jika nilai di sel A1 lebih dari atau sama dengan 75, maka LULUS, selain itu REMEDIAL.Rumus: =IF(A1>=75, \"LULUS\", \"REMEDIAL\")Jika A1 berisi angka 80, maka muncul kata LULUS.",
+        "SLIDE 6 — Penerapan Fungsi IF (Contoh 2)Syarat: Jika sel B2 berisi \"Laki-laki\", kodenya \"L\", jika bukan maka \"P\".Rumus: =IF(B2=\"Laki-laki\", \"L\", \"P\")",
+        "SLIDE 7 — Menonjolkan Data secara VisualSetelah mengetahui yang 'Lulus' dan 'Remedial', akan lebih mudah jika teks 'Remedial' otomatis berwarna merah. Fitur untuk mewarnai otomatis ini disebut Conditional Formatting.",
+        "SLIDE 8 — Apa itu Conditional Formatting?Conditional Formatting (Pemformatan Bersyarat) adalah fitur untuk mengubah warna huruf atau latar belakang sel secara otomatis jika memenuhi syarat/aturan tertentu.",
+        "SLIDE 9 — Cara Menggunakan Conditional Formatting1. Blok range sel (contoh: kolom Keterangan Lulus/Remedial).2. Klik Home -> Conditional Formatting -> Highlight Cells Rules.3. Pilih 'Equal To' (Sama Dengan).",
+        "SLIDE 10 — Penyetelan Aturan WarnaPada kotak dialog yang muncul:- Ketik kata: REMEDIAL- Pilih format warna: 'Light Red Fill with Dark Red Text' (Latar merah muda, teks merah tua).- Klik OK. Kini semua yang remedial akan menyala merah!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHLogika yang benar akan selalu memberikan keputusan yang tepat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan9",
+      "materi": [
+        "SLIDE 1 — PEMBUKAFungsi Pencarian & Rujukan (VLOOKUP / HLOOKUP) serta Pengolahan Data (Sort & Filter)INFORMATIKA SMP",
+        "SLIDE 2 — Masalah Data TerpisahBagaimana jika kamu punya Tabel A berisi 'Kode Barang' dan 'Jumlah Beli', lalu Tabel B (di sheet lain) berisi rincian 'Kode Barang', 'Nama Barang', dan 'Harga'? Bagaimana menyatukannya secara otomatis?",
+        "SLIDE 3 — Fungsi Pencarian dan Rujukan (Lookup)Spreadsheet memiliki fitur pencarian data bernama VLOOKUP (Vertical Lookup) dan HLOOKUP (Horizontal Lookup). Fungsi ini mengambil data dari tabel referensi (Tabel B) dan memindahkannya ke tabel utama (Tabel A).",
+        "SLIDE 4 — Apa itu VLOOKUP?VLOOKUP mengambil data dari tabel referensi yang berbentuk VERTIKAL (judul kolom ada di atas, data memanjang ke bawah). Ini adalah fungsi lookup yang paling sering digunakan.",
+        "SLIDE 5 — Struktur Rumus VLOOKUP=VLOOKUP(Sel_Acuan, Range_Tabel_Referensi, Nomor_Kolom, FALSE)- Sel_Acuan: Kunci pencarian (misal: Kode Barang).- Range: Area tabel referensi.- Nomor_Kolom: Letak data yang ingin diambil (Kolom ke-2, ke-3).- FALSE: Mencari data yang sama persis (Exact match).",
+        "SLIDE 6 — Apa itu HLOOKUP?HLOOKUP mengambil data dari tabel referensi yang berbentuk HORIZONTAL (judul atribut ada di samping kiri, data memanjang ke kanan). Cara kerjanya sama persis dengan VLOOKUP, hanya beda bentuk tabel.",
+        "SLIDE 7 — Struktur Rumus HLOOKUP=HLOOKUP(Sel_Acuan, Range_Tabel_Referensi, Nomor_Baris, FALSE)Yang berbeda hanyalah kita meminta 'Nomor Baris' data, bukan Nomor Kolom.",
+        "SLIDE 8 — Pentingnya Absolute Reference ($)Saat menyalin rumus VLOOKUP ke bawah, Range_Tabel_Referensi bisa bergeser dan jadi error. Untuk menguncinya, tambahkan simbol Dollar ($). Contoh: $A$1:$C$10. Caranya, blok range lalu tekan F4.",
+        "SLIDE 9 — Mengelola Data Lanjutan (Sort & Filter)Setelah tabel utamamu lengkap berkat VLOOKUP, kamu bisa merapikannya. Gunakan Data -> Sort untuk mengurutkan transaksi, atau Filter untuk hanya menampilkan transaksi di atas Rp100.000.",
+        "SLIDE 10 — Kehebatan LookupDengan VLOOKUP, kasir minimarket tidak perlu menghafal harga. Saat barcode (Kode) di-scan, rumus akan otomatis mengambil Nama Barang dan Harga dari database pusat ke layar kasir.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKuasai seni mengelola data, maka kompleksitas akan berubah menjadi kemudahan."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan10",
+      "materi": [
+        "SLIDE 1 — PEMBUKAVisualisasi Data Lembar Kerja: Pembuatan dan Pemformatan Grafik / ChartINFORMATIKA SMP",
+        "SLIDE 2 — Tantangan Membaca AngkaMelihat tabel berisi ratusan baris angka sangat membosankan dan menyulitkan otak untuk melihat tren (apakah pendapatan naik atau turun?). Solusinya adalah Visualisasi Data.",
+        "SLIDE 3 — Apa itu Visualisasi Data?Visualisasi data adalah mengubah data berbentuk angka (tabel) menjadi gambar grafik atau chart, sehingga informasi jauh lebih mudah dan cepat dipahami.",
+        "SLIDE 4 — Tiga Jenis Grafik Utama di SpreadsheetAplikasi pengolah data menyediakan puluhan jenis grafik, namun ada 3 yang paling sering digunakan:1. Column/Bar Chart (Grafik Batang)2. Line Chart (Grafik Garis)3. Pie Chart (Grafik Lingkaran)",
+        "SLIDE 5 — Kapan Memakai Grafik Batang (Bar Chart)?Grafik batang terbaik digunakan untuk membandingkan jumlah atau kategori yang berbeda.Contoh: Membandingkan jumlah siswa laki-laki dan perempuan di kelas 7, 8, dan 9.",
+        "SLIDE 6 — Kapan Memakai Grafik Garis (Line Chart)?Grafik garis terbaik digunakan untuk menunjukkan tren perubahan data seiring berjalannya waktu.Contoh: Grafik kenaikan suhu udara harian dari hari Senin sampai Minggu.",
+        "SLIDE 7 — Kapan Memakai Grafik Lingkaran (Pie Chart)?Grafik lingkaran terbaik digunakan untuk menunjukkan persentase atau bagian dari satu keseluruhan.Contoh: Pembagian hasil pemilu ketua OSIS (Total 100% dibagi seperti irisan pizza).",
+        "SLIDE 8 — Langkah Membuat Grafik (Insert Chart)1. Blok/pilih rentang data (range) yang ingin dibuat grafik (termasuk judul kolom).2. Klik menu Insert.3. Pada grup Charts, pilih jenis grafik yang sesuai dengan tujuan datamu.",
+        "SLIDE 9 — Pemformatan GrafikSetelah grafik muncul, kamu bisa memperindahnya dengan menu Chart Design:- Tambahkan Chart Title (Judul Grafik).- Tambahkan Data Labels (Angka nilai yang muncul di atas batang/garis).- Ubah warna batang atau irisan pie.",
+        "SLIDE 10 — Grafik yang InformatifGrafik yang baik tidak boleh membingungkan. Pastikan setiap sumbu (X dan Y) memiliki keterangan yang jelas, judul yang mewakili isi, dan kontras warna yang mudah dilihat.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHUbah deretan angka menjadi cerita visual yang bermakna dan mudah dipahami."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan11",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPengenalan Aplikasi Presentasi, Struktur Slide, dan Prinsip Desain Visual EfektifINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Aplikasi Presentasi?Aplikasi presentasi (seperti PowerPoint atau Google Slides) adalah perangkat lunak untuk membuat tampilan salindia (slide) sebagai alat bantu saat kita berbicara atau menjelaskan sesuatu di depan orang lain.",
+        "SLIDE 3 — Fungsi PresentasiBukan untuk memindahkan seluruh isi buku/makalah ke layar! Slide berfungsi sebagai poin-poin penting (Point of Power) yang membantu audiens memahami garis besar penjelasan kita.",
+        "SLIDE 4 — Struktur Presentasi yang SistematisPresentasi yang baik memiliki alur logika:1. Pembuka (Judul, sapaan, topik utama).2. Isi/Inti (Penjelasan konsep secara bertahap).3. Penutup (Kesimpulan singkat, ajakan/saran, terima kasih).",
+        "SLIDE 5 — Mengenal Antarmuka Aplikasi- Slide Pane: Daftar slide di sebelah kiri.- Slide Area: Kanvas utama di tengah untuk mendesain satu slide.- Layout: Template kerangka penempatan teks (contoh: Title Slide, Title and Content).",
+        "SLIDE 6 — Prinsip Desain Visual Efektif: Kesederhanaan (Simplicity)Jangan penuhi slide dengan paragraf panjang (Wall of Text). Gunakan kata kunci dan poin-poin (bullet points). Aturannya: Maksimal 6 baris per slide, maksimal 6 kata per baris.",
+        "SLIDE 7 — Prinsip Desain: Kontras Warna (Contrast)Pastikan tulisan mudah dibaca dari kejauhan. - Jika background (latar) gelap (biru tua, hitam), gunakan teks terang (putih, kuning).- Jika background terang, gunakan teks gelap.",
+        "SLIDE 8 — Prinsip Desain: Hierarki FontBedakan ukuran teks agar audiens tahu mana yang penting.- Judul Slide: Ukuran 36-44.- Teks Poin/Isi: Ukuran 24-32.Gunakan font yang tegas tanpa ekor ukiran (seperti Arial, Calibri, atau Segoe UI).",
+        "SLIDE 9 — Prinsip Desain: Ruang Kosong (White Space)Jangan isi setiap sudut slide dengan logo, hiasan, atau gambar yang tidak perlu. Ruang kosong memberi 'napas' bagi mata audiens agar fokus pada pesan utamanya.",
+        "SLIDE 10 — Evaluasi DesainSlide yang baik bisa dipahami hanya dalam waktu 3 detik. Jika audiens butuh waktu lama untuk membacanya, berarti desain slidemu terlalu rumit.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHSlide adalah alat bantumu berbicara, bukan naskah yang membisu di layar."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan12",
+      "materi": [
+        "SLIDE 1 — PEMBUKAPenggunaan Objek, Media (Gambar & Video), serta Efek Transisi dan AnimasiINFORMATIKA SMP",
+        "SLIDE 2 — Pentingnya Multimedia dalam SlideManusia adalah makhluk visual. Audiens akan lebih tertarik melihat slide yang memiliki elemen multimedia (gambar, bentuk, video, audio) dibandingkan hanya teks tulisan berjejer.",
+        "SLIDE 3 — Menyisipkan Objek Visual TerstrukturKamu bisa menggunakan 'SmartArt' untuk membuat diagram atau bagan struktur secara otomatis. Ini sangat berguna untuk menjelaskan alur, proses (contoh: siklus air), atau struktur organisasi.",
+        "SLIDE 4 — Menyisipkan Gambar (Picture)Gambar relevan membuat emosi presentasi lebih hidup. - Pastikan resolusi gambar tinggi (tidak pecah/blur).- Jangan gunakan gambar yang ada hak ciptanya (watermark/logo orang lain).- Sesuaikan ukuran dengan proporsi yang benar (jangan gepeng).",
+        "SLIDE 5 — Menyisipkan VideoKamu bisa memasukkan video edukasi ke dalam slide.Cara: Klik Insert -> Video -> This Device. Atur agar video otomatis bermain (Play Automatically) atau diklik manual.",
+        "SLIDE 6 — Apa itu Efek Transisi (Transitions)?Transisi adalah efek animasi perpindahan dari SATU SLIDE ke SLIDE BERIKUTNYA. Contoh efek: Fade (memudar), Wipe (menyapu), Push (mendorong layar).",
+        "SLIDE 7 — Aturan Penggunaan Transisi- Gunakan transisi yang halus dan profesional (contoh: Fade atau Morph).- Hindari efek yang terlalu heboh (seperti pecah-belah, melompat, putar-putar) karena pusing dilihat.- Gunakan 1 atau 2 jenis transisi saja secara konsisten di seluruh slide.",
+        "SLIDE 8 — Apa itu Animasi (Animations)?Animasi adalah efek pergerakan OBJEK atau TEKS DI DALAM satu slide. Contoh: Poin pertama muncul, saat diklik baru poin kedua muncul terbang ke dalam layar (Fly In).",
+        "SLIDE 9 — Jenis-jenis Animasi1. Entrance (Hijau): Efek objek masuk/muncul ke layar.2. Emphasis (Kuning): Efek penekanan berkedip pada objek yang sudah ada.3. Exit (Merah): Efek objek hilang/keluar dari layar.",
+        "SLIDE 10 — Aturan Penggunaan AnimasiAnimasi berguna untuk menahan informasi (agar audiens fokus pada poin yang dibahas). Namun, jangan beri efek terbang-terbang pada setiap kata. Cukup pada poin-poin utama saja.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHGunakan efek dan animasi secara bijak untuk mendukung pesanmu, bukan mengalihkannya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan13",
+      "materi": [
+        "SLIDE 1 — PEMBUKATeknik Penyampaian Presentasi: Fitur Slide Master, Presenter View, dan Etika PresentasiINFORMATIKA SMP",
+        "SLIDE 2 — Konsistensi Desain dengan Slide MasterBayangkan kamu harus menambahkan logo sekolah di sudut kanan atas pada 50 slide. Melakukannya satu-satu sangat melelahkan. Solusinya adalah fitur Slide Master.",
+        "SLIDE 3 — Fungsi Utama Slide MasterSlide Master adalah cetak biru (blueprint) dari presentasimu. Perubahan apa pun yang kamu buat di Slide Master (misal: mengganti jenis font atau menambah logo), akan otomatis diterapkan ke seluruh slide secara instan.",
+        "SLIDE 4 — Cara Menggunakan Slide Master1. Klik menu View -> Slide Master.2. Klik slide teratas di sebelah kiri.3. Masukkan gambar logo atau ubah warna judul.4. Klik 'Close Master View'. Seluruh desainmu kini seragam!",
+        "SLIDE 5 — Apa itu Presenter View?Presenter View adalah mode tampilan layar ganda. Proyektor akan menampilkan slide (untuk audiens), sedangkan layar laptopmu menampilkan slide, catatan rahasiamu (speaker notes), dan timer waktu.",
+        "SLIDE 6 — Fungsi Speaker Notes (Catatan Pembicara)Di bagian bawah layar kerjamu ada kolom 'Notes'. Ketik teks pidato atau naskah detailmu di sana. Teks ini tidak akan terlihat oleh audiens di proyektor saat mode Presenter View aktif.",
+        "SLIDE 7 — Etika Presentasi: Kontak MataJangan terus-menerus menatap layar laptop atau membaca teks di layar proyektor. Lakukan kontak mata dengan audiensmu (tatap wajah mereka) agar mereka merasa dihargai dan diperhatikan.",
+        "SLIDE 8 — Etika Presentasi: Bahasa Tubuh (Body Language)- Berdiri dengan tegak dan percaya diri.- Jangan memasukkan tangan ke dalam saku atau melipat tangan di dada.- Gunakan gerakan tangan secara natural untuk mempertegas penjelasan.",
+        "SLIDE 9 — Etika Presentasi: Intonasi dan SuaraBicaralah dengan suara yang jelas (artikulasi baik) dan volume yang cukup terdengar ke belakang kelas. Atur tempo: jangan bicara terlalu cepat seperti orang dikejar waktu.",
+        "SLIDE 10 — Manajemen WaktuPastikan durasi berbicaramu tidak melebihi waktu yang diberikan. Jika waktu terbatas, potong penjelasan rinci dan langsung masuk ke poin utama yang paling berdampak.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMateri yang hebat akan semakin bersinar dengan cara penyampaian yang memikat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan14",
+      "materi": [
+        "SLIDE 1 — PEMBUKAIntegrasi Konten Antar-Aplikasi Perkantoran (Object Linking & Embedding: Import Tabel/Grafik)INFORMATIKA SMP",
+        "SLIDE 2 — Pentingnya Integrasi Antar-AplikasiDi dunia nyata, kita jarang hanya memakai satu aplikasi. Misalnya: Data dihitung di Excel (Spreadsheet), dilaporkan dalam makalah Word (Dokumen), lalu dipresentasikan di PowerPoint (Slide).",
+        "SLIDE 3 — Menghindari Kerja Dua KaliBagaimana jika data di Excel berubah, sementara kamu sudah menyalin tabelnya ke makalah Word dan slide presentasi? Apakah harus menghapus dan menyalin ulang? Tidak perlu, jika menggunakan teknik OLE.",
+        "SLIDE 4 — Apa itu OLE (Object Linking and Embedding)?OLE adalah teknologi yang memungkinkan kita menyematkan (embed) atau menghubungkan (link) file dokumen dari aplikasi satu ke aplikasi lainnya.",
+        "SLIDE 5 — Perbedaan Dasar Linking vs Embedding- Linking (Menghubungkan): File terhubung. Jika file asal (Excel) diedit, file tujuan (Word) akan OTOMATIS ikut berubah.- Embedding (Menyematkan): File terikat di dalam. Menempelkan data, tetapi tidak terhubung ke sumber asal.",
+        "SLIDE 6 — Cara Melakukan Linking (Copy-Paste Link)1. Buka Excel, buat tabel data, blok tabelnya, lalu Copy (Ctrl+C).2. Buka Word, klik tanda panah di bawah tombol Paste.3. Pilih 'Paste Special' -> Pilih 'Paste Link' (sebagai Microsoft Excel Worksheet Object) -> OK.",
+        "SLIDE 7 — Bukti Keberhasilan LinkingSetelah menempelkan lewat 'Paste Link', coba ubah salah satu angka di file Excel dan simpan (Save). Buka kembali file Word-mu, angka pada tabel di Word pasti akan berubah mengikuti Excel!",
+        "SLIDE 8 — Integrasi Grafik/ChartTeknik ini sangat berguna untuk memindahkan Grafik Batang (Chart) dari Spreadsheet ke Slide Presentasi. Grafik di layar presentasi akan selalu menampilkan data paling baru (real-time).",
+        "SLIDE 9 — Kapan Menggunakan Linking?Gunakan Linking ketika datanya masih sering diperbarui atau direvisi. Syaratnya: File asli (Excel) dan file tujuan (Word/Slide) harus tetap tersimpan dalam folder yang sama di komputer.",
+        "SLIDE 10 — Kapan Menggunakan Embedding?Gunakan Embedding (Paste biasa) jika data sudah final dan tidak akan diubah lagi, atau ketika file akan dikirim melalui email/flashdisk ke orang lain.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHAplikasi yang saling terhubung akan mempercepat dan menyempurnakan alur kerjamu."
+      ]
+    },
+    {
+      "pertemuan": "Kelas7-sem2-bab4-pertemuan15",
+      "materi": [
+        "SLIDE 1 — PEMBUKAProyek Integrasi Aplikasi Perkantoran (Dokumen, Data, dan Slide)INFORMATIKA SMP",
+        "SLIDE 2 — Proyek Akhir PerkantoranSelamat! Kamu telah mencapai tahap akhir bab ini. Hari ini kita akan menyelesaikan proyek simulasi perkantoran dunia nyata yang menggabungkan seluruh aplikasi.",
+        "SLIDE 3 — Skenario Proyek TerpaduKamu adalah panitia Bazar Kewirausahaan Sekolah. Tugasmu:1. Mencatat laporan keuangan (Spreadsheet).2. Membuat laporan kegiatan (Dokumen).3. Membuat materi laporan visual untuk rapat (Presentasi).",
+        "SLIDE 4 — Tahap 1: Pengolahan Data (Spreadsheet)- Buat tabel pemasukan dan pengeluaran tiap stan (Kelas 7A, 7B, 7C, dst).- Gunakan fungsi SUM untuk total keuntungan.- Buat Grafik Batang (Chart) membandingkan keuntungan tiap kelas.",
+        "SLIDE 5 — Tahap 2: Pembuatan Dokumen Laporan (Word Processor)- Buat makalah laporan dengan struktur: Cover, Pendahuluan, Rincian Kegiatan, Penutup.- Atur perataan Justify, Spasi 1.5, dan Heading untuk judul.- Sediakan area kosong di bab Rincian Kegiatan.",
+        "SLIDE 6 — Tahap 3: Integrasi Data (Linking)- Kembali ke Spreadsheet, Copy (Ctrl+C) tabel keuangan dan grafiknya.- Buka Dokumen, gunakan fitur 'Paste Special -> Paste Link' untuk menyisipkannya ke dalam area laporan.",
+        "SLIDE 7 — Tahap 4: Pembuatan Slide (Aplikasi Presentasi)- Buat slide minimal 5 halaman (Pembuka, Latar Belakang, Laporan Keuangan, Evaluasi, Penutup).- Gunakan desain kontras dan poin-poin singkat.- Sisipkan (Paste Link) grafik keuntungan dari Spreadsheet ke slide presentasi.",
+        "SLIDE 8 — Tahap 5: Simulasi Perubahan DataSaat rapat mau dimulai, ternyata ada laporan bahwa stan 7C dapat keuntungan ekstra 500 ribu. Cukup ubah angka di Spreadsheet. Tabel di Makalah dan Grafik di Slide akan OTOMATIS menyesuaikan!",
+        "SLIDE 9 — Tahap 6: Presentasi Proyek (Roleplay)Tampilkan slide menggunakan fitur Presenter View. Jelaskan laporan keuangan dengan gaya komunikasi yang baik, postur tubuh tegak, dan kontak mata kepada guru/teman.",
+        "SLIDE 10 — Evaluasi Kemampuan TerpaduKemampuan menyatukan data, mengolahnya menjadi laporan rapi, dan mempresentasikannya dengan percaya diri adalah keterampilan esensial yang sangat dibutuhkan di masa depan.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHPengetahuan menjadi berharga saat ia dipraktikkan untuk menyelesaikan masalah nyata."
+      ]
+    }
+  ]
+}

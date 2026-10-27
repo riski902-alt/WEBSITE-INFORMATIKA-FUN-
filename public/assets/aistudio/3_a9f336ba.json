@@ -1,0 +1,372 @@
+{
+  "eksplorasi_konsep": [
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan1",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPengenalan 4 Pilar Berpikir Komputasional & Antarmuka Aplikasi ScratchINFORMATIKA SMP",
+        "SLIDE 2 — Apa itu Berpikir Komputasional?Berpikir komputasional adalah proses berpikir untuk merumuskan masalah dan solusinya, sehingga solusi tersebut disajikan dalam bentuk yang dapat dipahami dan dijalankan oleh komputer.",
+        "SLIDE 3 — Review 4 Pilar Berpikir Komputasional1. Dekomposisi: Memecah masalah besar menjadi bagian-bagian kecil.2. Pengenalan Pola: Mencari kesamaan atau tren.3. Abstraksi: Fokus pada informasi penting, abaikan yang tidak relevan.4. Algoritma: Menyusun langkah-langkah penyelesaian secara sistematis.",
+        "SLIDE 4 — Penerapan dalam PemrogramanSaat membuat program atau aplikasi, kita selalu menggunakan 4 pilar ini. Sebelum mengetik kode, kita memecah masalah (dekomposisi) dan menyusun langkah logisnya (algoritma).",
+        "SLIDE 5 — Mengenal ScratchScratch adalah bahasa pemrograman visual yang dibuat oleh MIT. Daripada mengetik teks kode yang rumit, Scratch menggunakan sistem 'blok susun' (seperti puzzle) untuk membuat program, cerita interaktif, atau game edukasi.",
+        "SLIDE 6 — Mengapa Belajar Scratch?Scratch sangat cocok untuk pemula karena melatih logika berpikir (algoritma) tanpa harus pusing menghafal sintaks (aturan pengetikan) bahasa pemrograman yang ketat.",
+        "SLIDE 7 — Antarmuka Utama Scratch: Stage (Panggung)Stage adalah area berbentuk kotak (biasanya berlatar putih) di mana hasil visual dari programmu ditampilkan. Di sinilah tempat karakter (sprite) bergerak dan berinteraksi.",
+        "SLIDE 8 — Antarmuka Utama Scratch: Sprite AreaSprite adalah karakter atau objek visual di dalam proyekmu (contoh: Kucing Scratch). Di area ini kamu bisa menambah, menghapus, atau mengatur ukuran dan posisi karakter.",
+        "SLIDE 9 — Antarmuka Utama Scratch: Block Palette (Palet Blok)Block Palette adalah kumpulan perintah (kode) berbentuk blok warna-warni. Blok ini dikelompokkan berdasarkan fungsinya (Motion untuk bergerak, Looks untuk tampilan, Sound untuk suara).",
+        "SLIDE 10 — Antarmuka Utama Scratch: Script/Code AreaIni adalah ruang kerja utamamu. Kamu menarik (drag) blok dari Block Palette dan menyusunnya (drop) ke area ini untuk membuat urutan perintah/algoritma bagi karakter (sprite).",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMembangun program sama seperti menyusun teka-teki logika yang menyenangkan."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan2",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPemodelan Algoritma Pemecahan Masalah Sehari-hari ke Blok Perintah Dasar Scratch (Motion, Looks, Sound, & Events)INFORMATIKA SMP",
+        "SLIDE 2 — Menghubungkan Kehidupan Nyata ke KomputerSetiap hari kamu melakukan algoritma tanpa sadar, misalnya langkah membuat mi instan. Di Scratch, kita akan menerjemahkan algoritma sehari-hari ini ke dalam bahasa blok visual.",
+        "SLIDE 3 — Mengenal Blok 'Events' (Kejadian)Setiap program butuh pemicu agar mulai berjalan. Blok Events (warna kuning) adalah blok pemicu.Contoh: Blok 'When Green Flag Clicked' (Ketika Bendera Hijau Diklik) berfungsi sebagai tombol mulai (Start).",
+        "SLIDE 4 — Mengenal Blok 'Motion' (Gerakan)Blok Motion (warna biru tua) digunakan untuk memindahkan karakter di atas panggung (Stage).Contoh: 'Move 10 steps' akan membuat karakter berjalan maju sebanyak 10 langkah (piksel).",
+        "SLIDE 5 — Memahami Koordinat (X dan Y)Posisi karakter di Scratch diukur dengan koordinat matematika.Sumbu X (Horizontal): Kiri ke Kanan (-240 sampai 240).Sumbu Y (Vertikal): Bawah ke Atas (-180 sampai 180).Contoh: Blok 'go to x:0 y:0' memindahkan karakter tepat ke tengah layar.",
+        "SLIDE 6 — Mengenal Blok 'Looks' (Tampilan)Blok Looks (warna ungu) digunakan untuk mengubah penampilan karakter atau membuatnya 'berbicara' menggunakan teks gelembung (speech bubble).Contoh: Blok 'say Hello! for 2 seconds'.",
+        "SLIDE 7 — Mengenal Blok 'Sound' (Suara)Blok Sound (warna merah muda/pink) digunakan untuk memasukkan efek suara atau musik.Contoh: Blok 'play sound Meow until done'.",
+        "SLIDE 8 — Studi Kasus: Algoritma Kucing MenyapaMasalah: Buat Kucing berjalan ke tengah panggung, menyapa \"Halo, selamat pagi!\", dan mengeong.Dekomposisi: (1) Mulai (2) Pindah ke tengah (3) Bicara teks (4) Suara.",
+        "SLIDE 9 — Menyusun Blok Kode Kucing Menyapa1. Tarik blok [When Green Flag Clicked] (Events).2. Tempelkan blok [go to x: 0 y: 0] (Motion) di bawahnya.3. Tempelkan blok [say \"Halo, selamat pagi!\" for 2 seconds] (Looks).4. Tempelkan blok [play sound \"Meow\" until done] (Sound).",
+        "SLIDE 10 — Eksekusi ProgramKlik ikon Bendera Hijau di atas panggung. Kucing akan langsung menjalankan urutan perintah dari atas ke bawah secara otomatis (Sequential). Algoritmamu berhasil diterjemahkan!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHLogika manusia adalah nyawa bagi kecerdasan mesin."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan3",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPenerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di ScratchINFORMATIKA SMP",
+        "SLIDE 2 — Tantangan Program PanjangBayangkan kamu ingin membuat kucing berjalan 1 langkah demi 1 langkah sebanyak 100 kali. Jika kamu menyusun blok [move 1 steps] 100 buah ke bawah, programmu akan sangat panjang dan tidak efisien.",
+        "SLIDE 3 — Apa itu Looping (Perulangan)?Looping adalah struktur kontrol algoritma yang memerintahkan komputer untuk melakukan blok perintah yang sama berulang kali, sehingga menghemat jumlah baris kode dan waktu pembuatan.",
+        "SLIDE 4 — Mengenal Blok 'Control' (Kontrol)Di Scratch, blok perulangan berada di kategori Control (warna oranye terang). Blok ini berbentuk seperti rahang buaya (berbentuk C) yang bisa 'menelan' atau membungkus blok lain di dalamnya.",
+        "SLIDE 5 — Blok Perulangan: 'Repeat'Blok [repeat (10)] digunakan jika kamu TAHU PERSIS berapa kali perintah harus diulang. Contoh penggunaan: Menggerakkan karakter berjalan dalam hitungan langkah tertentu.",
+        "SLIDE 6 — Contoh Penggunaan RepeatKamu ingin kucing maju lambat:Susun blok: [repeat (10)]Di dalamnya masukkan: [move 5 steps] dan [wait 0.2 seconds]. Kucing akan maju 5 langkah, diam sejenak, diulang sebanyak 10 kali secara efisien.",
+        "SLIDE 7 — Blok Perulangan: 'Forever'Blok [forever] digunakan jika perulangan TIDAK PERNAH BERHENTI, kecuali kamu menekan tombol Stop (Segi Delapan Merah) pada Scratch. Blok ini tidak memiliki ujung penyambung di bagian bawahnya.",
+        "SLIDE 8 — Contoh Penggunaan ForeverBlok [forever] sering digunakan untuk menggerakkan rintangan musuh di game atau membuat baling-baling animasi terus berputar.Masukkan blok [turn right 15 degrees] ke dalam [forever]. Karakter akan berputar terus-menerus.",
+        "SLIDE 9 — Mencegah Karakter MenghilangSaat diulang berjalan maju, karakter bisa menabrak ujung layar dan menghilang keluar panggung. Gunakan blok [if on edge, bounce] dari Motion. Jika menyentuh tepi layar, karakter otomatis memantul berbalik arah.",
+        "SLIDE 10 — Kombinasi Efisien (Refactoring)Program yang baik bukan yang paling panjang kodenya, melainkan yang paling sedikit bloknya tapi mencapai hasil yang maksimal. Perulangan adalah kunci efisiensi programmer.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHPekerjaan monoton biarkan diselesaikan oleh mesin; gunakan pikiranmu untuk berkreasi."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan4",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPenerapan Struktur Percabangan/Kondisional (If-Then, If-Then-Else) dan Logika Pengambilan KeputusanINFORMATIKA SMP",
+        "SLIDE 2 — Logika Keputusan Sehari-hariDalam kehidupan nyata, tindakan kita bergantung pada kondisi tertentu. \"Jika hujan turun, maka saya pakai payung.\" Logika pengambilan keputusan ini disebut Percabangan (Conditional).",
+        "SLIDE 3 — Apa itu Percabangan?Percabangan adalah struktur algoritma yang membiarkan program membuat keputusan untuk menjalankan suatu perintah HANYA JIKA sebuah syarat (kondisi) terpenuhi (bernilai Benar/True).",
+        "SLIDE 4 — Mengenal Blok 'If-Then'Di kelompok Control (oranye), ada blok [if (kondisi) then]. Blok ini juga berbentuk rahang (C-block). Perintah di dalamnya hanya akan dieksekusi jika kondisi di dalam kotak heksagonalnya terbukti benar.",
+        "SLIDE 5 — Mengenal Blok 'Sensing' (Sensor)Untuk membuat 'Kondisi' heksagonal, kita butuh blok Sensing (warna biru muda). Blok ini berfungsi sebagai sensor/panca indera karakter.Contoh sensor: [touching mouse-pointer?] atau [key space pressed?].",
+        "SLIDE 6 — Penerapan If-Then (Interaksi Keyboard)Masalah: Kucing melompat jika spasi ditekan.Algoritma di Scratch:Bungkus blok dengan [forever].Masukkan blok [if (key space pressed?) then].Di dalamnya masukkan blok [change y by 50].",
+        "SLIDE 7 — Mengenal Blok 'If-Then-Else'Blok ini digunakan ketika ada DUA pilihan tindakan. \"JIKA kondisi benar MAKA lakukan A, JIKA SALAH (ELSE) lakukan B.\"",
+        "SLIDE 8 — Penerapan If-Then-Else (Tabrakan Objek)Skenario Game: Kucing mencari apel. Jika kena apel = senang. Jika tidak = sedih.Logika: [if (touching Apple?) then]   [say \"Yummy!\"][else]   [say \"Di mana apelnya?\"]",
+        "SLIDE 9 — Pentingnya Blok Forever pada SensorSensor (If-Then) di Scratch sering kali hanya mengecek kondisi dalam 1 milidetik lalu selesai. Agar karaktermu SELALU waspada mengecek apakah tombol ditekan atau menabrak dinding setiap saat, blok If-Then WAJIB dibungkus di dalam blok [forever].",
+        "SLIDE 10 — Kecerdasan Buatan SederhanaKombinasi sensor (Sensing) dan pengambilan keputusan (If-Then) inilah yang membuat karakter di game terlihat 'hidup' dan bisa merespons tindakan pemain (interaktif).",
+        "SLIDE 10 — PENUTUPTERIMA KASIHDalam pemrograman, seperti dalam hidup, setiap keputusan akan menentukan hasil akhir."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan5",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPenggunaan Variabel, Input/Output Interaktif (Ask & Answer), serta Operator Matematika dan Logika di ScratchINFORMATIKA SMP",
+        "SLIDE 2 — Kebutuhan Menyimpan Data (Skor/Nyawa)Saat bermain game, kamu pasti melihat skor (Score) atau jumlah nyawa (Lives) yang bisa bertambah atau berkurang. Untuk membuat ini di Scratch, kita membutuhkan Variabel.",
+        "SLIDE 3 — Apa itu Variabel di Scratch?Variabel adalah 'kotak penyimpanan' virtual berlabel nama yang digunakan komputer untuk menyimpan dan mengingat data berupa angka atau teks, yang nilainya bisa berubah sewaktu-waktu.",
+        "SLIDE 4 — Membuat Variabel (Variables)Buka kelompok Variables (warna oranye gelap), klik tombol 'Make a Variable'. Beri nama yang jelas, misalnya 'Skor_Pemain'. Kini kamu punya memori untuk mengingat skor!",
+        "SLIDE 5 — Memanipulasi VariabelAda dua blok utama pengelola variabel:1. [set (Skor) to 0]: Biasanya dipasang di awal program (saat Bendera Hijau diklik) untuk me-reset skor menjadi nol.2. [change (Skor) by 1]: Digunakan saat pemain dapat poin (skor bertambah 1).",
+        "SLIDE 6 — Input Interaktif (Ask and Answer)Agar program bisa bertanya kepada pengguna, gunakan blok Sensing: [ask \"Siapa namamu?\" and wait]. Program akan berhenti sejenak, memunculkan kotak ketikan di layar, dan menunggu jawaban diketik.",
+        "SLIDE 7 — Menyimpan Jawaban (Answer)Apapun yang diketik pengguna di kotak ketikan akan otomatis disimpan oleh Scratch di dalam blok variabel lonjong bernama (answer). Kamu bisa memanggil kembali blok (answer) ini kapan saja.",
+        "SLIDE 8 — Mengenal Blok 'Operators' (Matematika & Logika)Blok Operators (warna hijau muda) berbentuk lonjong dan heksagonal. Digunakan untuk menghitung matematika (+, -, *, /) atau membandingkan angka (> , < , =).",
+        "SLIDE 9 — Studi Kasus: Game Kuis MatematikaLogika Kuis:[ask \"Berapa hasil 5 + 5?\" and wait][if (answer = 10) then]   [say \"Benar!\"]   [change (Skor) by 1][else]   [say \"Salah!\"]",
+        "SLIDE 10 — Menyatukan Komponen (Output Teks)Untuk menggabungkan teks sapaan dengan nama yang diketik, gunakan blok operator hijau [join \"Halo \" (answer)]. Komputer akan menampilkan teks yang menyatu secara personal kepada pemain.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHVariabel bukan sekadar tempat menyimpan data, ia adalah 'ingatan' dari programmu."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan6",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPerancangan Proyek Scratch: Simulasi Masalah Sehari-hari / Game Edukasi Interaktif (Tahap Dekomposisi & Desain Logika)INFORMATIKA SMP",
+        "SLIDE 2 — Proyek Game Edukasi InteraktifMulai pertemuan ini, kamu akan membuat Proyek Game Edukasi atau Simulasi sederhana. Namun, programmer handal tidak langsung membuka aplikasi. Mereka memulainya dari secarik kertas (Perancangan).",
+        "SLIDE 3 — Pentingnya Perancangan (Dekomposisi)Membuat game adalah masalah yang kompleks. Kita harus menggunakan Dekomposisi untuk memecahnya menjadi bagian kecil: Konsep, Karakter (Sprite), Latar Belakang (Backdrop), dan Aturan (Aturan Main/Logika).",
+        "SLIDE 4 — Langkah 1: Tentukan Ide dan TujuanPilih tema game edukasi. Contoh ide:- Game Menangkap Sampah Organik & Anorganik (Tema Lingkungan).- Kuis Tebak Ibukota (Tema Geografi).- Simulasi Penyeberangan Jalan Raya (Tema Keselamatan).",
+        "SLIDE 5 — Langkah 2: Menulis Skenario / StoryboardStoryboard adalah urutan cerita visual game.Contoh Skenario Game Sampah:\"Karakter tong sampah bisa digeser ke kiri/kanan. Sampah jatuh dari atas langit. Tangkap sampah dapat skor 1. Terlewat, nyawa berkurang 1. Skor 10 menang.\"",
+        "SLIDE 6 — Langkah 3: Identifikasi Sprite dan BackdropDaftar aset visual yang dibutuhkan:- Sprite Utama: Tong Sampah (Dikontrol pemain).- Sprite Objek: Apel sisa (Sampah), Kaleng (Sampah).- Backdrop: Gambar Taman Kota.",
+        "SLIDE 7 — Langkah 4: Desain Logika Pemain (Tong Sampah)Buat coretan logika pergerakan untuk Tong Sampah:1. Mulai: Set Skor = 0.2. Jika Panah Kanan ditekan -> x bertambah 10.3. Jika Panah Kiri ditekan -> x berkurang 10.",
+        "SLIDE 8 — Langkah 5: Desain Logika Objek (Sampah Jatuh)Buat coretan logika gravitasi Sampah:1. Pergi ke atas layar (Y=180), X=acak (random).2. Terus bergerak turun (Y dikurangi 5).3. Jika menyentuh Tong Sampah -> Suara 'Pop', Skor+1, kembali ke atas layar.",
+        "SLIDE 9 — Langkah 6: Menentukan Kondisi Akhir (Win/Lose State)Game harus memiliki batas.Logika: Jika (Skor = 10) Maka (Ucapkan \"Kamu Menang!\", Hentikan semua skrip/Stop All).",
+        "SLIDE 10 — Dokumen PerancanganHasil akhirnya adalah dokumen/kertas berisi ringkasan alur cerita dan urutan blok logika dasar (pseudocode kasar) yang siap diterjemahkan ke aplikasi Scratch besok.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKerangka berpikir yang kuat akan mencegahmu tersesat di tengah penulisan kode."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan7",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPembuatan, Pengujian, dan Perbaikan (Debugging) Kode Proyek Scratch secara Mandiri/KelompokINFORMATIKA SMP",
+        "SLIDE 2 — Tahap Implementasi Kode (Coding)Sekarang saatnya menerjemahkan dokumen perancangan (desain logika) yang kamu buat sebelumnya menjadi blok kode nyata di aplikasi Scratch.",
+        "SLIDE 3 — Menyiapkan Aset VisualLangkah pertama di Scratch: Hapus Kucing Scratch jika tidak diperlukan. Tambahkan Sprite dan Backdrop sesuai dengan konsep gamemu melalui tombol 'Choose a Sprite' dan 'Choose a Backdrop'.",
+        "SLIDE 4 — Mulai Menyusun Blok (Peran Pemain)Fokus pada karakter pemain (misal: Tong Sampah). Susun kode Event (Bendera Hijau), Loop (Forever), dan Sensor (If Right Arrow pressed) untuk pergerakan kiri dan kanan seperti rancanganmu.",
+        "SLIDE 5 — Menyusun Blok (Peran Objek/Musuh)Berpindah ke Sprite Sampah. Gunakan blok Motion [change y by -5] (bergerak turun). Jika sampai bawah layar (y < -170), gunakan perintah untuk naik kembali ke [y: 180] dan blok operator hijau [pick random -200 to 200] untuk posisi sumbu X secara acak.",
+        "SLIDE 6 — Penerapan Variabel Skor dan Sensor TabrakanDi Sprite Sampah, tambahkan blok [If touching (Tong Sampah) then]. Di dalamnya, masukkan suara 'Pop', blok [change Skor by 1], dan kembalikan sampah ke atas langit agar jatuh lagi berulang kali.",
+        "SLIDE 7 — Apa itu Bug?Bug adalah kesalahan (error), cacat, atau perilaku tidak terduga pada program komputer. Dalam Scratch, Bug bukan error merah, melainkan gamenya berjalan aneh (misal: skor bertambah 100 poin saat kena satu sampah).",
+        "SLIDE 8 — Apa itu Debugging?Debugging adalah proses detektif mencari penyebab bug dan memperbaikinya.Tips Debugging 1: Periksa pelan-pelan urutan kodenya dari atas ke bawah. Komputer mengeksekusi tepat sesuai yang kamu susun.",
+        "SLIDE 9 — Contoh Kasus DebuggingMasalah: Sampah tertinggal di dalam tong sampah dan skor terus bertambah tiada henti.Penyebab Bug: Program membaca sensor 'menyentuh' berkali-kali sangat cepat.Solusi: Setelah blok penambahan skor, beri blok [wait 0.2 seconds] atau langsung pindahkan sampah kembali ke koordinat atas.",
+        "SLIDE 10 — Uji Coba Berulang (Playtesting)Programmer sejati sering melakukan 'Uji Coba' dengan menekan Bendera Hijau setiap selesai menambahkan kode baru. Jangan menumpuk kode terlalu banyak sebelum diuji satu per satu.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKesalahan (bug) bukanlah kegagalan, melainkan petunjuk untuk memahami logika lebih dalam."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab1-pertemuan8",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAAsesmen Sumatif Bab 1: Unjuk Kerja, Demonstrasi Proyek Scratch, dan Refleksi Penerapan Berpikir KomputasionalINFORMATIKA SMP",
+        "SLIDE 2 — Tujuan Asesmen SumatifHari ini adalah puncak dari pemahamanmu tentang Berpikir Komputasional dan Pemrograman Visual. Kamu akan mempresentasikan (Unjuk Kerja) game edukasi Scratch hasil karyamu kepada guru dan teman-teman.",
+        "SLIDE 3 — Demonstrasi ProyekSaat presentasi, buka game buatanmu dalam mode Layar Penuh (Full Screen). Mainkan game tersebut sambil menjelaskan latar belakang tema yang kamu pilih (misal: pentingnya membuang sampah).",
+        "SLIDE 4 — Menjelaskan Logika DekomposisiTunjukkan kepada teman-teman bagaimana kamu memecah game tersebut. Jelaskan bagian mana yang bertugas mengontrol pemain, bagian mana yang mengatur musuh, dan bagian mana yang menghitung skor.",
+        "SLIDE 5 — Menjelaskan Pengenalan Pola dan AbstraksiJelaskan pola yang kamu gunakan (misalnya: pola gerakan musuh yang sama meski bentuk musuhnya beda). Jelaskan juga informasi abstrak (misal: tidak perlu membuat animasi kaki berjalan jika menggeser kursor saja sudah cukup).",
+        "SLIDE 6 — Membedah Algoritma PentingTunjukkan satu bagian blok kode (Script) yang paling rumit atau paling kamu banggakan di layar. Jelaskan alur logikanya langkah demi langkah menggunakan bahasa Indonesia yang mudah dipahami.",
+        "SLIDE 7 — Penggunaan Looping dan PercabanganTunjukkan di mana kamu menggunakan blok [forever] atau [repeat] (Looping). Tunjukkan juga pengambilan keputusanmu, misalnya \"Di blok If-Then ini, JIKA nyawa habis, MAKA game over\".",
+        "SLIDE 8 — Berbagi Pengalaman Debugging (Refleksi)Ceritakan pengalamanmu saat membuat game. Bug atau error apa yang membuatmu pusing? Bagaimana cara kamu menemukan solusinya? Kejujuran dalam proses debugging sangat dihargai.",
+        "SLIDE 9 — Menerima Masukan (Feedback)Setelah presentasi, terima masukan atau pertanyaan dari teman dan guru (Peer Review). Mungkin mereka punya ide tambahan agar game-nya lebih seru (misal: menambah level kesulitan saat skor mencapai 20).",
+        "SLIDE 10 — Makna Berpikir KomputasionalPemrograman Scratch hanyalah alat. Tujuan utamanya adalah membentuk mental penyelesai masalah (problem solver) yang sistematis, tahan banting, dan kreatif dalam menghadapi tantangan masa depan.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMampu membuat adalah pencapaian, namun mampu menjelaskan apa yang dibuat adalah penguasaan sejati."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan1",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)INFORMATIKA SMP",
+        "SLIDE 2 — Beralih dari Fisik ke VirtualJika dulu masyarakat berkumpul di alun-alun, pasar, atau pos ronda (ruang publik fisik) untuk mengobrol dan berbagi informasi, kini tempat berkumpul itu telah berpindah ke layar digital (Ruang Publik Virtual).",
+        "SLIDE 3 — Apa itu Ruang Publik Virtual?Ruang publik virtual adalah lingkungan komunikasi digital (berbasis internet) di mana orang-orang dari berbagai tempat dapat bertemu, berinteraksi, berdebat, dan berbagi informasi secara online.",
+        "SLIDE 4 — Karakteristik Ruang Publik Virtual- Borderless (Tanpa batas geografis atau negara).- Waktu nyata (Real-time) atau bisa ditunda (Asynchronous).- Memungkinkan bentuk komunikasi anonim (menggunakan nama samaran/akun alter).",
+        "SLIDE 5 — Jenis Platform: Media Sosial (Social Network)Platform untuk membangun profil, mencari teman, dan membagikan aktivitas kehidupan sehari-hari melalui teks, foto, atau video pendek. (Contoh: Instagram, Facebook, TikTok).",
+        "SLIDE 6 — Jenis Platform: Aplikasi Pesan Instan (Chat/Messaging)Ruang semi-publik (Grup) atau ruang privat untuk mengobrol secara langsung, menelepon, dan berkirim file secara cepat. (Contoh: WhatsApp, Telegram, LINE).",
+        "SLIDE 7 — Jenis Platform: Forum Diskusi & KomunitasTempat berkumpulnya orang-orang yang tidak saling kenal namun memiliki minat, hobi, atau profesi yang sama. Diskusi biasanya sangat mendalam (thread). (Contoh: Reddit, Kaskus, Quora, Discord).",
+        "SLIDE 8 — Jenis Platform: Ruang Kolaborasi DigitalPlatform khusus untuk bekerja kelompok, mengerjakan dokumen bersama dari jarak jauh, atau ruang rapat kelas secara virtual. (Contoh: Google Workspace/Docs, Zoom, Microsoft Teams).",
+        "SLIDE 9 — Peran Ruang Publik VirtualSelain untuk hiburan, ruang ini sangat penting untuk menyebarkan berita, menggalang dana bantuan (donasi), kampanye sosial kemanusiaan, hingga melakukan kegiatan jual-beli masyarakat (Social Commerce).",
+        "SLIDE 10 — Tantangan Ruang Publik VirtualKarena tidak saling bertatap muka, ruang ini rentan dipenuhi oleh misinformasi (berita bohong), perundungan (cyberbullying), hingga ujaran kebencian. Itulah mengapa kita butuh aturan atau etika berinteraksi.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHRuang virtual adalah cerminan dari karakter masyarakat di dunia nyatanya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan2",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAKarakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan DigitalINFORMATIKA SMP",
+        "SLIDE 2 — Kebebasan Berpendapat di Ruang VirtualDi media sosial atau forum online, siapa saja bisa mengetik opini dan memberikan komentar (Freedom of Speech). Namun, kebebasan ini sering kali disalahartikan sebagai \"bebas menghina siapa saja\".",
+        "SLIDE 3 — Dinamika Echo Chamber (Ruang Gema)Algoritma media sosial dirancang untuk hanya menyodorkan informasi yang kamu sukai. Akibatnya, kamu terkurung di dalam 'Ruang Gema' yang membuatmu merasa pendapatmu adalah satu-satunya yang benar di dunia.",
+        "SLIDE 4 — Apa itu Kewargaan Digital (Digital Citizenship)?Kewargaan Digital adalah konsep yang mengajarkan bagaimana menjadi penduduk dunia maya yang baik, etis, aman, dan bertanggung jawab atas setiap aktivitas dan interaksi yang dilakukannya.",
+        "SLIDE 5 — Etika 1: Menghargai Privasi Orang LainJangan pernah membagikan foto teman, lokasi rumah teman, tangkapan layar (screenshot) obrolan pribadi, atau rahasia orang lain ke media sosial publik tanpa izin yang bersangkutan (Consent).",
+        "SLIDE 6 — Etika 2: Saring Sebelum SharingJangan terburu-buru menekan tombol Bagikan (Share/Retweet). Jika ada berita panas atau judul heboh, baca isinya perlahan, cari sumber aslinya (tabayyun), dan pastikan itu bukan hoaks. Jika ragu, jangan bagikan.",
+        "SLIDE 7 — Etika 3: Kritik Argumennya, Bukan Orangnya (Ad Hominem)Jika kamu tidak setuju dengan opini seseorang di forum online, bantahlah opininya dengan data/fakta, bukan dengan menghina fisik, ras, tingkat pendidikan, atau keluarganya.",
+        "SLIDE 8 — Etika 4: Jejak Digital Adalah Identitas Masa DepanSetiap komentar kebencian (hate speech) yang kamu hapus sangat mungkin sudah direkam (screenshot) orang lain. Bertahun-tahun ke depan, jejak ini bisa menggagalkan beasiswa atau pekerjaanmu.",
+        "SLIDE 9 — Etika 5: Bersikap Empati dan Ramah (Netiquette)Gunakan kata 'Tolong', 'Maaf', dan 'Terima Kasih' dalam mengetik. Hindari penggunaan HURUF KAPITAL SEMUA karena itu setara dengan membentak di dunia maya.",
+        "SLIDE 10 — Mengelola Emosi Digital (Digital Detachment)Jika kamu merasa sangat marah melihat sebuah postingan politik atau drama di medsos, tutup aplikasinya! Mengetik saat marah hanya akan melahirkan penyesalan panjang yang sulit dihapus.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHOrang cerdas berdebat dengan logika; orang bodoh berdebat dengan makian."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan3",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPengenalan Perangkat Teknologi Digital untuk Produksi Konten (Aplikasi Desain Visual, Pengolah Teks, & Multimedia)INFORMATIKA SMP",
+        "SLIDE 2 — Menjadi Pembuat Konten (Creator)Daripada sekadar mengonsumsi dan membaca (sebagai pengguna pasif), mari beralih menjadi pembuat karya positif (kreator aktif) di ruang publik virtual menggunakan berbagai perangkat lunak produksi.",
+        "SLIDE 3 — Perangkat Pengolah Grafis (Visual Design)Untuk membuat poster, infografis, atau presentasi digital, kita memerlukan aplikasi desain. Tidak harus mahir menggambar, saat ini banyak aplikasi yang menyediakan template siap pakai untuk pemula.",
+        "SLIDE 4 — Contoh Aplikasi Grafis- Canva (Sangat mudah, berbasis web/HP, banyak template untuk presentasi, poster, dan infografis).- Adobe Photoshop / Illustrator (Perangkat profesional (PC) untuk editing foto dan gambar mendetail).",
+        "SLIDE 5 — Elemen Dasar Desain Grafis- Tipografi (Jenis Huruf): Gunakan huruf tegas untuk judul, jangan lebih dari 3 jenis huruf dalam satu poster.- Warna: Pahami kontras (latar gelap = teks terang).",
+        "SLIDE 6 — Perangkat Penyunting Video Dasar (Video Editing)Konten video pendek lebih mudah menarik perhatian masyarakat (audiens) dibandingkan teks panjang. Kita memerlukan aplikasi penggabung potongan video (klip), suara, dan efek teks.",
+        "SLIDE 7 — Contoh Aplikasi Penyunting Video- CapCut (Aplikasi populer di HP, mudah digunakan untuk video TikTok/Reels).- KineMaster, VN Video Editor, atau Filmora (Memiliki fitur pemotongan (trim), transisi, dan efek suara berlimpah).",
+        "SLIDE 8 — Elemen Dasar Pengeditan Video- Trim/Cut: Memotong bagian video yang diam/salah ucap.- B-Roll: Video sisipan/ilustrasi untuk mendukung penjelasan suara latar (voice-over).- Caption (Subtitle): Sangat penting! Banyak orang menonton video medsos dengan suara dimatikan (mute).",
+        "SLIDE 9 — Perangkat Pengolah Teks Terstruktur (Blogging)Jika karya yang ingin dibuat berupa opini panjang, puisi, atau artikel edukatif, gunakan platform pembuat blog (seperti WordPress atau Blogger) agar teks tersusun rapi dengan gambar pendukung.",
+        "SLIDE 10 — Prinsip Produksi KontenAplikasi hanyalah alat ukir (alat bantu). Pesan utama, kualitas ide tulisan, dan tujuan positif dari kontenmu (storyboard) adalah hal yang paling berharga dan menentukan kualitas karyamu.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHGunakan kreativitas visualmu untuk membungkus kebaikan agar lebih mudah diterima dunia."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan4",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPraktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif (Infografis, Poster, atau Video Pendek)INFORMATIKA SMP",
+        "SLIDE 2 — Proyek Konten EdukatifHari ini, kamu akan mulai merancang dan memproduksi sebuah konten digital kreatif secara berkelompok. Tujuan dari konten ini adalah mengedukasi (memberi tahu info penting) masyarakat di media sosial.",
+        "SLIDE 3 — Menentukan Tema Kampanye PositifPilih tema edukasi sosial untuk SMP, misalnya:1. Bahaya dan pencegahan Cyberbullying.2. Cara mengelola sampah plastik di rumah.3. Netiquette (Cara membalas chat guru yang sopan).4. Ciri-ciri berita hoaks kesehatan.",
+        "SLIDE 4 — Format Karya yang Dapat Dipilih1. Infografis/Poster Edukasi (Grafis statis padat info).2. Video Pendek (Tiktok/Reels/Shorts, maksimal 1 menit).3. Komik Strip Digital (Bercerita pendek lewat 4 kotak gambar).",
+        "SLIDE 5 — Tahap 1: Pra-Produksi (Riset dan Naskah)Jangan langsung membuka aplikasi desain/video!- Riset: Cari 3 fakta/data akurat tentang tema pilihanmu.- Naskah: Tuliskan skrip narasi (jika video) atau kalimat pendek yang akan dimasukkan ke poster.",
+        "SLIDE 6 — Tahap 2: Menentukan Tata Letak & Gaya (Layouting)Jika memilih Poster/Infografis (misal pakai Canva):- Buat sketsa di kertas: Judul besar di atas, gambar ilustrasi di tengah, dan 3 poin edukasi di bawah.- Pilih 2 warna utama (misal biru tua dan kuning).",
+        "SLIDE 7 — Tahap 3: Proses Produksi (Editing Visual)Jika memilih Video Pendek (misal pakai CapCut):- Bagi tugas: 1 orang jadi aktor, 1 orang merekam pakai HP.- Masukkan video ke CapCut, potong (trim) jeda napas yang panjang.- Tambahkan musik latar bebas hak cipta yang menenangkan/semangat.",
+        "SLIDE 8 — Tips Membuat Infografis/Poster EfektifHindari Dinding Teks (Wall of Text)! Orang malas membaca tulisan panjang di Instagram. Ubah paragraf panjang menjadi poin-poin (bullet points) pendek yang berfokus pada inti (Abstraksi).",
+        "SLIDE 9 — Tips Membuat Video Edukasi EfektifGunakan formula 3 Detik Pertama (Hook). Buat judul lisan yang mengundang rasa ingin tahu di awal video. Contoh: \"Jangan lakukan ini jika kamu tidak mau data pribadimu dicuri!\"",
+        "SLIDE 10 — Penutup Sesi PraktikSimpan proyek dalam resolusi tinggi (Download JPG/PNG untuk poster, Export 1080p untuk video) agar gambarnya tidak pecah (blur) saat nanti diunggah ke platform publik.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKonten yang baik adalah kombinasi sempurna antara fakta yang kuat dan desain yang memikat."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan5",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAKonsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran InformasiINFORMATIKA SMP",
+        "SLIDE 2 — Persiapan Diseminasi KontenSetelah karyamu selesai diproduksi, karya tersebut belum bermanfaat jika hanya tersimpan di memori HP. Proses menyebarluaskan karya informasi ini kepada publik disebut Diseminasi (Penyebaran).",
+        "SLIDE 3 — Pentingnya Memahami Hak Cipta (Copyright)Sebelum mengunggah sesuatu (baik teks, lagu latar, maupun foto sisipan), kamu harus sadar akan Hak Cipta. Hak Cipta adalah hak eksklusif pencipta asli untuk mengatur penggunaan karyanya.",
+        "SLIDE 4 — Pelanggaran Hak CiptaMengambil foto keren dari Google Images, atau memakai lagu hits Billie Eilish tanpa izin untuk video konten kampanyemu, lalu mempostingnya, adalah bentuk pelanggaran hukum pencurian kekayaan intelektual (Plagiasi/Pembajakan).",
+        "SLIDE 5 — Mengenal Lisensi Creative Commons (CC)Bagaimana agar kita bisa memakai gambar atau musik karya orang lain secara gratis dan sah secara hukum? Carilah karya dengan lisensi Creative Commons (CC).",
+        "SLIDE 6 — Apa itu Creative Commons?Creative Commons adalah izin resmi dari penciptanya bahwa karyanya boleh digunakan publik secara gratis, asalkan mematuhi syarat tertentu (biasanya syarat utama: Wajib menyebutkan nama asli pembuatnya / Attribution).",
+        "SLIDE 7 — Cara Mencari Aset Bebas Hak Cipta- Untuk Foto/Gambar gratis berkualitas: Pexels.com, Unsplash.com, Pixabay.- Untuk Musik/Lagu Latar gratis aman dari klaim (BGM): YouTube Audio Library, Incompetech.",
+        "SLIDE 8 — Menghargai Karya dengan Sitasi (Citation)Jika konten edukasimu mengutip data persentase kemiskinan atau informasi sains yang ditulis orang lain, kamu WAJIB mencantumkan sumber asli referensinya (nama institusi/web) di pojok bawah poster.",
+        "SLIDE 9 — Etika Penyebaran Informasi di Media SosialSaat mempublikasikan konten, jangan melakukan SPAM (mengirim pesan karya yang sama bertubi-tubi ke berbagai grup kelas/keluarga tanpa izin) karena itu sangat mengganggu (annoying).",
+        "SLIDE 10 — Kekuatan Deskripsi (Caption)Video atau postermu butuh pengantar teks (caption). Tulislah caption yang ramah, menjelaskan tujuan pembuatan karya ini, gunakan Hashtag (tagar) yang relevan (misal #StopBullying), dan ajak pembaca berdiskusi di kolom komentar.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMenghargai kekayaan intelektual orang lain adalah bentuk menghargai karyamu sendiri."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan6",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPraktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung JawabINFORMATIKA SMP",
+        "SLIDE 2 — Proses Publikasi KaryaHari ini, setiap kelompok akan melakukan publikasi/diseminasi hasil karya digital (Infografis/Video) yang telah disusun dengan mempertimbangkan Hak Cipta, ke kanal publik (seperti akun Instagram OSIS, Sekolah, atau Kelas).",
+        "SLIDE 3 — Pemeriksaan Kualitas Akhir (Quality Control)Sebelum menekan tombol 'Post' atau 'Share', periksa kembali:- Apakah ada kata-kata kotor/salah eja (typo)?- Apakah resolusi gambar jelas (tidak pecah)?- Apakah semua gambar dan lagu sudah bebas hak cipta?",
+        "SLIDE 4 — Aspek Keamanan Sebelum PublikasiJika konten memuat wajah orang lain (teman), pastikan kamu SUDAH meminta izin kepada mereka bahwa videonya akan diunggah ke internet. Tidak semua orang nyaman wajahnya dilihat publik (Consent).",
+        "SLIDE 5 — Aspek Privasi (Mencegah Doxxing)Pastikan dalam video atau poster tidak ada identitas privat yang bocor. Periksa latar belakang video: apakah terlihat nomor pelat motor, alamat rumah lengkap, atau nametag seragam yang berlebihan?",
+        "SLIDE 6 — Penentuan Kanal Distribusi (Platform)Pilih platform yang tepat:- Jika karya berupa Infografis berseri: Instagram (Carousel).- Jika Video Edukasi vertikal 1 menit: TikTok, YouTube Shorts, atau Instagram Reels.",
+        "SLIDE 7 — Strategi Penggunaan Hashtag (#)Hashtag berfungsi mengelompokkan topik agar kontenmu ditemukan oleh masyarakat yang mencari. Gunakan tagar spesifik: #TugasInformatika #SiswaBijakDigital #SMPN1Hebat, agar jangkauan (reach) postingan meluas ke luar sekolah.",
+        "SLIDE 8 — Mengelola Respons dan Interaksi (Engagement)Setelah konten diunggah, warganet mungkin akan memberikan komentar. Berikan likes (suka) dan balas pertanyaan positif mereka dengan bahasa yang sopan dan apresiatif.",
+        "SLIDE 9 — Menghadapi Komentar Negatif (Trolls)Jika ada yang berkomentar ejekan atau spam (trolls) yang tidak berhubungan dengan konten edukasimu, jangan terpancing emosi. Praktikkan etika: Hapus komentarnya atau abaikan (Don't feed the troll).",
+        "SLIDE 10 — Tanggung Jawab Pembuat Konten (Kreator)Sekali dipublikasikan ke internet terbuka, karyamu akan ada selamanya. Pastikan kamu bangga dan bisa mempertanggungjawabkan isi pesan dari karya edukatif tersebut di masa depan.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHDunia digital adalah panggungmu yang sesungguhnya; tampilkanlah kualitas terbaik dari dirimu."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem1-bab2-pertemuan7",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPameran Karya Konten Digital Positif, Evaluasi Hasil Diseminasi, dan Refleksi Ruang Publik VirtualINFORMATIKA SMP",
+        "SLIDE 2 — Perayaan Kreativitas DigitalSelamat! Semua karya kampanye digital/edukatif telah dipublikasikan dengan aman. Hari ini, kita akan melangsungkan 'Pameran Karya Virtual' untuk menampilkan dan mengapresiasi karya seluruh kelas.",
+        "SLIDE 3 — Pameran Karya (Showcase)Setiap kelompok akan mempresentasikan hasil akhir publikasinya di depan kelas (menggunakan proyektor). Tampilkan postingan tersebut langsung dari platform (Instagram/TikTok/Blog) tempat mengunggah.",
+        "SLIDE 4 — Evaluasi Jangkauan Diseminasi (Analytics)Di setiap akun media sosial profesional, terdapat menu 'Insight' atau 'Analytics' (Statistik Data). Kita akan mengevaluasi seberapa jauh dampak penyebaran karyamu secara kuantitatif (angka).",
+        "SLIDE 5 — Metrik Evaluasi: Reach & Impressions- Impressions: Menunjukkan berapa kali keseluruhan konten (poster/video) dilihat atau lewat di layar orang-orang.- Reach (Jangkauan): Menunjukkan berapa jumlah orang unik (akun berbeda) yang melihat kontenmu.",
+        "SLIDE 6 — Metrik Evaluasi: Engagement (Interaksi)Karya yang sukses bukan hanya yang ditonton, tapi yang memancing diskusi. Lihat metrik interaksi:- Berapa banyak Likes (Suka)?- Berapa banyak komentar relevan?- Berapa kali kontenmu di-Share (dibagikan) atau di-Save (disimpan)?",
+        "SLIDE 7 — Analisis KualitatifSelain angka, baca dan pelajari sentimen dari kolom komentar. Apakah pesan edukasi tentang 'Stop Cyberbullying' berhasil dipahami pembaca? Apakah komentar-komentarnya bernada positif dan membangun?",
+        "SLIDE 8 — Refleksi Kendala (Hambatan Produksi)Kelompok menceritakan tantangan selama produksi. Apakah kesulitan menemukan aset tanpa hak cipta? Apakah terjadi konflik internal kelompok saat proses editing video? Bagaimana solusi yang digunakan?",
+        "SLIDE 9 — Refleksi Keberhasilan (Lesson Learned)Apa pelajaran paling berharga yang kamu dapat dari menjadi 'Kreator' konten digital edukatif? Kamu sekarang tahu bahwa membuat pesan positif yang menarik itu butuh tenaga, tidak seperti menyebar hoaks yang mudah.",
+        "SLIDE 10 — Makna Ruang Publik Virtual yang SehatKamu telah membuktikan bahwa ruang maya (internet) tidak melulu berisi ujaran kebencian, cacian, atau kepalsuan. Kamu baru saja menyumbangkan energi, ilmu positif, dan kewarasan bagi ekosistem digital Indonesia.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHSatu tetes konten kebaikan yang kamu sebarkan, akan menjernihkan lautan informasi digital dunia."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan1",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)INFORMATIKA SMP",
+        "SLIDE 2 — Sisi Gelap Jaringan InternetInternet bagaikan kota metropolis besar. Selain perpustakaan (sumber ilmu) dan mal (tempat belanja online), ada juga 'gang gelap' tempat penjahat siber (Cybercriminal) berkeliaran mencari korban.",
+        "SLIDE 3 — Mengenal Ancaman Siber (Cyber Threats)Ancaman siber adalah setiap tindakan kejahatan yang menargetkan komputer, jaringan, atau pengguna (kamu), dengan tujuan mencuri data, merusak sistem, atau memeras uang secara elektronik.",
+        "SLIDE 4 — Apa itu Malware?Malware adalah singkatan dari Malicious Software (Perangkat Lunak Jahat). Ini adalah program komputer atau kode yang sengaja dirancang oleh peretas (hacker) untuk menyusup dan merusak sistem komputer secara diam-diam.",
+        "SLIDE 5 — Jenis Malware: VirusVirus komputer bekerja persis seperti virus penyakit. Ia menempel pada file atau program yang sah/bersih. Saat file tersebut kamu buka (klik), virus akan aktif, menggandakan dirinya (menyebar), dan mulai merusak data.",
+        "SLIDE 6 — Jenis Malware: Trojan (Kuda Troya)Terinspirasi dari legenda Kuda Troya. Trojan menyamar sebagai perangkat lunak yang berguna, gratis, atau menarik (seperti game bajakan atau aplikasi palsu). Saat kamu mengunduhnya (download), ia membuka pintu belakang (backdoor) agar hacker bisa meremote laptopmu dari jarak jauh.",
+        "SLIDE 7 — Jenis Malware: Ransomware (Malware Pemeras)Ini adalah malware paling berbahaya saat ini! Ransomware akan menyusup lalu MENGUNCI (Enkripsi) seluruh foto, dokumen, dan file pentingmu. Hacker lalu meminta tebusan (ransom) uang tebusan crypto agar file tersebut bisa dibuka kembali.",
+        "SLIDE 8 — Jenis Malware: Spyware (Program Mata-mata)Sesuai namanya (Spy = Mata-mata), spyware bersembunyi di komputermu tanpa merusak file, tapi diam-diam mencuri data. Ia bisa merekam aktivitas layar (keylogger), mencuri password yang kamu ketik, dan memantau isi pesan chatmu.",
+        "SLIDE 9 — Bagaimana Malware Bisa Masuk?- Mengklik tautan (link) link aneh di email/WhatsApp dari orang tidak dikenal (Phishing).- Mengunduh film bajakan atau aplikasi Mod (Modifikasi) ilegal dari situs tidak resmi.- Mencolokkan Flashdisk teman yang sudah terinfeksi virus ke laptopmu.",
+        "SLIDE 10 — Kerusakan Parah yang DitimbulkanSerangan malware bukan hanya menghilangkan skor game. Bagi perusahaan atau rumah sakit, ransomware bisa melumpuhkan data pasien dan sistem perbankan negara.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHDalam dunia digital, rasa penasaran sembarangan mengklik tautan adalah kunci pembuka pintu bencana."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan2",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAStrategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)INFORMATIKA SMP",
+        "SLIDE 2 — Membangun Benteng Pertahanan PerangkatKarena ancaman malware sangat nyata, kamu harus membekali komputer dan smartphone milikmu dengan lapisan pelindung teknis. Ada 3 senjata utama: Antivirus, Firewall, dan Update Sistem.",
+        "SLIDE 3 — Senjata Utama: Antivirus / AntimalwareAntivirus adalah software khusus yang dirancang untuk mendeteksi, mencegah, dan menghapus (karantina) malware dari komputer. Contoh: Windows Defender (bawaan Windows), Kaspersky, Avast, Malwarebytes.",
+        "SLIDE 4 — Cara Kerja Antivirus (Scanning)Antivirus bekerja seperti satpam. Ia memiliki daftar 'buronan virus' (Database Signature). Ia rutin memindai (scan) isi Hardisk, Flashdisk baru, atau file download. Jika cocok dengan daftar buronan, file itu langsung dihapus/dikarantina.",
+        "SLIDE 5 — Pentingnya Update Database AntivirusRibuan virus baru diciptakan hacker setiap harinya. Jika kamu tidak pernah melakukan pembaruan (update) database antivirus melalui koneksi internet, antivirusmu tidak akan mengenali bentuk virus varian terbaru.",
+        "SLIDE 6 — Senjata Kedua: Firewall (Tembok Api)Jika antivirus bekerja di DALAM komputer, Firewall bekerja di PINTU MASUK koneksi internet. Firewall adalah sistem keamanan yang memonitor dan mengatur arus data internet yang masuk (Inbound) dan keluar (Outbound).",
+        "SLIDE 7 — Cara Kerja FirewallFirewall memiliki aturan ketat. Jika ada peretas (hacker) dari luar negeri yang mencoba masuk (Inbound) secara mencurigakan melalui koneksi Wi-Fi mu, Firewall akan otomatis memblokir (Drop) akses tersebut secara diam-diam.",
+        "SLIDE 8 — Senjata Ketiga: Update Sistem Operasi (OS)Sistem Operasi (Windows, Android, iOS) adalah software buatan manusia, pasti ada celah atau kelemahannya (Vulnerability). Hacker selalu mencari celah sistem yang bocor (bug) ini untuk jalan menyusup masuk.",
+        "SLIDE 9 — Fungsi Patch dan Update (Pembaruan)Ketika Apple atau Microsoft mengetahui ada kebocoran di sistemnya, mereka membuat 'tambalan' (Patch/Update). Dengan rajin menekan tombol 'Update OS / Perbarui Sistem', kamu menutup lubang celah keamanan itu agar hacker tidak bisa masuk.",
+        "SLIDE 10 — Kombinasi Sempurna ProteksiAntivirus yang aktif, Firewall yang hidup, Sistem Operasi yang selalu diperbarui, digabungkan dengan kewaspadaan manusia yang tidak sembarang mengklik link bajakan = Pertahanan Siber yang Solid.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMenunda pembaruan sistem sama dengan membiarkan pintu rumahmu rusak dan tidak terkunci."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan3",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAKonsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)INFORMATIKA SMP",
+        "SLIDE 2 — Kunci Brankas Digital PribadiPerangkat kerasmu (laptop) mungkin aman, tetapi identitas digital (akun Instagram, TikTok, Email, Game) terletak di luar, di server perusahaan (Cloud). Pelindung satu-satunya untuk masuk ke sana adalah Kredensial (Credentials).",
+        "SLIDE 3 — Apa itu Kredensial?Kredensial adalah sepasang kunci elektronik untuk membuktikan bahwa \"kamu benar-benar dirimu\". Biasanya terdiri dari dua bagian: ID Pengguna (Username/Email) dan Kata Sandi (Password).",
+        "SLIDE 4 — Kelemahan Manusia: Password LemahSistem peretasan saat ini menggunakan program komputer (Brute-force attack) yang menebak ribuan password dalam hitungan detik. Password seperti \"123456\", \"sayangku\", atau tanggal lahir (\"14022008\") akan diretas dalam waktu kurang dari 1 detik!",
+        "SLIDE 5 — Syarat Membuat Password yang KuatKata sandi yang aman dan tahan retasan (minimal sulit ditembus bot peretas) harus memiliki 4 unsur (Kombinasi Karakter):1. Huruf Besar (Kapital).2. Huruf Kecil.3. Angka (Numerik).4. Simbol Khusus (seperti @, #, $, !).",
+        "SLIDE 6 — Aturan Panjang KarakterLebih panjang lebih baik. Standar keamanan saat ini menyarankan MINIMAL 8 HINGGA 12 karakter. Semakin panjang, semakin jutaan tahun waktu yang dibutuhkan komputer peretas untuk menebaknya secara acak.",
+        "SLIDE 7 — Teknik Passphrase (Kalimat Sandi)Daripada menghafal \"A7b$!kLp\" yang memusingkan, gunakan teknik merangkai kata tak wajar (Passphrase). Contoh: \"PausBiruSukaMakanSateKambing99!\". Mudah kamu ingat (diimajinasikan), tapi mustahil ditebak oleh program peretas mana pun.",
+        "SLIDE 8 — Bahaya Password Daur UlangJANGAN PERNAH menggunakan 1 password yang sama (misal \"Admin123\") untuk akun Email, TikTok, dan Game. Jika server game bobol dan hacker tahu passwordmu, mereka akan langsung membajak email dan media sosialmu juga.",
+        "SLIDE 9 — Solusi Aman: Password Manager (Pengelola Kata Sandi)Bagaimana menghafal 20 password panjang yang berbeda? Gunakan aplikasi Password Manager (seperti Bitwarden, LastPass, 1Password, atau bawaan Google).",
+        "SLIDE 10 — Cara Kerja Password ManagerAplikasi ini bertindak seperti brankas super aman. Ia akan menyimpan (dan membuatkan) sandi panjang untuk semua akunmu. Kamu cukup menghafal SATU sandi sakti (Master Password) saja untuk membuka aplikasi brankas ini.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHRantai pertahanan terlemah dari teknologi canggih biasanya terletak pada kelalaian manusianya."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan4",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAAutentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun DigitalINFORMATIKA SMP",
+        "SLIDE 2 — Saat Kata Sandi JebolSebaik apa pun password-mu, ada risiko password itu bocor dari celah server (Database Breach) milik perusahaan atau tanpa sadar kamu ketik di web palsu. Apa yang terjadi jika hacker mengetahui password-mu?",
+        "SLIDE 3 — Lapis Pertahanan Kedua (Autentikasi Dua Faktor)Autentikasi Dua Faktor (2FA - Two-Factor Authentication) adalah sistem verifikasi ganda yang mengharuskan kamu memasukkan DUA JENIS BUKTI (faktor) sebelum diizinkan masuk (login) ke sebuah akun.",
+        "SLIDE 4 — Tiga Prinsip Faktor Verifikasi Identitas1. Sesuatu yang KAMU KETAHUI (Something you know): Password / PIN.2. Sesuatu yang KAMU MILIKI (Something you have): Smartphone-mu / Token / Nomor HP.3. Sesuatu dari BAGIAN TUBUHMU (Something you are): Sidik Jari (Fingerprint) / Pindai Wajah (Face ID).",
+        "SLIDE 5 — Cara Kerja 2FA pada Akun1. Kamu memasukkan Username dan Password (Benar).2. Sistem TIDAK langsung mengizinkan masuk.3. Sistem mengirimkan kode angka rahasia (OTP / One Time Password) berbatas waktu 5 menit melalui SMS ke Nomor HP milikmu.4. Kamu harus mengetik kode OTP tersebut agar bisa login.",
+        "SLIDE 6 — Mimpi Buruk Peretas (Hacker)Jika hacker di Rusia mengetahui password Instagram-mu, mereka tetap TIDAK BISA membajak akunmu. Karena saat mereka mencoba login, sistem meminta kode OTP yang hanya dikirimkan ke HP fisik yang ada di genggamanmu di Indonesia.",
+        "SLIDE 7 — Aplikasi Authenticator (Sangat Disarankan)Kelemahan SMS OTP adalah pulsa, jaringan, atau risiko nomor HP dibajak (SIM Swap). Keamanan level atas menggunakan aplikasi pihak ketiga seperti Google Authenticator atau Authy (Autentikasi Berbasis Waktu/TOTP) yang men-generate kode acak setiap 30 detik secara offline.",
+        "SLIDE 8 — Mengelola Akses Akun DigitalSelain 2FA, sering-sering periksa menu \"Perangkat Saya\" (My Devices) di pengaturan WhatsApp atau Instagram. Daftar ini menunjukkan laptop/HP jenis apa saja yang sedang terhubung ke akunmu.",
+        "SLIDE 9 — Logout Paksa (Revoke Access)Jika di daftar \"My Devices\" terdapat \"iPhone 13 login di Jakarta\" padahal HP-mu Android dan kamu tinggal di Makassar, berarti akunmu sedang dibajak! Segera tekan tombol 'Logout dari perangkat ini' secara jarak jauh.",
+        "SLIDE 10 — Kewaspadaan OTPKode 2FA / OTP adalah KUNCI TERAKHIR brankasmu. Pantangan Mutlak: Jangan PERNAH memberikan kode OTP/Angka yang masuk ke SMS kepada siapa pun, termasuk orang yang mengaku kasir minimarket atau dari pihak bank/WhatsApp sekalipun!",
+        "SLIDE 10 — PENUTUPTERIMA KASIHJangan biarkan keamanan akun bernilaimu hanya bergantung pada satu lapis kata sandi."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan5",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAKlasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia DigitalINFORMATIKA SMP",
+        "SLIDE 2 — Data sebagai Mata Uang Era DigitalDi dunia internet gratis, kamulah produknya (If you are not paying, you are the product). Perusahaan teknologi dan para hacker, sama-sama menginginkan satu hal berharga darimu: DATA.",
+        "SLIDE 3 — Klasifikasi Informasi DasarAgar tidak salah langkah dalam membagikan informasi di internet, kamu harus tahu mana informasi yang masuk kategori Publik (Umum) dan mana kategori Privat (Pribadi/Sensitif).",
+        "SLIDE 4 — Data Umum / Publik (Aman Dibagikan)Data publik adalah informasi yang bisa diketahui banyak orang tanpa menimbulkan bahaya langsung terhadap keselamatan fisik atau akunmu.Contoh: Nama panggilan, opini/hobi, review film, cerita liburan, usia (tanpa tanggal lahir spesifik).",
+        "SLIDE 5 — Data Pribadi Sensitif / Privat (Sangat Rahasia)Data privat adalah informasi identitas inti yang bersifat tunggal, permanen, atau krusial, yang jika jatuh ke tangan jahat dapat merugikan keamanan jiwa, reputasi, dan keuangan (finansial).",
+        "SLIDE 6 — Contoh Data Pribadi (Jangan Di-Share!)- Identitas Negara: Nomor Induk Kependudukan (NIK), No Kartu Keluarga.- Identitas Fisik: Alamat rumah spesifik (Jalan, RT/RW, Nomor), Plat nomor kendaraan.- Biometrik: Sidik jari jelas (foto peace close up), Pindai Kornea mata.",
+        "SLIDE 7 — Contoh Data Keuangan (Finansial)- Nomor Kartu Debit/Kredit (16 digit angka depan dan 3 angka rahasia CVV di belakang).- Nomor PIN ATM, Buku Tabungan, dan Password/OTP (Sekalipun kepada pihak bank/keluarga).",
+        "SLIDE 8 — Contoh Data Relasi / Jejak Khusus- Nama GADIS IBU KANDUNG (Data paling rahasia karena dipakai Bank sedunia untuk verifikasi keamanan akun). Jangan jadikan jokes/candaan di tongkrongan medsos!- Rute spesifik jalan kaki rutinmu pulang sekolah.",
+        "SLIDE 9 — Pentingnya Memilah Informasi (Self-Censorship)Sebelum memposting kartu pelajar karena bangga masuk sekolah favorit, tutupi (blur) dulu NIK, Tanda Tangan, dan Tanggal Lahir lengkapmu menggunakan aplikasi stiker HP.",
+        "SLIDE 10 — Dampak Hukum Kebocoran DataDi Indonesia sudah ada Undang-Undang Pelindungan Data Pribadi (UU PDP). Menyebarkan data privat milik orang lain (Doxxing) untuk mempermalukan atau mengancam bisa dipidana penjara dan denda miliaran rupiah.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHBerbagi kebahagiaan itu wajar, tetapi berbagi rahasia (data) identitas adalah kecerobohan besar."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan6",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAEtika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform OnlineINFORMATIKA SMP",
+        "SLIDE 2 — Bahaya Oversharing (Terlalu Banyak Berbagi)Banyak orang terjebak dalam tren (FOMO) untuk mengikuti tantangan (challenge) media sosial viral tanpa menyadari bahwa tantangan tersebut adalah teknik pengumpulan (mining) data pribadi (Social Engineering).",
+        "SLIDE 3 — Waspada Challenge / Tren Sosial MediaPernah melihat tantangan: \"Share foto kamu waktu kecil dan sekarang!\" atau \"Tulis variasi nama panggilanmu!\" atau \"Tanya jawab QnA: Siapa nama hewan peliharaan pertamamu?\"Padahal, jawaban-jawaban itu adalah \"Pertanyaan Keamanan\" (Security Questions) standar untuk mereset/membobol akun email dan bank!",
+        "SLIDE 4 — Evaluasi Risiko Unggahan FotoUpload foto tiket boarding pass pesawat atau tiket konser adalah kebiasaan buruk yang berbahaya. Pada tiket terdapat Kode Barcode (QR Code) yang jika di-scan oleh hacker, memuat data lengkap nama asli, email terdaftar, jadwal, hingga nomor tempat duduk pesawatmu.",
+        "SLIDE 5 — Evaluasi Risiko Real-time Location (Geotagging)Mengunggah status foto \"Lagi sendirian nih di rumah\" dan mencantumkan lokasi (Location Tagging) yang presisi adalah undangan bagi penguntit (stalker) atau pencuri untuk datang ke rumah aslimu yang sedang kosong.",
+        "SLIDE 6 — Aplikasi Haus Data (App Permissions)Data pribadi tidak hanya bocor dari postinganmu, tapi dari Aplikasi yang kamu beri izin. Saat menginstal game atau aplikasi tes kepribadian lucu di HP, coba baca baik-baik menu pop-up permintaannya (App Permissions).",
+        "SLIDE 7 — Membatasi Izin Akses AplikasiKenapa aplikasi \"Senter (Flashlight)\" meminta izin (Allow) untuk mengakses Kontak Telepon dan Mikrofon? Tolak (Deny) permintaan yang tidak relevan dengan fungsi utama aplikasi. Aplikasi tersebut diam-diam mengkopi (menyedot) semua nomor kontak teman-temanmu ke server luar negeri.",
+        "SLIDE 8 — Membaca Syarat dan Ketentuan (T&C)Jika ada aplikasi wajah (filter wajah tua/bayi) yang gratis, ingat prinsip: Kamu adalah produknya. Di perjanjian panjang yang tidak pernah kamu baca, tersembunyi aturan: \"Kami berhak mengambil foto wajahmu (biometrik) secara permanen untuk melatih kecerdasan buatan (AI) perusahaan kami.\"",
+        "SLIDE 9 — Kebersihan Metadata (Exif Data)Setiap foto digital dari kamera HP menempelkan data tersembunyi (Metadata Exif) yang berisi kordinat GPS pasti dari mana foto itu diambil dan pakai HP merek apa. Biasakan mematikan fitur 'Location Tag' pada aplikasi Kamera HP-mu.",
+        "SLIDE 10 — Etika Berbagi Data Orang LainSelain melindungi dirimu, jangan egois membocorkan data orang lain. Jika berfoto bersama teman, tanyakan izinnya (Consent) sebelum mempostingnya. Jika temanmu tidak ingin wajah anaknya yang masih balita masuk internet, hargai keputusannya.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHJadilah penguasa atas datamu sendiri; putuskan dengan sadar siapa yang berhak mengetahui kehidupanmu."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan7",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAPerhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/DoxxingINFORMATIKA SMP",
+        "SLIDE 2 — Evolusi Penipuan SiberHacker ahli jarang membongkar sistem komputer berlapis keamanan ganda yang rumit. Mereka memilih membongkar 'kelemahan manusia' yang lebih mudah ditipu dengan trik psikologi (Social Engineering).",
+        "SLIDE 3 — Apa itu Phishing?Phishing (memancing) adalah tindakan penipuan digital di mana peretas (hacker) MENYAMAR sebagai entitas resmi dan terpercaya (seperti bank, kurir paket, atau perusahaan medsos) untuk mengelabui korban agar menyerahkan password atau data kartu kredit secara sukarela.",
+        "SLIDE 4 — Modus Phishing: Trik Takut dan PanikKorban menerima email/SMS yang memicu kepanikan: \"Akun WhatsApp/Instagram Anda akan diblokir karena melanggar hak cipta. Klik LINK INI dalam 12 jam untuk membatalkan!\"Orang yang panik cenderung tidak berpikir jernih dan langsung mengklik tautan tersebut.",
+        "SLIDE 5 — Modus Phishing: Trik Keserakahan (Iming-iming)\"Selamat! Nomor Anda terpilih memenangkan hadiah Bank 50 Juta. Klik link ini (bit.ly/hadiahbank-resmi) dan masukkan PIN ATM Anda untuk konfirmasi pencairan!\"Sifat manusia yang tamak sering kali menghilangkan logika kewaspadaan.",
+        "SLIDE 6 — Mendeteksi Link Phishing (Tautan Palsu)Hacker akan membuat website yang tampilannya 100% mirip dengan web asli Bank atau Instagram (Web Phising). TIPS: Perhatikan Alamat URL di bagian atas (Browser)! Web Asli: instagram.com/login Web Phising (Palsu): instagram-verifikasi-keamanan-akun.com atau lnsatgram.com (huruf l kecil mirip i kapital).",
+        "SLIDE 7 — Tindakan Responsif Terhadap Phishing1. Jangan klik Link/Tautan (Bentuk biru/garis bawah).2. Jangan Download file APK berkedok resi paket / surat tilang PDF (itu malware pemeras rekening).3. Blokir pengirim pesan, lalu abaikan dan hapus.",
+        "SLIDE 8 — Apa itu Doxxing?Doxxing adalah tindakan mengumpulkan data privat (KTP, alamat, riwayat hidup, lokasi) seseorang dan menyebarkannya secara bebas di publik (internet) dengan tujuan mengintimidasi, mengancam secara fisik, atau mempermalukan korban.",
+        "SLIDE 9 — Mitigasi dan Penanganan Korban DoxxingJika kamu (atau teman) terkena Doxxing, lakukan langkah mitigasi ini dengan cepat:1. Gembok privasi seluruh akun medsosmu ke mode Private (Kunci).2. Ambil bukti screenshot postingan si pelaku doxxing.3. Gunakan fitur Report (Laporkan Postingan ke Platform) dengan alasan Doxxing/Privasi.",
+        "SLIDE 10 — Perlindungan Identitas Jangka PanjangLindungi identitas digital (identitas sekunder) dengan cara tidak memakai nama asli 100% (First name dan Last name persis KK) di semua akun medsos dan forum game. Pisahkan email resmi tugas sekolah (nama asli) dengan email khusus (anonim/nama alter) untuk mendaftar game atau situs hiburan.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHMata yang teliti dan pikiran yang tenang adalah antivirus terbaik di dunia."
+      ]
+    },
+    {
+      "pertemuan": "Kelas9-sem2-bab1-pertemuan8",
+      "slides": [
+        " | SLIDE 1 — PEMBUKAAudit Keamanan Digital Mandiri & Proyek Kampanye Digital SafetyINFORMATIKA SMP",
+        "SLIDE 2 — Pentingnya Audit Keamanan MandiriKeamanan siber bukan tanggung jawab teknisi saja, melainkan tanggung jawab setiap individu. Hari ini, kamu akan bertindak sebagai \"Auditor Keamanan\" untuk mengukur seberapa tangguh pertahanan akun dan perangkat milikmu sendiri.",
+        "SLIDE 3 — Langkah Audit Perangkat Keras1. Apakah laptop/HP-mu memiliki password layar kunci (Lock Screen) atau biometrik?2. Cek menu Pembaruan (Update): Apakah sistem operasi Android/iOS-mu sudah versi terbaru bulan ini?3. Apakah ada aplikasi aneh yang jarang kamu gunakan tapi menyedot baterai? (Copot/Uninstall segera).",
+        "SLIDE 4 — Langkah Audit Akun dan Kredensial1. Kunjungi situs haveibeenpwned.com. Masukkan alamat emailmu untuk mengecek apakah email/password-mu pernah bocor dalam peretasan global perusahaan.2. Cek ulang: Apakah ada 1 password yang kamu gunakan untuk 3 aplikasi berbeda?3. Pastikan fitur Autentikasi 2 Langkah (2FA) di WhatsApp dan Instagram sudah posisi AKTIF (ON).",
+        "SLIDE 5 — Langkah Audit Rekam Jejak Digital1. Lakukan Googling pada nama lengkapmu sendiri.2. Cek kolom \"My Devices/Perangkat yang Tertaut\" di setelan WhatsApp dan Telegram. Jika ada laptop tak dikenal, tekan Logout/Keluarkan Semua Perangkat.3. Periksa izin akses (App Permission) kamera dan lokasi pada aplikasi game HP.",
+        "SLIDE 6 — Proyek Kampanye Digital Safety (Keselamatan Siber)Berdasarkan hasil belajarmu di Bab 3, buatlah satu Proyek Kampanye Edukasi (Panduan Keselamatan Digital) yang ringkas, ditujukan khusus untuk teman sebaya atau keluargamu.",
+        "SLIDE 7 — Menentukan Tema PanduanPilih 1 kasus spesifik untuk dijadikan panduan:- Modus Penipuan (File APK Undangan Pernikahan).- Cara Mengaktifkan 2FA di WhatsApp untuk orang tua.- Ciri-ciri Toko Online Penipu di Instagram.",
+        "SLIDE 8 — Format KampanyeBuat panduan langkah demi langkah (tutorial/how-to) dalam format yang paling mudah dikonsumsi: Infografis/Poster berurutan (Carousel Slide), atau Video Tutorial Pendek dengan narasi suara.",
+        "SLIDE 9 — Penyajian dan Umpan BalikTampilkan proyekmu di depan kelas (Unjuk Kerja). Sampaikan pesan kampanye dengan jelas dan tegas (seperti seorang ahli IT), lalu minta teman atau guru memberikan umpan balik (feedback) atas kejelasan bahasanya.",
+        "SLIDE 10 — Duta Keselamatan SiberKamu yang memahami literasi keamanan siber memiliki tugas mulia. Mulailah dari membimbing orang tuamu (yang lebih rentan terhadap kejahatan digital/hoaks grup keluarga) menuju praktik berinternet yang aman dan bijak.",
+        "SLIDE 10 — PENUTUPTERIMA KASIHKeamanan adalah sebuah proses berlanjut yang dihidupkan lewat kebiasaan positif sehari-hari."
+      ]
+    }
+  ]
+}

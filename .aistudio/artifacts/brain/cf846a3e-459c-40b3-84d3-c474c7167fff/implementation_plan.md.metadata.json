@@ -1,0 +1,6 @@
+{
+  "summary":  "Rencana implementasi terpadu untuk penggabungan data dan pembuatan fitur interaktif pada menu Eksplorasi Konsep (presentasi bergaya Prezi tanpa label teknis SLIDE, ilustrasi topik dinamis, navigasi panah, dan unduh PDF 16:9 per tampilan materi) serta menu For Learning (8 soal per pertemuan skala 0-100, tombol Simpan Jawaban terpusat, Penjelasan Inti otomatis, dan penyimpanan real-time ke Firebase Firestore tanpa poin ganda) untuk seluruh 81 pertemuan Kelas 7, 8, dan 9 pada INFORMATIKA FUN!",
+  "updatedAt":  "2026-10-27T01:49:04.966264060Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

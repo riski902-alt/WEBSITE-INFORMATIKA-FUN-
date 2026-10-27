@@ -1,0 +1,833 @@
+[
+  {
+    "id_aktivitas": "Kelas7-sem1-bab1-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati berbagai contoh data sehari-hari (seperti daftar belanja, struk kasir, foto, dan rekaman suara), kemudian mengelompokkan data tersebut menjadi data terstruktur atau tidak terstruktur beserta alasannya ke dalam tabel perbandingan sederhana.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Contoh Data", "Kelompok Data (Terstruktur / Tidak Terstruktur)", "Alasan"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab1-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa mengubah sebuah cerita pendek atau paragraf acak berisi data pribadi siswa (nama, umur, hobi) menjadi sebuah tabel terstruktur yang memiliki baris, kolom, dan judul atribut yang tepat.",
+      "komponen_jawaban": {
+        "tipe": "tabel_dinamis",
+        "instruksi_antarmuka": "Sediakan fitur tambah baris dan kolom agar siswa dapat menstrukturkan tabel secara mandiri."
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab1-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa membuka aplikasi spreadsheet, menunjuk dan menyebutkan fungsi elemen antarmuka (seperti cell, range, row, dan column), lalu mempraktikkan pengisian data jadwal pelajaran kelas secara mandiri ke dalam lembar kerja.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx", ".csv"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab1-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa menggunakan data nilai ujian pada spreadsheet untuk mempraktikkan fitur pengurutan (sorting) dari nilai tertinggi, menyaring (filtering) daftar siswa yang lulus, dan menghitung total nilai menggunakan formula aritmatika dasar.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab1-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa secara mandiri menyelesaikan studi kasus pengelolaan uang kas kelas dengan mencatat pemasukan dan pengeluaran di spreadsheet, lalu menghitung saldo akhir menggunakan formula yang tepat sebagai bukti pemahaman.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab2-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mensimulasikan cara kerja mesin pencari melalui aktivitas bermain peran (role-play) sederhana di kelas untuk menggambarkan tahapan crawling (mencari halaman), indexing (menyimpan kata kunci), dan ranking (mengurutkan hasil) saat seseorang mencari informasi di internet.",
+      "komponen_jawaban": {
+        "tipe": "observasi",
+        "aksi": "kolom_refleksi",
+        "label": "Tuliskan hasil refleksi peran simulasi mesin pencari Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab2-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa mempraktikkan pencarian informasi di internet menggunakan kata kunci spesifik dan operator pencarian (seperti tanda kutip ganda \"\" atau minus -) untuk menemukan artikel tentang sejarah komputer, lalu membandingkan hasilnya dengan pencarian biasa.",
+      "komponen_jawaban": {
+        "tipe": "isian",
+        "label": "Tuliskan perbandingan hasil pencarian menggunakan operator khusus dengan pencarian biasa:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab2-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca dua artikel berita digital dengan topik yang sama, kemudian menganalisis dan menentukan mana yang lebih dapat dipercaya dengan mengisi lembar ceklis indikator berdasarkan tingkat akurasi, relevansi, dan tanggal pembaruan (keaktualan) data.",
+      "komponen_jawaban": {
+        "tipe": "tabel_ceklis",
+        "kolom": ["Indikator", "Artikel 1", "Artikel 2", "Alasan"],
+        "baris": ["Akurasi", "Relevansi", "Keaktualan"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab2-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa memeriksa sebuah situs web yang ditentukan guru, lalu mengevaluasi kredibilitasnya dengan melacak reputasi penulis, mengecek jenis domain (seperti .go.id atau .blogspot.com), dan melakukan verifikasi silang (cross-check) informasi tersebut di situs web resmi lainnya.",
+      "komponen_jawaban": {
+        "tipe": "isian_evaluasi",
+        "kolom_isian": ["Alamat Situs Web", "Reputasi Penulis", "Jenis Domain", "Hasil Verifikasi Silang"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab2-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa menerima sebuah studi kasus berisi tangkapan layar informasi viral, lalu melakukan penelusuran digital secara mandiri untuk mengumpulkan bukti kebenarannya dan menyusun laporan singkat mengenai tingkat kredibilitas informasi tersebut.",
+      "komponen_jawaban": {
+        "tipe": "teks_panjang",
+        "label": "Laporan Analisis Kredibilitas"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab3-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca beberapa kutipan teks dari media sosial, lalu menggarisbawahi dan mengelompokkan kalimat-kalimat tersebut ke dalam kategori fakta yang dapat dibuktikan secara objektif atau opini yang bersifat pandangan pribadi subjektif.",
+      "komponen_jawaban": {
+        "tipe": "pengelompokan",
+        "kategori": ["Fakta", "Opini"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab3-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa memeriksa contoh pesan berantai (broadcast) yang mencurigakan, mengidentifikasi ciri-ciri hoaks (seperti judul provokatif atau sumber tidak jelas), lalu mencoba mencari kebenaran berita tersebut menggunakan situs pemeriksa fakta (fact-checking) di internet.",
+      "komponen_jawaban": {
+        "tipe": "isian",
+        "label": "Sebutkan ciri-ciri hoaks yang ditemukan dan hasil penelusuran fakta:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab3-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa membandingkan sebuah berita dari portal berita resmi yang memiliki susunan redaksi dengan informasi dari blog pribadi atau akun media sosial anonim, lalu mendiskusikan perbedaan standar penulisan dan pertanggungjawabannya.",
+      "komponen_jawaban": {
+        "tipe": "teks_panjang",
+        "label": "Hasil diskusi perbedaan standar penulisan dan pertanggungjawaban:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab3-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis beberapa studi kasus berupa komentar atau unggahan kontroversial di media sosial, lalu menentukan apakah tindakan tersebut melanggar etika berwarganet dan menyusun saran perilaku yang lebih bertanggung jawab.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Kasus", "Analisis Etika", "Saran Perilaku"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem1-bab3-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa merancang dan membuat karya sederhana berupa poster digital atau infografis buatan tangan yang berisi ajakan untuk \"saring sebelum sharing\" sebagai bagian dari kampanye anti-hoaks dan etika digital.",
+      "komponen_jawaban": {
+        "tipe": "proyek",
+        "aksi": "unggah_file",
+        "format_diterima": [".jpg", ".png", ".pdf"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengetik sebuah paragraf perkenalan diri di aplikasi pengolah kata, lalu mempraktikkan penggantian jenis font, ukuran huruf, serta memberikan gaya tebal (bold), miring (italic), dan garis bawah (underline) pada teks tertentu.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".doc", ".docx", ".pdf"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa memodifikasi dokumen teks yang telah disediakan guru dengan mengatur margin halaman, mengubah jarak spasi menjadi 1.15 atau 1.5, menata perataan teks rata kiri-kanan (justify), serta menambahkan nomor halaman dan header berisi nama siswa.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".doc", ".docx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa menyisipkan sebuah gambar, tabel jadwal harian, dan bentuk (shape) sederhana ke dalam dokumen pengolah kata, lalu mengatur tata letak (text wrapping) agar objek tersebut menyatu dengan rapi di antara baris teks.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".doc", ".docx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa menerapkan fitur heading style pada beberapa judul bab di dokumen untuk menghasilkan daftar isi secara otomatis, kemudian mempraktikkan pembuatan surat undangan sederhana menggunakan fitur mail merge dengan sumber data nama penerima.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".doc", ".docx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa secara mandiri menyusun sebuah dokumen laporan kegiatan sekolah sebanyak dua halaman lengkap dengan judul utama, subjudul terformat, gambar sisipan, dan daftar isi otomatis sebagai bukti kemampuan merapikan dokumen formal.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".doc", ".docx", ".pdf"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa membuat draf tabel pendaftaran ekstrakurikuler di lembar kerja dengan mengisikan berbagai tipe data yang tepat, seperti teks untuk nama siswa, angka untuk nomor urut, dan format tanggal untuk waktu pendaftaran.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa melengkapi sebuah tabel data nilai tryout atau hasil panen sekolah menggunakan fungsi statistik dasar (SUM untuk total, AVERAGE untuk rata-rata, MIN dan MAX untuk nilai terendah dan tertinggi) pada baris rekapitulasi yang telah disediakan.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan8",
+    "aktivitas": {
+      "petunjuk": "Siswa menggunakan fungsi IF untuk menentukan keterangan Lulus atau Remedial berdasarkan nilai batas pada tabel, lalu menerapkan conditional formatting agar sel dengan nilai di bawah KKM otomatis berubah menjadi warna merah.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan9",
+    "aktivitas": {
+      "petunjuk": "Siswa menggunakan fungsi VLOOKUP untuk mengisi kolom harga barang secara otomatis berdasarkan tabel referensi kode barang yang ada di sheet/lembar lain, lalu mengurutkan (sort) data transaksi tersebut berdasarkan tanggal pembelian.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan10",
+    "aktivitas": {
+      "petunjuk": "Siswa memblok kumpulan data hasil pemilihan ketua OSIS pada spreadsheet, kemudian mengubah data tersebut menjadi sebuah grafik batang (bar chart) dan grafik lingkaran (pie chart) yang diberikan judul serta legenda agar informasi mudah dibaca.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".xls", ".xlsx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan11",
+    "aktivitas": {
+      "petunjuk": "Siswa membuka aplikasi presentasi dan membuat tiga slide sederhana tentang cita-cita mereka, dengan mempraktikkan pengaturan kontras warna antara teks dan latar belakang serta memastikan isi teks dimuat dalam bentuk poin-poin yang ringkas.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".ppt", ".pptx", ".pdf"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan12",
+    "aktivitas": {
+      "petunjuk": "Siswa menyisipkan sebuah gambar ilustrasi yang relevan dan video edukasi pendek ke dalam slide presentasi, lalu menambahkan efek transisi yang tidak berlebihan dan proporsional (seperti fade atau wipe) untuk perpindahan antar slide.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file",
+        "format_diterima": [".ppt", ".pptx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan13",
+    "aktivitas": {
+      "petunjuk": "Siswa menggunakan fitur Slide Master untuk memasang logo sekolah secara otomatis di sudut semua slide presentasi mereka, lalu mempraktikkan simulasi teknik penyampaian presentasi di depan kelas dengan bahasa tubuh yang baik dan percaya diri.",
+      "komponen_jawaban": {
+        "tipe": "praktik_observasi",
+        "aksi": "unggah_file",
+        "format_diterima": [".ppt", ".pptx"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan14",
+    "aktivitas": {
+      "petunjuk": "Siswa menyalin sebuah grafik penjualan dari lembar kerja spreadsheet, lalu menyematkannya (embedding) ke dalam slide presentasi dan menghubungkannya (linking) ke dalam dokumen pengolah kata agar otomatis berubah jika data aslinya diubah.",
+      "komponen_jawaban": {
+        "tipe": "praktik",
+        "aksi": "unggah_file_zip",
+        "format_diterima": [".zip", ".rar"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas7-sem2-bab4-pertemuan15",
+    "aktivitas": {
+      "petunjuk": "Siswa mengerjakan proyek akhir terpadu dengan menghitung data hasil survei hobi kelas di spreadsheet, membuat grafiknya, menyusun laporan naratif di dokumen pengolah kata, dan mempresentasikan intisari laporannya melalui slide presentasi.",
+      "komponen_jawaban": {
+        "tipe": "proyek_terpadu",
+        "aksi": "unggah_file_zip",
+        "format_diterima": [".zip", ".rar"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca studi kasus pembuatan jadwal piket kelas, kemudian mengidentifikasi langkah-langkah penyelesaiannya berdasarkan empat pilar berpikir komputasional ke dalam sebuah tabel sederhana.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Pilar Berpikir Komputasional", "Langkah Penyelesaian"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa mengumpulkan data makanan favorit teman sebangku, kemudian memodelkan data mentah tersebut menjadi sebuah tabel dan daftar (list) berstruktur di aplikasi lembar kerja atau buku tulis.",
+      "komponen_jawaban": {
+        "tipe": "unggah_file_atau_teks",
+        "label": "Ketikkan struktur tabel dan list Anda, atau unggah file lembar kerja:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis permasalahan persiapan acara sekolah, lalu memecah tugasnya menjadi lebih kecil (dekomposisi) dan menemukan kesamaan pola kebutuhan antar seksi kepanitiaan dalam bentuk diagram.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah gambar diagram dekomposisi dan pola:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa menyimulasikan permainan urut kartu angka tanpa komputer (unplugged), kemudian menyaring kartu ganjil genap (abstraksi) untuk menemukan dan mempraktikkan langkah-langkah pencarian data paling sederhana.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan langkah-langkah pencarian data yang Anda praktikkan:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca panduan simbol dasar pseudocode, lalu mencoba mengubah instruksi cara menanak nasi dari kalimat sehari-hari ke dalam baris-baris perintah berformat pseudocode sederhana.",
+      "komponen_jawaban": {
+        "tipe": "teks_kode",
+        "label": "Tuliskan pseudocode instruksi menanak nasi:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa mendaftar variabel yang diperlukan untuk menghitung luas bangun datar, kemudian menyusun pseudocode dengan instruksi berurutan dari proses input data, perhitungan, hingga output hasil.",
+      "komponen_jawaban": {
+        "tipe": "teks_kode",
+        "label": "Daftar variabel dan pseudocode:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati aturan syarat tinggi badan menaiki wahana bermain, lalu menuliskan struktur pseudocode menggunakan logika IF-THEN-ELSE untuk menentukan siapa yang boleh dan tidak boleh masuk.",
+      "komponen_jawaban": {
+        "tipe": "teks_kode",
+        "label": "Struktur pseudocode IF-THEN-ELSE:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan8",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati perintah yang harus diulang berkali-kali secara manual, lalu merancang algoritma menggunakan struktur perulangan FOR atau WHILE pada pseudocode agar instruksi menjadi lebih singkat.",
+      "komponen_jawaban": {
+        "tipe": "teks_kode",
+        "label": "Algoritma pseudocode dengan perulangan FOR/WHILE:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab1-pertemuan9",
+    "aktivitas": {
+      "petunjuk": "Siswa secara mandiri memecahkan studi kasus penghitungan diskon kantin sekolah dengan merancang dokumen pseudocode lengkap yang memuat penentuan variabel, percabangan, dan perulangan secara tepat.",
+      "komponen_jawaban": {
+        "tipe": "teks_kode_panjang",
+        "label": "Dokumen Pseudocode Lengkap:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab2-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati gambar atau wujud fisik perangkat komputer, lalu mengklasifikasikannya ke dalam kelompok perangkat input, proses, output, atau penyimpanan pada lembar kerja identifikasi keras.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Nama Perangkat", "Kelompok (Input/Proses/Output/Penyimpanan)"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab2-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa mengeksplorasi antarmuka ponsel atau komputer, lalu mendaftar nama-nama aplikasi yang ditemukan serta membedakannya antara sistem operasi atau aplikasi tambahan dengan alasan singkat.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Nama Aplikasi", "Jenis (Sistem Operasi / Aplikasi Tambahan)", "Alasan"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab2-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa mempraktikkan siklus kerja prosesor melalui kegiatan bermain peran (role-play), di mana masing-masing siswa bertugas mengambil pesan (fetch), menerjemahkannya (decode), dan menjalankan instruksi (execute).",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan hasil simulasi role-play siklus kerja prosesor yang Anda lakukan:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem1-bab2-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis studi kasus mengenai komputer yang gagal mencetak dokumen, lalu menguraikan kemungkinan gangguan interaksi antara komponen perangkat keras (printer) dan perangkat lunaknya.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Uraikan hasil analisis gangguan interaksi komponen tersebut:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati penempatan komputer di lab sekolah, lalu membuat skema gambar sederhana yang menunjukkan cara data dikirimkan melalui jaringan lokal (LAN) dari satu komputer ke komputer lain.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah gambar skema jaringan lokal (LAN):"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa memeriksa sampel kabel UTP dan foto fiber optik beserta switch, lalu mencatat nama dan fungsi masing-masing perangkat keras pendukung tersebut ke dalam tabel identifikasi media jaringan kabel.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Nama Perangkat Keras / Kabel", "Fungsi"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa mencoba mengirim foto yang sama menggunakan koneksi Bluetooth dan Wi-Fi di ponsel, lalu membandingkan dan merangkum kecepatan pengiriman serta jangkauan kedua koneksi nirkabel tersebut.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan hasil perbandingan koneksi Bluetooth dan Wi-Fi:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa memeriksa alamat IP pada gawai mereka masing-masing, lalu menggambar ilustrasi sederhana yang mengibaratkan peran IP Address dan DNS seperti buku telepon dan alamat rumah dalam jaringan internet.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah gambar ilustrasi IP Address dan DNS:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca kasus pencurian data pribadi saat memakai Wi-Fi publik tanpa sandi, lalu mengidentifikasi perbedaan tingkat keamanan antara situs web berawalan HTTP dan HTTPS di peramban (browser).",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan perbedaan keamanan HTTP dan HTTPS berdasarkan kasus tersebut:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab3-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa membuat gambar peta skenario konektivitas jaringan ideal untuk sekolah, lalu menentukan titik letak penempatan router dan switch agar perpustakaan dan lab komputer dapat saling terhubung.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah gambar peta skenario konektivitas jaringan sekolah:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis beberapa contoh komentar negatif di sebuah postingan media sosial palsu (simulasi), kemudian mencatat bentuk perundungan digital yang terjadi beserta alasannya.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Komentar Negatif", "Bentuk Perundungan Digital", "Alasan"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa berdiskusi dalam kelompok untuk menelaah sebuah artikel berita tentang korban perundungan siber, lalu memetakan dampak psikologisnya bagi korban serta kemungkinan jeratan hukum bagi pelakunya.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Dampak Psikologis Korban", "Kemungkinan Jeratan Hukum Pelaku"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa melakukan simulasi penanganan kasus cyberbullying, mempraktikkan cara mengambil tangkapan layar (screenshot) sebagai bukti, dan memencet tombol laporkan (report) pada platform simulasi.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah hasil screenshot bukti simulasi pelaporan:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa mencari nama mereka sendiri di mesin pencari internet, lalu mengelompokkan hasil pencariannya menjadi jejak digital aktif (foto/komentar sengaja diunggah) dan jejak digital pasif dalam sebuah tabel.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Hasil Pencarian", "Jejak Digital Aktif", "Jejak Digital Pasif"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca cerita tentang seseorang yang batal diterima kerja karena riwayat buruk di media sosialnya, lalu merumuskan tiga prinsip kehati-hatian dalam memposting konten untuk menjaga masa depan karir.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan tiga prinsip kehati-hatian dalam memposting konten:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa membuka menu setelan privasi pada akun media sosial miliknya (jika punya) atau peramban internet, lalu mempraktikkan langkah mengunci profil (private) dan membersihkan riwayat pencarian demi keamanan.",
+      "komponen_jawaban": {
+        "tipe": "ceklis",
+        "label": "Saya telah mempraktikkan langkah setelan privasi dan kebersihan digital."
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati draf email atau pesan teks kepada guru yang terkesan kurang sopan, lalu menyusun ulang kalimat pesan tersebut agar lebih empatik dan menerapkan norma kesantunan (netiquette) yang baik.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan susunan ulang pesan teks yang sopan (netiquette):"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan8",
+    "aktivitas": {
+      "petunjuk": "Siswa membaca sebuah topik perdebatan ringan di forum sekolah (misalnya tentang klub olahraga), lalu berlatih menyusun balasan komentar yang ramah, menghargai beda pendapat, dan menjauhi kalimat ujaran kebencian.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan draf balasan komentar forum Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas8-sem2-bab4-pertemuan9",
+    "aktivitas": {
+      "petunjuk": "Siswa merancang karya berupa poster sederhana atau infografis pendek bertemakan ajakan berinternet sehat, bebas cyberbullying, dan menjaga jejak digital yang baik, lalu memamerkannya di mading kelas.",
+      "komponen_jawaban": {
+        "tipe": "unggah_file",
+        "label": "Unggah file poster/infografis Anda (Gambar/PDF):"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengeksplorasi antarmuka aplikasi Scratch secara langsung di komputer, lalu mencocokkan setiap area kerja (seperti stage, blok kode, dan sprite) dengan fungsinya menggunakan lembar kerja pengamatan.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Area Kerja Scratch", "Fungsi"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa menyusun urutan langkah menyapa teman di dunia nyata, kemudian menerjemahkan algoritma tersebut menjadi rangkaian blok perintah dasar (seperti 'say', 'move', dan 'play sound') pada aplikasi Scratch agar sprite dapat bergerak dan bersuara.",
+      "komponen_jawaban": {
+        "tipe": "teks_dan_unggah",
+        "label": "Tuliskan urutan algoritma Anda, lalu unggah screenshot kode Scratch:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa mengidentifikasi kumpulan blok perintah yang berulang secara manual pada kode Scratch, lalu memodifikasinya menggunakan blok 'repeat' atau 'forever' agar animasi berjalan lebih efisien dan program menjadi lebih singkat.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah screenshot kode yang telah dimodifikasi dengan blok 'repeat' atau 'forever':"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa merancang simulasi permainan tebak angka sederhana di Scratch, kemudian menyisipkan blok perintah 'if-then-else' untuk memunculkan respons sprite yang berbeda ketika tebakan benar atau salah.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah screenshot kode permainan dengan blok 'if-then-else':"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa membuat sebuah variabel skor pada aplikasi Scratch, lalu merangkai blok 'ask and answer' serta operator matematika dasar agar sprite dapat menghitung dan menampilkan skor secara otomatis berdasarkan jawaban pengguna.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah screenshot kode yang memuat variabel skor dan 'ask and answer':"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa bekerja dalam kelompok kecil untuk merancang ide sebuah game edukasi interaktif dengan menggambar storyboard dan diagram alur logika tindakan sprite pada selembar kertas.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah foto storyboard dan diagram alur dari kertas Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa menerjemahkan storyboard proyek game edukasi mereka ke dalam susunan blok kode di Scratch, lalu melakukan uji coba untuk menemukan dan memperbaiki kesalahan (debugging) hingga program berjalan sesuai rencana.",
+      "komponen_jawaban": {
+        "tipe": "unggah_file",
+        "label": "Unggah file proyek Scratch (.sb3) yang sudah berjalan dengan baik:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab1-pertemuan8",
+    "aktivitas": {
+      "petunjuk": "Siswa mempresentasikan hasil akhir game edukasi Scratch mereka di depan kelas, lalu menjelaskan langkah-langkah dekomposisi dan logika pembuatan kode yang digunakan dalam merancang program tersebut.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan ringkasan penjelasan langkah dekomposisi dan logika kode game Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati berbagai contoh antarmuka media sosial dan forum diskusi internet, lalu mengklasifikasikan platform tersebut berdasarkan tujuan penggunaan dan karakteristik penggunanya ke dalam tabel perbandingan.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Nama Platform (Medsos/Forum)", "Tujuan Penggunaan", "Karakteristik Pengguna"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis studi kasus mengenai komentar kontroversial yang memicu pertengkaran di media sosial, lalu menyusun ulang tanggapan komentar tersebut agar mematuhi aturan kewargaan digital dan netiquette.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan susunan ulang tanggapan komentar yang mematuhi netiquette:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa mengeksplorasi antarmuka dan alat-alat dasar pada aplikasi desain grafis berbasis web (seperti Canva), lalu mempraktikkan penggabungan teks, warna, dan gambar ke dalam sebuah draf kartu ucapan elektronik sederhana.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah draf desain kartu ucapan elektronik Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa mempraktikkan proses perancangan visual dengan membuat sebuah infografis atau poster digital yang berisi imbauan anti-hoaks dan literasi digital menggunakan aplikasi desain grafis.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah infografis atau poster digital imbauan anti-hoaks Anda:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa melakukan penelusuran gambar dan aset digital di internet, lalu mengelompokkan aset tersebut menjadi karya berhak cipta penuh (copyright) dan karya berlisensi terbuka (Creative Commons) beserta cara atribusinya.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Nama Aset / Gambar", "Jenis Lisensi (Copyright / Creative Commons)", "Cara Atribusi"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa mengunggah karya poster digital edukatif mereka ke dalam platform mading virtual kelas atau forum penugasan sekolah dengan menyertakan takarir (caption) dan daftar pustaka yang mematuhi hak cipta.",
+      "komponen_jawaban": {
+        "tipe": "teks_dan_unggah",
+        "label": "Unggah karya Anda dan tuliskan takarir beserta daftar pustakanya:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem1-bab2-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa berpartisipasi dalam pameran kelas secara bergiliran (gallery walk) untuk mengamati konten edukatif teman-temannya, lalu memberikan apresiasi dan umpan balik mengenai kesesuaian pesan visual yang ditampilkan.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan apresiasi dan umpan balik Anda untuk karya salah satu teman:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan1",
+    "aktivitas": {
+      "petunjuk": "Siswa menganalisis beberapa skenario pendek tentang perangkat lunak berbahaya (seperti layar terkunci meminta tebusan atau file terhapus sendiri), lalu mengidentifikasi dan mencocokkannya dengan jenis malware yang sesuai.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Skenario Perangkat Lunak Berbahaya", "Jenis Malware (Misal: Ransomware, Virus, dll)"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan2",
+    "aktivitas": {
+      "petunjuk": "Siswa mempraktikkan langkah-langkah dasar pengamanan komputer dengan melakukan pemindaian (scanning) sistem menggunakan Windows Defender, menyalakan firewall, serta mengecek ketersediaan pembaruan (update) sistem operasi.",
+      "komponen_jawaban": {
+        "tipe": "ceklis_praktik",
+        "label": "Tandai jika Anda telah selesai mempraktikkan pemindaian, menyalakan firewall, dan update sistem."
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan3",
+    "aktivitas": {
+      "petunjuk": "Siswa menyusun beberapa kombinasi kata sandi baru dari frasa kalimat yang disukai agar tidak mudah ditebak (mengandung huruf besar, huruf kecil, angka, dan simbol khusus), lalu mengevaluasinya berdasarkan kriteria kata sandi kuat.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Frasa Kalimat", "Kombinasi Kata Sandi Baru", "Hasil Evaluasi Kekuatan Sandi"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan4",
+    "aktivitas": {
+      "petunjuk": "Siswa melakukan simulasi panduan aktivasi autentikasi dua langkah (2FA) pada akun email melalui penggunaan nomor telepon darurat (recovery phone) untuk mengamankan akun dari percobaan login yang mencurigakan.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah screenshot atau bukti simulasi aktivasi 2FA:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan5",
+    "aktivitas": {
+      "petunjuk": "Siswa mengategorikan daftar jenis data (seperti nama panggilan, alamat lengkap, NIK, hobi, nomor telepon, dan nama ibu kandung) ke dalam kolom informasi privat yang dilarang dibagikan dan informasi publik yang masih aman untuk dibagikan.",
+      "komponen_jawaban": {
+        "tipe": "tabel",
+        "kolom": ["Jenis Data", "Kategori (Privat / Publik)"]
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan6",
+    "aktivitas": {
+      "petunjuk": "Siswa mengevaluasi pengaturan izin aplikasi pada perangkat pintar masing-masing (seperti izin akses kontak, lokasi, atau kamera), lalu mendiskusikan risiko privasi jika aplikasi diberikan izin akses di luar fungsi utamanya.",
+      "komponen_jawaban": {
+        "tipe": "teks_area",
+        "label": "Tuliskan hasil evaluasi pengaturan izin aplikasi perangkat Anda dan risikonya:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan7",
+    "aktivitas": {
+      "petunjuk": "Siswa mengamati contoh tangkapan layar (screenshot) pesan email palsu yang meminta klaim hadiah, lalu melingkari unsur-unsur penipuan phishing pada pesan tersebut seperti tautan mencurigakan dan tekanan waktu yang terburu-buru.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah screenshot email yang sudah Anda lingkari unsur penipuannya:"
+      }
+    }
+  },
+  {
+    "id_aktivitas": "Kelas9-sem2-bab1-pertemuan8",
+    "aktivitas": {
+      "petunjuk": "Siswa melengkapi sebuah formulir audit keamanan digital mandiri (self-assessment checklist), lalu mendesain satu lembar brosur singkat atau poster yang berisi tata cara dasar perlindungan data pribadi untuk dibagikan kepada teman.",
+      "komponen_jawaban": {
+        "tipe": "unggah_gambar",
+        "label": "Unggah desain brosur atau poster tata cara perlindungan data Anda:"
+      }
+    }
+  }
+]
