@@ -1,14 +1,9 @@
 import {
-  doc,
-  getDoc,
-  onSnapshot,
-  serverTimestamp,
-  setDoc,
-} from 'firebase/firestore';
-import { firebaseDb } from './firebaseClient';
+  saveNonDbMenuRecord,
+  subscribeNonDbMenuRecord,
+} from './firebaseSync';
 import { parseJsonTolerant } from './komponen-asesmenawal';
 
-const KOLEKSI_AS_LEARNING = 'as_learning_jawaban';
 let cachedAsLearningMap = null;
 
 /**
@@ -1344,16 +1339,6 @@ export function periksaKelengkapanAsLearning(dataPertemuan, jawabanMap) {
   };
 }
 
-function buatIdDokumenSiswa(userKey, canonicalMeetingId) {
-  const safeUser = String(userKey || 'guest').replace(/[^a-zA-Z0-9_-]/g, '_');
-  const safeMeeting = String(canonicalMeetingId || '').replace(/[^a-zA-Z0-9_-]/g, '_');
-  return `${safeUser}__${safeMeeting}`;
-}
-
-function buatKunciTersimpanLokal(userKey, canonicalMeetingId) {
-  return `infoFun_ASL_${userKey}_${canonicalMeetingId}`;
-}
-
 function buatKunciDrafLokal(userKey, canonicalMeetingId) {
   return `infoFun_DraftASL_${userKey}_${canonicalMeetingId}`;
 }
@@ -1412,8 +1397,9 @@ export function hapusDrafLokalAsLearning(userKey, meetingId) {
 }
 
 /**
- * Menyimpan jawaban refleksi AS Learning secara real-time ke Firebase Firestore
- * sekaligus mencerminkannya pada penyimpanan lokal akun pengguna.
+ * Menyimpan jawaban refleksi AS Learning secara terisolasi per UID siswa + kelas + pertemuan + menu
+ * menggunakan ruang kerja non-database Firebase (IndexedDB + localStorage + Cloud Storage object delta sync)
+ * TANPA menulis ke Cloud Firestore maupun Firebase Realtime Database.
  */
 export async function simpanRefleksiAsLearningKeDatabase({
   session,
@@ -1426,9 +1412,9 @@ export async function simpanRefleksiAsLearningKeDatabase({
 }) {
   const canonicalMeetingId = normalisasiIdPertemuanAsLearning(meetingId);
   const savedAtIso = new Date().toISOString();
+  const effectiveUid = String(session?.uid || userKey || '').trim();
   const jawabanRapi = gabungkanJawabanAsLearning(dataPertemuan, jawabanMap);
 
-  // Pangkas spasi berlebih di awal/akhir dan batasi ukuran aman dokumen Firestore
   const jawabanBersih = {};
   Object.keys(jawabanRapi).forEach((kunci) => {
     jawabanBersih[kunci] = String(jawabanRapi[kunci] || '').trim().slice(0, 5000);
@@ -1441,81 +1427,46 @@ export async function simpanRefleksiAsLearningKeDatabase({
     jawaban: jawabanBersih[q.kunciField] || '',
   }));
 
-  const localRecord = {
-    jawaban: jawabanBersih,
-    submitted: true,
-    savedAtIso,
-  };
-
-  try {
-    localStorage.setItem(
-      buatKunciTersimpanLokal(userKey, canonicalMeetingId),
-      JSON.stringify(localRecord)
-    );
-    hapusDrafLokalAsLearning(userKey, canonicalMeetingId);
-  } catch {
-    // Abaikan bila penyimpanan lokal penuh
-  }
-
-  if (!userKey || userKey === 'guest') {
-    return {
-      ok: true,
-      syncedToCloud: false,
-      savedAtIso,
-      jawabanTersimpan: jawabanBersih,
-    };
-  }
-
   const infoKelas = ekstrakInfoKelasSemester(canonicalMeetingId);
-  const docId = buatIdDokumenSiswa(userKey, canonicalMeetingId);
-  const docRef = doc(firebaseDb, KOLEKSI_AS_LEARNING, docId);
-
-  const firestorePayload = {
-    studentKey: String(userKey),
-    nama: String(session?.nama || '').trim().slice(0, 120),
-    nisn: String(session?.nisn || '').trim().slice(0, 40),
-    email: String(session?.email || '').trim().slice(0, 120),
-    role: String(session?.role || 'siswa'),
+  const recordPayload = {
+    uid: effectiveUid,
+    studentKey: effectiveUid,
     kelas: infoKelas.kelas,
     semester: infoKelas.semester,
     bab: String(judulBab || '').slice(0, 200),
     pertemuanId: canonicalMeetingId,
     idSumberPertemuan: String(dataPertemuan?.idSumberAsli || canonicalMeetingId),
     judulPertemuan: String(judulPertemuan || '').slice(0, 200),
+    menu: 'as-learning',
     jawaban: jawabanBersih,
     daftarRefleksi,
     submitted: true,
     savedAtIso,
-    updatedAt: serverTimestamp(),
   };
 
-  try {
-    await setDoc(docRef, firestorePayload);
-    return {
-      ok: true,
-      syncedToCloud: true,
-      savedAtIso,
-      jawabanTersimpan: jawabanBersih,
-    };
-  } catch (err) {
-    console.warn(
-      'Penyimpanan cloud AS Learning menggunakan cadangan perangkat lokal:',
-      err
-    );
-    return {
-      ok: true,
-      syncedToCloud: false,
-      savedAtIso,
-      jawabanTersimpan: jawabanBersih,
-      warningMessage:
-        'Refleksi telah aman tersimpan di perangkat ini. Sinkronisasi cloud akan dilanjutkan saat koneksi stabil.',
-    };
+  if (effectiveUid && effectiveUid !== 'guest') {
+    await saveNonDbMenuRecord({
+      uid: effectiveUid,
+      meetingId: canonicalMeetingId,
+      menu: 'as-learning',
+      data: recordPayload,
+      updatedAtIso: savedAtIso,
+    });
+    hapusDrafLokalAsLearning(effectiveUid, canonicalMeetingId);
   }
+
+  return {
+    ok: true,
+    syncedToCloud: false,
+    savedAtIso,
+    jawabanTersimpan: jawabanBersih,
+  };
 }
 
 /**
- * Memulihkan serta berlangganan pembaruan jawaban refleksi AS Learning secara real-time
- * dari Firebase Firestore dan penyimpanan lokal khusus pengguna serta pertemuan aktif.
+ * Memulihkan serta berlangganan pembaruan jawaban refleksi AS Learning per UID siswa
+ * dari ruang kerja non-database (localStorage + IndexedDB + Cloud Storage object sync)
+ * dengan resolusi konflik otomatis berbasis timestamp terbaru.
  */
 export function langgananRefleksiAsLearning(
   userKey,
@@ -1524,99 +1475,28 @@ export function langgananRefleksiAsLearning(
   onData
 ) {
   const canonicalMeetingId = normalisasiIdPertemuanAsLearning(meetingId);
-  if (!canonicalMeetingId || !dataPertemuan) {
+  if (!canonicalMeetingId || !dataPertemuan || !userKey || userKey === 'guest') {
     onData(null);
     return () => {};
   }
 
-  const localKey = buatKunciTersimpanLokal(userKey, canonicalMeetingId);
-  let resolvedFromServer = false;
-
-  try {
-    const rawLocal = localStorage.getItem(localKey);
-    if (rawLocal) {
-      const parsedLocal = JSON.parse(rawLocal);
-      if (parsedLocal && parsedLocal.submitted && parsedLocal.jawaban) {
-        onData({
-          jawaban: gabungkanJawabanAsLearning(dataPertemuan, parsedLocal.jawaban),
-          submitted: true,
-          savedAtIso: String(parsedLocal.savedAtIso || ''),
-          syncedFromCloud: false,
-        });
-      }
-    }
-  } catch {
-    // Abaikan data lokal yang tidak terbaca
-  }
-
-  if (!userKey || userKey === 'guest') {
-    return () => {};
-  }
-
-  const docId = buatIdDokumenSiswa(userKey, canonicalMeetingId);
-  const docRef = doc(firebaseDb, KOLEKSI_AS_LEARNING, docId);
-
-  const unsubscribe = onSnapshot(
-    docRef,
-    (snap) => {
-      resolvedFromServer = true;
-      if (!snap.exists()) {
-        const hasLocal = Boolean(localStorage.getItem(localKey));
-        if (!hasLocal) {
-          onData(null);
-        }
+  return subscribeNonDbMenuRecord(
+    userKey,
+    canonicalMeetingId,
+    'as-learning',
+    (envelope) => {
+      const data = envelope?.data;
+      if (!data || typeof data !== 'object' || !data.submitted) {
+        onData(null);
         return;
       }
 
-      const data = snap.data();
-      if (data.studentKey && data.studentKey !== userKey) {
-        return;
-      }
-
-      const record = {
+      onData({
         jawaban: gabungkanJawabanAsLearning(dataPertemuan, data.jawaban),
         submitted: Boolean(data.submitted),
-        savedAtIso: String(data.savedAtIso || ''),
-        syncedFromCloud: true,
-      };
-
-      try {
-        localStorage.setItem(
-          localKey,
-          JSON.stringify({
-            jawaban: record.jawaban,
-            submitted: record.submitted,
-            savedAtIso: record.savedAtIso,
-          })
-        );
-      } catch {
-        // Abaikan bila penyimpanan lokal penuh
-      }
-
-      onData(record);
-    },
-    () => {
-      if (!resolvedFromServer) {
-        getDoc(docRef)
-          .then((snap) => {
-            if (snap.exists()) {
-              const data = snap.data();
-              if (!data.studentKey || data.studentKey === userKey) {
-                onData({
-                  jawaban: gabungkanJawabanAsLearning(dataPertemuan, data.jawaban),
-                  submitted: Boolean(data.submitted),
-                  savedAtIso: String(data.savedAtIso || ''),
-                  syncedFromCloud: true,
-                });
-              }
-            }
-          })
-          .catch(() => {
-            // Tetap mengandalkan cermin penyimpanan lokal saat luring
-          });
-      }
+        savedAtIso: String(data.savedAtIso || envelope.updatedAtIso || ''),
+        syncedFromCloud: false,
+      });
     }
   );
-
-  return unsubscribe;
 }

@@ -7,6 +7,56 @@ function apakahHanyaAngka(teks: string | null | undefined): boolean {
   return /^\d+$/.test(teks.toString().trim());
 }
 
+function sanitasiTokenIdentitas(raw: string): string {
+  return raw
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_|_$/g, '');
+}
+
+/**
+ * Membentuk UID deterministik dan unik untuk setiap akun siswa maupun guru.
+ * Tidak pernah bergantung pada nama siswa semata sehingga dua siswa bernama sama
+ * tetap memiliki ruang data terisolasi secara ketat berdasarkan NISN / kredensial akun.
+ */
+export function buildCanonicalUid(params: {
+  role: UserRole;
+  nisn?: string | null;
+  email?: string | null;
+  authUid?: string | null;
+  siswaDocId?: string | null;
+}): string {
+  if (params.role === 'guru') {
+    const cleanEmail = sanitasiTokenIdentitas(params.email || '');
+    if (cleanEmail) {
+      return `uid_guru_${cleanEmail}`;
+    }
+    const cleanAuthUid = String(params.authUid || '')
+      .trim()
+      .replace(/[^a-zA-Z0-9_-]/g, '_');
+    if (cleanAuthUid) {
+      return `uid_guru_${cleanAuthUid}`;
+    }
+    return 'uid_guru_aktif';
+  }
+
+  const cleanNisn = sanitasiTokenIdentitas(params.nisn || '');
+  if (cleanNisn) {
+    return `uid_siswa_${cleanNisn}`;
+  }
+
+  const cleanDocId = String(params.siswaDocId || '')
+    .trim()
+    .replace(/[^a-zA-Z0-9_-]/g, '_');
+  if (cleanDocId) {
+    return `uid_siswa_${cleanDocId}`;
+  }
+
+  return '';
+}
+
 export function scanBrowserSession(): UserSession | null {
   // Bersihkan sesi contoh lama jika masih tersimpan dari versi sebelumnya
   if (
@@ -16,28 +66,55 @@ export function scanBrowserSession(): UserSession | null {
     localStorage.removeItem('infoFun_Nama');
     localStorage.removeItem('infoFun_NISN');
     localStorage.removeItem('infoFun_Role');
+    localStorage.removeItem('infoFun_UID');
+    localStorage.removeItem('infoFun_SiswaDocId');
     localStorage.removeItem('currentUserId');
   }
 
+  // 1. Cek parameter URL terlebih dahulu (untuk integrasi portal antarlaman)
+  const urlParams = new URLSearchParams(window.location.search);
+  const paramNama = urlParams.get('nama');
+  const paramNisn = urlParams.get('nisn');
+  const paramEmail = urlParams.get('email');
+  const paramRole = urlParams.get('role');
+  const paramUid = urlParams.get('uid');
+
+  const hasExplicitUrlLogin = Boolean(
+    (paramNama && paramNisn) || (paramRole === 'guru' && (paramEmail || paramNama))
+  );
+
+  // Cek apakah portal eksternal baru saja menulis userRole + userNISN/userName
+  const hasPortalDirectLogin = Boolean(
+    localStorage.getItem('userRole') &&
+      (localStorage.getItem('userNISN') || localStorage.getItem('userName'))
+  );
+
+  // Hormati status logout eksplisit agar sesi pengguna sebelumnya tidak pernah bangkit kembali
+  if (
+    localStorage.getItem('infoFun_LoggedOut') === 'true' &&
+    !hasExplicitUrlLogin &&
+    !hasPortalDirectLogin
+  ) {
+    return null;
+  }
+
   const data: {
+    uid: string | null;
+    siswaDocId: string | null;
     nama: string | null;
     nisn: string | null;
     email: string | null;
     role: UserRole | null;
   } = {
+    uid: null,
+    siswaDocId: null,
     nama: null,
     nisn: null,
     email: null,
     role: null,
   };
 
-  // 1. Cek parameter URL terlebih dahulu
-  const urlParams = new URLSearchParams(window.location.search);
-  const paramNama = urlParams.get('nama');
-  const paramNisn = urlParams.get('nisn');
-  const paramEmail = urlParams.get('email');
-  const paramRole = urlParams.get('role');
-
+  if (paramUid) data.uid = decodeURIComponent(paramUid).trim();
   if (paramNama) data.nama = decodeURIComponent(paramNama).trim();
   if (paramNisn) data.nisn = paramNisn.trim();
   if (paramEmail) data.email = paramEmail.trim();
@@ -48,7 +125,13 @@ export function scanBrowserSession(): UserSession | null {
     }
   }
 
-  // 2. Cek kunci login standar dari halaman Login Firebase (userRole, userName, userNISN) & infoFun_*
+  // 2. Cek kunci login standar dari halaman Login Firebase & infoFun_*
+  const savedUid =
+    sessionStorage.getItem('infoFun_UID') ||
+    localStorage.getItem('infoFun_UID');
+  const savedDocId =
+    sessionStorage.getItem('infoFun_SiswaDocId') ||
+    localStorage.getItem('infoFun_SiswaDocId');
   const savedRole =
     sessionStorage.getItem('userRole') ||
     localStorage.getItem('userRole') ||
@@ -68,6 +151,8 @@ export function scanBrowserSession(): UserSession | null {
     sessionStorage.getItem('infoFun_Email') ||
     localStorage.getItem('infoFun_Email');
 
+  if (!data.uid && savedUid) data.uid = savedUid.trim();
+  if (!data.siswaDocId && savedDocId) data.siswaDocId = savedDocId.trim();
   if (!data.role && (savedRole === 'guru' || savedRole === 'siswa')) {
     data.role = savedRole;
   }
@@ -81,17 +166,15 @@ export function scanBrowserSession(): UserSession | null {
   if (!data.nisn && savedNisn) data.nisn = savedNisn.trim();
   if (!data.email && savedEmail) data.email = savedEmail.trim();
 
-  // 3. Pemindai storage kompatibilitas antar halaman (abaikan kunci internal SDK firebase:)
-  function pindaiStorage(storage: Storage) {
+  // 3. Pemindai storage kompatibilitas portal (WAJIB mengabaikan seluruh cache jawaban infoFun_*)
+  function pindaiStoragePortal(storage: Storage) {
     for (let i = 0; i < storage.length; i++) {
       const key = storage.key(i);
       if (
         !key ||
         key.startsWith('firebase:') ||
-        key.startsWith('infoFun_Progres_') ||
+        key.startsWith('infoFun_') ||
         key.startsWith('progresBelajar_') ||
-        key.startsWith('infoFun_Catatan_') ||
-        key === 'infoFun_LoggedOut' ||
         key === 'currentUserId'
       ) {
         continue;
@@ -104,6 +187,10 @@ export function scanBrowserSession(): UserSession | null {
       if (valBersih.startsWith('{') && valBersih.endsWith('}')) {
         try {
           const obj = JSON.parse(valBersih) as Record<string, unknown>;
+          // Abaikan objek yang jelas merupakan rekaman jawaban/kuis
+          if ('jawaban' in obj || 'submitted' in obj || 'pgAnswers' in obj) {
+            continue;
+          }
           if (!data.nama && (obj.nama || obj.namaLengkap)) {
             data.nama = String(obj.nama || obj.namaLengkap).trim();
           }
@@ -159,8 +246,10 @@ export function scanBrowserSession(): UserSession | null {
     }
   }
 
-  pindaiStorage(sessionStorage);
-  pindaiStorage(localStorage);
+  if (!data.nisn && !data.email) {
+    pindaiStoragePortal(sessionStorage);
+    pindaiStoragePortal(localStorage);
+  }
 
   const isValidSiswa = Boolean(data.nama && data.nisn);
   const isValidGuru = Boolean(data.role === 'guru' && (data.email || data.nama));
@@ -172,15 +261,29 @@ export function scanBrowserSession(): UserSession | null {
   const resolvedRole: UserRole =
     data.role === 'guru' || (data.email && !data.nisn) ? 'guru' : 'siswa';
 
+  const canonicalUid = buildCanonicalUid({
+    role: resolvedRole,
+    nisn: data.nisn,
+    email: data.email || (resolvedRole === 'guru' ? data.nama : ''),
+    authUid: firebaseAuth.currentUser?.uid || data.uid,
+    siswaDocId: data.siswaDocId,
+  });
+
+  if (!canonicalUid) {
+    return null;
+  }
+
   const session: UserSession = {
+    uid: canonicalUid,
     nama:
       data.nama ||
       (resolvedRole === 'guru'
         ? data.email || 'Riski Amalia, S.Pd'
         : 'Pelajar'),
-    nisn: data.nisn || '',
+    nisn: resolvedRole === 'siswa' ? data.nisn || '' : '',
     email: data.email || '',
     role: resolvedRole,
+    ...(data.siswaDocId ? { siswaDocId: data.siswaDocId } : {}),
   };
 
   persistSession(session);
@@ -188,8 +291,24 @@ export function scanBrowserSession(): UserSession | null {
 }
 
 export function persistSession(session: UserSession): void {
+  const uid =
+    session.uid ||
+    buildCanonicalUid({
+      role: session.role,
+      nisn: session.nisn,
+      email: session.email,
+      siswaDocId: session.siswaDocId,
+    });
+
   localStorage.setItem('infoFun_LoggedOut', 'false');
+  localStorage.setItem('infoFun_UID', uid);
   localStorage.setItem('userRole', session.role);
+
+  if (session.siswaDocId) {
+    localStorage.setItem('infoFun_SiswaDocId', session.siswaDocId);
+  } else {
+    localStorage.removeItem('infoFun_SiswaDocId');
+  }
 
   if (session.role === 'siswa') {
     localStorage.setItem('userName', session.nama);
@@ -205,12 +324,7 @@ export function persistSession(session: UserSession): void {
   if (session.nisn) localStorage.setItem('infoFun_NISN', session.nisn);
   else localStorage.removeItem('infoFun_NISN');
   localStorage.setItem('infoFun_Role', session.role);
-  localStorage.setItem(
-    'currentUserId',
-    session.nisn ||
-      session.email.replace(/[^a-zA-Z0-9]/g, '_') ||
-      session.nama.replace(/\s+/g, '_')
-  );
+  localStorage.setItem('currentUserId', uid);
 }
 
 export function clearUserSession(): void {
@@ -218,16 +332,32 @@ export function clearUserSession(): void {
     // Abaikan jika sesi auth sudah berakhir
   });
 
-  localStorage.removeItem('userRole');
-  localStorage.removeItem('userName');
-  localStorage.removeItem('userNISN');
-  localStorage.removeItem('infoFun_Nama');
-  localStorage.removeItem('infoFun_Email');
-  localStorage.removeItem('infoFun_NISN');
-  localStorage.removeItem('infoFun_Role');
-  localStorage.removeItem('currentUserId');
+  const sessionKeysToRemove = [
+    'userRole',
+    'userName',
+    'userNISN',
+    'infoFun_UID',
+    'infoFun_SiswaDocId',
+    'infoFun_Nama',
+    'infoFun_Email',
+    'infoFun_NISN',
+    'infoFun_Role',
+    'currentUserId',
+  ];
+  sessionKeysToRemove.forEach((k) => localStorage.removeItem(k));
   sessionStorage.clear();
   localStorage.setItem('infoFun_LoggedOut', 'true');
+
+  // Bersihkan parameter login dari URL bila ada agar reload setelah logout tetap bersih
+  try {
+    const url = new URL(window.location.href);
+    ['nama', 'nisn', 'email', 'role', 'uid'].forEach((param) =>
+      url.searchParams.delete(param)
+    );
+    window.history.replaceState({}, '', url.toString());
+  } catch {
+    // Abaikan bila URL tidak dapat dimodifikasi
+  }
 }
 
 export function loadInitialSession(): UserSession | null {
@@ -241,13 +371,19 @@ export function getDisplayUserName(session: UserSession): string {
   return session.nama || 'Siswa';
 }
 
+/**
+ * Mengembalikan UID unik siswa/guru untuk penguncian penyimpanan jawaban & progres.
+ * Tidak pernah menggunakan nama siswa semata.
+ */
 export function getUserStorageIdentifier(session: UserSession): string {
-  if (session.role === 'guru') {
-    return session.email
-      ? session.email.replace(/[^a-zA-Z0-9]/g, '_')
-      : 'guru';
+  if (session.uid && session.uid.trim()) {
+    return session.uid.trim();
   }
-  return (
-    session.nisn || session.nama.replace(/\s+/g, '_').toLowerCase() || 'guest'
-  );
+  const computed = buildCanonicalUid({
+    role: session.role,
+    nisn: session.nisn,
+    email: session.email,
+    siswaDocId: session.siswaDocId,
+  });
+  return computed || 'guest';
 }

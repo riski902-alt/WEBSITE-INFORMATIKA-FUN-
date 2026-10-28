@@ -14,7 +14,6 @@ import {
 } from '@phosphor-icons/react';
 import {
   MENU_DEFINITIONS,
-  MateriCatalog,
   MateriItem,
   MenuId,
   StudentProgress,
@@ -23,13 +22,10 @@ import { countCompletedMenus, isMenuLocked } from '../utils/firebaseSync';
 
 interface LearningHeaderProps {
   materi: MateriItem;
-  materiCatalog: MateriCatalog;
-  meetingId: string;
   progress: StudentProgress;
   activeMenu: MenuId;
   lockedNotice: string | null;
   onSelectMenu: (menuId: MenuId) => void;
-  onSelectMeeting: (newMeetingId: string) => void;
 }
 
 const PROGRESS_WIDTH_CLASSES: Record<number, string> = {
@@ -65,32 +61,13 @@ function renderMenuIcon(menuId: MenuId) {
 
 export const LearningHeader: React.FC<LearningHeaderProps> = ({
   materi,
-  materiCatalog,
-  meetingId,
   progress,
   activeMenu,
   lockedNotice,
   onSelectMenu,
-  onSelectMeeting,
 }) => {
   const { completedCount, totalMenus, percentage } = countCompletedMenus(progress);
   const progressWidthClass = PROGRESS_WIDTH_CLASSES[completedCount] || 'w-0';
-
-  const allMeetingIds = Object.keys(materiCatalog);
-  const activeGradePrefix =
-    meetingId.match(/^(kelas\d+)/i)?.[1]?.toLowerCase() || 'kelas7';
-  const filteredMeetings = allMeetingIds.filter((id) =>
-    id.toLowerCase().startsWith(activeGradePrefix)
-  );
-
-  const handleGradeChange = (gradePrefix: string) => {
-    const firstInGrade = allMeetingIds.find((id) =>
-      id.toLowerCase().startsWith(gradePrefix)
-    );
-    if (firstInGrade) {
-      onSelectMeeting(firstInGrade);
-    }
-  };
 
   return (
     <section className="pt-[26px] pb-[10px] px-[5%] flex flex-col gap-[15px]">
@@ -108,45 +85,14 @@ export const LearningHeader: React.FC<LearningHeaderProps> = ({
           </div>
         </div>
 
-        {/* Informasi Pertemuan & Pemilih Cepat Kelas/Pertemuan */}
-        <div className="mt-3 pt-3 border-t border-dashed border-white/20 flex flex-wrap items-center justify-between gap-2.5 mb-3.5">
+        {/* Informasi Pertemuan */}
+        <div className="mt-3 pt-3 border-t border-dashed border-white/20 flex flex-wrap items-center gap-2.5 mb-3.5">
           <span
             id="pertemuan-info"
             className="inline-block bg-[#D8BD7B] text-[#1E3A5F] px-3 py-1 rounded-md text-[0.85rem] font-bold font-[var(--font-nav)]"
           >
             {materi.judul_pertemuan}
           </span>
-
-          <div className="flex flex-wrap items-center gap-2">
-            <select
-              aria-label="Pilih Kelas"
-              value={activeGradePrefix}
-              onChange={(e) => handleGradeChange(e.target.value)}
-              className="bg-[#152C5B] text-[#88D4AB] border border-[#88D4AB]/60 rounded-lg px-2.5 py-1 text-xs font-bold font-[var(--font-nav)] focus:outline-none cursor-pointer"
-            >
-              <option value="kelas7">Kelas 7</option>
-              <option value="kelas8">Kelas 8</option>
-              <option value="kelas9">Kelas 9</option>
-            </select>
-
-            <select
-              aria-label="Pilih Pertemuan"
-              value={meetingId}
-              onChange={(e) => onSelectMeeting(e.target.value)}
-              className="bg-[#152C5B] text-white border border-white/30 rounded-lg px-2.5 py-1 text-xs font-semibold font-[var(--font-nav)] max-w-[260px] sm:max-w-[340px] truncate focus:outline-none cursor-pointer"
-            >
-              {filteredMeetings.map((id) => {
-                const item = materiCatalog[id];
-                const shortBab =
-                  item?.judul_bab?.split(':')[0]?.trim() || id;
-                return (
-                  <option key={id} value={id}>
-                    {shortBab} — {item?.judul_pertemuan || id}
-                  </option>
-                );
-              })}
-            </select>
-          </div>
         </div>
 
         {/* Bagian Progres Pembelajaran */}

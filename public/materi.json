@@ -809,7 +809,7 @@
     "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
     "judul_pertemuan": "Pertemuan 5: Penerapan Struktur Data (List) dan Algoritma Sederhana di Scratch",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika.</p><h3>Topik:</h3><p></p>",
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat variabel pengingat nilai serta mengolah data masukan dari pengguna melalui operator matematika/logika.</p><h3>Topik:</h3><p>Penerapan Variabel, Struktur Data (List), dan Operator Matematika/Logika Dasar di Scratch</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab1/p5-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p5-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p5-eksplorasi.html",
@@ -835,7 +835,7 @@
     "judul_bab": "Bab 1: Berpikir Komputasional dalam Pemecahan Masalah",
     "judul_pertemuan": "Pertemuan 7: Pembuatan, Pengujian, dan Perbaikan (Debugging) Kode Proyek Scratch secara Mandiri/Kelompok",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.</p><h3>Topik:</h3><p> Penerapan Struktur Kontrol Perulangan (Looping: Repeat, Forever) untuk Efisiensi Langkah Pemrograman di Scratch</p>",
+      "atp": "<h3>Elemen:</h3><p>Berpikir Komputasional</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu menerapkan berpikir komputasional untuk problem dalam kehidupan sehari-hari maupun dalam menghadapi masalah komputasi.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengodekan program Scratch sesuai rancangan serta menemukan dan memperbaiki kesalahan (debugging) kode.</p><h3>Topik:</h3><p>Pembuatan, Pengujian, dan Perbaikan (Debugging) Kode Proyek Scratch secara Mandiri/Kelompok</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab1/p7-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab1/p7-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab1/p7-eksplorasi.html",
@@ -861,7 +861,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 1: Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi.</p><h3>Topik:</h3><p>Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengidentifikasi berbagai bentuk dan karakteristik platform ruang publik virtual tempat masyarakat berinteraksi.</p><h3>Topik:</h3><p>Pengenalan Ruang Publik Virtual: Jenis, Bentuk, dan Platform Interaksi Digital (Media Sosial, Forum, Platform Kolaborasi)</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p1-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p1-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p1-eksplorasi.html",
@@ -874,7 +874,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 2: Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat.</p><h3>Topik:</h3><p>Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menganalisis dinamika ruang publik virtual dan menerapkan aturan kewargaan digital saat mengekspresikan pendapat.</p><h3>Topik:</h3><p>Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p2-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p2-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p2-eksplorasi.html",
@@ -887,7 +887,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 3: Pengenalan Perangkat Teknologi Digital untuk Produksi Konten (Aplikasi Desain Visual, Pengolah Teks, & Multimedia)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>MMurid mampu memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi.</p><h3>Topik:</h3><p>Pengenalan Perangkat Teknologi Digital untuk Produksi Konten</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>MMurid mampu memilih dan mengoperasikan software desain grafis atau penyunting video dasar untuk membuat media komunikasi.</p><h3>Topik:</h3><p>Pengenalan Perangkat Teknologi Digital untuk Produksi Konten</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p3-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p3-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p3-eksplorasi.html",
@@ -900,7 +900,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 4: Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif (Infografis, Poster, atau Video Pendek)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek.</p><h3>Topik:</h3><p>Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Perangkat Teknologi Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu membuat karya konten kreatif bertema pesan edukatif/positif dalam format infografis atau video pendek.</p><h3>Topik:</h3><p>Praktik Perancangan dan Pembuatan Konten Digital Positif/Edukatif</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p4-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p4-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p4-eksplorasi.html",
@@ -913,7 +913,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 5: Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah.</p><h3>Topik:</h3><p>Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu memahami prinsip lisensi/hak cipta konten karya orang lain serta mekanisme publikasi materi secara sah.</p><h3>Topik:</h3><p>Konsep Diseminasi Konten Digital: Pengenalan Saluran Distribusi, Hak Cipta (Copyright), dan Etika Penyebaran Informasi</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p5-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p5-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p5-eksplorasi.html",
@@ -926,7 +926,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 6: Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi.</p><h3>Topik:</h3><p>Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mempublikasikan karya konten edukatif ke kanal digital sekolah/publik dengan memperhatikan aspek keamanan dan privasi.</p><h3>Topik:</h3><p>Praktik Diseminasi Konten Positif ke Ruang Publik Virtual secara Bijak, Aman, dan Bertanggung Jawab</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p6-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p6-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p6-eksplorasi.html",
@@ -939,7 +939,7 @@
     "judul_bab": "Bab 2: Ruang Publik Virtual & Diseminasi Konten",
     "judul_pertemuan": "Pertemuan 7: Pameran Karya Konten Digital Positif, Evaluasi Hasil Diseminasi, dan Refleksi Ruang Publik Virtual",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten serta mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya.</p><h3>Topik:</h3><p>Karakteristik Ruang Publik Virtual, Etika Berinteraksi, serta Aturan Kewargaan Digital</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Ruang Publik Virtual</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pemanfaatan perangkat teknologi digital untuk produksi dan diseminasi konten serta mengetahui jenis ruang publik virtual.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menampilkan karya digital dalam pameran virtual/kelas serta mengevaluasi jangkauan dampak positif kontennya.</p><h3>Topik:</h3><p>Pameran Karya Konten Digital Positif, Evaluasi Hasil Diseminasi, dan Refleksi Ruang Publik Virtual</p>",
       "asesmen-awal": "materi/kelas9/sem1/bab2/p7-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem1/bab2/p7-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem1/bab2/p7-eksplorasi.html",
@@ -952,7 +952,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 1: Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.</p><h3>Topik:</h3><p>Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menjelaskan cara kerja berbagai varian malware (virus, trojan, ransomware, spyware) dan potensi kerusakannya.</p><h3>Topik:</h3><p>Pengenalan Ancaman Siber & Jenis-Jenis Malware (Virus, Trojan, Ransomware, Spyware)</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p1-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p1-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p1-eksplorasi.html",
@@ -965,7 +965,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 2: Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.</p><h3>Topik:</h3><p>Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari berbagai jenis malware.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu menerapkan langkah proteksi perangkat keras dan lunak melalui instalasi antivirus, pembaharuan patch, dan penyetelan firewall.</p><h3>Topik:</h3><p>Strategi dan Praktik Pengamanan Perangkat (Antivirus, Firewall, & Update Sistem/Aplikasi)</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p2-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p2-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p2-eksplorasi.html",
@@ -978,7 +978,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 3: Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.</p><h3>Topik:</h3><p>Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu merancang kata sandi yang kuat (kombinasi huruf, angka, simbol) dan mengelola kredensial menggunakan password manager.</p><h3>Topik:</h3><p>Konsep Kredensial & Pembuatan Kata Sandi yang Aman (Kombinasi Karakter & Password Manager)</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p3-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p3-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p3-eksplorasi.html",
@@ -991,7 +991,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 4: Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.</p><h3>Topik:</h3><p>Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu membuat kata sandi yang aman.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengaktifkan dan mengonfigurasi autentikasi dua faktor (2FA) pada berbagai akun platform digital untuk mencegah pembajakan.</p><h3>Topik:</h3><p>Autentikasi Tambahan: Two-Factor Authentication (2FA) & Pengelolaan Akses Akun Digital</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p4-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p4-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p4-eksplorasi.html",
@@ -1004,7 +1004,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 5: Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.</p><h3>Topik:</h3><p>Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengelompokkan data pribadi sensitif (privat) dan data umum (publik) yang aman atau bahaya untuk dibagikan.</p><h3>Topik:</h3><p>Klasifikasi Informasi: Memilah Informasi Privat vs. Informasi Publik di Dunia Digital</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p5-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p5-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p5-eksplorasi.html",
@@ -1017,7 +1017,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 6: Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.</p><h3>Topik:</h3><p>Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memilah informasi yang bersifat privat dan publik.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengevaluasi risiko kebocoran data saat mengunggah foto/dokumen di media sosial dan membatasi izin akses aplikasi.</p><h3>Topik:</h3><p>Etika Berbagi & Pencegahan Kebocoran Informasi Personal di Media Sosial dan Platform Online</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p6-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p6-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p6-eksplorasi.html",
@@ -1030,7 +1030,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 7: Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.</p><h3>Topik:</h3><p>Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu mengenali indikasi penipuan phishing dan doxxing serta mempraktikkan cara mengamankan identitas digital secara responsif.</p><h3>Topik:</h3><p>Perhitungan Risiko, Perlindungan Data Pribadi, Identitas Digital, & Mitigasi Phishing/Doxxing</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p7-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p7-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p7-eksplorasi.html",
@@ -1043,7 +1043,7 @@
     "judul_bab": "Bab 3: Keamanan Digital",
     "judul_pertemuan": "Pertemuan 8: Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety",
     "konten": {
-      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p></h3><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari malware, membuat kata sandi aman, memilah informasi privat/publik, serta melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.</p><h3>Topik:</h3><p>Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety</p>",
+      "atp": "<h3>Elemen:</h3><p>Literasi Digital</p><p>Keamanan Digital</p><h3>Capaian Pembelajaran:</h3><p>Murid mampu memahami pengamanan perangkat dari malware, membuat kata sandi aman, memilah informasi privat/publik, serta melindungi data pribadi dan identitas digital.</p><h3>Tujuan Pembelajaran:</h3><p>Murid mampu melakukan audit ketahanan keamanan akun/perangkat milik sendiri serta menyajikan panduan keselamatan digital bagi teman sebaya.</p><h3>Topik:</h3><p>Audit Keamanan Digital Mandiri & Proyek Kampanye Digital Safety</p>",
       "asesmen-awal": "materi/kelas9/sem2/bab3/p8-asesmen.html",
       "pertanyaan-esensial": "materi/kelas9/sem2/bab3/p8-pertanyaan.html",
       "eksplorasi-konsep": "materi/kelas9/sem2/bab3/p8-eksplorasi.html",

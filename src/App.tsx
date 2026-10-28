@@ -17,9 +17,12 @@ import {
 import {
   completeMenuStage,
   createDefaultProgress,
+  hydrateMeetingWorkspace,
   isMenuLocked,
   loadMeetingProgress,
+  normalizeCanonicalMeetingId,
   saveMeetingProgress,
+  subscribeWorkspaceUpdates,
 } from './utils/firebaseSync';
 import { parseATPSections } from './utils/normalizeAssessment';
 import { parseJsonTolerant } from './utils/komponen-asesmenawal';
@@ -57,6 +60,7 @@ export const App: React.FC = () => {
     createDefaultProgress()
   );
   const [lockedNotice, setLockedNotice] = useState<string | null>(null);
+  const [workspaceSyncRev, setWorkspaceSyncRev] = useState<number>(0);
 
   // Muat katalog utama materi.json dan atp.json
   useEffect(() => {
@@ -132,9 +136,11 @@ export const App: React.FC = () => {
     [session]
   );
 
-  // Sinkronkan progres setiap kali meetingId atau userKey berubah
+  // Sinkronkan progres lokal & pulihkan data lintas perangkat setiap kali meetingId atau userKey berubah
   useEffect(() => {
     if (!meetingId) return;
+    let cancelled = false;
+
     const loaded = loadMeetingProgress(userKey, meetingId);
     setProgress(loaded);
     setLockedNotice(null);
@@ -144,11 +150,45 @@ export const App: React.FC = () => {
     const url = new URL(window.location.href);
     url.searchParams.set('id', meetingId);
     window.history.replaceState({}, '', url.toString());
+
+    const runHydration = () => {
+      if (!userKey || userKey === 'guest') return;
+      hydrateMeetingWorkspace(userKey, meetingId).then((changed) => {
+        if (cancelled || !changed) return;
+        const refreshed = loadMeetingProgress(userKey, meetingId);
+        setProgress(refreshed);
+        setActiveMenu((prev) => (isMenuLocked(refreshed, prev) ? 'atp' : prev));
+        setWorkspaceSyncRev((r) => r + 1);
+      });
+    };
+
+    runHydration();
+
+    const unsubscribe = subscribeWorkspaceUpdates((info) => {
+      if (cancelled) return;
+      if (
+        info.uid === userKey &&
+        normalizeCanonicalMeetingId(info.meetingId) ===
+          normalizeCanonicalMeetingId(meetingId) &&
+        info.slot === 'progress'
+      ) {
+        const refreshed = loadMeetingProgress(userKey, meetingId);
+        setProgress(refreshed);
+      }
+    });
+
+    window.addEventListener('focus', runHydration);
+    return () => {
+      cancelled = true;
+      unsubscribe();
+      window.removeEventListener('focus', runHydration);
+    };
   }, [userKey, meetingId]);
 
   const currentMateri = useMemo(() => {
     if (!materiCatalog || !meetingId) return null;
-    return materiCatalog[meetingId] || null;
+    const canonical = normalizeCanonicalMeetingId(meetingId);
+    return materiCatalog[meetingId] || materiCatalog[canonical] || null;
   }, [materiCatalog, meetingId]);
 
   const currentATPSections = useMemo(() => {
@@ -160,8 +200,12 @@ export const App: React.FC = () => {
         topik: '',
       };
     }
+    const canonical = normalizeCanonicalMeetingId(meetingId);
     const rawHtml =
-      atpCatalog[meetingId]?.konten || currentMateri?.konten?.atp || '';
+      atpCatalog[meetingId]?.konten ||
+      atpCatalog[canonical]?.konten ||
+      currentMateri?.konten?.atp ||
+      '';
     return parseATPSections(rawHtml);
   }, [atpCatalog, currentMateri, meetingId]);
 
@@ -173,6 +217,9 @@ export const App: React.FC = () => {
   const handleLogout = () => {
     clearUserSession();
     setSession(null);
+    setProgress(createDefaultProgress());
+    setActiveMenu('atp');
+    setLockedNotice(null);
   };
 
   const handleSelectMenu = (menuId: MenuId) => {
@@ -262,13 +309,10 @@ export const App: React.FC = () => {
         <>
           <LearningHeader
             materi={currentMateri}
-            materiCatalog={materiCatalog}
-            meetingId={meetingId}
             progress={progress}
             activeMenu={activeMenu}
             lockedNotice={lockedNotice}
             onSelectMenu={handleSelectMenu}
-            onSelectMeeting={(nextId) => setMeetingId(nextId)}
           />
 
           <main id="dynamic-content-area" className="px-[5%] pt-4 pb-8">
@@ -281,6 +325,7 @@ export const App: React.FC = () => {
               />
             ) : activeMenu === 'asesmen-awal' ? (
               <AsesmenAwalView
+                key={`aa_${userKey}_${meetingId}_${workspaceSyncRev}`}
                 meetingId={meetingId}
                 userKey={userKey}
                 isCompleted={progress['asesmen-awal'] === 'completed'}
@@ -290,6 +335,7 @@ export const App: React.FC = () => {
               />
             ) : activeMenu === 'pertanyaan-esensial' ? (
               <PertanyaanEsensialView
+                key={`pe_${userKey}_${meetingId}_${workspaceSyncRev}`}
                 meetingId={meetingId}
                 userKey={userKey}
                 judulPertemuan={currentMateri.judul_pertemuan}
@@ -304,6 +350,7 @@ export const App: React.FC = () => {
               />
             ) : activeMenu === 'eksplorasi-konsep' ? (
               <EksplorasiKonsepView
+                key={`ek_${userKey}_${meetingId}_${workspaceSyncRev}`}
                 meetingId={meetingId}
                 userKey={userKey}
                 judulBab={currentMateri.judul_bab}

@@ -1,15 +1,10 @@
 import {
-  doc,
-  getDoc,
-  onSnapshot,
-  serverTimestamp,
-  setDoc,
-} from 'firebase/firestore';
-import { firebaseDb } from './firebaseClient';
+  saveNonDbMenuRecord,
+  subscribeNonDbMenuRecord,
+} from './firebaseSync';
 import { parseJsonTolerant } from './komponen-asesmenawal';
 
 const BOBOT_PER_SOAL = 12.5;
-const KOLEKSI_FOR_LEARNING = 'for_learning_jawaban';
 
 let cachedForLearningCatalog = null;
 
@@ -631,40 +626,28 @@ export function formatAngkaPoin(nilai) {
   return rounded.toFixed(1).replace('.', ',');
 }
 
-function buatIdDokumenSiswaPertemuan(userKey, canonicalMeetingId) {
-  const safeUser = String(userKey || 'guest')
-    .trim()
-    .replace(/[^a-zA-Z0-9_-]/g, '_')
-    .slice(0, 64);
-  const safeMeeting = String(canonicalMeetingId || 'pertemuan')
-    .trim()
-    .replace(/[^a-zA-Z0-9_-]/g, '_')
-    .slice(0, 64);
-  return `${safeUser}__${safeMeeting}`;
-}
-
-function buatKunciLokalForLearning(userKey, canonicalMeetingId) {
-  return `infoFun_ForLearning_${userKey}_${canonicalMeetingId}`;
-}
-
 function ekstrakInfoKelasBab(canonicalMeetingId) {
-  const m = canonicalMeetingId.match(
+  const match = String(canonicalMeetingId || '').match(
     /^kelas(\d+)-sem(\d+)-bab(\d+)-pertemuan(\d+)$/i
   );
-  if (!m) {
-    return { kelas: '', semester: '', kodeBab: '', nomorPertemuan: '' };
+  if (!match) {
+    return {
+      kelas: 'SMP',
+      semester: '-',
+      kodeBab: '-',
+    };
   }
   return {
-    kelas: `Kelas ${m[1]}`,
-    semester: `Semester ${m[2]}`,
-    kodeBab: `Bab ${m[3]}`,
-    nomorPertemuan: m[4],
+    kelas: `Kelas ${match[1]}`,
+    semester: `Semester ${match[2]}`,
+    kodeBab: `Bab ${match[3]}`,
   };
 }
 
 /**
- * Menyimpan jawaban dan poin siswa secara real-time ke Firebase Firestore
- * dengan dokumen deterministik per akun siswa + pertemuan (tanpa poin ganda).
+ * Menyimpan jawaban dan poin siswa secara terisolasi per UID siswa + kelas + pertemuan + menu
+ * pada ruang kerja non-database Firebase (IndexedDB + localStorage + Cloud Storage object delta sync)
+ * TANPA menulis ke Cloud Firestore maupun Firebase Realtime Database.
  */
 export async function simpanJawabanForLearningKeDatabase({
   session,
@@ -678,8 +661,9 @@ export async function simpanJawabanForLearningKeDatabase({
   const canonicalMeetingId = normalisasiIdPertemuanForLearning(meetingId);
   const evaluasi = evaluasiJawabanForLearning(daftarSoal, jawabanMap);
   const savedAtIso = new Date().toISOString();
+  const effectiveUid = String(session?.uid || userKey || '').trim();
 
-  if (!session || !userKey || userKey === 'guest') {
+  if (!session || !effectiveUid || effectiveUid === 'guest') {
     return {
       ok: false,
       evaluasi,
@@ -689,7 +673,6 @@ export async function simpanJawabanForLearningKeDatabase({
     };
   }
 
-  // Siapkan payload bersih tanpa nilai undefined untuk Firestore
   const jawabanBersih = {};
   const ringkasanPerSoal = {};
 
@@ -713,52 +696,33 @@ export async function simpanJawabanForLearningKeDatabase({
   });
 
   const infoMeta = ekstrakInfoKelasBab(canonicalMeetingId);
-  const docId = buatIdDokumenSiswaPertemuan(userKey, canonicalMeetingId);
-  const docRef = doc(firebaseDb, KOLEKSI_FOR_LEARNING, docId);
-
-  const firestorePayload = {
-    studentKey: String(userKey),
-    nama: String(session.nama || '').slice(0, 120),
-    nisn: String(session.nisn || '').slice(0, 40),
-    email: String(session.email || '').slice(0, 120),
-    role: String(session.role || 'siswa'),
+  const recordPayload = {
+    uid: effectiveUid,
+    studentKey: effectiveUid,
     kelas: infoMeta.kelas,
     semester: infoMeta.semester,
     bab: String(judulBab || infoMeta.kodeBab).slice(0, 200),
     pertemuanId: canonicalMeetingId,
     judulPertemuan: String(judulPertemuan || '').slice(0, 200),
+    menu: 'for-learning',
     jawaban: jawabanBersih,
     ringkasanPerSoal,
-    jumlahBenar: evaluasi.jumlahBenar,
-    totalSoal: evaluasi.totalSoal,
     poinDiperoleh: evaluasi.poinDiperoleh,
     skorMaksimal: evaluasi.skorMaksimal,
+    jumlahBenar: evaluasi.jumlahBenar,
+    totalSoal: evaluasi.totalSoal,
     submitted: true,
     savedAtIso,
-    updatedAt: serverTimestamp(),
   };
 
   try {
-    await setDoc(docRef, firestorePayload);
-
-    // Sinkronkan juga salinan ke localStorage khusus akun siswa ini agar instan saat reload
-    const localRecord = {
-      jawaban: jawabanBersih,
-      poinDiperoleh: evaluasi.poinDiperoleh,
-      skorMaksimal: evaluasi.skorMaksimal,
-      jumlahBenar: evaluasi.jumlahBenar,
-      totalSoal: evaluasi.totalSoal,
-      submitted: true,
-      savedAtIso,
-    };
-    try {
-      localStorage.setItem(
-        buatKunciLokalForLearning(userKey, canonicalMeetingId),
-        JSON.stringify(localRecord)
-      );
-    } catch {
-      // Abaikan jika localStorage penuh
-    }
+    await saveNonDbMenuRecord({
+      uid: effectiveUid,
+      meetingId: canonicalMeetingId,
+      menu: 'for-learning',
+      data: recordPayload,
+      updatedAtIso: savedAtIso,
+    });
 
     return {
       ok: true,
@@ -766,20 +730,20 @@ export async function simpanJawabanForLearningKeDatabase({
       savedAtIso,
     };
   } catch (err) {
-    console.error('Gagal menyimpan jawaban For Learning ke Firestore:', err);
+    console.error('Gagal menyimpan jawaban For Learning:', err);
     return {
       ok: false,
       evaluasi,
       savedAtIso,
-      errorMessage:
-        'Gagal menyimpan, silakan coba kembali. Pastikan koneksi internet stabil.',
+      errorMessage: 'Gagal menyimpan, silakan coba kembali.',
     };
   }
 }
 
 /**
- * Berlangganan perubahan data jawaban siswa secara real-time dari Firestore
- * (dengan pemulihan awal dari cache akun siswa yang sama bila ada).
+ * Memulihkan serta berlangganan pembaruan jawaban For Learning per UID siswa
+ * dari ruang kerja non-database (localStorage + IndexedDB + Cloud Storage object sync)
+ * dengan resolusi konflik otomatis (timestamp terbaru selalu menang).
  */
 export function langgananJawabanForLearning(userKey, meetingId, onData) {
   const canonicalMeetingId = normalisasiIdPertemuanForLearning(meetingId);
@@ -788,89 +752,26 @@ export function langgananJawabanForLearning(userKey, meetingId, onData) {
     return () => {};
   }
 
-  const localKey = buatKunciLokalForLearning(userKey, canonicalMeetingId);
-  let resolvedFromServer = false;
-
-  // Tampilkan data tersimpan lokal milik siswa tersebut terlebih dahulu jika tersedia
-  try {
-    const rawLocal = localStorage.getItem(localKey);
-    if (rawLocal) {
-      const parsedLocal = JSON.parse(rawLocal);
-      if (parsedLocal && parsedLocal.submitted && parsedLocal.jawaban) {
-        onData(parsedLocal);
-      }
-    }
-  } catch {
-    // Abaikan cache lokal yang rusak
-  }
-
-  const docId = buatIdDokumenSiswaPertemuan(userKey, canonicalMeetingId);
-  const docRef = doc(firebaseDb, KOLEKSI_FOR_LEARNING, docId);
-
-  const unsubscribe = onSnapshot(
-    docRef,
-    (snap) => {
-      resolvedFromServer = true;
-      if (!snap.exists()) {
-        // Jika belum ada di Firestore dan tidak ada di local, kirim null
-        const hasLocal = Boolean(localStorage.getItem(localKey));
-        if (!hasLocal) {
-          onData(null);
-        }
+  return subscribeNonDbMenuRecord(
+    userKey,
+    canonicalMeetingId,
+    'for-learning',
+    (envelope) => {
+      const data = envelope?.data;
+      if (!data || typeof data !== 'object' || !data.submitted) {
+        onData(null);
         return;
       }
 
-      const data = snap.data();
-      // Pastikan identitas pemilik dokumen sesuai dengan akun siswa aktif
-      if (data.studentKey && data.studentKey !== userKey) {
-        return;
-      }
-
-      const record = {
+      onData({
         jawaban: data.jawaban || {},
         poinDiperoleh: Number(data.poinDiperoleh || 0),
         skorMaksimal: Number(data.skorMaksimal || 100),
         jumlahBenar: Number(data.jumlahBenar || 0),
         totalSoal: Number(data.totalSoal || 8),
         submitted: Boolean(data.submitted),
-        savedAtIso: String(data.savedAtIso || ''),
-      };
-
-      try {
-        localStorage.setItem(localKey, JSON.stringify(record));
-      } catch {
-        // Abaikan jika kuota penuh
-      }
-
-      onData(record);
-    },
-    (err) => {
-      // Fallback satu kali getDoc apabila listener real-time terputus
-      console.warn('Listener For Learning beralih ke pembacaan standar:', err);
-      if (!resolvedFromServer) {
-        getDoc(docRef)
-          .then((snap) => {
-            if (snap.exists()) {
-              const data = snap.data();
-              if (!data.studentKey || data.studentKey === userKey) {
-                onData({
-                  jawaban: data.jawaban || {},
-                  poinDiperoleh: Number(data.poinDiperoleh || 0),
-                  skorMaksimal: Number(data.skorMaksimal || 100),
-                  jumlahBenar: Number(data.jumlahBenar || 0),
-                  totalSoal: Number(data.totalSoal || 8),
-                  submitted: Boolean(data.submitted),
-                  savedAtIso: String(data.savedAtIso || ''),
-                });
-              }
-            }
-          })
-          .catch(() => {
-            // Tetap aman menggunakan data yang sudah dimuat
-          });
-      }
+        savedAtIso: String(data.savedAtIso || envelope.updatedAtIso || ''),
+      });
     }
   );
-
-  return unsubscribe;
 }

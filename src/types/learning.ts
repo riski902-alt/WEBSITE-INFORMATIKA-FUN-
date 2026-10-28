@@ -68,10 +68,12 @@ export type StudentProgress = Record<MenuId, MenuStatus>;
 export type UserRole = 'siswa' | 'guru';
 
 export interface UserSession {
+  uid: string;
   nama: string;
   nisn: string;
   email: string;
   role: UserRole;
+  siswaDocId?: string;
 }
 
 export interface MateriItem {

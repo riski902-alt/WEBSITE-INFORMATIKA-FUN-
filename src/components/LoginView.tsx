@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { UserRole, UserSession } from '../types/learning';
+import { buildCanonicalUid } from '../utils/authSession';
 import { firebaseAuth, firebaseDb } from '../utils/firebaseClient';
 
 interface LoginViewProps {
@@ -78,6 +79,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
 
         let siswaCocok = false;
         let namaTerdaftar = namaInput;
+        let matchedDocId = '';
 
         querySnapshot.forEach((docSnap) => {
           const data = docSnap.data() as Record<string, unknown>;
@@ -95,6 +97,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
               ) {
                 siswaCocok = true;
                 namaTerdaftar = isiNamaDatabase.trim();
+                matchedDocId = docSnap.id;
                 break;
               }
             }
@@ -102,6 +105,17 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
         });
 
         if (siswaCocok) {
+          const studentUid = buildCanonicalUid({
+            role: 'siswa',
+            nisn: nisnInput,
+            siswaDocId: matchedDocId,
+          });
+
+          localStorage.setItem('infoFun_LoggedOut', 'false');
+          localStorage.setItem('infoFun_UID', studentUid);
+          if (matchedDocId) {
+            localStorage.setItem('infoFun_SiswaDocId', matchedDocId);
+          }
           localStorage.setItem('userRole', 'siswa');
           localStorage.setItem('userName', namaTerdaftar);
           localStorage.setItem('userNISN', nisnInput);
@@ -113,10 +127,12 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
 
           setTimeout(() => {
             onLogin({
+              uid: studentUid,
               nama: namaTerdaftar,
               nisn: nisnInput,
               email: '',
               role: 'siswa',
+              ...(matchedDocId ? { siswaDocId: matchedDocId } : {}),
             });
           }, 700);
         } else {
@@ -159,6 +175,14 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
           passwordInput
         );
 
+        const guruUid = buildCanonicalUid({
+          role: 'guru',
+          email: emailInput,
+          authUid: credential.user.uid,
+        });
+
+        localStorage.setItem('infoFun_LoggedOut', 'false');
+        localStorage.setItem('infoFun_UID', guruUid);
         localStorage.setItem('userRole', 'guru');
         localStorage.setItem('userName', emailInput);
 
@@ -172,6 +196,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLogin }) => {
 
         setTimeout(() => {
           onLogin({
+            uid: guruUid,
             nama: guruDisplayName,
             nisn: '',
             email: emailInput,

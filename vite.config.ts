@@ -19,6 +19,7 @@ export default defineConfig(({ command }) => ({
       'firebase/app',
       'firebase/auth',
       'firebase/firestore',
+      'firebase/storage',
     ],
   },
   server: {

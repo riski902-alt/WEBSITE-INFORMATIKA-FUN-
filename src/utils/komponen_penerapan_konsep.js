@@ -825,8 +825,51 @@ function hapusDrafLokalPenerapan(userKey, canonical) {
   }
 }
 
+function ekstrakMetadataPertemuanPenerapan(canonicalMeetingId) {
+  const m = String(canonicalMeetingId || '').match(
+    /^kelas(\d+)-sem(\d+)-bab(\d+)-pertemuan(\d+)$/i
+  );
+  if (!m) {
+    return {
+      kelas: 'SMP',
+      kodeKelas: 'umum',
+      semester: 'Semester Aktif',
+    };
+  }
+  return {
+    kelas: `Kelas ${m[1]}`,
+    kodeKelas: `kelas${m[1]}`,
+    semester: `Semester ${m[2]}`,
+  };
+}
+
+function ekstrakLegacyKeyDariUid(uid) {
+  const str = String(uid || '').trim();
+  if (str.startsWith('uid_siswa_')) {
+    return str.slice('uid_siswa_'.length);
+  }
+  if (str.startsWith('uid_guru_')) {
+    return str.slice('uid_guru_'.length);
+  }
+  return '';
+}
+
+function ambilTimestampRekamanPenerapan(obj) {
+  if (!obj || typeof obj !== 'object') return 0;
+  if (typeof obj.savedAtMs === 'number' && Number.isFinite(obj.savedAtMs)) {
+    return obj.savedAtMs;
+  }
+  if (obj.savedAtIso) {
+    const parsed = Date.parse(String(obj.savedAtIso));
+    if (Number.isFinite(parsed)) return parsed;
+  }
+  return 0;
+}
+
 /**
- * Menyimpan jawaban akhir Penerapan Konsep ke Firebase Firestore & penyimpanan lokal akun siswa.
+ * Menyimpan jawaban akhir Penerapan Konsep ke Cloud Firestore Database (`penerapan_konsep_jawaban`)
+ * secara real-time berdasarkan UID unik siswa, terhubung dengan kelas, pertemuan, dan menu,
+ * serta menggunakan 1 dokumen deterministik tanpa duplikasi saat diperbarui.
  */
 export async function simpanJawabanPenerapanKeDatabase({
   session,
@@ -838,30 +881,38 @@ export async function simpanJawabanPenerapanKeDatabase({
   jawaban,
 }) {
   const canonicalMeetingId = normalisasiIdPertemuanPenerapan(meetingId);
-  const savedAtIso = new Date().toISOString();
+  const savedAtMs = Date.now();
+  const savedAtIso = new Date(savedAtMs).toISOString();
+  const effectiveUid = String(session?.uid || userKey || '').trim();
+  const infoMeta = ekstrakMetadataPertemuanPenerapan(canonicalMeetingId);
 
-  // Pastikan bebas dari nested array murni agar 100% kompatibel dengan Firestore
+  // Pastikan bebas dari nested array murni agar 100% kompatibel dengan Cloud Firestore
   const jawabanAman = gabungkanJawabanPenerapan(aktivitas, jawaban);
 
   const localRecord = {
+    uid: effectiveUid,
+    kelas: infoMeta.kelas,
+    pertemuanId: canonicalMeetingId,
+    menu: 'penerapan-konsep',
     jawaban: jawabanAman,
     tipeAktivitas: aktivitas.tipe,
     modeInteraksi: aktivitas.modeInteraksi,
     submitted: true,
     savedAtIso,
+    savedAtMs,
   };
 
   try {
     localStorage.setItem(
-      buatKunciTersimpanLokal(userKey, canonicalMeetingId),
+      buatKunciTersimpanLokal(effectiveUid || userKey, canonicalMeetingId),
       JSON.stringify(localRecord)
     );
-    hapusDrafLokalPenerapan(userKey, canonicalMeetingId);
+    hapusDrafLokalPenerapan(effectiveUid || userKey, canonicalMeetingId);
   } catch {
     // Abaikan jika kuota penyimpanan lokal penuh
   }
 
-  if (!userKey || userKey === 'guest') {
+  if (!effectiveUid || effectiveUid === 'guest') {
     return {
       ok: true,
       syncedToCloud: false,
@@ -869,16 +920,22 @@ export async function simpanJawabanPenerapanKeDatabase({
     };
   }
 
-  const docId = buatIdDokumenSiswa(userKey, canonicalMeetingId);
+  const docId = buatIdDokumenSiswa(effectiveUid, canonicalMeetingId);
   const docRef = doc(firebaseDb, KOLEKSI_PENERAPAN_KONSEP, docId);
 
   const firestorePayload = {
-    studentKey: String(userKey),
+    uid: effectiveUid,
+    studentKey: effectiveUid,
+    siswaDocId: String(session?.siswaDocId || ''),
     nama: String(session?.nama || '').slice(0, 120),
     nisn: String(session?.nisn || '').slice(0, 40),
     email: String(session?.email || '').slice(0, 120),
     role: String(session?.role || 'siswa'),
+    kelas: infoMeta.kelas,
+    kodeKelas: infoMeta.kodeKelas,
+    semester: infoMeta.semester,
     pertemuanId: canonicalMeetingId,
+    menu: 'penerapan-konsep',
     idSumberAktivitas: String(aktivitas.idSumberAsli || canonicalMeetingId),
     bab: String(judulBab || '').slice(0, 200),
     judulPertemuan: String(judulPertemuan || '').slice(0, 200),
@@ -887,11 +944,13 @@ export async function simpanJawabanPenerapanKeDatabase({
     jawaban: jawabanAman,
     submitted: true,
     savedAtIso,
+    savedAtMs,
     updatedAt: serverTimestamp(),
   };
 
   try {
-    await setDoc(docRef, firestorePayload);
+    // setDoc dengan merge: true memperbarui dokumen yang sama tanpa pernah membuat dokumen ganda
+    await setDoc(docRef, firestorePayload, { merge: true });
     return {
       ok: true,
       syncedToCloud: true,
@@ -904,13 +963,15 @@ export async function simpanJawabanPenerapanKeDatabase({
       syncedToCloud: false,
       savedAtIso,
       warningMessage:
-        'Jawaban tersimpan pada perangkat ini. Sinkronisasi ke server akan diperbarui saat jaringan tersedia.',
+        'Jawaban tersimpan pada perangkat ini. Sinkronisasi ke Cloud Firestore akan diperbarui saat jaringan tersedia.',
     };
   }
 }
 
 /**
- * Memulihkan dan berlangganan status jawaban Penerapan Konsep milik siswa aktif.
+ * Memulihkan dan berlangganan status jawaban Penerapan Konsep milik siswa aktif secara real-time
+ * dari Cloud Firestore (`onSnapshot`) dengan resolusi konflik timestamp terbaru (`savedAtMs`)
+ * sehingga data lama tidak pernah menimpa jawaban yang lebih baru.
  */
 export function langgananJawabanPenerapan(userKey, meetingId, aktivitas, onData) {
   const canonicalMeetingId = normalisasiIdPertemuanPenerapan(meetingId);
@@ -921,17 +982,56 @@ export function langgananJawabanPenerapan(userKey, meetingId, aktivitas, onData)
 
   const localKey = buatKunciTersimpanLokal(userKey, canonicalMeetingId);
   let resolvedFromServer = false;
+  let latestEmittedMs = 0;
+
+  const emitRecordIfLatest = (rawRecord, shouldCacheLocal) => {
+    if (!rawRecord || !rawRecord.submitted || !rawRecord.jawaban) return;
+    const recordMs = ambilTimestampRekamanPenerapan(rawRecord);
+    if (latestEmittedMs > 0 && recordMs > 0 && recordMs < latestEmittedMs) {
+      // Abaikan snapshot lama agar tidak menimpa jawaban yang lebih baru
+      return;
+    }
+    if (recordMs > latestEmittedMs) {
+      latestEmittedMs = recordMs;
+    }
+
+    const normalizedRecord = {
+      jawaban: gabungkanJawabanPenerapan(aktivitas, rawRecord.jawaban),
+      submitted: Boolean(rawRecord.submitted),
+      savedAtIso: String(rawRecord.savedAtIso || ''),
+    };
+
+    if (shouldCacheLocal) {
+      try {
+        localStorage.setItem(
+          localKey,
+          JSON.stringify({
+            ...normalizedRecord,
+            uid: userKey,
+            pertemuanId: canonicalMeetingId,
+            menu: 'penerapan-konsep',
+            savedAtMs: recordMs || Date.now(),
+          })
+        );
+      } catch {
+        // Abaikan jika penyimpanan lokal penuh
+      }
+    }
+
+    onData(normalizedRecord);
+  };
 
   try {
     const rawLocal = localStorage.getItem(localKey);
     if (rawLocal) {
       const parsedLocal = JSON.parse(rawLocal);
-      if (parsedLocal && parsedLocal.submitted && parsedLocal.jawaban) {
-        onData({
-          jawaban: gabungkanJawabanPenerapan(aktivitas, parsedLocal.jawaban),
-          submitted: true,
-          savedAtIso: String(parsedLocal.savedAtIso || ''),
-        });
+      if (
+        parsedLocal &&
+        parsedLocal.submitted &&
+        parsedLocal.jawaban &&
+        (!parsedLocal.uid || parsedLocal.uid === userKey)
+      ) {
+        emitRecordIfLatest(parsedLocal, false);
       }
     }
   } catch {
@@ -947,34 +1047,42 @@ export function langgananJawabanPenerapan(userKey, meetingId, aktivitas, onData)
 
   const unsubscribe = onSnapshot(
     docRef,
-    (snap) => {
+    async (snap) => {
       resolvedFromServer = true;
       if (!snap.exists()) {
-        const hasLocal = Boolean(localStorage.getItem(localKey));
-        if (!hasLocal) {
+        // Kompatibilitas mundur satu kali apabila siswa memiliki dokumen lama berbasis NISN sebelum skema UID
+        const legacyKey = ekstrakLegacyKeyDariUid(userKey);
+        if (legacyKey) {
+          try {
+            const legacyDocRef = doc(
+              firebaseDb,
+              KOLEKSI_PENERAPAN_KONSEP,
+              buatIdDokumenSiswa(legacyKey, canonicalMeetingId)
+            );
+            const legacySnap = await getDoc(legacyDocRef);
+            if (legacySnap.exists()) {
+              const legacyData = legacySnap.data();
+              emitRecordIfLatest(legacyData, true);
+              return;
+            }
+          } catch {
+            // Abaikan bila tidak ada dokumen lama
+          }
+        }
+
+        if (latestEmittedMs === 0) {
           onData(null);
         }
         return;
       }
 
       const data = snap.data();
-      if (data.studentKey && data.studentKey !== userKey) {
+      const ownerId = data.uid || data.studentKey;
+      if (ownerId && ownerId !== userKey) {
         return;
       }
 
-      const record = {
-        jawaban: gabungkanJawabanPenerapan(aktivitas, data.jawaban),
-        submitted: Boolean(data.submitted),
-        savedAtIso: String(data.savedAtIso || ''),
-      };
-
-      try {
-        localStorage.setItem(localKey, JSON.stringify(record));
-      } catch {
-        // Abaikan jika penyimpanan lokal penuh
-      }
-
-      onData(record);
+      emitRecordIfLatest(data, true);
     },
     () => {
       if (!resolvedFromServer) {
@@ -982,17 +1090,14 @@ export function langgananJawabanPenerapan(userKey, meetingId, aktivitas, onData)
           .then((snap) => {
             if (snap.exists()) {
               const data = snap.data();
-              if (!data.studentKey || data.studentKey === userKey) {
-                onData({
-                  jawaban: gabungkanJawabanPenerapan(aktivitas, data.jawaban),
-                  submitted: Boolean(data.submitted),
-                  savedAtIso: String(data.savedAtIso || ''),
-                });
+              const ownerId = data.uid || data.studentKey;
+              if (!ownerId || ownerId === userKey) {
+                emitRecordIfLatest(data, true);
               }
             }
           })
           .catch(() => {
-            // Gunakan salinan lokal bila offline
+            // Gunakan salinan lokal bila jaringan luring
           });
       }
     }
