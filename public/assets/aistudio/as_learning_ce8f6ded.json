@@ -1,0 +1,1055 @@
+[
+  {
+    "id_pertemuan": "Kelas7-sem1-bab1-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengelompokkan berbagai contoh data, apa perbedaan paling jelas antara data terstruktur dan tidak terstruktur yang kamu pahami?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat mencoba mengelompokkan data-data sehari-hari tadi? Apakah ada bagian yang membuatmu bingung?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab1-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengubah cerita pendek menjadi tabel, mengapa informasi tersebut menjadi lebih mudah dibaca dibandingkan sebelumnya?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagian mana dari kegiatan membuat baris dan kolom tadi yang paling seru atau justru terasa sulit bagimu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab1-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari kegiatan mengisi jadwal pelajaran hari ini, apa fungsi dari cell, row, dan column yang sudah kamu pahami?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalaman pertamamu saat memasukkan data langsung ke dalam lembar kerja spreadsheet?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab1-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Menurutmu, apa keuntungan menggunakan fitur sorting (mengurutkan) dan filtering (menyaring) saat mengelola data yang banyak?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat berhasil menghitung total nilai menggunakan rumus (formula) untuk pertama kalinya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab1-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mencoba mencatat pemasukan dan pengeluaran uang kas kelas, kemampuan baru apa yang sekarang bisa kamu praktikkan sendiri?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalaman paling berkesan saat kamu harus menghitung saldo akhir uang kas secara mandiri. Apakah kamu merasa puas dengan hasilnya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab2-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari permainan peran tadi, bagaimana kamu menjelaskan cara mesin pencari menemukan informasi di internet?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat mengikuti aktivitas bermain peran (role-play) di kelas hari ini? Bagian mana yang paling menyenangkan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab2-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa perbedaan hasil yang kamu dapatkan saat mencari menggunakan tanda kutip dibandingkan dengan pencarian biasa?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu menemukan kesulitan saat mempraktikkan teknik pencarian menggunakan simbol-simbol khusus tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab2-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah menganalisis dua berita digital, hal apa saja yang harus diperhatikan agar kita tahu sebuah informasi itu akurat dan terbaru?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalamanmu saat harus membandingkan dan menilai mana artikel yang lebih bisa dipercaya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab2-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa kita perlu memeriksa nama penulis dan alamat situs web (seperti .go.id) sebelum mempercayai sebuah informasi?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa seperti seorang detektif saat melacak kebenaran situs web tadi? Ceritakan bagian yang paling menarik!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab2-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari studi kasus informasi viral yang kamu periksa, langkah apa yang paling penting untuk membuktikan kebenaran sebuah berita?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu setelah berhasil menyusun laporan investigasi kebenaran informasi secara mandiri?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab3-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah membaca kutipan dari media sosial, bagaimana cara termudah bagimu untuk membedakan mana yang fakta dan mana yang opini?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu sempat merasa terkecoh atau bingung saat mengelompokkan kalimat-kalimat fakta dan opini tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab3-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Ciri-ciri apa saja yang membuatmu curiga bahwa pesan berantai tadi adalah sebuah hoaks?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat mencoba menggunakan situs pemeriksa fakta (fact-checking) untuk pertama kalinya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab3-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah membandingkan beritanya, apa perbedaan paling mencolok antara portal berita resmi dan tulisan di blog pribadi?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Kegiatan diskusi manakah hari ini yang membuatmu mendapatkan pandangan baru tentang dunia berita digital?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab3-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari studi kasus komentar kontroversial tadi, prinsip etika apa yang menurutmu paling penting diterapkan di media sosial?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat harus memikirkan saran perilaku yang baik untuk orang yang melanggar etika di internet?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem1-bab3-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Pesan penting apa yang ingin kamu sampaikan kepada orang lain melalui poster \"saring sebelum sharing\" yang kamu buat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalaman paling berkesan saat kamu merancang dan membuat poster kampanye anti-hoaks hari ini!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengetik perkenalan diri, apa efek yang terjadi ketika kamu menggunakan fitur bold, italic, dan underline pada teks?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagian mana dari kegiatan menghias dan mengubah jenis huruf tadi yang paling kamu sukai?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Bagaimana pengaruh pengaturan margin dan jarak spasi terhadap kerapian dokumen yang kamu buat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu mengalami kesulitan saat mencoba menambahkan nomor halaman dan namamu di bagian header dokumen?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa kegunaan fitur text wrapping yang kamu gunakan saat memasukkan gambar ke dalam dokumen teks?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu ketika melihat dokumenmu menjadi lebih menarik setelah disisipkan gambar dan bentuk (shape)?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa keuntungan membuat daftar isi secara otomatis dibandingkan mengetiknya satu per satu secara manual?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa takjub atau justru bingung saat mencoba fitur mail merge untuk membuat surat undangan massal?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Elemen apa saja yang menurutmu wajib ada agar sebuah dokumen laporan terlihat resmi, rapi, dan terstruktur?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan perasaanmu setelah berhasil menyelesaikan pembuatan dokumen laporan kegiatan secara mandiri dari awal hingga akhir!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa penting untuk membedakan tipe data teks, angka, dan tanggal saat membuat tabel pendaftaran di spreadsheet?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah ada tipe data yang sempat membuatmu bingung saat memasukkannya ke dalam lembar kerja?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari fungsi yang kita pelajari (SUM, AVERAGE, MIN, MAX), mana yang paling membantumu dalam merekapitulasi data nilai?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu ketika melihat komputer menghitung total dan rata-rata secara otomatis dalam sekejap?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan8",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Bagaimana fungsi IF membantumu menentukan status Lulus atau Remedial secara otomatis tanpa harus mengecek satu per satu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apa reaksi pertamamu saat melihat warna sel berubah otomatis menjadi merah untuk nilai di bawah batas KKM?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan9",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa kemudahan yang kamu dapatkan dengan menggunakan fungsi VLOOKUP saat mengisi harga barang dari tabel lain?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa tertantang saat harus menggunakan fungsi pencarian dari tabel referensi yang berbeda?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan10",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa data hasil pemilihan ketua OSIS menjadi lebih mudah dipahami ketika diubah ke dalam bentuk grafik batang atau lingkaran?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Kegiatan mana yang lebih kamu sukai: mengolah angka-angka di tabel atau mendesain tampilannya menjadi grafik?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan11",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa alasan pentingnya memperhatikan kontras warna antara teks dan latar belakang saat membuat slide presentasi?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat mendesain slide tentang cita-citamu sendiri? Apakah kamu merasa antusias?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan12",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa kita tidak disarankan menggunakan efek transisi slide yang berlebihan saat melakukan presentasi?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagian mana yang menurutmu paling menyenangkan saat menyisipkan video dan gambar ke dalam slide presentasimu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan13",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa manfaat utama menggunakan fitur Slide Master saat kamu harus menambahkan logo sekolah di banyak slide sekaligus?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan perasaanmu saat harus berdiri dan melakukan simulasi presentasi di depan kelas! Apakah ada rasa gugup?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan14",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa keuntungan menghubungkan (linking) grafik spreadsheet ke slide presentasi dibandingkan sekadar menyalinnya (copy-paste)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu mengalami kendala saat mencoba menghubungkan data dari dua aplikasi yang berbeda ini?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas7-sem2-bab4-pertemuan15",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari seluruh proyek akhir ini, bagaimana dokumen pengolah kata, spreadsheet, dan presentasi saling melengkapi satu sama lain?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaan dan kesan utamamu setelah berhasil menyelesaikan proyek terpadu ini, dari awal mengolah data sampai mempresentasikannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengisi tabel jadwal piket kelas, bagaimana kamu menjelaskan perbedaan tugas antara dekomposisi dan algoritma dalam kehidupan sehari-hari?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat mencoba mengelompokkan cara membuat jadwal piket ke dalam 4 pilar berpikir komputasional tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mencatat makanan favorit temanmu, apa bedanya melihat data yang masih acak dengan data yang sudah kamu susun rapi ke dalam tabel?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat bertanya kepada teman-teman dan menyusun datanya? Apakah ada bagian yang terasa membingungkan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Saat merencanakan acara sekolah tadi, mengapa memecah tugas besar menjadi bagian-bagian kecil (dekomposisi) sangat membantumu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagian mana yang paling seru saat kamu mencari kesamaan pola tugas kepanitiaan? Apakah kamu merasa kesulitan mengerjakannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari permainan mengurutkan kartu tadi, langkah-langkah apa yang paling efektif untuk menyaring angka ganjil dan genap secara cepat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalamanmu saat bermain kartu angka ini! Apakah kamu merasa tegang atau justru tertantang saat mempraktikkan aturannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mencoba membuat instruksi menanak nasi, apa bedanya menulis dalam kalimat sehari-hari dengan menulis menggunakan aturan pseudocode?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa bingung saat mengubah instruksi biasa menjadi bahasa ala komputer (pseudocode)? Ceritakan bagian yang paling membuatmu penasaran!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa saja data utama yang harus kamu siapkan (variabel) agar program perhitungan luas bangun datar ini bisa berjalan dari awal hingga akhir?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu ketika berhasil menyusun urutan instruksi menghitung luas secara runtut? Apakah ada rasa bangga atau justru sempat pusing?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Bagaimana syarat IF-THEN-ELSE membantumu menentukan siapa saja yang boleh dan tidak boleh naik wahana bermain tadi?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Kegiatan menentukan syarat masuk wahana tadi cukup menantang bukan? Bagian mana yang menurutmu paling menyenangkan saat memikirkannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan8",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Menurutmu, apa keuntungan utama menggunakan perintah perulangan (FOR/WHILE) dibandingkan menulis instruksi yang sama berkali-kali secara manual?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat melihat instruksi panjang tiba-tiba menjadi sangat singkat karena fungsi perulangan? Apakah kamu merasa takjub?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab1-pertemuan9",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Langkah perhitungan seperti apa (misalnya syarat diskon atau variabel) yang kamu rancang untuk memecahkan masalah hitungan kantin sekolah?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalamanmu memecahkan kasus diskon ini secara mandiri. Apakah kamu merasa puas atau ada yang masih mengganjal di pikiranmu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab2-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengamati berbagai gambar perangkat komputer, apa fungsi utama dari alat input (seperti keyboard/mouse) dibandingkan dengan alat output (seperti monitor)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu menemukan perangkat keras yang namanya baru kamu dengar hari ini? Bagaimana perasaanmu saat mengelompokkan alat-alat tersebut?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab2-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari hasil pengecekan di hp atau komputermu, hal terpenting apa yang membedakan sistem operasi dengan aplikasi-aplikasi yang biasa kamu pakai?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalamanmu saat menjelajahi dan mencari tahu fungsi aplikasi di perangkatmu tadi? Bagian mana yang paling menarik perhatianmu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab2-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari permainan peran (role-play) tadi, apa yang akan terjadi pada perintah komputer jika proses 'menerjemahkan' (decode) pesan gagal dilakukan?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat bermain peran menjadi bagian dari otak komputer (CPU)? Apakah ada bagian tugas yang bikin kamu kewalahan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem1-bab2-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Berdasarkan analisismu tadi, mengapa sebuah printer yang mesinnya menyala dengan baik bisa gagal mencetak dokumen dari komputer?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa seperti seorang detektif atau teknisi saat menyelidiki kerusakan printer tadi? Ceritakan perasaanmu selama mencari tahu penyebabnya!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari skema lab komputer yang kamu gambar, apa syarat utama agar satu komputer bisa mengirimkan file ke komputer lainnya secara lokal?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Saat menggambar peta jaringan komputer di lab tadi, bagian mana yang menurutmu paling menyenangkan? Apakah ada hal yang sulit dipahami?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah mengamati alat-alat jaringan secara langsung, apa fungsi utama dari perangkat penghubung seperti switch yang kamu catat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat memegang dan mengamati isi kabel fiber optik serta kabel UTP? Apakah ada rasa penasaran yang terbayar?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Berdasarkan percobaan pengiriman fotomu, apa keuntungan utama mengirim file menggunakan koneksi Wi-Fi dibandingkan menggunakan Bluetooth?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Kegiatan mengirim foto tadi terasa seru bukan? Apakah kamu sempat mengalami kendala jaringan atau masalah saat proses pengirimannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Jika diibaratkan seperti alamat rumah dan buku telepon, apa tugas penting dari sebuah DNS saat kamu ingin membuka alamat sebuah situs web?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat pertama kali berhasil melihat alamat IP di hp-mu sendiri? Apakah kamu merasa kaget atau tertarik?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa sembarangan memasukkan kata sandi atau data pribadimu saat menggunakan jaringan Wi-Fi umum dan situs tanpa HTTPS sangat berbahaya?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Setelah tahu bahaya pencurian data dari kasus tadi, bagaimana perasaanmu? Apakah kamu sekarang merasa lebih waspada atau justru khawatir?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab3-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Hal penting apa saja yang harus kamu perhatikan saat menentukan letak alat seperti switch dan router agar lab dan perpustakaan sekolah terhubung dengan baik?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana rasanya menjadi perancang skema internet sekolah hari ini? Ceritakan tantangan terbesar yang kamu rasakan saat menggambar jalurnya!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari simulasi kasus yang kita amati, tindakan atau komentar seperti apa yang membuat sebuah postingan dikategorikan sebagai perundungan (cyberbullying)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu ketika membaca kalimat-kalimat menyakitkan di contoh media sosial tadi? Apakah hal itu membuatmu merasa sedih atau marah?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah berdiskusi dengan kelompok, apa dampak paling buruk bagi kesehatan mental seseorang yang menjadi korban perundungan siber (cyberbullying)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalaman berdiskusimu hari ini. Apakah kamu sempat kaget mengetahui bahwa pelaku perundungan digital bisa terjerat hukuman berat?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa tindakan mengambil tangkapan layar (screenshot) sangat penting untuk kamu lakukan sebelum melaporkan sebuah kasus perundungan digital?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu setelah mengetahui cara melaporkan (report) tindakan jahat di internet? Apakah kamu merasa lebih percaya diri dan aman sekarang?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari hasil pencarian namamu di internet, apa perbedaan paling jelas antara jejak digital yang sengaja kamu buat (aktif) dengan yang tertinggal otomatis (pasif)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apa yang kamu rasakan ketika mencari namamu sendiri di mesin pencari Google? Apakah hasilnya membuatmu merasa senang, terkejut, atau waswas?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Berdasarkan cerita orang yang gagal kerja tadi, sebutkan satu prinsip berhati-hati paling penting yang harus kamu pegang sebelum mengunggah sesuatu di media sosial!"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu setelah menyadari bahwa status iseng di internet ternyata bisa merusak masa depan seseorang? Apakah hal ini membuatmu berpikir ulang?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa mengubah akun media sosial menjadi mode pribadi (private) bisa sangat membantu melindungi rekam jejak digital kita di masa depan?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalamanmu saat mempraktikkan langkah bersih-bersih riwayat internet tadi? Apakah kamu sempat kesulitan mencari pengaturan keamanannya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Perubahan penting apa saja yang kamu lakukan pada pesan tadi agar bahasanya terasa lebih sopan dan menghargai saat dibaca oleh gurumu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu sempat kebingungan mencari kata-kata yang pas dan pantas saat merombak draf pesan email tadi? Ceritakan pengalamanmu merangkai kalimatnya!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan8",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Saat menanggapi teman yang berbeda pandangan tentang klub olahraga di forum tadi, bagaimana cara terbaik merespons agar tidak memancing perdebatan kasar?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat harus menahan diri dan memilih kata-kata yang ramah padahal pendapat orang tersebut bertentangan dengan idemu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas8-sem2-bab4-pertemuan9",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Melalui poster atau karya digital yang kamu buat, pesan paling utama apa yang ingin kamu sampaikan kepada teman-teman terkait internet yang sehat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan hal yang paling berkesan saat merancang karya kampanye digital ini! Apakah kamu merasa bangga dengan poster yang akan dipajang di mading kelas?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Setelah menjelajahi Scratch, apa fungsi utama dari stage, sprite, dan blok kode yang paling kamu ingat?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat pertama kali mencoba dan mencocokkan area kerja di aplikasi Scratch tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Bagaimana cara kamu mengubah langkah menyapa di dunia nyata menjadi susunan blok perintah seperti 'say' dan 'move' di Scratch?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa senang saat melihat karakternya (sprite) akhirnya bisa bergerak dan bersuara sesuai perintahmu?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa perbedaan utama yang kamu rasakan sebelum dan sesudah menggunakan blok 'repeat' atau 'forever' pada kodesmu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu sempat merasa bingung saat memilih antara blok 'repeat' dan 'forever'? Bagaimana kamu mengatasinya?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Bagaimana blok 'if-then-else' membantumu mengatur reaksi sprite saat jawaban tebakan angka benar atau salah?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan pengalamanmu saat merancang simulasi tebak angka tadi! Bagian mana yang terasa paling menantang?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa kita memerlukan variabel skor saat membuat program interaktif hitung-hitungan di Scratch?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apa yang kamu rasakan ketika melihat sprite milikmu bisa otomatis menghitung skor berdasarkan jawaban yang kamu masukkan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Saat berdiskusi kelompok, bagaimana storyboard dan alur logika membantu merencanakan ide game edukasimu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalaman bekerja sama dengan kelompokmu hari ini? Apakah ada perbedaan pendapat saat merancang ide game?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Ketika terjadi kesalahan (bug) pada programmu, langkah apa yang kamu lakukan untuk menemukan dan membenarkannya?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat berhasil memperbaiki kode yang eror hingga game buatanmu berjalan lancar?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab1-pertemuan8",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Konsep berpikir komputasional apa yang paling banyak kamu terapkan saat menjelaskan game buatan kelompokmu di depan kelas?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan perasaanmu saat mempresentasikan hasil karya Scratch buatan kelompokmu di depan teman-teman!"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa perbedaan paling mencolok antara platform media sosial dengan forum diskusi yang kamu catat di tabel perbandingan?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalamanmu saat mengamati dan mengelompokkan berbagai tampilan platform digital tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa kita perlu mengubah kalimat komentar kasar menjadi kalimat yang lebih sopan sesuai aturan netiquette?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat menganalisis studi kasus komentar kontroversial tadi? Apakah kamu pernah menemukannya di media sosial nyata?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Fitur atau alat apa di aplikasi Canva yang paling membantumu saat menggabungkan teks, warna, dan gambar?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat pertama kali merancang draf kartu ucapan elektronik milikmu sendiri?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Pesan utama apa tentang literasi digital yang ingin kamu sampaikan melalui infografis atau poster buatanmu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagian mana dalam proses mendesain poster anti-hoaks tadi yang paling kamu sukai?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Apa perbedaan penting antara karya berhak cipta (copyright) dan karya berlisensi terbuka (Creative Commons)?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa lebih tenang dan paham setelah tahu cara mengambil gambar di internet secara sah dan tidak melanggar hukum?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Hal penting apa saja yang harus kamu sertakan pada takarir (caption) saat mengunggah karya ke mading virtual sekolah?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu ketika karya postingan edukatif milikmu resmi diunggah dan bisa dilihat oleh teman-teman kelas?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem1-bab2-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Pembelajaran berharga apa yang kamu dapatkan setelah melihat dan mengamati poster edukatif buatan teman-temanmu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat menerima umpan balik dan pujian dari teman-teman saat kegiatan pameran kelas (gallery walk)?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan1",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari skenario yang dipelajari, apa bedanya ancaman dari ransomware dengan spyware pada perangkat komputer?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu sempat kaget atau cemas saat tahu betapa berbayanya berbagai jenis malware tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan2",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa melakukan pemindaian (scanning) antivirus dan menyalakan firewall sangat penting untuk keamanan komputer?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana pengalamanmu saat mempraktikkan sendiri cara mengecek pembaruan sistem dan antivirus di komputer?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan3",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Menurutmu, kombinasi karakter seperti apa yang membuat sebuah kata sandi menjadi sangat kuat dan tidak mudah ditebak?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah kamu merasa lebih percaya diri untuk mengamankan akun pribadi setelah belajar menyusun kata sandi yang kuat hari ini?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan4",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa aktivasi autentikasi dua langkah (2FA) bisa mencegah orang lain mengambil alih akun email kita?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Apakah proses simulasi aktivasi 2FA tadi terasa rumit bagimu, atau justru mudah dipahami?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan5",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Mengapa data seperti NIK dan nama ibu kandung tergolong informasi privat yang sangat rahasia?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu setelah mengetahui jenis-jenis data pribadi yang selama ini ternyata bahaya jika dibagikan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan6",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Risiko privasi apa yang mungkin terjadi jika sebuah aplikasi biasa meminta akses ke kontak dan lokasimu?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Setelah mengecek setelan izin aplikasi di hp milikmu, apakah ada aplikasi yang perizinannya langsung kamu matikan?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan7",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Tanda-tanda apa saja yang membuatmu curiga bahwa sebuah email atau pesan adalah bentuk penipuan phishing?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Bagaimana perasaanmu saat berhasil menemukan dan melingkari ciri-ciri penipuan pada contoh pesan palsu tadi?"
+      }
+    ]
+  },
+  {
+    "id_pertemuan": "Kelas9-sem2-bab1-pertemuan8",
+    "pertanyaan": [
+      {
+        "nomor": 1,
+        "teks": "Dari hasil formulir audit keamanan mandiri, bagian keamanan mana dari akunmu yang masih perlu ditingkatkan?"
+      },
+      {
+        "nomor": 2,
+        "teks": "Ceritakan perasaanmu saat membuat brosur panduan keselamatan digital untuk membagikan ilmu ini kepada teman-temanmu!"
+      }
+    ]
+  }
+]

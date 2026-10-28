@@ -32,6 +32,7 @@ import { PertanyaanEsensialView } from './components/PertanyaanEsensialView';
 import { EksplorasiKonsepView } from './components/EksplorasiKonsepView';
 import { ForLearningView } from './components/ForLearningView';
 import { PenerapanKonsepView } from './components/PenerapanKonsepView';
+import { AsLearningView } from './components/AsLearningView';
 import { StageActivityView } from './components/StageActivityView';
 import { BacaMateriView } from './components/BacaMateriView';
 import { normalisasiIdPertemuanEksplorasi } from './utils/komponen_eksplorasi_konsep.js';
@@ -341,6 +342,23 @@ export const App: React.FC = () => {
                   handleMarkStageCompleted('penerapan-konsep')
                 }
                 onContinueNext={() => handleCompleteStage('penerapan-konsep')}
+              />
+            ) : activeMenu === 'as-learning' ? (
+              <AsLearningView
+                session={session}
+                userKey={userKey}
+                meetingId={meetingId}
+                materiCatalog={materiCatalog}
+                judulBab={currentMateri.judul_bab}
+                judulPertemuan={currentMateri.judul_pertemuan}
+                isCompleted={progress['as-learning'] === 'completed'}
+                onMarkCompleted={() => handleMarkStageCompleted('as-learning')}
+                onSelectMeeting={(nextId) => {
+                  setMeetingId(nextId);
+                  setActiveMenu('atp');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                onOpenBacaMateri={() => setViewMode('baca')}
               />
             ) : (
               <StageActivityView menuId={activeMenu} />

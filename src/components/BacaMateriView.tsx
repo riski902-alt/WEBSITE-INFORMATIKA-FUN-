@@ -138,6 +138,10 @@ export const BacaMateriView: React.FC<BacaMateriViewProps> = ({
                 <div className="bg-white rounded-xl p-4 border border-[#E2E8F0] text-sm text-[#243447]">
                   Ruang kerja praktik mandiri, tabel analisis, penyusunan pseudocode, dan pengumpulan proyek sesuai pertemuan tersedia pada menu Penerapan Konsep.
                 </div>
+              ) : menu.id === 'as-learning' ? (
+                <div className="bg-white rounded-xl p-4 border border-[#E2E8F0] text-sm text-[#243447]">
+                  Pertanyaan refleksi pemahaman konsep dan pengalaman belajar beserta kartu apresiasi interaktif 3D sesuai topik tersedia pada menu AS Learning.
+                </div>
               ) : (
                 <div className="bg-white rounded-xl p-4 border border-dashed border-[#E2E8F0] text-sm text-[#607286]">
                   Konten masih kosong (file JSON belum dihubungkan).

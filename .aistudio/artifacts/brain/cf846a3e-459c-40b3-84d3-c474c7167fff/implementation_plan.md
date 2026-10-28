@@ -1,130 +1,124 @@
-# Integrasi Menu Eksplorasi Konsep & For Learning — INFORMATIKA FUN!
+# Pengembangan & Integrasi Menu Refleksi AS Learning — INFORMATIKA FUN!
 
-Rencana ini menggabungkan dan menstandarkan keenam sumber data pembelajaran (3 sumber materi **Eksplorasi Konsep** dan 3 sumber latihan **For Learning** untuk seluruh 81 pertemuan Kelas 7, 8, dan 9) serta menghadirkan ruang presentasi interaktif bergaya Prezi lengkap dengan unduh PDF per materi dan latihan formatif berpenjelasan otomatis yang tersimpan real-time ke database.
+Menghadirkan pengalaman refleksi akhir pembelajaran (**AS Learning**) yang hangat, bermakna, dan terhubung penuh pada seluruh **81 pertemuan Informatika SMP (Kelas 7, 8, dan 9)**, lengkap dengan penyimpanan jawaban *real-time*, sapaan personal sesuai akun pengguna aktif, kartu apresiasi interaktif *3D flip* berisi pantun edukatif serta motivasi sesuai topik pertemuan, dan navigasi penutup menuju pertemuan berikutnya maupun daftar materi.
 
-## Keputusan Penting & Konfirmasi Pengguna
+## Tinjauan Pengguna & Keputusan Utama
 
 > [!IMPORTANT]
-> Berikut adalah rangkuman keputusan yang telah dikonfirmasi beserta pengaturan standar yang direkomendasikan agar alur berurutan antar-menu tetap konsisten tanpa mengubah sistem login maupun menu yang sudah berjalan.
+> Ketiga preferensi pengalaman belajar dan antarmuka dari tahap klarifikasi telah dikunci sebagai acuan utama implementasi tanpa mengubah redaksi asli 162 pertanyaan refleksi maupun mengganggu keenam menu pembelajaran yang sudah berjalan.
 
-- **Sistem Penilaian For Learning (Dikonfirmasi)**: Menggunakan skala **0–100 poin merata** untuk 8 butir soal di setiap pertemuan (**12,5 poin** per soal benar), mencakup Pilihan Ganda, Pilihan Ganda Kompleks, Menjodohkan, dan Isian Singkat.
-- **Alur Penyimpanan For Learning (Dikonfirmasi)**: Menggunakan **satu tombol Simpan Jawaban** di bagian bawah untuk memvalidasi dan menyimpan seluruh jawaban pertemuan sekaligus, lalu langsung menampilkan skor serta **Penjelasan Inti** di setiap soal.
-- **Pembaruan Jawaban Tanpa Poin Ganda (Dikonfirmasi)**: Siswa diizinkan memperbaiki jawaban dan menyimpan ulang; sistem menimpa dokumen jawaban pertemuan milik siswa tersebut secara idempoten sehingga skor diperbarui akurat tanpa penjumlahan ganda.
-- **Standar Presentasi & Unduh PDF Eksplorasi Konsep (Rekomendasi Default)**: Seluruh penanda teknis seperti `SLIDE 1`, `SLIDE 2`, hingga `SLIDE 10` dihapus sepenuhnya dari layar dan PDF; tombol **Unduh PDF** menghasilkan dokumen lanskap rasio presentasi **16:9** khusus untuk materi yang sedang tampil (lengkap dengan judul, isi utuh, dan ilustrasi visual topik), dan pencapaian bagian materi terakhir membuka akses menuju menu **For Learning**.
+- **Keputusan Terkonfirmasi 1 — Format Motivasi Kontekstual**: Setiap pertemuan menampilkan **kombinasi kalimat motivasi/nasihat kontekstual dan pantun edukatif 4 baris** yang dirancang khusus mengikuti topik materi pertemuan tersebut (bukan pesan seragam untuk semua pertemuan).
+- **Keputusan Terkonfirmasi 2 — Gaya Kartu Apresiasi**: Menggunakan **kartu interaktif *3D flip* dengan kilau halus** yang menampilkan sapaan huruf kapital dinamis `TERIMA KASIH, [NAMA PENGGUNA]!` di sisi depan serta pantun edukatif dan pesan inspiratif topik di sisi balik, tetap ringan dan mematuhi preferensi aksesibilitas gerak pengguna (`prefers-reduced-motion`).
+- **Keputusan Terkonfirmasi 3 — Navigasi Penutup 100% Pertemuan**: Setelah refleksi tersimpan dan progres pertemuan mencapai 7 dari 7 menu (100%), tersedia **tombol lanjut ke pertemuan berikutnya** serta **tombol pembuka daftar seluruh materi** agar siswa dapat berpindah pertemuan atau meninjau bab lain secara leluasa.
 
 ---
 
 ## 1. Gambaran Umum & Konsep Inti
 
-- **Apa yang Dihadirkan**:
-  1. **Eksplorasi Konsep (Menu ke-4)**: Pengalaman presentasi interaktif modern terinspirasi Prezi yang menyajikan materi inti per pertemuan secara bertahap dengan ilustrasi visual kontekstual (diagram tabel/data, alur algoritma/pseudocode, blok visual Scratch, arsitektur perangkat keras, topologi jaringan, hingga keamanan digital), navigasi panah kiri-kanan maupun tombol keyboard, indikator posisi bersih (`2 dari 11`), serta fitur **Unduh PDF** mandiri per tampilan materi.
-  2. **For Learning (Menu ke-5)**: Latihan formatif terbimbing berisi 8 soal per pertemuan (2 Pilihan Ganda, 2 Pilihan Ganda Kompleks, 2 Menjodohkan, dan 2 Isian Singkat) yang langsung menghitung poin skala 0–100, menyimpan hasil secara real-time ke Firebase Firestore sesuai akun siswa yang aktif, dan menyajikan **Penjelasan Inti** yang lugas pada setiap nomor soal begitu jawaban disimpan.
-- **Target Pengguna**: Siswa dan Guru SMP Kelas 7, 8, dan 9 pengguna ruang belajar **INFORMATIKA FUN!** pada perangkat laptop, Chromebook, tablet, maupun ponsel Android.
-- **Nilai Utama**: Seluruh 81 pertemuan memiliki alur belajar utuh dan terkunci berurutan secara otomatis—mulai dari pemahaman konsep visual yang bebas tumpukan teks hingga evaluasi formatif real-time yang meluruskan pemahaman siswa tanpa merusak menu **ATP**, **Asesmen Awal**, dan **Pertanyaan Esensial**.
+- **Apa yang Dilakukan**: Menyediakan tahap ketujuh sekaligus penutup alur belajar di setiap pertemuan tempat siswa merenungkan pemahaman konsep (Pertanyaan 1) dan pengalaman/perasaan belajarnya (Pertanyaan 2), menyimpan refleksinya secara aman ke basis data awan sesuai akun masing-masing, lalu menerima apresiasi personal dan dorongan semangat yang relevan dengan materi yang baru dipelajari.
+- **Target Pengguna**: Siswa SMP Kelas 7, 8, dan 9 serta guru Informatika yang mendampingi proses refleksi mandiri di kelas maupun di rumah.
+- **Nilai Utama**: Mengubah tahap penutup pelajaran dari sekadar formulir isian kaku menjadi ruang refleksi metakognitif yang nyaman, bebas takut salah, menghargai suara siswa secara personal, dan mengunci ketuntasan pertemuan hingga 100%.
 
 ---
 
 ## 2. Pengalaman Pengguna & Desain Visual
 
-- **Alur Pengguna Utama**:
-  1. **Membuka Eksplorasi Konsep**: Setelah menyelesaikan *Pertanyaan Esensial*, siswa membuka menu *Eksplorasi Konsep* sesuai kelas, bab, dan pertemuan aktif. Layar menampilkan kanvas presentasi putih bersih tanpa kata "SLIDE", dimulai dari tampilan pembuka topik pertemuan.
-  2. **Menjelajahi Materi & Mengunduh PDF**: Siswa berpindah antar-materi menggunakan tombol panah `←` dan `→` (atau panah kiri/kanan pada keyboard) dengan indikator posisi `X dari Y`. Pada tampilan mana pun, siswa dapat menekan tombol **`↓ Unduh PDF`** untuk mengunduh salindia materi aktif dalam format lanskap 16:9 yang rapi tanpa elemen navigasi halaman web. Saat mencapai tampilan penutup, siswa dapat melanjutkan dan membuka kunci menu *For Learning*.
-  3. **Mengerjakan For Learning**: Siswa menjawab 8 soal interaktif sesuai tipe masing-masing (radio button untuk Pilihan Ganda, kotak centang multi-pilihan untuk Pilihan Ganda Kompleks, pemilih pasangan untuk Menjodohkan, dan kolom ketik untuk Isian Singkat).
-  4. **Menyimpan Jawaban & Membaca Penjelasan Inti**: Saat menekan **Simpan Jawaban**, tombol menampilkan status proses **Menyimpan...**, mengirim data ke Firestore, lalu menampilkan konfirmasi **Jawaban berhasil disimpan**, ringkasan **Skor: XX/100** (dengan angka tabular yang rapi), lencana benar/salah disertai teks eksplisit pada tiap soal, serta kartu **Penjelasan Inti** yang menjelaskan konsep benar secara ringkas dan ramah SMP. Status menu *For Learning* otomatis ditandai selesai dan membuka kunci menu *Penerapan Konsep*.
-  5. **Memuat Ulang atau Memperbarui Jawaban**: Jika halaman dimuat ulang, sistem memulihkan jawaban, poin, dan penjelasan inti milik siswa yang sedang login dari penyimpanan database dan sinkronisasi lokal. Jika siswa memilih ubah jawaban dan menyimpan kembali, skor lama diperbarui tanpa menggandakan poin.
+### Alur Pengguna Utama
 
-- **Identitas Visual & Tema**:
-  - *Arah Estetika*: **Modern EdTech + Prezi-Inspired Interactive Stage** yang bersih, terfokus, dan selaras penuh dengan identitas **INFORMATIKA FUN!**.
-  - *Distribusi Warna (60-30-10)*:
-    - **60% Kanvas Dominan Putih (`#FFFFFF` & `#F8FAFC`)** di dalam satu kontainer putih utama berbingkai hijau lembut (`#88D4AB`), menjaga keterbacaan materi dan soal tetap optimal di semua layar.
-    - **30% Permukaan Struktural Biru Denim & Navy (`#527DA8`, `#1E3A5F`, `#243B53`)** untuk panel ilustrasi topik, header kartu soal, bar navigasi bawah, serta teks utama berkontras tinggi.
-    - **10% Aksen Fokal Hijau Lembut & Emas Hangat (`#88D4AB`, `#D8BD7B`)** untuk tombol aksi utama (**Simpan Jawaban**, **Unduh PDF**), indikator progres, dan penanda keberhasilan yang selalu dipasangkan dengan ikon serta label teks jelas (tidak mengandalkan warna semata).
-  - *Tipografi & Hierarki*: Memadukan `Space Grotesk` untuk judul materi presentasi (`text-wrap: balance`), `Plus Jakarta Sans` untuk navigasi dan label kontrol satu baris (`whitespace-nowrap`), serta angka `tabular-nums` untuk indikator posisi materi (`2 dari 11`) dan skor poin (`87,5 / 100`).
-  - *Tata Letak Dua Zona pada Eksplorasi Konsep*: Pada layar lebar (laptop/Chromebook), kanvas presentasi membagi ruang secara proporsional antara **Zona Penjelasan Konsep Terstruktur** (judul bersih, poin-poin terurai otomatis, atau tabel rapi bila materi memuat format tabel/kode) dan **Zona Visualisasi Topik Kontekstual** (ilustrasi vektor dinamis sesuai subtopik slide aktif). Pada ponsel, kedua zona tersusun vertikal ringkas tanpa scroll horizontal.
+1. **Membuka Menu AS Learning**: Saat siswa memilih tombol menu AS Learning pada pertemuan mana pun (setelah menyelesaikan tahap sebelumnya), sistem memuat tepat 2 pertanyaan refleksi milik pertemuan tersebut secara instan tanpa tertukar antarpertemuan.
+2. **Menulis Refleksi dengan Nyaman**:
+   - Siswa membaca pengantar singkat yang menenangkan bahwa refleksi bertujuan mengenali pemahaman diri sendiri dengan jujur.
+   - Setiap kartu pertanyaan dilengkapi area tulis lega yang mendukung kalimat pendek maupun paragraf panjang, indikator jumlah kata/karakter yang ramah, serta panduan pemantik tipis agar siswa tidak bingung memulai kalimat.
+   - Setiap ketikan siswa otomatis tersimpan sebagai draf sementara sehingga jawaban tidak hilang apabila siswa berpindah ke menu lain untuk melihat kembali materi sebelum mengirim.
+3. **Menyimpan & Mengirim Refleksi**:
+   - Jika masih ada kolom yang kosong atau terlalu singkat, sistem menampilkan pengingat santun tepat di area aksi tanpa memunculkan kotak peringatan peramban yang mengganggu.
+   - Saat seluruh pertanyaan terjawab dan siswa menekan **Selesai dan Kirim Refleksi**, jawaban disimpan secara *real-time* ke basis data awan sesuai identitas pengguna dan pertemuan aktif, status menu ketujuh berubah menjadi selesai, dan bar progres pertemuan mencapai **100% (7 dari 7 menu selesai)**.
+4. **Menerima Apresiasi Personal & Motivasi Topik**:
+   - Panel apresiasi terbuka dengan animasi transisi lembut dan kilau halus, menampilkan sapaan kapital dinamis **`TERIMA KASIH, [NAMA PENGGUNA]!`** yang diambil langsung dari sesi akun yang sedang masuk.
+   - Siswa dapat membalik (**Flip 3D**) kartu apresiasi untuk membaca sisi depan (apresiasi refleksi & kalimat motivasi sesuai topik pertemuan) dan sisi belakang (pantun edukatif 4 baris bertema materi pertemuan tersebut beserta pesan praktis penerapan sehari-hari).
+5. **Mengedit Kembali atau Melanjutkan Belajar**:
+   - Jawaban yang telah dikirim tampil rapi dalam mode baca; siswa tetap dapat menekan tombol **Edit Jawaban** kapan saja untuk memperbarui refleksinya dan menyimpannya ulang tanpa duplikasi rekaman.
+   - Di bagian bawah kartu apresiasi tersedia tombol **Lanjut ke Pertemuan Berikutnya** dan **Buka Daftar Materi** untuk memilih pertemuan atau bab lain dengan mudah.
 
-- **Umpan Balik Interaktif & Animasi**:
-  - Perpindahan antar-materi pada *Eksplorasi Konsep* menggunakan transisi *Prezi-style camera zoom & pan* ringan berbasis properti kompositor (`transform: scale/translate3d` dan `opacity`, durasi ~220ms) yang mulus di Chromebook/HP dan otomatis menyesuaikan jika perangkat mengaktifkan `prefers-reduced-motion`.
-  - Tombol `←` otomatis nonaktif di materi pertama dan tombol `→` otomatis nonaktif di materi terakhir agar tidak pernah melompat keluar dari pertemuan aktif.
+### Identitas Visual & Tema
+
+- **Arah Estetika**: *Modern EdTech Reflective Journal* — bersih, hangat, fokus, dan selaras penuh dengan identitas ruang belajar INFORMATIKA FUN!.
+- **Distribusi Warna (60-30-10)**:
+  - **60% Kanvas Netral Dominan**: Putih bersih (`#FFFFFF`) dan biru pucat lembut (`#F8FAFC` / `#DCEAF5`) pada area kartu kerja agar teks refleksi memiliki keterbacaan tinggi (rasio kontras memenuhi standar WCAG AA).
+  - **30% Permukaan Struktural**: Biru tua/navy (`#1E3A5F` dan `#243B53`) serta biru denim (`#527DA8`) pada tajuk refleksi, penanda nomor pertanyaan, dan bingkai kartu interaktif dengan garis batas tipis merata (tanpa garis aksen tebal di sisi kiri).
+  - **10% Aksen Semantik & Apresiasi**: Hijau lembut (`#88D4AB`) dan emas hangat (`#D8BD7B`) khusus untuk penanda ketuntasan, aksi utama pengiriman refleksi, serta aksen kilau pada kartu apresiasi.
+- **Tipografi & Hierarki**: Memadukan huruf tajuk tegas dengan `Plus Jakarta Sans` yang ramah remaja pada label navigasi dan isi bacaan, menggunakan ukuran teks proporsional (15px–16px untuk area ketik refleksi dengan spasi baris `1.65`), angka tabular (`tabular-nums`) untuk penghitung kata dan progres, serta metadata teks bersih menggunakan pemisah titik tengah (`·`) tanpa tumpukan kapsul dekoratif.
+- ** Tata Letak Dua Zona Seimbang**: Pada layar desktop lebar, ruang refleksi menyusun pengantar dan kartu pertanyaan secara terstruktur dengan proporsi ruang kosong yang lega, diikuti panggung kartu apresiasi *3D flip* terpusat yang responsif sempurna hingga layar ponsel tanpa geser horizontal.
+
+### Umpan Balik Interaktif & Animasi
+
+- **Kartu *3D Flip* Berbasis Kompositor**: Efek balik kartu menggunakan perspektif tiga dimensi murni pada properti `transform` (`rotateY`) dan `opacity` dengan kurva pelambatan halus sehingga berjalan mulus 60fps di laptop sekolah maupun perangkat seluler.
+- **Kilau Apresiasi Halus**: Efek kilau lembut muncul sesaat ketika refleksi berhasil dikirim untuk merayakan pencapaian 100% pertemuan tanpa menutupi teks motivasi.
+- **Kepatuhan Aksesibilitas Gerak**: Apabila perangkat pengguna mengaktifkan mode pengurangan gerak (`prefers-reduced-motion: reduce`), perpindahan sisi kartu dan kemunculan panel otomatis beralih ke transisi pudar (*cross-fade*) instan tanpa putaran 3D.
 
 ---
 
-## 3. Keputusan Produk Utama & Pertimbangan Teknis
+## 3. Keputusan Produk & Pertimbangan Teknis
 
-- **Keputusan 1: Penggabungan & Penyeragaman 3 Sumber Data Tanpa Mengubah Redaksi Asli**
-  - *Pendekatan Terpilih*: Menggabungkan ketiga sumber **Eksplorasi Konsep** (urutan mutlak: Kelas 7 → Kelas 8 → Kelas 9) dan ketiga sumber **For Learning** (urutan mutlak: Kelas 7 → Kelas 8 → Kelas 9) dengan mempertahankan 100% kalimat soal, pilihan, kunci jawaban, dan isi materi asli, sambil menormalkan perbedaan pembungkus struktur antar-file (objek vs array string tergabung) serta memetakan kunci `Kelas9-sem2-bab1-pertemuan1..8` secara otomatis ke `kelas9-sem2-bab3-pertemuan1..8` agar selaras dengan sistem navigasi bab Kelas 9 Semester 2 yang sudah berjalan.
-  - *Alasan*: Ketiga file sumber pada masing-masing menu memiliki struktur pembungkus berbeda (File 1 Kelas 7 memakai objek terurai, sedangkan File 2 Kelas 8 dan File 3 Kelas 9 memakai array string gabungan dan penamaan kunci yang berbeda). Normalisasi terukur pada lapisan data dan komponen pembaca menjamin ke-81 pertemuan tampil utuh tanpa menghilangkan satu kata pun dari naskah sumber.
-
-- **Keputusan 2: Pemisahan Metadata Slide & Pembuatan PDF Lanskap 16:9 Murni**
-  - *Pendekatan Terpilih*: Mesin pengurai komponen memisahkan penanda teknis (`SLIDE 1 — PEMBUKA`, ` | SLIDE 1 — `, maupun nomor kembar `SLIDE 10` pada bagian penutup) dari judul dan isi materi sebelum dirender ke layar maupun saat dirender ke kanvas PDF 16:9 menggunakan generator dokumen vektor/kanvas beresolusi tinggi di sisi klien.
-  - *Alasan*: Memastikan kata `SLIDE` beserta nomornya tidak pernah tampil di layar siswa, sekaligus menjamin hasil **Unduh PDF** benar-benar berisi satu salindia presentasi 16:9 yang bersih (judul, poin materi, dan ilustrasi topik), bukan tangkapan layar antarmuka website beserta tombol navigasi.
-
-- **Keputusan 3: Evaluasi Jawaban Toleran & Penjelasan Inti Terkurasi**
-  - *Pendekatan Terpilih*:
-    - *Pilihan Ganda*: Pencocokan tepat terhadap kunci jawaban (`12,5 poin`).
-    - *Pilihan Ganda Kompleks*: Bernilai penuh (`12,5 poin`) hanya bila himpunan pilihan siswa sama persis dengan seluruh kunci jawaban benar (mencegah siswa mendapat poin hanya dengan memilih satu opsi atau mencentang semua opsi).
-    - *Menjodohkan*: Bernilai penuh bila kedua pasangan pernyataan cocok dengan pasangannya (`12,5 poin` per butir nomor menjodohkan).
-    - *Isian Singkat*: Pencocokan fleksibel yang menormalkan huruf besar/kecil, spasi berlebih, tanda baca/kurung penjelasan, serta menerima seluruh variasi sinonim yang tercantum pada kunci sumber (misal `Baris / Row` menerima `baris`, `row`, maupun `baris / row`).
-    - *Penjelasan Inti*: Disusun otomatis berbasis konsep soal, opsi jawaban benar, dan perbandingan terhadap jawaban siswa menggunakan bahasa Indonesia sederhana tingkat SMP, tanpa kalimat basa-basi dan **tanpa pernah memuat frasa "mis komunikasi"**.
-  - *Alasan*: Adil bagi siswa SMP saat mengetik jawaban isian yang setara secara makna, sekaligus memberikan umpan balik konseptual yang langsung meluruskan kekeliruan.
-
-- **Keputusan 4: Penyimpanan Real-Time Idempoten ke Firebase Firestore yang Sudah Terhubung**
-  - *Pendekatan Terpilih*: Menyimpan jawaban dan skor ke instance Firestore proyek yang sudah aktif menggunakan ID dokumen deterministik berbasis kombinasi identitas unik akun siswa (`NISN` atau `email` tervalidasi dari sesi login) dan ID pertemuan (`{identitasSiswa}_{idPertemuan}`), dilengkapi pengunci klik ganda saat proses simpan berlangsung serta sinkronisasi penyimpanan lokal agar pemuatan ulang halaman instan dan tahan gangguan sinyal.
-  - *Alasan*: Menjamin data antar-siswa tidak pernah tertukar atau tertimpa, mencegah duplikasi poin saat siswa menekan tombol berkali-kali atau memperbarui jawaban, dan tetap menjaga sistem login serta koleksi siswa yang sudah berjalan tetap utuh.
+- **Keputusan 1 — Normalisasi Identitas Pertemuan Tanpa Mengubah Data Sumber**:
+  - *Pendekatan Terpilih*: Mempertahankan seluruh isi data asli (81 objek pertemuan, 162 kalimat pertanyaan refleksi, nomor urut, dan susunan pertemuan) secara utuh apa adanya, lalu menormalkan kunci pencarian di lapisan penghubung (menyamakan huruf besar/kecil `Kelas` menjadi `kelas` serta memetakan kode semester genap Kelas 9 `sem2-bab1` ke kunci katalog utama `sem2-bab3`).
+  - *Alasan*: Menjamin 100% kecocokan satu-ke-satu untuk seluruh 81 pertemuan di Kelas 7, 8, dan 9 sekaligus mematuhi aturan keutuhan redaksi data asli.
+- **Keputusan 2 — Penyimpanan Berlapis (*Cloud Firestore* + Draf & Cermin Lokal)**:
+  - *Pendekatan Terpilih*: Menyimpan jawaban terkirim pada koleksi khusus refleksi di basis data Firebase Firestore yang sudah terpasang menggunakan kunci dokumen deterministik gabungan identitas siswa dan pertemuan, disertai pendengar pembaruan *real-time* serta penyimpanan draf lokal per akun dan per pertemuan.
+  - *Alasan*: Memastikan jawaban setiap siswa terisolasi aman (tidak tertimpa akun lain atau pertemuan lain), langsung termuat kembali saat halaman disegarkan, tetap responsif saat jaringan sekolah melambat, dan bebas rekaman ganda ketika siswa memperbarui jawaban.
+- **Keputusan 3 — Katalog Motivasi & Pantun Kontekstual 81 Topik Pertemuan**:
+  - *Pendekatan Terpilih*: Menyediakan pemetaan pesan motivasi reflektif dan pantun edukatif 4 baris yang spesifik untuk masing-masing dari 81 pertemuan (mulai dari pengenalan data & *spreadsheet* di Kelas 7, jaringan & pemrograman Scratch/Blockly di Kelas 8, hingga struktur data graf/pohon, desain poster digital, serta keamanan siber, 2FA, dan *anti-phishing* di Kelas 9), dilengkapi pembangkit kontekstual berbasis judul bab/pertemuan sebagai jaring pengaman.
+  - *Alasan*: Membuat siswa merasa refleksinya benar-benar dibaca dan disambut dengan nasihat serta pantun yang nyambung langsung dengan kegiatan yang baru saja mereka kerjakan.
 
 ---
 
 ## 4. Arsitektur Teknis & Strategi Data
 
-- **Diagram Arsitektur & Aliran Data Sistem**:
+### Diagram Arsitektur & Aliran Data
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                     RUANG BELAJAR INFORMATIKA FUN!                           │
-│        Sesi Akun Aktif (Siswa NISN / Guru) + Pilihan Kelas/Bab/Pertemuan     │
-└───────────────────┬──────────────────────────────────────┬───────────────────┘
-                    │                                      │
-      Menu: Eksplorasi Konsep                    Menu: For Learning
-                    │                                      │
-                    ▼                                      ▼
-┌───────────────────────────────────────┐  ┌───────────────────────────────────┐
-│   Katalog Materi Eksplorasi Konsep    │  │    Katalog Soal For Learning      │
-│  (Gabungan Utuh File 1 + 2 + 3:       │  │  (Gabungan Utuh File 1 + 2 + 3:   │
-│   81 Pertemuan Kelas 7, 8, dan 9)     │  │   81 Pertemuan × 8 Soal = 648)    │
-└───────────────────┬───────────────────┘  └─────────────────┬─────────────────┘
+```
+┌────────────────────────────────────────────────────────────────────────────┐
+│                     RUANG BELAJAR INFORMATIKA FUN!                         │
+│   Sesi Akun Aktif (Nama, NISN, Peran)  ·  Pemilih Kelas/Pertemuan (81 ID)  │
+└───────────────────┬────────────────────────────────────┬───────────────────┘
+                    │                                    │
+                    ▼                                    ▼
+┌───────────────────────────────────────┐  ┌─────────────────────────────────┐
+│     Katalog Pertanyaan Refleksi       │  │   Manajer Progres 7 Tahap       │
+│  81 Pertemuan · 162 Pertanyaan Utuh   │  │  Mengunci Ketuntasan ke 100%    │
+└───────────────────┬───────────────────┘  └─────────────────▲───────────────┘
                     │                                        │
-                    ▼                                        ▼
-┌───────────────────────────────────────┐  ┌───────────────────────────────────┐
-│    Pengelola Eksplorasi Konsep        │  │      Pengelola For Learning       │
-│ • Pemetaan ID pertemuan & alias Bab   │  │ • Pemetaan ID pertemuan & tipe    │
-│ • Pembersih penanda teknis "SLIDE X"  │  │ • Validasi PG, PGK, Jodoh, Isian  │
-│ • Pemilih ilustrasi visual per topik  │  │ • Kalkulator skor skala 0–100     │
-│ • Generator dokumen PDF 16:9 mandiri  │  │ • Penyusun Penjelasan Inti SMP    │
-└───────────────────┬───────────────────┘  └─────────────────┬─────────────────┘
-                    │                                        │
-                    ▼                                        ▼
-┌───────────────────────────────────────┐  ┌───────────────────────────────────┐
-│   Kanvas Presentasi Gaya Prezi        │  │   Antarmuka Latihan & Umpan Balik │
-│ • Transisi halus zoom/geser           │  │ • Kartu soal bertema warna selaras│
-│ • Navigasi panah ← / → & keyboard     │  │ • Tombol tunggal Simpan Jawaban   │
-│ • Indikator posisi "X dari Y"         │  │ • Status simpan & Skor XX/100     │
-│ • Tombol "↓ Unduh PDF" slide aktif    │  │ • Kartu Penjelasan Inti per soal  │
-└───────────────────┬───────────────────┘  └─────────────────┬─────────────────┘
-                    │                                        │
-                    └──────────────────┬─────────────────────┘
-                                       ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│          Penyimpanan Real-Time Firebase Firestore & Progres Bertahap         │
-│  • Dokumen jawaban unik per Siswa + Pertemuan (bebas poin ganda/tertukar)    │
-│  • Pembuka kunci berurutan: Eksplorasi Konsep ──► For Learning ──► Penerapan │
-└──────────────────────────────────────────────────────────────────────────────┘
+                    ▼                                        │
+┌────────────────────────────────────────────────────────────┴───────────────┐
+│                   Pengelola Logika & Data AS Learning                      │
+│  • Normalisasi ID Pertemuan (Kelas 7/8/9 & Pemetaan Semester 2 Kelas 9)    │
+│  • Pembentuk Sapaan Dinamis ("TERIMA KASIH, [NAMA PENGGUNA]!")             │
+│  • Katalog 81 Kalimat Motivasi & Pantun Edukatif Kontekstual per Topik     │
+│  • Penyimpanan Draf Otomatis & Sinkronisasi Real-Time Basis Data Awan      │
+└─────────┬──────────────────────────────────────────────────┬───────────────┘
+          │                                                  │
+          ▼                                                  ▼
+┌───────────────────────────────────────┐  ┌─────────────────────────────────┐
+│    Antarmuka Ruang Refleksi Siswa     │  │   Basis Data Firebase Firestore │
+│  • Header Refleksi & Info Pertemuan   │  │  Koleksi Jawaban AS Learning    │
+│  • Kartu Pertanyaan 1 & 2 + Area Ketik│  │  Dokumen: [Akun]__[Pertemuan]   │
+│  • Validasi Ramah & Mode Baca/Edit    │  ├─────────────────────────────────┤
+│  • Kartu Apresiasi 3D Flip + Kilau    │  │   Penyimpanan Lokal Peramban    │
+│  • Navigasi Pertemuan Berikutnya &    │  │  Draf Ketikan & Cermin Jawaban  │
+│    Panel Daftar Seluruh Materi        │  └─────────────────────────────────┘
+└───────────────────────────────────────┘
 ```
 
-- **Model Data & Penyimpanan**:
-  - **Entitas Materi Eksplorasi Konsep**: Menyimpan urutan pertemuan (`Kelas 7`, `Kelas 8`, `Kelas 9`) di mana setiap pertemuan memiliki daftar unit materi terurut berisi judul bersih (tanpa kata `SLIDE`), jenis tampilan (`pembuka`, `inti`, `penutup`), butir konten/tabel/kode yang terurai rapi, dan kategori ilustrasi visual.
-  - **Entitas Soal For Learning**: Menyimpan urutan pertemuan (`Kelas 7`, `Kelas 8`, `Kelas 9`) di mana setiap pertemuan memuat 8 soal teridentifikasi unik (`pg-1`, `pg-2`, `pgk-1`, `pgk-2`, `jodoh-1`, `jodoh-2`, `isian-1`, `isian-2`), pilihan jawaban, kunci jawaban asli, bobot `12.5`, serta penjelasan inti kontekstual.
-  - **Dokumen Hasil Siswa di Firestore**: Terikat pada kunci unik `{identitasSiswa}_{idPertemuan}` yang memuat identitas siswa (`nama`, `nisn`/`email`, `role`), informasi pertemuan (`kelas`, `bab`, `idPertemuan`), rincian jawaban dan kebenaran tiap ID soal, total poin (`0`–`100`), jumlah benar (`0`–`8`), serta waktu pembaruan terakhir.
+### Model Data & Status
 
-- **Pemetaan Komponen Interaktif & Transisi State**:
-  - **Navigasi Presentasi Eksplorasi Konsep**: Mengubah indeks materi aktif dalam batas `[0 .. totalMateri - 1]`, memperbarui arah animasi transisi (maju/mundur), mencatat progres bacaan per pertemuan, serta menonaktifkan tombol `←` pada indeks pertama dan `→` pada indeks terakhir.
-  - **Ekspor PDF Slide Aktif**: Mengunci tombol unduh sementara (`Menyiapkan PDF...`), menyusun halaman lanskap 16:9 bersih dari judul, poin materi, dan grafis topik aktif tanpa elemen UI web, mengunduh berkas `.pdf` bernama rapi sesuai pertemuan dan judul materi, lalu menampilkan umpan balik gagal yang jujur apabila ekspor terkendala.
-  - **Penyimpanan & Evaluasi For Learning**: Memeriksa kelengkapan jawaban siswa, mengaktifkan state `isSaving` untuk mencegah klik berulang, menulis data secara real-time ke Firestore, dan hanya setelah penyimpanan terkonfirmasi mengubah status ke `Jawaban berhasil disimpan`, menampilkan skor `0–100` beserta **Penjelasan Inti** di bawah tiap soal, serta membuka kunci menu berikutnya. Jika koneksi ke database gagal, sistem menampilkan pesan `Gagal menyimpan, silakan coba kembali` tanpa mengklaim berhasil.
+- **Entitas Pertanyaan Pertemuan**: Memuat kode pertemuan asli, kode pertemuan ternormalisasi, serta daftar terurut 2 butir pertanyaan refleksi (nomor urut dan teks asli utuh).
+- **Rekaman Jawaban Refleksi Siswa**: Memuat kunci identitas siswa, nama tampilan siswa, NISN, surel, kelas, semester, judul bab, judul pertemuan, kode pertemuan kanonik, peta jawaban terstruktur per nomor pertanyaan (`pertanyaan_1`, `pertanyaan_2`), penanda status terkirim, waktu simpan format ISO, serta cap waktu peladen basis data.
+- **Paket Apresiasi Kontekstual**: Memuat sapaan kapital nama pengguna aktif, judul topik pertemuan, kalimat apresiasi & motivasi kontekstual (sisi depan kartu *3D flip*), pantun edukatif 4 baris sesuai topik (sisi belakang kartu *3D flip*), dan intisari penerapan nyata.
+
+### Pemetaan Komponen Interaktif & Penanganan Status
+
+- **Pemuatan & Perpindahan Pertemuan**: Saat pengguna mengganti kelas atau pertemuan, status pemuatan direset bersih, pertanyaan pertemuan baru diambil, draf lokal dipulihkan (jika belum dikirim), dan langganan *real-time* basis data dipasang ulang khusus untuk kombinasi akun dan pertemuan aktif.
+- **Pengetikan & Penyimpanan Draf**: Setiap perubahan teks pada kolom jawaban langsung memperbarui penghitung kata serta menyimpan draf lokal per akun dan pertemuan tanpa menandai tahap selesai sebelum tombol kirim ditekan.
+- **Validasi & Pengiriman Jawaban**: Tombol **Selesai dan Kirim Refleksi** memeriksa kelengkapan kedua jawaban; jika valid, tombol masuk ke status menyimpan (anti-klik ganda), menulis dokumen ke basis data awan dan cermin lokal, mengaktifkan status selesai pada progres pertemuan (100%), lalu menampilkan kartu apresiasi *3D flip*.
+- **Interaksi Kartu *3D Flip* & Mode Edit**: Tombol maupun ketukan pada kartu membalik orientasi kartu antara sisi motivasi dan sisi pantun edukatif; tombol **Edit Jawaban** membuka kembali kolom teks dengan isi terakhir agar siswa dapat menyempurnakan refleksinya dan menyimpan pembaruan.
+- **Navigasi Penutup Pertemuan**: Tombol **Pertemuan Berikutnya** mengarahkan ruang belajar ke pertemuan selanjutnya dalam urutan kurikulum (dimulai dari tahap awal pertemuan baru), sedangkan tombol **Daftar Materi** membuka panel pilih cepat seluruh bab dan pertemuan lintas kelas beserta penanda ketuntasan belajarnya.

@@ -83,3 +83,111 @@
   background: rgba(136, 212, 171, 0.45);
   border-radius: 9999px;
 }
+
+/* Kartu Apresiasi Interaktif 3D Flip & Kilau Halus (AS Learning) */
+.asl-perspective {
+  perspective: 1400px;
+}
+
+.asl-flip-inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.asl-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.asl-flip-face {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.asl-flip-front {
+  transform: rotateY(0deg);
+}
+
+.asl-flip-back {
+  transform: rotateY(180deg);
+}
+
+.asl-flip-inner:not(.is-flipped) .asl-flip-back {
+  pointer-events: none;
+}
+
+.asl-flip-inner.is-flipped .asl-flip-front {
+  pointer-events: none;
+}
+
+@keyframes asl-subtle-sheen {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.55;
+  }
+  65% {
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateX(220%) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+.asl-shimmer-sheen {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(216, 189, 123, 0.22) 45%,
+    rgba(136, 212, 171, 0.28) 55%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  animation: asl-subtle-sheen 2.8s cubic-bezier(0.16, 1, 0.3, 1) 1 forwards;
+}
+
+@keyframes asl-twinkle {
+  0%, 100% {
+    transform: scale(0.92);
+    opacity: 0.65;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+
+.asl-twinkle-icon {
+  animation: asl-twinkle 3.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .asl-flip-inner,
+  .asl-flip-inner.is-flipped,
+  .asl-flip-front,
+  .asl-flip-back {
+    transform: none !important;
+    transition: opacity 0.18s ease-out !important;
+    backface-visibility: visible !important;
+    -webkit-backface-visibility: visible !important;
+  }
+
+  .asl-flip-inner:not(.is-flipped) .asl-flip-back {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .asl-flip-inner.is-flipped .asl-flip-front {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .asl-shimmer-sheen,
+  .asl-twinkle-icon {
+    animation: none !important;
+  }
+}
+
